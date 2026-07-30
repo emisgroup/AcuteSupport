@@ -1,0 +1,50 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+archive/Backups/
+
+# Large generated outputs (reports, charts, spreadsheets)
+**/data/raw/report_outputs/
+**/data/raw/*/report_outputs/
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+
+# Robot/merge/lock CSV exports (if generated)
+**/data/raw/*_with_sla.csv
+**/data/raw/*_monthly_counts.csv
+
+# Temporary and caches
+*.tmp
+*.swp
+
+# Credentials
+.env.local
+.env.*.local
+
+# Ignore user secrets
+secrets.json

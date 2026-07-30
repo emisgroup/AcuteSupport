@@ -1,0 +1,18 @@
+trend,count
+Audit / IG / access investigation,296
+Other,198
+DAD / HL7 / interface messaging,128
+Clinical workflow / DEP / clinic / BRM,110
+Data / SQL / configuration,61
+Environment / Deployment / Test,38
+Login / access / permissions,28
+SCR / TIE issues,26
+Printing / documents / output,19
+Performance / outage / errors,16
+Reporting / SSRS / dashboards,9
+Location / department / lookup changes,8
+Account / Active users,8
+Soft delete / deleted records,4
+ODS / TRUD updates,3
+Master File / Import,3
+Site-specific / Bedford Symphony,3

@@ -1,0 +1,2145 @@
+Trend,number,account,priority,sys_created_on,state,short_description,description,sys_updated_on,sys_updated_by,assignment_group,assigned_to,product,resolved_at,sys_mod_count,u_problem,close_notes,task,start_time,pause_time,end_time,business_duration,duration,stage,SLA_Business_Seconds,SLA_Duration_Seconds,SLA_Business_Formatted,SLA_Duration_Formatted,created_dt,resolved_dt,TTR_Seconds,TTR_Formatted
+Merges,CS1615460,West Hertfordshire Hospitals NHS Trust,4 - Low,15/07/2025 09:46:31,Closed,Pre-pack or TTO labels,"i have been asked to prepare pre-packs for the Trust for which i require stock labels with set instructions per product. I have been given a list of 7 different medicines which need to be packed down from the original pack size so that the emergency department can readily issue them to patients without having to write a prescription. These medicines will therefore need to packed down with instructions so that the patient can safely administer their dose. I attempted creating a label using labelling editor and dispensing standard label layout but this changed ALL labels eg when i dispensed paracetamol, the pre-pack label for lorazepam appeared. I managed to get this resolved and corrected my mistake but am now seeking guidance on how best to create these pre-pack labels without affecting the standard labels.",28/08/2025 09:59:32,system,Acute Care Medicines Management Level 1 Team,Azeem Parvez,Pharmacy Support (P),14/08/2025 09:57:59,9,,"Good Afternoon Deepa,
+
+Yes labelling editor will change all products with that label type assigned.
+
+You would need to go into product editor and assign a new letter to the pre pack drugs. Then go into labelling editor > Standard Label > type in the letter you would like to use and edit this label.  Once the label has been setup the way you want and then this way the labels assigned to the letter specified will use the layout you just created.
+
+Thanks,
+
+Azeem
+",CS1615460,15/07/2025 09:46:31,,28/08/2025 09:59:30,907888.0,2592688.0,Completed,907888.0,2592688.0,"10 days, 12 hrs, 11 mins","30 days, 11 mins",2025-07-15 09:46:31,2025-08-14 09:57:59,2592688.0,"30 days, 11 mins"
+Merges,CS1631488,The Royal Wolverhampton NHS Trust,3 - Medium,11/08/2025 15:18:16,Closed,Merge patient hospital numbers,"Hi,
+We have a patient with two hospital numbers, E70634 is the correct number, N398768 is the old/incorrect number. Could this be amended please.
+Thanks",18/08/2025 09:14:13,louis.wilkins@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,ePMA,14/08/2025 10:06:27,9,,"Hello Louis ,
+
+I am pleased to update we have found/come to a resolution for your case CS1631488.
+
+To resolve this have amended  the mentioned hospital numbers.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+Kind regards
+swati",CS1631488,11/08/2025 15:18:16,,18/08/2025 09:14:13,67691.0,240491.0,Completed,67691.0,240491.0,"18 hrs, 48 mins","2 days, 18 hrs, 48 mins",2025-08-11 15:18:16,2025-08-14 10:06:27,240491.0,"2 days, 18 hrs, 48 mins"
+Merges,CS1632320,North West Anglia NHS Foundation Trust,4 - Low,12/08/2025 16:04:51,Closed,Patient Merge,"Hi there, please could the patient with the case number DIS0642671 be merged with patient with the case number @@@1234567, leaving @@@1234567 as the record that remains?",14/08/2025 15:31:47,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Pharmacy Support,14/08/2025 14:22:33,19,,"Hello Daniel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1632320.
+ 
+It seems to be a different issue, and the initial issue was logged to merge the patients and we have already merged the patients
+Please can you log a different case, we will investigate and update on new case.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1632320,12/08/2025 16:04:51,,14/08/2025 15:31:45,47074.0,162274.0,Completed,47074.0,162274.0,"13 hrs, 4 mins","1 days, 21 hrs, 4 mins",2025-08-12 16:04:51,2025-08-14 14:22:33,166662.0,"1 days, 22 hrs, 17 mins"
+Merges,CS1639047,Cambridge University Hospitals NHS Foundation Trust,4 - Low,27/08/2025 09:26:17,Closed,Request to Merge Patient Records,"Dear team
+
+We need to merge two patient records in the system. The two entities that require merging are:
+
+Master Patient: 1641891
+
+Secondary entity: @17j551593
+
+Please merge the secondary patient (@17j551593) into the master patient record (1641891).
+
+Thank you",09/09/2025 09:16:54,monika.makalandawa@nhs.net,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Decision Support Services (DSS),27/08/2025 14:27:46,7,,"Hello Monika,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1639047.
+ 
+You can merge the patient from the application itself. There is a desktop called ""Patient Merge"". I belive you should be able to merge from there.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1639047,27/08/2025 09:26:17,,09/09/2025 09:16:54,18089.0,18089.0,Completed,18089.0,18089.0,"5 hrs, 1 mins","5 hrs, 1 mins",2025-08-27 09:26:17,2025-08-27 14:27:46,18089.0,"5 hrs, 1 mins"
+Merges,CS1640002,The Royal Wolverhampton NHS Trust,3 - Medium,28/08/2025 11:42:21,Closed,Patient showing 2 hospital numbers,"Hi,
+
+Patient should have master hospital number as V483154.
+But is also showing under N372501 in EPMA.
+
+Could these be merged and the v483154 be made the main one please.
+
+Please could this be looked at urgently as the patient is due treatment today at 14:00hrs.",28/08/2025 14:29:52,harminder.chana1@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,28/08/2025 14:28:46,11,,"Hello Harminder,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1640002.
+ 
+We have merged the patient records 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1640002,28/08/2025 11:42:21,,28/08/2025 14:29:52,9984.0,9984.0,Completed,9984.0,9984.0,"2 hrs, 46 mins","2 hrs, 46 mins",2025-08-28 11:42:21,2025-08-28 14:28:46,9985.0,"2 hrs, 46 mins"
+Merges,CS1641042,East Sussex Healthcare NHS Trust,4 - Low,29/08/2025 14:22:08,Closed,"Unable to merge patient episodes, therefore cannot close current episode","Patient X275307 (Master) current episode needs to be closed, but unable to as same NHS number (448 530 1656) also in use for episode under X064383. When I try to merge X064383 into Master X275307, I get a stack trace error message. Please can you merge this patient's episodes so that the episode for the 28/08/25 can be closed. Thank you.",03/09/2025 17:09:41,annette.rumbold@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,03/09/2025 12:24:02,10,,"Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1641042.
+ 
+We have merged the patient records.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1641042,29/08/2025 14:22:08,,03/09/2025 17:09:41,79314.0,424914.0,Completed,79314.0,424914.0,"22 hrs, 1 mins","4 days, 22 hrs, 1 mins",2025-08-29 14:22:08,2025-09-03 12:24:02,424914.0,"4 days, 22 hrs, 1 mins"
+Merges,CS1642865,The Royal Wolverhampton NHS Trust,3 - Medium,02/09/2025 12:38:24,Closed,Patient episode not appearing in search/episode selector,"Hi,
+When trying to search for patient N365967, no active episodes are shown but there is an active episode on PAS on the AMU ward.
+Please attempt the following to see what I mean:
+1. Search for patient N365967 - no IP episodes are shown on AMU.
+2. Click the ""select inpatient"" desktop.
+3. Search by ward - select AMU.
+4. Locate the patient JM and highlight the episode.
+5. Enter any clinical desktop and you will see an episode on AMU does exist, it just cannot be searched for.
+
+Could this be looked into please. We have been advised the patient was merged on PAS previously and 
+N365967 is the primary/correct number.
+
+Thanks.",18/09/2025 12:04:49,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,05/09/2025 10:53:21,15,,"Hello Louis,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1642865.
+ 
+I have merged the pending episodes with the master patient. However, I couldn't find any episode on the AMU, so I'm not sure if there is one. I would suggest resending it from the PAS if there is any.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1642865,02/09/2025 12:38:24,,18/09/2025 12:04:48,80096.0,252896.0,Completed,80096.0,252896.0,"22 hrs, 14 mins","2 days, 22 hrs, 14 mins",2025-09-02 12:38:24,2025-09-05 10:53:21,252897.0,"2 days, 22 hrs, 14 mins"
+Merges,CS1645975,Stockport NHS Foundation Trust,3 - Medium,08/09/2025 12:45:26,Closed,Unable to create location PSEC,We need to create a new location using code PSEC (PAEDIATRIC SAME DAY EMERGENCY CARE) however when we try it says it will link to PSEC - Psychiatric emergency cupboard. We are not aware of  this location. Can it be removed so we can use the code please?,09/09/2025 11:26:34,Rebecca.nipper@stockport.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,09/09/2025 11:03:00,9,,"Hello Rebecca,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1645975.
+ 
+To make the location code available for reuse, please prefix zz to the location you wish to remove and mark it as out of use before linking the new location from the Editor-Location. The ward is currently located under:
+Stockport NHS Foundation Trust >> Stepping Hill Hospital >> Aseptics 022 >> PSEC (please refer to the attached).
+
+Kindly remove the code PSEC from the wwardcode section, mark it as out of use, and add zz in front of the description. This will free up the code for use with a new location.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1645975,08/09/2025 12:45:26,,09/09/2025 11:26:34,22654.0,80254.0,Completed,22654.0,80254.0,"6 hrs, 17 mins","22 hrs, 17 mins",2025-09-08 12:45:26,2025-09-09 11:03:00,80254.0,"22 hrs, 17 mins"
+Merges,CS1646165,Northern Care Alliance NHS Foundation Trust,3 - Medium,08/09/2025 14:52:15,Closed,Episodes will not merge,"Hi,
+I am trying to merge two patient episodes, but it will not work and just keeps giving me an error message.  Patient hosp number 319466.  I would like OAK3240776 to be the master and 319466. to be merged into this.  Can the hosp number then be changed from OAK 3240766 to 3419466
+Thanks",25/09/2025 09:37:28,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,11/09/2025 09:35:30,15,,"Hello Laura and Luke,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1646165.
+ 
+We have merged the patients record. 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1646165,08/09/2025 14:52:15,,25/09/2025 09:37:27,56652.0,171852.0,Completed,56652.0,171852.0,"15 hrs, 44 mins","1 days, 23 hrs, 44 mins",2025-09-08 14:52:15,2025-09-11 09:35:30,240195.0,"2 days, 18 hrs, 43 mins"
+Merges,CS1652910,North West Anglia NHS Foundation Trust,3 - Medium,19/09/2025 10:17:10,Closed,Patient Edit Error,"Morning,
+Staff here are trying to edit DIS0642671 to dispense medication to a Patient.  When trying to update any details for the Patient, staff a presented with an Error.  I am unable to do a Patient Merge either.",23/09/2025 11:50:34,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,22/09/2025 16:19:51,16,,"Hi Mohammed ,
+Good Afternoon!
+
+This is a duplicate case. We will provide you with an update on case CS1638724.As my colleague already working on this case 
+
+Thanks,
+Swati",CS1652910,19/09/2025 10:17:10,,23/09/2025 11:50:32,50074.0,280474.0,Completed,50074.0,280474.0,"13 hrs, 54 mins","3 days, 5 hrs, 54 mins",2025-09-19 10:17:10,2025-09-22 16:19:51,280961.0,"3 days, 6 hrs, 2 mins"
+Merges,CS1654074,Northern Care Alliance NHS Foundation Trust,3 - Medium,22/09/2025 14:31:28,Closed,Multiple episode patient merge ,"Hi,
+
+Please can someone merge some patient episode for me. I have managed to merge one but it will not allow me to further merge them.
+
+hospital number 890682
+
+The top episode we want to be the master the one with hospital number 0890682.
+
+Once the other two episodes are merged into this one  i will amend the hospital number to reflect the true hospital number of 890862.
+
+Kind regards, 
+
+Luke",10/10/2025 13:27:30,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,26/09/2025 13:25:43,20,,"Hello Luke,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1654074.
+ 
+We have successfully merged both the patients. Please can you amend  the true hospital number of 890862.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1654074,22/09/2025 14:31:28,,10/10/2025 13:27:29,53076.0,168276.0,Completed,53076.0,168276.0,"14 hrs, 44 mins","1 days, 22 hrs, 44 mins",2025-09-22 14:31:28,2025-09-26 13:25:43,341655.0,"3 days, 22 hrs, 54 mins"
+Merges,CS1661933,Northern Care Alliance NHS Foundation Trust,3 - Medium,02/10/2025 12:43:16,Closed,Unable to merge ,"I have a patient with 3 emis records that need to be merged please.  When I try I keep getting an error message.  Pt Hospital number 811956, Initials C.C.  I would like the record with hosp number H811956 to be the master and please can the H be removed from the hosp number.  Thanks",06/10/2025 12:30:11,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,06/10/2025 12:22:34,10,,"Hello Laura,
+
+I am pleased to update we have found/come to a resolution for your case CS1661933.
+
+I have merged these from the backend table. Now the PT number '811956' will be the master
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards,
+swati",CS1661933,02/10/2025 12:43:16,,06/10/2025 12:30:11,56358.0,344358.0,Completed,56358.0,344358.0,"15 hrs, 39 mins","3 days, 23 hrs, 39 mins",2025-10-02 12:43:16,2025-10-06 12:22:34,344358.0,"3 days, 23 hrs, 39 mins"
+Merges,CS1662976,Northern Care Alliance NHS Foundation Trust,3 - Medium,03/10/2025 13:48:45,Closed,Patient merge not working ,"Hi, I have a patient (S.R-889816) with 4 patient records in Emis.  1- 3668994  2- 889816.  3- 889816...  & 4- 889816.  When I try to merge any of the records I get an error message.  Please can you merge these records and make 3668994 the master but then change the hospital number back to 889816,  I am unsure where 3668994 has come from.  Thanks",08/10/2025 11:30:51,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,08/10/2025 11:02:21,9,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1662976.
+ 
+To resolve this, we have merged the patients in the backend table. The patient episodes should now show with the hospital number 889816.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1662976,03/10/2025 13:48:45,,08/10/2025 11:30:51,76416.0,422016.0,Completed,76416.0,422016.0,"21 hrs, 13 mins","4 days, 21 hrs, 13 mins",2025-10-03 13:48:45,2025-10-08 11:02:21,422016.0,"4 days, 21 hrs, 13 mins"
+Merges,CS1667317,East Sussex Healthcare NHS Trust,3 - Medium,09/10/2025 14:53:24,Closed,Unable to close episode,Need to merge 2 episodes/records for the patient and can't as getting Stack Trace/Time out error message. Please can you merge the patient records so that the recent episode can be closed. (See attached screenshots and notes),10/10/2025 10:51:33,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,10/10/2025 10:51:25,16,,"Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1667317.
+ 
+We have successfully merged the patient records 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1667317,09/10/2025 14:53:24,,10/10/2025 10:51:32,13767.0,71367.0,Completed,13767.0,71367.0,"3 hrs, 49 mins","19 hrs, 49 mins",2025-10-09 14:53:24,2025-10-10 10:51:25,71881.0,"19 hrs, 58 mins"
+Merges,CS1667428,East Sussex Healthcare NHS Trust,4 - Low,09/10/2025 16:07:28,Closed,Unable to merge patient episodes,Stack trace error when trying to merge patient records (see attached screenshots and notes) Need to close recent episode.,14/10/2025 09:27:12,annette.rumbold@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,ePMA,13/10/2025 09:51:00,11,,"Hello Annette ,
+
+I am pleased to update we have found/come to a resolution for your case CS1667428.
+
+To resolve I have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+
+swati",CS1667428,09/10/2025 16:07:28,,14/10/2025 09:27:12,35011.0,323011.0,Completed,35011.0,323011.0,"9 hrs, 43 mins","3 days, 17 hrs, 43 mins",2025-10-09 16:07:28,2025-10-13 09:51:00,323012.0,"3 days, 17 hrs, 43 mins"
+Merges,CS1670340,Northern Care Alliance NHS Foundation Trust,3 - Medium,15/10/2025 10:11:46,Closed,Unable to merge patient episodes,"Hi, I have a patient with 4 episodes on Emis. Pt S.S Hosp No:610121.  1. 00610121  2. 6101210  
+3. 4528480425 & 4. 610121.  When I try to merge I keep getting error messages. Please can you merge these episodes. I would like the 4th episode (610121) to be the master . Thanks",16/10/2025 10:49:17,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,16/10/2025 10:49:16,19,,Closed by customer.,CS1670340,15/10/2025 10:11:46,,16/10/2025 10:49:16,31050.0,88650.0,Completed,31050.0,88650.0,"8 hrs, 37 mins","1 days, 37 mins",2025-10-15 10:11:46,2025-10-16 10:49:16,88650.0,"1 days, 37 mins"
+Merges,CS1673180,East Sussex Healthcare NHS Trust,4 - Low,20/10/2025 11:11:11,Closed,Merging patient,"Please can you merge a patients record, when we try, we get a stack trace error all the time.
+
+The patients details that we want to keep are XC75156 J.H and the record we want to merge into this is X967771.",27/10/2025 08:23:24,adam.styles@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,23/10/2025 10:24:33,10,,"Hello Adam,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1673180.
+ 
+We have merged the patient records.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1673180,20/10/2025 11:11:11,,27/10/2025 08:23:24,83602.0,256402.0,Completed,83602.0,256402.0,"23 hrs, 13 mins","2 days, 23 hrs, 13 mins",2025-10-20 11:11:11,2025-10-23 10:24:33,256402.0,"2 days, 23 hrs, 13 mins"
+Merges,CS1676489,Lancashire Teaching Hospitals NHS Foundation Trust,3 - Medium,24/10/2025 11:11:15,Closed,NHS number clash for patient record.,"Hi Optum,
+
+The following NHS number (6269369630) is associated with two records (SW and RL):
+
+SW should be: 6269369630
+
+RL should be:  4502514519
+
+Please can this be updated.
+
+Thanks.",28/10/2025 13:12:03,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,28/10/2025 12:26:42,13,,"Hello Bhavesh,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1676489.
+ 
+The Patient record has been updated 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1676489,24/10/2025 11:11:15,,28/10/2025 13:12:01,62127.0,353727.0,Completed,62127.0,353727.0,"17 hrs, 15 mins","4 days, 2 hrs, 15 mins",2025-10-24 11:11:15,2025-10-28 12:26:42,350127.0,"4 days, 1 hrs, 15 mins"
+Merges,CS1679992,East Sussex Healthcare NHS Trust,3 - Medium,30/10/2025 13:50:15,Closed,"Episode 'stuck' on ward list with no demographics, cannot be searched to edit.","Episode for patient with chart created and used on admission now stuck on ward list but when selected has no demographics attached (shows blank with 'An error has occurred')Therefore, episode cannot be searched and edited (needs to be closed) Patient's hospital number is X078351, but when searched, the episode with the chart attached (for 25/10/25) is not listed. The only episode in the patient's record is the same NCV00820816 but with a start date of 27/10/15. I think there may have been a merge locally but haven't been able to confirm this (as the 'stuck' chart has an old name of the patient on), local SQL report shows the episode as 'merged'. Please can you locat the 'stuck', no demographics chart/episode and close it please. The patient is still an inpatient so be sure to leave the current in use chart episode open. Thank you.",06/11/2025 08:35:57,annette.rumbold@nhs.net,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,05/11/2025 10:51:03,10,,"Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1679992.
+ 
+To resolve this, I have moved the episode to the patient X078351 and closed. The episode should be visible under clolsed episodes.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1679992,30/10/2025 13:50:15,,06/11/2025 08:35:57,104448.0,507648.0,Completed,104448.0,507648.0,"1 days, 5 hrs","5 days, 21 hrs",2025-10-30 13:50:15,2025-11-05 10:51:03,507648.0,"5 days, 21 hrs"
+Merges,CS1681116,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,03/11/2025 10:27:10,Closed,Error- 2146232832,"Good morning, 
+
+Staff on the weekend (2/11/25) were unable to dispense any items for patient's in the Emergency Department.
+
+""Error -2146232832
+The HTTP request was forbidden with client authentication scheme 'Negotiate'.
+
+The remote server returned an error: (403) Forbidden""
+
+Was the message which appeared when they attempted to print a dispensing label.
+
+Hospital number of one of the patients: 0833918",04/11/2025 11:56:57,system,Acute Care Medicines Management Level 2 Team,Michael Carter,Pharmacy Support,04/11/2025 11:53:25,21,,"Hello Lee,
+
+In the desktop ""Editor - Consultant"" there is a field called wConsultantCode. Cristina Soare is the only consultant you have which has a 3 digit code instead of 4 (SRC). I updated this to be ""SRCA"" to make it four digits and that works, also tried ""SRCB"" so definitely looks to be due to the character length.
+
+Tried changing the code back to ""SRC"" and it actually throws an error saying I don't have permission, which I think is due to me trying to put in 3 digits and it not having an appropriate error message to day that.
+
+It is currently working under ""SRCB"" but if you want to change it to a different 4 digit code for that field please update it on ""Editor - Consultant"".
+
+Kind Regards,
+
+Michael",CS1681116,03/11/2025 10:27:10,,04/11/2025 11:56:56,33975.0,91575.0,Completed,33975.0,91575.0,"9 hrs, 26 mins","1 days, 1 hrs, 26 mins",2025-11-03 10:27:10,2025-11-04 11:53:25,91575.0,"1 days, 1 hrs, 26 mins"
+Merges,CS1683378,Northern Lincolnshire And Goole NHS Foundation Trust,3 - Medium,05/11/2025 16:45:44,Closed,PT appearing twice on select inpatient,"PT A216300 is appearing twice on the select inpatient desktop for B2 WARD DPOW. we have checked to see if it is a merge but it is not, both lines take you to the same episode. the one for GEN SURGERY TW is the correct one. the one for PRE ASSESSMENT DPOW is the one that needs removing.",07/11/2025 11:42:09,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Bundle - ePMA Medium Organisation,07/11/2025 11:38:42,27,,"Hello Stan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1683378.
+ 
+Apologies for the earlier misreading. I've removed PRE ASSESSMENT DPOW, and the change is reflected in the Select Inpatient Desktop. Would you be able to confirm? so that I can proceed to close the call
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1683378,05/11/2025 16:45:44,,07/11/2025 11:42:08,38668.0,153868.0,Completed,38668.0,153868.0,"10 hrs, 44 mins","1 days, 18 hrs, 44 mins",2025-11-05 16:45:44,2025-11-07 11:38:42,154378.0,"1 days, 18 hrs, 52 mins"
+Merges,CS1683899,Northern Care Alliance NHS Foundation Trust,3 - Medium,06/11/2025 13:05:16,Closed,Unable to merge multiple episodes,"Hi, I have a patient with 4 Emis episodes and I keep getting an error message when I try to merge any of them.  Patient ER  933323   1. OAK3089648  2. 933323.  3. 0933323  4. 933323
+Please can someone merge these episodes with OAK3089648 as the master and then can the hospital number be changed back to 933323.  Thanks",19/11/2025 15:01:29,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,12/11/2025 11:41:32,9,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1683899.
+ 
+To resolve this, I merged all the episodes and set the default hospital number to 933323. All episodes should now be under hospital number 933323.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1683899,06/11/2025 13:05:16,,19/11/2025 15:01:29,110176.0,513376.0,Completed,110176.0,513376.0,"1 days, 6 hrs, 36 mins","5 days, 22 hrs, 36 mins",2025-11-06 13:05:16,2025-11-12 11:41:32,513376.0,"5 days, 22 hrs, 36 mins"
+Merges,CS1686602,Northumbria Healthcare NHS Foundation Trust,3 - Medium,11/11/2025 15:08:03,Closed,LIVE 10.23 - Order 290723 Mixed into PSO Order,"LIVE 10.23 - Order 290723 Mixed into PSO Order
+
+Hi - We have had two users within Procurement order two products but in different modules on Stores. One has ordered normal using the normal Optum Ascribe ordering and the other has placed orders via the PSO side of Stores. 
+
+It appears the orders have merged and created the same ordering number for their orders. 
+
+We are trying to delete the normal order of drug DIB012I from order 290723, but each routine we use within our Stores system, the system prompts to say it is a PSO order, when it isn't. 
+
+When we have attempted to navigate into the PSO module and view the PSO that way, we can see the two drugs on the PSO order, but not the one we want to delete, as the original order for the drug DIB012I wasn't even a PSO order.
+
+I will attach some screen shots of us trying to delete the drug DIB012I from order 290723, but the system doesn't allow this as it is ghosted itself into the PSO side of things?
+
+Let me know if Optum can find the drug on order 290723 and remove it or delete it as we have re-ordered it on another order number (290816), which we have received and booked in.
+
+Let me know your thoughts on this and if you need anything further from myself regarding this.
+
+Kind regards
+Jonathan",22/12/2025 07:56:34,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,17/12/2025 14:08:03,23,,"Hello Jonathan ,
+
+I'm pleased to let you know that we've found a resolution for your case CS1686602.
+
+I will link this to the same issue as in CS1693011 the duplication of order numbers.
+
+On CS1693011 you can see i have now passed that up to our problem analyst to investigate the duplication of order numbers please check CS1693011 for further updated on this issue
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Swati",CS1686602,11/11/2025 15:08:03,,22/12/2025 07:56:32,512913.0,1794028.0,Completed,512913.0,1794028.0,"5 days, 22 hrs, 28 mins","20 days, 18 hrs, 20 mins",2025-11-11 15:08:03,2025-12-17 14:08:03,3106800.0,"35 days, 23 hrs"
+Merges,CS1691017,Northern Care Alliance NHS Foundation Trust,2 - High,19/11/2025 11:52:39,Closed,Patient details stating duplicate record on case number ,"Hello Optum, I have a duplicate record according to EMIS matched on case number. When I click into the profile however the case number doesn't match that of the existing one. But will not let any be amended. Please let me know what information I can submit to be looked into further.",21/11/2025 11:52:09,system,Acute Care Medicines Management Level 1 Team,Azeem Parvez,Core Pharmacy,21/11/2025 11:08:33,21,,"Good Morning Aidan,
+
+I looked into this further and found that this is the same patient. I have added an extra character to the hospital number so you are still able to search for this patient. you can use 'x02466433' to search for the patient and if you require a merge you should now be able to do this by using x02466433 and 02466433.
+
+Thanks,
+
+Azeem",CS1691017,19/11/2025 11:52:39,,21/11/2025 11:52:08,29658.0,72858.0,Completed,29658.0,72858.0,"8 hrs, 14 mins","20 hrs, 14 mins",2025-11-19 11:52:39,2025-11-21 11:08:33,170154.0,"1 days, 23 hrs, 15 mins"
+Merges,CS1692051,Northern Care Alliance NHS Foundation Trust,3 - Medium,20/11/2025 15:19:42,Closed,Patient records ,"Hello Optum, two queries for this ticket. 
+
+1.) My understanding is that patient records remain on the system for the lifetime of the system use) 
+Patients that are inactive for several years/ archived patients or deceased patients what happens with this data from the system? Does this also remain in defiantly as information is unable to be deleted. Does data storage play a role in this? 
+
+2.) When resolving queries for ourselves, when you remote in to our system are you able to see patient identifiable data?  My understanding is Patient identifiable data is not captured when raising a ticket but I have in some instances when raising tickets for patient mergers given hospital number does this allow you to see patient PMR's?",21/11/2025 11:46:50,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,21/11/2025 11:09:07,18,,"Hello Aidan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1692051.
+ 
+We have provided the answer to the queries, please let us know if you get any questions in future.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1692051,20/11/2025 15:19:42,,21/11/2025 11:46:48,7600.0,7600.0,Completed,7600.0,7600.0,"2 hrs, 6 mins","2 hrs, 6 mins",2025-11-20 15:19:42,2025-11-21 11:09:07,71365.0,"19 hrs, 49 mins"
+Merges,CS1693861,East Sussex Healthcare NHS Trust,4 - Low,25/11/2025 10:13:58,Closed,Incorrect changes/merges made in local PAS system now need correcting in ePMA,"On 4/7/25 XK50112 was misidentified and admitted as X678188 (same name and DOB) Our local PAS team incorrectly merged X678188 with XK50112, and when tried to unmerge weren't successful. . After the failed merge, they created a new record XJ33140 for the misidentified patient (with just the 4-8/7/25 attendance on it) All other episodes remain on  X678188/XK50112 records) All this activity in PAS has fed through to ePMA, please can you undo? (See attached document for details).",20/01/2026 08:54:40,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,19/01/2026 16:56:32,42,,"Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1693861.
+ 
+I have refered  your attached excelsheet and unmerged the patinets. you can now access the patient KPB with the hospital number X678188.
+For the patient KDB, you can access using the hospital number XJ33140, I have also undeleted the episodes as requested. it should be available under closed episodes.
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1693861,25/11/2025 10:13:58,,20/01/2026 08:54:38,985337.0,4150743.0,Completed,985337.0,4150743.0,"11 days, 9 hrs, 42 mins","48 days, 59 mins",2025-11-25 10:13:58,2026-01-19 16:56:32,4776154.0,"55 days, 6 hrs, 42 mins"
+Merges,CS1694825,East Sussex Healthcare NHS Trust,4 - Low,26/11/2025 12:02:44,Closed,Incorrect merging of two records by our local PAS team needs undoing in ePMA,"Our local PAS team have incorrectly merged two records X835243 and X264359, so needs be undone in ePMA. Please see attached screenshots for details. Thank you.",09/12/2025 11:56:22,annette.rumbold@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,ePMA,01/12/2025 13:27:36,9,,"Hello Annette,
+
+I am pleased to update we have found/come to a resolution for your case CS1694825.
+
+To resolve this I have updated correct episodes for the correct records. it should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1694825,26/11/2025 12:02:44,,09/12/2025 11:56:22,91492.0,437092.0,Completed,91492.0,437092.0,"1 days, 1 hrs, 24 mins","5 days, 1 hrs, 24 mins",2025-11-26 12:02:44,2025-12-01 13:27:36,437092.0,"5 days, 1 hrs, 24 mins"
+Merges,CS1695015,East Sussex Healthcare NHS Trust,4 - Low,26/11/2025 14:55:45,Closed,Stack Trace error when trying to merge two records,Attempting to merge XC33673 into Master X462073 and getting Stack Trace error (screenshot attached). Please can you merge the two records,09/12/2025 11:32:06,annette.rumbold@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,ePMA,27/11/2025 17:34:10,9,,"Hello Annette ,
+
+I am pleased to update we have found/come to a resolution for your case CS1695015.
+
+To resolve I have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+
+swati",CS1695015,26/11/2025 14:55:45,,09/12/2025 11:32:06,36255.0,95905.0,Completed,36255.0,95905.0,"10 hrs, 4 mins","1 days, 2 hrs, 38 mins",2025-11-26 14:55:45,2025-11-27 17:34:10,95905.0,"1 days, 2 hrs, 38 mins"
+Merges,CS1696855,Northern Care Alliance NHS Foundation Trust,3 - Medium,01/12/2025 10:38:23,Closed,Unable to merge episodes,"Hi,
+I have a patient with three Emis episodes- when I try to merge I keep getting an error message.  Patient J.Palfrey Hosp No:431736. Episodes: 1. OAK2248721  2. 431736.  3. 431736 
+Please can these be merged with episode 1 as the master and then the hosp number then changed from OAK2248721 to 431736.  Thanks",05/12/2025 10:29:02,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,04/12/2025 11:12:38,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1696855.
+ 
+To resolve this, I have merged the requested episodes to OAK2248721. It should now be visible under OAK2248721 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1696855,01/12/2025 10:38:23,,05/12/2025 10:29:02,88454.0,261254.0,Completed,88454.0,261254.0,"1 days, 34 mins","3 days, 34 mins",2025-12-01 10:38:23,2025-12-04 11:12:38,261255.0,"3 days, 34 mins"
+Merges,CS1697389,North West Anglia NHS Foundation Trust,3 - Medium,01/12/2025 16:26:45,Closed,Unable to Edit Record,"Hi there,
+Staff here are trying to update Record DIS0299496.  They are able to change the Ward Location but as soon as they come to save the record, an error appears ""Unable to Save Record"".",04/12/2025 12:18:32,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,04/12/2025 12:17:08,19,,"Hello Mohammed,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1697389.
+ 
+Thank you for your time on the phone today. The issue was caused by the patient having two NHS numbers, one of which had more than 10 digits and was truncated when changing the location. I've corrected this, and as confirmed, it is now working fine.
+Please merge any similar NHS numbers going forward to avoid this issue. If you're unable to do so, kindly log a case with us. I will proceed to close this call.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1697389,01/12/2025 16:26:45,,04/12/2025 12:18:30,69329.0,184529.0,Completed,69329.0,184529.0,"19 hrs, 15 mins","2 days, 3 hrs, 15 mins",2025-12-01 16:26:45,2025-12-04 12:17:08,244223.0,"2 days, 19 hrs, 50 mins"
+Merges,CS1699963,Northern Care Alliance NHS Foundation Trust,3 - Medium,05/12/2025 10:33:27,Closed,Episodes will not merge,"Hi, I have a patient with 3 Emis episodes and I keep getting error messages when I try to merge them.  Patient: C. Hubert (256722).  Episodes 1. OAK2483799  2. 256722.  3. 256722.  Please can they be merged with  OAK2483799 as the master. Can  OAK2483799 hosp number then been changed to 256722. Thanks",09/12/2025 15:13:30,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,09/12/2025 11:49:17,8,,"Hello Laura,
+
+I'm pleased to let you know that we've found a resolution for your case CS1699963.
+
+To resolve this, I have merged 3 entities and set the default hospital number to 256722. All the belonging episodes should now come under 256722.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Swati",CS1699963,05/12/2025 10:33:27,,09/12/2025 15:13:30,62150.0,350150.0,Completed,62150.0,350150.0,"17 hrs, 15 mins","4 days, 1 hrs, 15 mins",2025-12-05 10:33:27,2025-12-09 11:49:17,350150.0,"4 days, 1 hrs, 15 mins"
+Merges,CS1699974,Northern Care Alliance NHS Foundation Trust,3 - Medium,05/12/2025 10:36:25,Closed,Episodes will not merge,"Hi, 
+I have a patient with 3 Emis episodes and I keep getting error messages when I try to merge them.  Patient: P. Hickey (243103).  Episodes 1. OAK2352171  2. .243103  3. 243103  
+Please can they be merged with  OAK2352171 as the master.  Can OAK2352171 hosp number then been changed to 243103. Thanks",09/12/2025 15:13:15,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,09/12/2025 12:13:16,10,,"Hello Laura,
+
+I'm pleased to let you know that we've found a resolution for your case CS1699974.
+
+To resolve this, I have merged 3 entities and set the default hospital number to 243103. All the belonging episodes should now come under 243103.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Swati",CS1699974,05/12/2025 10:36:25,,09/12/2025 15:13:15,63411.0,351411.0,Completed,63411.0,351411.0,"17 hrs, 36 mins","4 days, 1 hrs, 36 mins",2025-12-05 10:36:25,2025-12-09 12:13:16,351411.0,"4 days, 1 hrs, 36 mins"
+Merges,CS1699981,Northern Care Alliance NHS Foundation Trust,3 - Medium,05/12/2025 10:39:33,Closed,Episodes will not merge,"Hi, 
+I have a patient with 3 Emis episodes and I keep getting error messages when I try to merge them.  Patient: C. M (891621).  Episodes 1. C202008940  2. .891621.  3. 891621  
+Please can they be merged with C202008940 as the master. Can C202008940  hosp number then been changed to 891621. Thanks",08/12/2025 10:42:17,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,08/12/2025 10:09:54,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1699981.
+ 
+To resolve this, I have merged 3 entities and set the default hospital number to 891621. All the belonging episodes should now come under 891621.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1699981,05/12/2025 10:39:33,,08/12/2025 10:42:17,27021.0,257421.0,Completed,27021.0,257421.0,"7 hrs, 30 mins","2 days, 23 hrs, 30 mins",2025-12-05 10:39:33,2025-12-08 10:09:54,257421.0,"2 days, 23 hrs, 30 mins"
+Merges,CS1700213,East Sussex Healthcare NHS Trust,3 - Medium,05/12/2025 14:07:49,Closed,Stack Tracer error when merging,"Can you please merge X377557 and X107319
+X377557 to be the surviving record, X107319 to be absorbed",23/12/2025 15:47:28,system,Acute Care Medicines Management Level 2 Team,Michael Carter,ePMA,09/12/2025 15:45:46,54,,"Good Afternoon Michaela,
+
+Change completed. Both patients checked and confirmed can now be accessed on the front end. You can now merge these on Patient Merge desktop (""X377557"" on the left and ""zzzX107319"" on the right). Apologies for any inconvenience caused and we will be refining the process for the change request peer reviews so it doesn't happen again.
+
+Kind Regards,
+
+Michael",CS1700213,05/12/2025 14:07:49,,23/12/2025 15:47:27,54585.0,342585.0,Completed,54585.0,342585.0,"15 hrs, 9 mins","3 days, 23 hrs, 9 mins",2025-12-05 14:07:49,2025-12-09 15:45:46,351477.0,"4 days, 1 hrs, 37 mins"
+Merges,CS1702524,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,10/12/2025 12:48:00,Closed,Patient merge not working,"Good afternoon team,
+
+I have had a few patients who haven't merged after being merged in TrakCare (our PAS system) so I have tried to merge them in EMIS but I get a frozen screen and then it says 'An error has occurred.' Screenshot attached. Can you check to see if merging functionality is broken?
+
+Kind regards,
+
+Dave",28/01/2026 13:56:08,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,28/01/2026 12:44:31,32,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1702524.
+ 
+I have merged these patients for you following a change request. This is expected behaviour in certain cases, and we are seeing the same issue at other trusts as well.
+If you encounter this again in the future, please log a case with the patient details, and we will manually merge them for you.
+I will proceed to close this call for the time being. If you have any further queries, please feel free to log a new case with us — happy to help.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1702524,10/12/2025 12:48:00,,28/01/2026 13:56:06,782316.0,3576447.0,Completed,782316.0,3576447.0,"9 days, 1 hrs, 18 mins","41 days, 9 hrs, 27 mins",2025-12-10 12:48:00,2026-01-28 12:44:31,4233391.0,"48 days, 23 hrs, 56 mins"
+Merges,CS1702809,North Tees And Hartlepool NHS Foundation Trust,3 - Medium,10/12/2025 16:41:02,Closed,patient merge,"Hi, we have 3 entries for the same patient. They have previously been merged using ascribe however the NHS number is against the wrong entry and I am unable to attach to the correct one. These details are required to appear correct on a manufacturing worksheet. Are you able to create 1 entry from all 3 entries? 
+
+Correct unit number: 367917
+Incorrect numbers: 9301522, 4981389523
+
+the NHS number is attached to 9301522",02/01/2026 17:07:28,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Pharmacy Support,19/12/2025 17:06:30,14,,"Hello Mark,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1702809.
+ 
+I can see all the 3 entries is already being merged. Please can you check 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1702809,10/12/2025 16:41:02,,02/01/2026 17:07:27,198556.0,774556.0,Completed,198556.0,774556.0,"2 days, 7 hrs, 9 mins","8 days, 23 hrs, 9 mins",2025-12-10 16:41:02,2025-12-19 17:06:30,779128.0,"9 days, 25 mins"
+Merges,CS1706127,Ashford And St Peter's Hospitals NHS Foundation Trust,3 - Medium,17/12/2025 14:33:37,Closed,Unable to clear eMM request from eMM Accuracy Checking (All),"Hi,
+
+We're having an issue where the user is unable to complete an eMM request from the 'eMM Accuracy Checking (All)' for certain patients. Looking into it closer, it seems this issue happens with any patient who has a 'Merged: Lifetime Episode'
+
+Currently, there is one patient on the list (hosp no: 1144889) and the eMM request was made under a 'Merged' episode
+
+Please could this be looked into as a matter of priority as it is effecting day to day operation in the Dispensary
+
+KR,
+Parmvir",05/03/2026 11:17:52,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,19/02/2026 03:44:28,20,,"Hi,
+
+I'm getting in touch regarding your case CS1706127 which you raised on 17/12/2025 14:33:37 regarding Core Pharmacy.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum",CS1706127,17/12/2025 14:33:37,,05/03/2026 03:45:26,728163.0,3465168.0,Completed,728163.0,3465168.0,"8 days, 10 hrs, 16 mins","40 days, 2 hrs, 32 mins",2025-12-17 14:33:37,2026-02-19 03:44:28,5490651.0,"63 days, 13 hrs, 10 mins"
+Merges,CS1706973,East Sussex Healthcare NHS Trust,3 - Medium,18/12/2025 15:15:47,Closed,Unable to merge patients,"Hi,
+
+Please are you able to merge the following records - An error is consistently occurring when we are attempting this ourselves.
+
+Master patient - X379978
+Patient to merge - XC82813
+
+Kindest regards,
+
+Oliver",05/01/2026 11:06:30,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,05/01/2026 10:12:52,13,,"Hello Oliver,
+
+I am pleased to update we have found/come to a resolution for your case CS1706973.
+
+To resolve this I have update the patients information so now the master number is X379978 .Can you please check and confirm.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1706973,18/12/2025 15:15:47,,05/01/2026 11:06:29,241025.0,1537025.0,Completed,241025.0,1537025.0,"2 days, 18 hrs, 57 mins","17 days, 18 hrs, 57 mins",2025-12-18 15:15:47,2026-01-05 10:12:52,1537025.0,"17 days, 18 hrs, 57 mins"
+Merges,CS1707881,Northern Care Alliance NHS Foundation Trust,3 - Medium,22/12/2025 11:26:15,Closed,Patient Merge ,"Hi,
+Please can you merge the below patients it has allowed me to merge some of the episode but not all.
+
+I want Hospital number C202200832 to be the master episode and 425512 to be merged into it. 
+
+Once it has merged i will change the hospital number to the correct one ""425512""
+
+Kind regards, 
+
+Luke",14/01/2026 18:09:31,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,05/01/2026 16:10:21,11,,"Hello Luke ,
+
+I'm pleased to let you know that we've found a resolution for your case CS1707881.
+
+To resolve this, I have merged the requested episodes to C202200832 . It should now be visible under C202200832 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+
+Kind regards
+swati",CS1707881,22/12/2025 11:26:15,,14/01/2026 18:09:29,218646.0,1226646.0,Completed,218646.0,1226646.0,"2 days, 12 hrs, 44 mins","14 days, 4 hrs, 44 mins",2025-12-22 11:26:15,2026-01-05 16:10:21,1226646.0,"14 days, 4 hrs, 44 mins"
+Merges,CS1714178,The Royal Wolverhampton NHS Trust,3 - Medium,08/01/2026 13:36:04,Closed,Merge patient V260553,"Hi,
+Please could somebody merge two lifetime episodes for us. We have patient V260553 with two lifetime episodes. They have an active episode on ward C25, the lifetime episode associated with this record should be the master, the other one has a lifetime episode showing on ward A8 and is incorrect, this one should be merged into the first patient. See image provided. Could this be done ASAP please as it is blocking our dispensary from processing medicines for the patient.
+
+Thanks",08/01/2026 13:45:51,louis.wilkins@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,08/01/2026 13:44:06,9,,"Hello Louis,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1714178.
+ 
+We are working on the CS1713193 as priority. This is the duplicate of that case.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1714178,08/01/2026 13:36:04,,08/01/2026 13:45:51,482.0,482.0,Completed,482.0,482.0,8 mins,8 mins,2026-01-08 13:36:04,2026-01-08 13:44:06,482.0,8 mins
+Merges,CS1714592,Northern Care Alliance NHS Foundation Trust,3 - Medium,09/01/2026 09:37:36,Closed,Patient Merge Issue,"Hi, I have a patient with 2 records on emis (B.M 455794).  I managed to merge a third record they had but the last 2 will not merge.  1. OAK3031263  & 2. 455794.  Please can these 2 records be merged with OAK3031263 as the master and then the hosp number changing to 455794  Thanks",12/01/2026 09:52:58,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,12/01/2026 09:11:51,7,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1714592.
+ 
+To resolve this, I have merged the episode to 455794, and all the episodes should now be under 455794. 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1714592,09/01/2026 09:37:36,,12/01/2026 09:52:58,27255.0,257655.0,Completed,27255.0,257655.0,"7 hrs, 34 mins","2 days, 23 hrs, 34 mins",2026-01-09 09:37:36,2026-01-12 09:11:51,257655.0,"2 days, 23 hrs, 34 mins"
+Merges,CS1718809,Lancashire Teaching Hospitals NHS Foundation Trust,3 - Medium,16/01/2026 12:03:53,Closed,Merge 2 patient records ,Merge 2 patient records ,21/01/2026 15:04:33,Bhavesh.Rathod@lthtr.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,21/01/2026 14:18:05,12,,"Hello Bhavesh,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1718809.
+ 
+This has been merged
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1718809,16/01/2026 12:03:53,,21/01/2026 15:04:33,81808.0,427408.0,Completed,81808.0,427408.0,"22 hrs, 43 mins","4 days, 22 hrs, 43 mins",2026-01-16 12:03:53,2026-01-21 14:18:05,440052.0,"5 days, 2 hrs, 14 mins"
+Merges,CS1721386,East Sussex Healthcare NHS Trust,4 - Low,21/01/2026 13:49:55,Closed,Unable to merge a patient,"I have a patient with two X numbers which I am trying to merge, but every time I try it comes up with a white screen that says 'an error has occurred'. Are you able to merge them for me please.
+
+The master patient is X006300 J.I.C-S
+And the merged patient number I want merged into the master is X433097 J.C-S",26/01/2026 08:13:05,adam.styles@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,ePMA,23/01/2026 17:12:15,8,,"Hello Adam ,
+
+I am pleased to update we have found/come to a resolution for your case CS1721386.
+
+To resolve this I have update the patients information so now the master number is X006300 J.I.C-S .
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1721386,21/01/2026 13:49:55,,26/01/2026 08:13:05,69005.0,184940.0,Completed,69005.0,184940.0,"19 hrs, 10 mins","2 days, 3 hrs, 22 mins",2026-01-21 13:49:55,2026-01-23 17:12:15,184940.0,"2 days, 3 hrs, 22 mins"
+Merges,CS1723228,Southport And Ormskirk Hospital NHS Trust,3 - Medium,26/01/2026 09:47:48,Closed,Unknown ward,"Our patients on Emergency SDEC (ESDEC) and Medical SDEC (MSDEC) are coming through to EMIS as unknown ward. I have entered the codes in the interface with what our Careflow team provided. 
+wwardcodes ESDEC PASLocationCode DG-EDSDEC and MSDEC to DG-MSDEC and into the location editor. Are you able to send me instructions on how to fix? I have an example of a patient that was admitted this morning and is showing as unknown. Hosp number 01837939 MC. Thanks",26/01/2026 12:06:54,rachel.hincks@merseywestlancs.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,eDischarge,26/01/2026 11:49:45,6,,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1723228.
+ 
+I believe your setup is correct, and the issue lies with the code being sent from CareFlow. I reviewed the message sent for the patient this morning and could not find the PAS ward code 'DG?EDSDEC'. Instead, it is sending 'MSDEC'.
+In the Location Editor, the ward was configured as 'DG?EDSDEC'. After I changed it to 'MSDEC', the ward displayed correctly.
+Please check with CareFlow to confirm the correct code they are sending, and ensure that the code in the Location Editor matches exactly.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1723228,26/01/2026 09:47:48,,26/01/2026 12:06:54,7317.0,7317.0,Completed,7317.0,7317.0,"2 hrs, 1 mins","2 hrs, 1 mins",2026-01-26 09:47:48,2026-01-26 11:49:45,7317.0,"2 hrs, 1 mins"
+Merges,CS1725402,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,28/01/2026 14:28:54,Closed,Patient merges in EMIS,"Good afternoon,
+I have compiled a list of MRN's of which are not merged in EMIS. Could these be merged please? I have noted the MRN's that should be the master patient:
+
+4370387 - Master
+4370521 
+
+4273476 - Master
+4406279
+
+4475693 - Master
+4475933
+
+3139123 - Master
+4255589
+
+3083914 - Master
+4479129
+
+4479334 - Master
+4479330
+
+Kind regards,
+
+Dave",09/02/2026 15:34:47,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,09/02/2026 12:57:35,14,,"Hello David,
+
+I am pleased to update we have found/come to a resolution for your case CS1725402.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1725402,28/01/2026 14:28:54,,09/02/2026 15:34:45,224921.0,1031321.0,Completed,224921.0,1031321.0,"2 days, 14 hrs, 28 mins","11 days, 22 hrs, 28 mins",2026-01-28 14:28:54,2026-02-09 12:57:35,1031321.0,"11 days, 22 hrs, 28 mins"
+Merges,CS1727452,East Sussex Healthcare NHS Trust,3 - Medium,02/02/2026 11:41:49,Closed,Record disappeared,Record X173506 was merged with XA11231 and now neither can be found when searching in EMIS ePMA.,04/02/2026 12:07:20,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,04/02/2026 12:03:45,29,,"Hello Michaela and Adam,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1727452.
+ 
+This has been resolved. The records are restored.
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1727452,02/02/2026 11:41:49,,04/02/2026 12:07:18,58216.0,173416.0,Completed,58216.0,173416.0,"16 hrs, 10 mins","2 days, 10 mins",2026-02-02 11:41:49,2026-02-04 12:03:45,174116.0,"2 days, 21 mins"
+Merges,CS1727763,Northern Care Alliance NHS Foundation Trust,3 - Medium,02/02/2026 15:30:29,Closed,Patient Merge request ,"I am somewhat apprehensive to complete this task myself as last time, this deleted both PMRs. 
+
+I have a patient which somehow has duplicated a hospital number with a extra character containing the letter A. 
+
+Am I able to share the hospital number details, I have confirmed with other systems that this patient is the same.",04/02/2026 13:30:07,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,04/02/2026 12:17:54,25,,"Hello Aidan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1727763.
+ 
+The patient record has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1727763,02/02/2026 15:30:29,,04/02/2026 13:30:05,68741.0,155141.0,Completed,68741.0,155141.0,"19 hrs, 5 mins","1 days, 19 hrs, 5 mins",2026-02-02 15:30:29,2026-02-04 12:17:54,161245.0,"1 days, 20 hrs, 47 mins"
+Merges,CS1729264,Northern Care Alliance NHS Foundation Trust,3 - Medium,04/02/2026 12:04:44,Closed,Duplicate Patient ,"Hello Optum, I have a patient with a Duplicate PMR.  Are you happy for me to share patient hospital numbers? 
+
+I'm hoping to get some clarification on how this happens and what steps can be taken to minimise this occurrence.
+
+for patients admitted onto our PAS system messages are sent to our EMIS system one way which updates existing patient profile and creates new ones where none currently exists. Is my thinking right here?   
+
+Patient outside this (typically or Mental health patients) do not use this system so a PMR is created, now I have been asking for all fields to be populated, which PAS typically would excluding Hospital number. It seems profiles are still duplicating. if the patient is then admitted onto our PAS system. 
+
+Is this avoidable, is there something I can roll out to do differently? 
+
+Kind regards,",06/02/2026 12:28:49,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,06/02/2026 12:25:39,17,,"Hello Aidan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1729264.
+
+This has been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1729264,04/02/2026 12:04:44,,06/02/2026 12:28:46,87067.0,173467.0,Completed,87067.0,173467.0,"1 days, 11 mins","2 days, 11 mins",2026-02-04 12:04:44,2026-02-06 12:25:39,174055.0,"2 days, 20 mins"
+Merges,CS1729268,East Sussex Healthcare NHS Trust,4 - Low,04/02/2026 12:09:30,Closed,Merging patient records,"Please can the below records be merged into one now they are both appearing on our system again.
+
+X173506 - This is the Master patient.
+Xa11231 - This is the record that needs to be merged into the above x number
+
+Please can you merge xa11231 into x173506 so there is only one record for this patient. 
+
+Many thanks",06/02/2026 11:52:27,adam.styles@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,06/02/2026 11:44:49,8,,"Hello Adam,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1729268.
+ 
+This has been merged.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1729268,04/02/2026 12:09:30,,06/02/2026 11:52:27,56119.0,171319.0,Completed,56119.0,171319.0,"15 hrs, 35 mins","1 days, 23 hrs, 35 mins",2026-02-04 12:09:30,2026-02-06 11:44:49,171319.0,"1 days, 23 hrs, 35 mins"
+Merges,CS1730380,Northern Care Alliance NHS Foundation Trust,3 - Medium,05/02/2026 16:38:13,Closed,Unable to merge multiple patient episodes,"I have a patient with 6 Emis episodes (G.O 453444). When I try to merge any episode I get an error message. 
+1. 0000453444  2. 453444.  3. 453444..  4. 0453444  5. 0453444.  6. 453444
+Please can the episodes be merged with number 1 as the master and the hosp number changed to 453444.  Thanks",16/02/2026 14:57:02,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,11/02/2026 15:31:13,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1730380.
+ 
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1730380,05/02/2026 16:38:13,,16/02/2026 14:57:02,111180.0,514380.0,Completed,111180.0,514380.0,"1 days, 6 hrs, 53 mins","5 days, 22 hrs, 53 mins",2026-02-05 16:38:13,2026-02-11 15:31:13,514380.0,"5 days, 22 hrs, 53 mins"
+Merges,CS1730416,Northern Care Alliance NHS Foundation Trust,4 - Low,05/02/2026 17:23:05,Closed,Duplicate patient ,"Hello EMIS, I have a patient which has been set up with NHS number in the hospital number and then has since duplicated when being admitted onto our system, I can share the hospital number if you would like but unsure due to IG how you would like the NHS number.",13/02/2026 10:16:16,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,11/02/2026 18:59:35,27,,"Hello Adam ,
+
+I am pleased to update we have found/come to a resolution for your case CS1730416.
+
+To resolve this I have update the patients information so now the master number is 02026261 .
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1730416,05/02/2026 17:23:05,,13/02/2026 10:16:15,230666.0,446666.0,Completed,230666.0,446666.0,"2 days, 16 hrs, 4 mins","5 days, 4 hrs, 4 mins",2026-02-05 17:23:05,2026-02-11 18:59:35,524190.0,"6 days, 1 hrs, 36 mins"
+Merges,CS1730676,Hull University Teaching Hospitals NHS Trust,3 - Medium,06/02/2026 10:47:33,Closed,Cannot merge patient records,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Hi,
+
+We have come across two patient records with entity Ids 1167741 and 1378687.
+
+The problem we are having is application is NOT showing the two records when searching using the NHS Number but it’s stopping the user from updating the episode details because both records have the same NHS Number.
+
+As per the screenshot below from the episode selector, application cannot display the recent episodes because of open episodes from our previous PAS system.
+
+[cid:image001.png@01DC9755.7655C8A0]
+
+
+Could you please close all the open episode with the episode description starting with ‘00000’ and merge the two records 1167741 and 1378687?
+
+Could this please be looked into as a matter of urgency as we cannot dispense using the correct episodic information for this patient.
+
+Regards,
+Somanath
+
+
+
+Somanathan Thekkechirackal Viswanadhan (He/Him)
+Pharmacy Information and Support Systems Manager
+Hull University Teaching Hospitals NHS Trust
+somnath.viswan@nhs.net<mailto:somnath.viswan@nhs.net>
+24352 | (01482) 624352
+Pharmacy IM&T | hyp-tr.Pharmacy.IM-T@nhs.net<mailto:hyp-tr.Pharmacy.IM-T@nhs.net>
+
+NHS Humber Health Partnership
+Hull University Teaching Hospitals NHS Trust
+Northern Lincolnshire and Goole NHS Foundation Trust
+
+HUTH Website<https://urldefense.com/v3/__https://www.hull.nhs.uk/__;!!IJLR5QJm7ttc!gIfNKmeUYav4LeBefVhUYAb5lqigbd6aYBiALvcDDc5CRilZX51udpv_-NVlMCU8yrM85T29ZKH26m_9T0lcr9KY_TE$> | NLaG Website<https://urldefense.com/v3/__https://www.nlg.nhs.uk/__;!!IJLR5QJm7ttc!gIfNKmeUYav4LeBefVhUYAb5lqigbd6aYBiALvcDDc5CRilZX51udpv_-NVlMCU8yrM85T29ZKH26m_9T0lc6ypM6pc$> | Facebook<https://urldefense.com/v3/__https://www.facebook.com/NHSHHP/__;!!IJLR5QJm7ttc!gIfNKmeUYav4LeBefVhUYAb5lqigbd6aYBiALvcDDc5CRilZX51udpv_-NVlMCU8yrM85T29ZKH26m_9T0lcenr2_DY$> | LinkedIn<https://urldefense.com/v3/__https://www.linkedin.com/company/nhs-humber-health-partnership/__;!!IJLR5QJm7ttc!gIfNKmeUYav4LeBefVhUYAb5lqigbd6aYBiALvcDDc5CRilZX51udpv_-NVlMCU8yrM85T29ZKH26m_9T0lc5LEbtpo$> | ?<https://urldefense.com/v3/__https://twitter.com/NHSHHP__;!!IJLR5QJm7ttc!gIfNKmeUYav4LeBefVhUYAb5lqigbd6aYBiALvcDDc5CRilZX51udpv_-NVlMCU8yrM85T29ZKH26m_9T0lc1INgMFs$>
+[Title: Humber Health Partnership]
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect – NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!gIfNKmeUYav4LeBefVhUYAb5lqigbd6aYBiALvcDDc5CRilZX51udpv_-NVlMCU8yrM85T29ZKH26m_9T0lcNHqZuTE$>",11/02/2026 18:43:07,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,11/02/2026 15:00:42,19,,"Hello Somanathan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1730676.
+ 
+This has been fixed
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1730676,06/02/2026 10:47:33,,11/02/2026 18:43:06,132577.0,434977.0,Completed,132577.0,434977.0,"1 days, 12 hrs, 49 mins","5 days, 49 mins",2026-02-06 10:47:33,2026-02-11 15:00:42,447189.0,"5 days, 4 hrs, 13 mins"
+Merges,CS1730738,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,06/02/2026 11:14:54,Closed,Patient merges in EMIS---related with CS1725402,"Good afternoon,
+I have compiled a list of MRN's of which are not merged in EMIS. Could these be merged please? I have noted the MRN's that should be the master patient:
+
+
+Hi Swati, some more patients that need merging in EMIS:
+
+ 4337795 - Master
+          4118235 
+
+ 4480610 - Master
+          4165136
+
+1663172 - Master
+         4205294",09/02/2026 15:34:54,david.jones25@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,09/02/2026 13:56:21,9,,"Hello David,
+
+I am pleased to update we have found/come to a resolution for your case CS1730738.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1730738,06/02/2026 11:14:54,,09/02/2026 15:34:54,38487.0,268887.0,Completed,38487.0,268887.0,"10 hrs, 41 mins","3 days, 2 hrs, 41 mins",2026-02-06 11:14:54,2026-02-09 13:56:21,268887.0,"3 days, 2 hrs, 41 mins"
+Merges,CS1731611,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,09/02/2026 11:00:11,Closed,More patient merges ,"Good morning,
+
+Here are some more patients who have not successfully merged in EMIS, please could these be actioned?
+
+4325006 - Master MRN
+4289259
+
+1197147 - Master MRN
+4478954
+
+Many thanks,
+
+Dave",20/02/2026 09:40:42,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,13/02/2026 17:37:13,12,,"Hello David,
+
+I am pleased to update we have found/come to a resolution for your case CS1731611.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1731611,09/02/2026 11:00:11,,20/02/2026 09:40:40,136789.0,369422.0,Completed,136789.0,369422.0,"1 days, 13 hrs, 59 mins","4 days, 6 hrs, 37 mins",2026-02-09 11:00:11,2026-02-13 17:37:13,369422.0,"4 days, 6 hrs, 37 mins"
+Merges,CS1738145,United Lincolnshire Teaching Hospitals NHS Trust,2 - High,18/02/2026 15:55:43,Closed,patient banner has disappeared,"we have a patient with a merged episode and the patient banner has disappeared. cant search by name or nhs number. cant access editor patient episode. but the patients name does apply in the ward list. cant administer meds without a name on the banner, patient is 4486561015 J Benge. see attached screenshot",23/02/2026 08:12:18,system,Acute Care Medicines Management Level 1 Team,Azeem Parvez,Pharmacy Support,19/02/2026 16:08:59,11,,"Hi Kyle,
+
+We have sorted this out from our end. The patient can now be seen. It seems like the merge was going through the process but did not fully complete. 
+
+This should now be sorted.
+
+Thanks,
+
+Azeem",,,,,,,,,,,,2026-02-18 15:55:43,2026-02-19 16:08:59,87196.0,"1 days, 13 mins"
+Merges,CS1738697,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,19/02/2026 13:59:48,Closed,Patient merge in EMIS,"Could the following patient be merged in EMIS please. Please note the merged MRN will be marked as MASTER:
+
+1095582 - MASTER
+4482401
+
+Many thanks.",25/02/2026 17:23:35,david.jones25@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,20/02/2026 11:14:33,7,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1738697.
+ 
+This has been successfully merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1738697,19/02/2026 13:59:48,,25/02/2026 17:23:35,18885.0,76485.0,Completed,18885.0,76485.0,"5 hrs, 14 mins","21 hrs, 14 mins",2026-02-19 13:59:48,2026-02-20 11:14:33,76485.0,"21 hrs, 14 mins"
+Merges,CS1740816,Northern Care Alliance NHS Foundation Trust,3 - Medium,24/02/2026 11:40:25,Closed,Unable to Merge episodes,"Hi, I have a patient with 2 emis episodes which will not merge. K.W 939856.  Episode 1. OAK3654577, Episode 2.  939856  Please can they be merged with episode 1 being the master and the hosp number being changed to 939856.  Thanks",02/03/2026 11:17:27,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,25/02/2026 15:18:12,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1740816.
+
+The patient merge is successful
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1740816,24/02/2026 11:40:25,,02/03/2026 09:38:40,41867.0,99467.0,Completed,41867.0,99467.0,"11 hrs, 37 mins","1 days, 3 hrs, 37 mins",2026-02-24 11:40:25,2026-02-25 15:18:12,99467.0,"1 days, 3 hrs, 37 mins"
+Merges,CS1743456,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,27/02/2026 17:12:33,Closed,Patient merges,"Good afternoon,
+
+Here are some more unsuccessful merges. Please note, the merged MRN has 'MASTER' next to it:
+
+1037365 - MASTER
+4416710
+
+3328354 - MASTER
+4475797
+
+3013096 - MASTER
+4364996
+
+
+Many thanks,
+
+Dave",03/03/2026 16:24:54,alan.bird1@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,03/03/2026 13:06:31,9,,"Hello David,
+
+I am pleased to update we have found/come to a resolution for your case CS1743456.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1743456,27/02/2026 17:12:33,,03/03/2026 16:24:54,43591.0,330838.0,Completed,43591.0,330838.0,"12 hrs, 6 mins","3 days, 19 hrs, 53 mins",2026-02-27 17:12:33,2026-03-03 13:06:31,330838.0,"3 days, 19 hrs, 53 mins"
+Merges,CS1745041,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,03/03/2026 16:28:22,Closed,Failed patient merge,"Failed patient merge. Master indicated below.
+
+0337474 Master
+4483619	
+
+Can you advise if there is work in progress to patch this issue? We don't really want to be having to log these forever. 
+
+Kind regards
+Alan",24/03/2026 14:12:19,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,14/03/2026 13:59:36,23,,"Hi Alan ,
+
+Our Problem Analysts require comprehensive details regarding the errors to conduct a thorough investigation and, if necessary, initiate a Problem Report (PRB). They have indicated that the issue may stem from the merge on your PAS, but this can only be confirmed through further investigation. 
+
+Currently, there is no solution available for this problem beyond our backend interventions, as the underlying causes may vary across different sites experiencing the same issue. 
+
+Therefore, if this situation arises again in the future, please ensure to provide a screenshot of the error from the front-end application, along with all relevant details and the steps you took to encounter the issue, so we can work towards a resolution.
+
+Thanks,
+swati",CS1745041,03/03/2026 16:28:22,,24/03/2026 14:12:17,119432.0,428670.0,Completed,119432.0,428670.0,"1 days, 9 hrs, 10 mins","4 days, 23 hrs, 4 mins",2026-03-03 16:28:22,2026-03-14 13:59:36,941474.0,"10 days, 21 hrs, 31 mins"
+Merges,CS1746392,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,05/03/2026 13:39:58,Closed,Failed Patient Merge,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+MRN
+0816519
+3147579
+
+
+Top MRN (0816519) is the master
+
+
+Kind Regards,
+
+Gloucestershire Hospitals
+NHS Foundation Trust
+
+Pharmacy Systems Team
+Digital, Technology, & Insights
+Chestnut House
+Great Western Road
+Gloucester
+GL1 3NN
+
+
+Alan Bird
+Pharmacy Systems Team Lead
+
+
+Email: alan.bird1@nhs.net
+Tel: 07977 711954
+
+
+Usual working days: Monday - Friday
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kTpioKN-14hDR-HQNacb27naQvTaQShEzYUE3S0cFedfOodPnQnoOILQ3Oc-L9kYS57_-JjEk3h-W8MO4GnTIA$>",12/03/2026 23:16:30,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,06/03/2026 17:29:20,12,,"Hello Alan ,
+
+I am pleased to update we have found/come to a resolution for your case CS1746392.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1746392,05/03/2026 13:39:58,,12/03/2026 16:20:07,40802.0,100162.0,Completed,40802.0,100162.0,"11 hrs, 20 mins","1 days, 3 hrs, 49 mins",2026-03-05 13:39:58,2026-03-06 17:29:20,100162.0,"1 days, 3 hrs, 49 mins"
+Merges,CS1747933,Northern Care Alliance NHS Foundation Trust,4 - Low,09/03/2026 16:22:07,Closed,Pt merge,"Hi, I have a patient (813786 D.C) who has 2 episodes on Emis.  1. OAK3513498  2. 813786.  Please can these be merged with episode 2 as the master.  When I try to do it I get error messages. Thanks",11/03/2026 11:15:13,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,11/03/2026 10:30:34,10,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1747933.
+ 
+To resolve this, I have merged both episodes under hospital number 813786. All episodes will now be available using PID 813786.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1747933,09/03/2026 16:22:07,,11/03/2026 11:15:13,36507.0,151707.0,Completed,36507.0,151707.0,"10 hrs, 8 mins","1 days, 18 hrs, 8 mins",2026-03-09 16:22:07,2026-03-11 10:30:34,151707.0,"1 days, 18 hrs, 8 mins"
+Merges,CS1747961,Northumbria Healthcare NHS Foundation Trust,4 - Low,09/03/2026 16:55:06,Closed,LIVE 10.23 - Patient Merge Crashed Out,"LIVE 10.23 - Patient Merge Crashed Out
+
+Hi - We have tried to do a patient merge and during the merge the system crashed out my session. When I have accessed the patients record I can no longer see he two patient details I was merging from the beginning.
+
+Can this be looked at and reviewed please. The patient details are as follows:
+
+Main Record: NHS - ****4180(removed due to IG) Trust Number - T0834504
+
+Merge Record: T0857568
+
+Let me know your thoughts if this can be reviewed for us please as they records can't be found.
+
+Kind regards
+Jonathan",30/03/2026 14:56:21,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,23/03/2026 13:19:30,15,,"Hello Jonathan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1747961.
+ 
+I have restored the episodes from T0857568 and moved to T0834504. both also merged and all the missing episodes will now be under T0834504.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1747961,09/03/2026 16:55:06,,30/03/2026 14:56:20,274857.0,1196457.0,Completed,274857.0,1196457.0,"3 days, 4 hrs, 20 mins","13 days, 20 hrs, 20 mins",2026-03-09 16:55:06,2026-03-23 13:19:30,1196664.0,"13 days, 20 hrs, 24 mins"
+Merges,CS1749040,Northern Lincolnshire And Goole NHS Foundation Trust,2 - High,11/03/2026 11:44:03,Closed,we have lost another patient after a merge,"we have lost all the details of a patient after merging the records. There were 10 records for the PT i Merged the Correct record with the one that had the NHS number on it. the system will now not find the patients record by NHS number and they have disappeared from the ward list. this is urgent as the PT needs Meds . i only have the NHS number D.O.B Surname, but i cant send that on this ticket. so i will call with that",11/03/2026 23:17:43,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Bundle - ePMA Medium Organisation,11/03/2026 14:34:08,26,,"Hi Stan,
+
+Thanks for the confirmation on call, Now i can close this case ",CS1749040,11/03/2026 11:44:03,,11/03/2026 14:37:30,8043.0,8043.0,Completed,8043.0,8043.0,"2 hrs, 14 mins","2 hrs, 14 mins",2026-03-11 11:44:03,2026-03-11 14:34:08,10205.0,"2 hrs, 50 mins"
+Merges,CS1749366,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,11/03/2026 16:24:53,Closed,Patient merge,"Good afternoon, could the following patient be merged in EMIS please? Top MRN is the master MRN that we want to keep:
+
+1119868 - master
+4337005
+
+Many thanks,
+
+Dave",24/03/2026 14:12:08,alan.bird1@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,13/03/2026 18:01:33,11,,"Hello David ,
+
+I am pleased to update we have found/come to a resolution for your case CS1749366.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1749366,11/03/2026 16:24:53,,24/03/2026 14:12:08,59707.0,178600.0,Completed,59707.0,178600.0,"16 hrs, 35 mins","2 days, 1 hrs, 36 mins",2026-03-11 16:24:53,2026-03-13 18:01:33,178600.0,"2 days, 1 hrs, 36 mins"
+Merges,CS1751543,Northern Care Alliance NHS Foundation Trust,3 - Medium,16/03/2026 15:35:22,Closed,Unable to merge episodes,"Hi, I have a patient with 2 emis episodes- when I try to merge them I keep getting error messages. Patient: BJ  1. OAK3481861  2. 392893.  Please can these be merged and  episode 1 made the master and the hosp number changing to 392893. Thanks",17/03/2026 14:07:26,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,17/03/2026 12:53:43,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1751543.
+ 
+This has been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1751543,16/03/2026 15:35:22,,17/03/2026 14:07:26,19101.0,76701.0,Completed,19101.0,76701.0,"5 hrs, 18 mins","21 hrs, 18 mins",2026-03-16 15:35:22,2026-03-17 12:53:43,76701.0,"21 hrs, 18 mins"
+Merges,CS1751547,Northern Care Alliance NHS Foundation Trust,3 - Medium,16/03/2026 15:37:52,Closed,Unable to merge episodes,"Hi, I have a patient with 2 emis episodes- when I try to merge them I keep getting error messages. Patient: DM 1. C202503287  2. 341518.  Please can these be merged and  episode 1 made the master and the hosp number changing to 341518. Thanks",17/03/2026 14:07:35,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,17/03/2026 12:53:04,7,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1751547.
+ 
+This has been resolved 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1751547,16/03/2026 15:37:52,,17/03/2026 14:07:35,18912.0,76512.0,Completed,18912.0,76512.0,"5 hrs, 15 mins","21 hrs, 15 mins",2026-03-16 15:37:52,2026-03-17 12:53:04,76512.0,"21 hrs, 15 mins"
+Merges,CS1752027,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,17/03/2026 12:15:51,Closed,Patient merges required,"Please see unmerged patient. Please note master MRN is the one that needs to remain:
+
+4442938 - MASTER
+4485580 
+
+Kind regards,
+
+David Jones",24/03/2026 14:12:39,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,20/03/2026 15:10:04,17,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1752027.
+ 
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1752027,17/03/2026 12:15:51,,24/03/2026 14:12:37,1543.0,1543.0,Completed,1543.0,1543.0,25 mins,25 mins,2026-03-17 12:15:51,2026-03-20 15:10:04,269653.0,"3 days, 2 hrs, 54 mins"
+Merges,CS1754233,Northern Care Alliance NHS Foundation Trust,3 - Medium,20/03/2026 13:38:32,Closed,Patient Merge,"I have a patient with 4 episodes that I cannot merge.  Patient J.F (388658).  Episodes:  1. 4700546042
+2. 388658.  3. 0388658  4. .388658
+I managed to merge a fifth episodes but am now getting error messages when I try to merge the others. Please can these be merged with episodes 1 as the master and the hospital number set as 388658.   Thanks",01/04/2026 12:13:29,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,26/03/2026 11:20:33,17,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1754233.
+ 
+As discussed, this has been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1754233,20/03/2026 13:38:32,,01/04/2026 12:13:26,106921.0,510121.0,Completed,106921.0,510121.0,"1 days, 5 hrs, 42 mins","5 days, 21 hrs, 42 mins",2026-03-20 13:38:32,2026-03-26 11:20:33,510121.0,"5 days, 21 hrs, 42 mins"
+Merges,CS1754412,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,20/03/2026 16:44:20,Closed,Patient merge,"Dear team,
+
+Please merge this patient below. Master patient highlighted.
+
+0146354 - Master
+4486315
+
+Many thanks,
+
+David",24/03/2026 14:12:00,alan.bird1@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,23/03/2026 14:41:54,9,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1754412.
+ 
+We have merged the patient records 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1754412,20/03/2026 16:44:20,,24/03/2026 14:12:00,21454.0,251854.0,Completed,21454.0,251854.0,"5 hrs, 57 mins","2 days, 21 hrs, 57 mins",2026-03-20 16:44:20,2026-03-23 14:41:54,251854.0,"2 days, 21 hrs, 57 mins"
+Merges,CS1759298,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,27/03/2026 13:55:45,Closed,Patient merge,"Good afternoon,
+
+I have some more unmerged patients for merging please:
+
+4155877 - MASTER
+4238489
+
+3382327 - MASTER
+4374723
+
+Kind regards,
+
+David Jones",15/04/2026 11:17:29,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,01/04/2026 11:17:04,13,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1759298.
+ 
+The patient records have been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1759298,27/03/2026 13:55:45,,15/04/2026 11:17:28,76879.0,418879.0,Completed,76879.0,418879.0,"21 hrs, 21 mins","4 days, 20 hrs, 21 mins",2026-03-27 13:55:45,2026-04-01 11:17:04,422479.0,"4 days, 21 hrs, 21 mins"
+Merges,CS1760431,Northern Lincolnshire And Goole NHS Foundation Trust,3 - Medium,31/03/2026 10:18:41,Closed,patient has multiple records that cant be merged,"please see the attached image  that shows all the records for the patient, we cant merge them all and it is causing issues. please merge all these into one record. the prime record is the one with the NHS number on all the others need to merge into that,",02/04/2026 10:10:25,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Bundle - ePMA Medium Organisation,02/04/2026 10:04:29,14,,"Hello Stan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1760431.
+ 
+This has been successfully merged.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1760431,31/03/2026 10:18:41,,02/04/2026 10:10:23,56748.0,171948.0,Completed,56748.0,171948.0,"15 hrs, 45 mins","1 days, 23 hrs, 45 mins",2026-03-31 10:18:41,2026-04-02 10:04:29,171948.0,"1 days, 23 hrs, 45 mins"
+Merges,CS1761841,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,01/04/2026 17:25:35,Closed,Patient Merges,"Good afternoon,
+
+Please could the following patient(s) be merged in EMIS please?
+
+1031528 - Master
+4487228
+
+4374658 - Master
+4487460
+
+1197463 - Master
+4361964
+
+4440349 - Master
+4487628
+
+Kind regards,
+
+David JOnes",15/04/2026 14:44:40,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,09/04/2026 10:15:33,12,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1761841.
+ 
+The patient records have been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1761841,01/04/2026 17:25:35,,15/04/2026 14:44:38,90933.0,665398.0,Completed,90933.0,665398.0,"1 days, 1 hrs, 15 mins","7 days, 16 hrs, 49 mins",2026-04-01 17:25:35,2026-04-09 10:15:33,665398.0,"7 days, 16 hrs, 49 mins"
+Merges,CS1763702,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,08/04/2026 11:49:18,Closed,Failed Patient Merge,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Failed merge.
+
+MRN 4168644 (Number to keep)
+MRN 4488103
+
+Kind Regards,
+
+Gloucestershire Hospitals
+NHS Foundation Trust
+
+Pharmacy Systems Team
+Digital, Technology, & Insights
+Chestnut House
+Great Western Road
+Gloucester
+GL1 3NN
+
+
+Alan Bird
+Pharmacy Systems Team Lead
+
+
+Email: alan.bird1@nhs.net
+Tel: 07977 711954
+
+
+Usual working days: Monday - Friday
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kE3UL_ZKIca3OEg_URHjsWuF8U2ZNRVFLYXBJ-BEyRnR0HxArk0yPJ3m5GlkxKPAqWAKmosRbkz8-nFZ0CAgQg$>",15/04/2026 14:44:15,alan.bird1@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,10/04/2026 18:00:59,8,,"Hello Alan ,
+
+I am pleased to update we have found/come to a resolution for your case CS1763702.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1763702,08/04/2026 11:49:18,,15/04/2026 14:44:15,76242.0,195101.0,Completed,76242.0,195101.0,"21 hrs, 10 mins","2 days, 6 hrs, 11 mins",2026-04-08 11:49:18,2026-04-10 18:00:59,195101.0,"2 days, 6 hrs, 11 mins"
+Merges,CS1763705,Northern Care Alliance NHS Foundation Trust,3 - Medium,08/04/2026 11:50:38,Closed,Pt Merge,"I have a patient with 3 Emis episodes which will not merge. Pt C.E Hosp No: 163602
+Episodes  1. OAK3093342    2. 163602.    3. 163602  Please can someone merge these with episode 3 as the master. Thanks",13/04/2026 10:21:26,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,10/04/2026 17:40:09,7,,"Hello Laura ,
+
+I am pleased to update we have found/come to a resolution for your case CS1763705.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1763705,08/04/2026 11:50:38,,13/04/2026 10:21:26,76162.0,193771.0,Completed,76162.0,193771.0,"21 hrs, 9 mins","2 days, 5 hrs, 49 mins",2026-04-08 11:50:38,2026-04-10 17:40:09,193771.0,"2 days, 5 hrs, 49 mins"
+Merges,CS1763713,Northern Care Alliance NHS Foundation Trust,3 - Medium,08/04/2026 11:55:11,Closed,Pt Merge,"Hi, I have a pt with 4 Emis episodes that will not merge.  Pt  E.H   Hosp No: 337628
+Episodes 1. OAK3600332    2. 337628.     3. 337628..     4.337628
+Please can someone merge these with episode 1 as the master and the hosp number changing to 337628  Thanks",10/04/2026 09:48:07,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,09/04/2026 17:26:00,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1763713.
+ 
+To resolve this, I have merged all episodes with 337628. All merged records should be under 337628's lifetime episode.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1763713,08/04/2026 11:55:11,,10/04/2026 09:48:07,47089.0,106249.0,Completed,47089.0,106249.0,"13 hrs, 4 mins","1 days, 5 hrs, 30 mins",2026-04-08 11:55:11,2026-04-09 17:26:00,106249.0,"1 days, 5 hrs, 30 mins"
+Merges,CS1767363,Northern Care Alliance NHS Foundation Trust,3 - Medium,14/04/2026 12:57:36,Closed,Pt Merge,"Hi, I have a patient with 2 Emis episodes that will not merge. Pt A.B Hosp No:458725   Episodes 1.458725…   2.458725  Please can these be merged with episode 2 as the master. Thanks",16/04/2026 13:43:00,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,16/04/2026 10:24:01,7,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1767363.
+ 
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1767363,14/04/2026 12:57:36,,16/04/2026 13:43:00,48385.0,163585.0,Completed,48385.0,163585.0,"13 hrs, 26 mins","1 days, 21 hrs, 26 mins",2026-04-14 12:57:36,2026-04-16 10:24:01,163585.0,"1 days, 21 hrs, 26 mins"
+Merges,CS1767370,Northern Care Alliance NHS Foundation Trust,3 - Medium,14/04/2026 13:00:31,Closed,Pt Merge,"Hi, I have a patient with 3 Emis episodes that will not merge.  Patient C.S Hosp No:434133    Episodes  1.OAK3457157  2.H434133  3. 434133  Please can these be merged with 3 as the master. Thanks",20/04/2026 10:21:03,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,17/04/2026 17:35:04,8,,"Hello Laura ,
+
+I am pleased to update we have found/come to a resolution for your case CS1768901.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1767370,14/04/2026 13:00:31,,20/04/2026 10:21:03,100769.0,275673.0,Completed,100769.0,275673.0,"1 days, 3 hrs, 59 mins","3 days, 4 hrs, 34 mins",2026-04-14 13:00:31,2026-04-17 17:35:04,275673.0,"3 days, 4 hrs, 34 mins"
+Merges,CS1768786,East Sussex Healthcare NHS Trust,4 - Low,16/04/2026 10:10:25,Closed,Unable to merge patient's records,"Error message (copy attached) when trying to merge patient records. XC18699 is the master, trying to merge X178987 into master. Master Episode 235245 and Merged episode 427466 (copy attached)",16/04/2026 16:59:25,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,16/04/2026 15:52:24,14,,"Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1768786.
+ 
+This has been merged 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1768786,16/04/2026 10:10:25,,16/04/2026 16:59:23,20519.0,20519.0,Completed,20519.0,20519.0,"5 hrs, 41 mins","5 hrs, 41 mins",2026-04-16 10:10:25,2026-04-16 15:52:24,20519.0,"5 hrs, 41 mins"
+Merges,CS1768901,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,16/04/2026 11:15:48,Closed,Patient merge,"Good morning team,
+
+Could the following patient(s) be merged in EMIS please?
+
+0628592 - MASTER
+4488141
+
+4489087 - MASTER
+4488972
+
+4482997 - MASTER
+4483056
+
+4135931 - MASTER
+4069119
+
+Many thanks,
+
+Dave",17/04/2026 17:22:30,david.jones25@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,17/04/2026 17:14:42,8,,"Hello Alan ,
+
+I am pleased to update we have found/come to a resolution for your case CS1768901.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1768901,16/04/2026 11:15:48,,17/04/2026 17:22:30,49452.0,107934.0,Completed,49452.0,107934.0,"13 hrs, 44 mins","1 days, 5 hrs, 58 mins",2026-04-16 11:15:48,2026-04-17 17:14:42,107934.0,"1 days, 5 hrs, 58 mins"
+Merges,CS1769947,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,17/04/2026 15:41:03,Closed,Patient merge,"Dear team, Please could you merge the following patient please?
+
+4445651 - MASTER
+4421773
+
+Many thanks,
+
+David Jones",21/04/2026 11:24:08,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,20/04/2026 17:53:34,14,,"Hello David,
+
+I am pleased to update we have found/come to a resolution for your case CS1769947.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1769947,17/04/2026 15:41:03,,21/04/2026 11:24:07,33537.0,267151.0,Completed,33537.0,267151.0,"9 hrs, 18 mins","3 days, 2 hrs, 12 mins",2026-04-17 15:41:03,2026-04-20 17:53:34,267151.0,"3 days, 2 hrs, 12 mins"
+Merges,CS1770269,Northern Care Alliance NHS Foundation Trust,3 - Medium,20/04/2026 10:17:33,Closed,Pt Merge,"Hi, I have a patient with 2 Emis episodes that will not merge. Pt T.W Hosp No: 412951
+Episodes 1. 412951..  2. 412951  Please can these be merged with episode 2 as the Master Thanks",22/04/2026 10:48:47,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,22/04/2026 09:58:19,7,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1770269.
+ 
+This has been merged.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1770269,20/04/2026 10:17:33,,22/04/2026 10:48:47,56446.0,171646.0,Completed,56446.0,171646.0,"15 hrs, 40 mins","1 days, 23 hrs, 40 mins",2026-04-20 10:17:33,2026-04-22 09:58:19,171646.0,"1 days, 23 hrs, 40 mins"
+Merges,CS1771033,University Hospitals of North Midlands NHS Trust,4 - Low,21/04/2026 09:36:29,Closed,Incorrect Patient Merge ,"Hi, we have an incorrect patient merge so when we enter the unit number G86772 into Ascribe, it pulls two patients. The two records need unpicking.",28/04/2026 09:20:30,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,28/04/2026 09:01:06,42,,"Hello Amie,
+
+I'm pleased to let you know that we've found a resolution for your case CS1771033.
+
+This has been updated correctly.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Swati",CS1771033,21/04/2026 09:36:29,,28/04/2026 09:20:28,60556.0,233356.0,Completed,60556.0,233356.0,"16 hrs, 49 mins","2 days, 16 hrs, 49 mins",2026-04-21 09:36:29,2026-04-28 09:01:06,602677.0,"6 days, 23 hrs, 24 mins"
+Merges,CS1771090,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,21/04/2026 10:03:59,Closed,Patient merges,"Good afternoon,
+
+Could the following 2 patients be merged in EMIS please?
+
+1030353 - MASTER
+3125918
+4404385 - MASTER
+4432056
+
+Kind regards,
+
+David Jones",04/05/2026 12:37:40,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,23/04/2026 17:17:03,13,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1771090.
+ 
+To resolve this, I have merged the episodes you mentioned. All the episodes available under each master records hospital numbers
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1771090,21/04/2026 10:03:59,,04/05/2026 12:37:39,82561.0,198784.0,Completed,82561.0,198784.0,"22 hrs, 56 mins","2 days, 7 hrs, 13 mins",2026-04-21 10:03:59,2026-04-23 17:17:03,198784.0,"2 days, 7 hrs, 13 mins"
+Merges,CS1775494,Northern Lincolnshire And Goole NHS Foundation Trust,2 - High,29/04/2026 13:50:33,Closed,"Patient disaperead after merge, Urgent....",I merged PT with name smith and d.o.b 24/09/1971that is the only details i have so i have to pass them to you first intial L. after i merge her 2 records she has disapeared. this is urgent as she is inthe ICU,29/04/2026 15:44:04,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Bundle - ePMA Medium Organisation,29/04/2026 15:30:37,20,,"Hello Stan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1775494.
+ 
+I have recovered the patient and the episodes. The patient should now available with the hospital number 'S255301' and the NHS number ends with 74117
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1775494,29/04/2026 13:50:33,,29/04/2026 15:44:02,4438.0,4438.0,Completed,4438.0,4438.0,"1 hrs, 13 mins","1 hrs, 13 mins",2026-04-29 13:50:33,2026-04-29 15:30:37,6004.0,"1 hrs, 40 mins"
+Merges,CS1775498,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,29/04/2026 13:52:09,Closed,Failed patient merge,"4490720             DOB:01/06/2019
+4162511             DOB:01/06/2019
+
+
+Master MRN is 4162511",04/05/2026 12:36:22,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,01/05/2026 17:22:12,12,,"Hello Alan,
+
+I am pleased to update we have found/come to a resolution for your case CS1775498.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1775498,29/04/2026 13:52:09,,04/05/2026 12:36:20,68871.0,185403.0,Completed,68871.0,185403.0,"19 hrs, 7 mins","2 days, 3 hrs, 30 mins",2026-04-29 13:52:09,2026-05-01 17:22:12,185403.0,"2 days, 3 hrs, 30 mins"
+Merges,CS1776563,Northern Care Alliance NHS Foundation Trust,3 - Medium,01/05/2026 09:57:29,Closed,Pt merge,"Hi,
+I have a patient with 2 emis episodes that will not merge.  There was 3 but 1 did merge.  Pt GW, Hosp No 356286. Episodes 1. C202318882  2.  356286.
+Please can these be merged with episode 2 as the master and the full stop removed. from the hosp number.  Thanks",05/05/2026 12:15:35,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,05/05/2026 12:05:30,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1776563.
+ 
+To resolve this, The patient has been merged as requested. Should now be available with the hospital number 356286.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1776563,01/05/2026 09:57:29,,05/05/2026 12:15:35,36481.0,353281.0,Completed,36481.0,353281.0,"10 hrs, 8 mins","4 days, 2 hrs, 8 mins",2026-05-01 09:57:29,2026-05-05 12:05:30,353281.0,"4 days, 2 hrs, 8 mins"
+Merges,CS1776586,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,01/05/2026 10:16:31,Closed,Failed patient merge,"0509282 - MASTER
+4438119
+4489426
+0489496 - MASTER",04/05/2026 12:36:10,alan.bird1@nhs.net,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,01/05/2026 17:33:39,7,,"Hello David ,
+
+I am pleased to update we have found/come to a resolution for your case CS1776586.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1776586,01/05/2026 10:16:31,,04/05/2026 12:36:10,24209.0,26228.0,Completed,24209.0,26228.0,"6 hrs, 43 mins","7 hrs, 17 mins",2026-05-01 10:16:31,2026-05-01 17:33:39,26228.0,"7 hrs, 17 mins"
+Merges,CS1777723,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,05/05/2026 14:50:37,Closed,Patient merge,"Good afternoon,
+
+following patient for merging please,
+
+4404295 - MASTER
+4488220
+
+Thanks,
+
+David Jones",11/05/2026 18:17:35,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,06/05/2026 10:27:01,11,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1777723.
+ 
+To resolve this, The episodes have been merged and all the episodes available under the hospital number 4404295.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1777723,05/05/2026 14:50:37,,11/05/2026 14:35:30,12984.0,70584.0,Completed,12984.0,70584.0,"3 hrs, 36 mins","19 hrs, 36 mins",2026-05-05 14:50:37,2026-05-06 10:27:01,70584.0,"19 hrs, 36 mins"
+Merges,CS1784406,Northern Care Alliance NHS Foundation Trust,3 - Medium,18/05/2026 14:14:28,Closed,Pt merge,"Hi, I have a patient with 2 Emis episodes that will not merge.  Initially there was 3 episodes but I got 1 to merge.  Pt A.K Hosp No: 893550 Episodes 1. C202422352  2.893550  Please can these be merged with episode 2 as the master.  Thanks",21/05/2026 11:03:36,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,21/05/2026 09:50:31,9,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1784406.
+
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1784406,18/05/2026 14:14:28,,21/05/2026 11:03:36,70563.0,243363.0,Completed,70563.0,243363.0,"19 hrs, 36 mins","2 days, 19 hrs, 36 mins",2026-05-18 14:14:28,2026-05-21 09:50:31,243363.0,"2 days, 19 hrs, 36 mins"
+Merges,CS1785072,North Cumbria Integrated Care NHS Foundation Trust,3 - Medium,19/05/2026 13:20:53,In Progress,Patient Merge Error,"Hi there has been a patient merge error on the pharmacy system - are you able to help with this please?  See details attached - I've tried to remove as much patient identifiable data as possible but it's difficult to explain the correct information for each record without providing some data.
+
+Kind regards.
+
+Suzanne",07/07/2026 09:30:01,admin,Acute Care Medicines Management Level 1 Team,Sean Prescott,Core Pharmacy,,33,,,,,,,,,,,,,,2026-05-19 13:20:53,,,
+Merges,CS1786713,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,22/05/2026 09:47:57,Closed,Patient merge,"Good morning team,
+
+One patient to be merged in EMIS please. Top MRN should be the master patient MRN:
+
+4127032
+4293273
+
+Many thanks,
+
+David Jones",05/06/2026 17:15:26,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,22/05/2026 17:14:49,9,,"Hello David ,
+
+I am pleased to update we have found/come to a resolution for your case CS1786713.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1786713,22/05/2026 09:47:57,,05/06/2026 17:15:26,25923.0,26812.0,Completed,25923.0,26812.0,"7 hrs, 12 mins","7 hrs, 26 mins",2026-05-22 09:47:57,2026-05-22 17:14:49,26812.0,"7 hrs, 26 mins"
+Merges,CS1786739,East Sussex Healthcare NHS Trust,3 - Medium,22/05/2026 10:02:28,Closed,Error when attempting patient merge,"Hi,
+
+I am seeing the attached error when attempting to merge patient records. Please can this be fixed urgently. 
+
+Master patient number is X006057
+Number to merge is X504789
+
+There are two patients listed under master patient number - the correct record is GML not GL.
+
+Kindest regards,
+
+Oliver Smith
+ePMA Pharmacy Technician",26/05/2026 09:03:22,oliver.smith18@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,22/05/2026 12:58:26,16,,"Hello Oliver,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1786739.
+ 
+The patient record has been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1786739,22/05/2026 10:02:28,,26/05/2026 09:03:22,7512.0,7512.0,Completed,7512.0,7512.0,"2 hrs, 5 mins","2 hrs, 5 mins",2026-05-22 10:02:28,2026-05-22 12:58:26,10558.0,"2 hrs, 55 mins"
+Merges,CS1787681,Northern Lincolnshire And Goole NHS Foundation Trust,2 - High,26/05/2026 14:39:01,Closed,lost patient after merge,"we have lost another patient after merging it, Pt A927388. please fix as the patient is now no longer visible in the system",26/05/2026 18:16:19,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Bundle - ePMA Medium Organisation,26/05/2026 16:49:40,40,,"Hello Stan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1787681.
+ 
+Thanks for confirming. I will proceed to close this call for now. Please log a case if you need any assistance from us.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1787681,26/05/2026 14:39:01,,26/05/2026 16:49:46,7694.0,7694.0,Completed,7694.0,7694.0,"2 hrs, 8 mins","2 hrs, 8 mins",2026-05-26 14:39:01,2026-05-26 16:49:40,7839.0,"2 hrs, 10 mins"
+Merges,CS1788427,BUPA Cromwell Hospital,4 - Low,27/05/2026 17:00:30,Closed,Merge patient,Can you please merge the following patients? Thank you,28/05/2026 08:54:10,bronwen.griffiths@cromwellhospital.com,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,28/05/2026 08:54:10,10,,Closed by customer.,CS1788427,27/05/2026 17:00:30,,28/05/2026 08:54:10,2052.0,2052.0,Completed,2052.0,2052.0,34 mins,34 mins,2026-05-27 17:00:30,2026-05-28 08:54:10,57220.0,"15 hrs, 53 mins"
+Merges,CS1788919,North West Anglia NHS Foundation Trust,3 - Medium,28/05/2026 09:45:01,Closed,Patients disappearing when attempting to merge,"Hi there, we have recently upgraded to 10.23. Since the upgrade, there have been 2 instances where we have attempted to merge a patient but the merge patient button hasn’t worked when clicked. When we have gone back to try it again, we have found the patient records have disappeared. The patient has to then be added as a new patient and their medication history is lost. Do you know what could be causing this please?",29/06/2026 09:24:30,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Pharmacy Support,21/06/2026 13:25:52,26,,"Hello Daniel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1788919.
+ 
+    We're seeing the same behaviour at other Trusts using version 10.23. When you click the Merge button and confirm, it may appear unresponsive—as though nothing has happened—but the process is actually running in the background.
+It's possible that repeated clicks on the command caused the process to fail, which may have resulted in the records not being merged correctly/ crashed.
+Please ensure that you click the Merge button only once and then wait for a response (either success or error). The current version does not display progress indicators (such as a loading bar), but this is expected to be improved in a future release.
+If you encounter any errors, please log a case with us, and we can assist with manually merging the records.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1788919,28/05/2026 09:45:01,,29/06/2026 09:24:27,215333.0,951285.0,Completed,215333.0,951285.0,"2 days, 11 hrs, 48 mins","11 days, 14 mins",2026-05-28 09:45:01,2026-06-21 13:25:52,2086851.0,"24 days, 3 hrs, 40 mins"
+Merges,CS1789647,Lancashire Teaching Hospitals NHS Foundation Trust,3 - Medium,28/05/2026 14:55:34,Closed,Record merge error.,"Hi Optum,
+
+I'm trying to merge a record but the process halts and states an ""error has occurred"" with no further information.
+
+I want to keep 3751709 as master.
+I'd like to merge 2516562.
+
+Please can this be reviewed.
+
+Thanks.",01/06/2026 10:46:20,Bhavesh.Rathod@lthtr.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,29/05/2026 12:19:54,9,,"Hello Bhavesh,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1789647.
+ 
+The 2 patient record has been merged.
+The merge error issue after 10.23 has been reported to PA's, they are currently working on the issue. 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1789647,28/05/2026 14:55:34,,01/06/2026 10:46:20,19460.0,77060.0,Completed,19460.0,77060.0,"5 hrs, 24 mins","21 hrs, 24 mins",2026-05-28 14:55:34,2026-05-29 12:19:54,77060.0,"21 hrs, 24 mins"
+Merges,CS1789916,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,29/05/2026 09:35:06,Closed,Patient merge in EMIS please,"Please merge the following patient(s):
+
+4359746 
+4494147 (Number kept)
+
+4342329 
+4394934 (Number kept)
+
+Kind regards,
+
+Dave",12/06/2026 15:07:27,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,29/05/2026 15:06:05,14,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1789916.
+ 
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1789916,29/05/2026 09:35:06,,12/06/2026 15:07:26,19859.0,19859.0,Completed,19859.0,19859.0,"5 hrs, 30 mins","5 hrs, 30 mins",2026-05-29 09:35:06,2026-05-29 15:06:05,19859.0,"5 hrs, 30 mins"
+Merges,CS1792460,Northern Lincolnshire And Goole NHS Foundation Trust,3 - Medium,03/06/2026 11:57:40,Closed,Missing episode form PT that has been merged repeatedly by NLaG and Optum,"PT A791316 has been merged multiple times in the system and now we can't see the current episode, when we search for the PT by NHS number, but they are visible on the ward the  with current episode number of 2026L1815935, but that episode number is not visible on the the patients record. we can see that record if we use the  select in patient desktop and look at the PT on ward B2 and on the drug chart. when we search from it in the episode editor it shows PT number A791316 but when we search for it in the patient merge desktop, it shows A892478. also on the A791316 record the NHS number is blank, if we try and add the NHS number to that record it says that it is already in use and the PT number is also a duplicate. please can you look at this and tidy the PT up so that all the records are visible on the editor and other desktops.",04/06/2026 16:10:52,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Bundle - ePMA Medium Organisation,04/06/2026 16:08:44,24,,"Hello Stan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1792460.
+ 
+Thanks for confirming. I will proceed to close this call for now. Please log a case with us if you need any assistance from us.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1792460,03/06/2026 11:57:40,,04/06/2026 16:10:27,43659.0,101259.0,Completed,43659.0,101259.0,"12 hrs, 7 mins","1 days, 4 hrs, 7 mins",2026-06-03 11:57:40,2026-06-04 16:08:44,101464.0,"1 days, 4 hrs, 11 mins"
+Merges,CS1792821,Lewisham and Greenwich NHS Trust,4 - Low,03/06/2026 17:13:46,Closed,Lost Patient Records ,"It was discovered that a patient had multiple records on Ascribe. 
+
+Staff used the patient merge function however we are now unable to locate the patient on Ascribe at all.
+
+patient not showing under their name or DOB or Old hospital number or new (current) hospital number 
+
+We are still able to run a log file view using their old hospital number (QM583722) to see the drugs dispensed but cannot access the patient's PMR using any search field. 
+
+Date: 03/06/2026
+Time: approx 4:30pm 
+Old Hospital Number: QM583722
+New / Current MRN: 902068223
+
+Number to use going forward: 902068223",07/06/2026 10:42:58,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Hospital Pharmacy,04/06/2026 16:34:39,11,,"Hello Alastair,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1792821.
+ 
+To resolve this I have recovered the patient and it should now be available with the hospital number 902068223.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",,,,,,,,,,,,2026-06-03 17:13:46,2026-06-04 16:34:39,84053.0,"23 hrs, 20 mins"
+Merges,CS1793435,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,04/06/2026 14:51:56,Closed,More patient merges,"Good afternoon team, 
+
+Some more patient merges to be completed please, top MRN's are the ones to be kept please:
+
+4430533 - MASTER
+4449056
+
+4274419 - MASTER
+3087519
+
+Many thanks,
+
+Dave",19/06/2026 09:33:27,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,05/06/2026 09:33:20,9,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1793435.
+ 
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1793435,04/06/2026 14:51:56,,19/06/2026 09:33:27,9684.0,67284.0,Completed,9684.0,67284.0,"2 hrs, 41 mins","18 hrs, 41 mins",2026-06-04 14:51:56,2026-06-05 09:33:20,67284.0,"18 hrs, 41 mins"
+Merges,CS1794767,East Sussex Healthcare NHS Trust,2 - High,08/06/2026 13:45:48,Closed,Patient merged now not showing on the system.,"A member of staff merged a patient, and now that patient's record is no longer showing when searching for either of the X numbers or their NHS number.
+
+The X number of the patient we want to keep is: X182614
+The old X number is XC31875
+The NHS number is 4504834219
+Patient's initials are C.J
+
+Please can this patients record be reinstated onto the system.",11/06/2026 10:34:31,adam.styles@nhs.net,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,ePMA,08/06/2026 15:30:00,8,,"Hello Adam,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1794767.
+ 
+This has been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1794767,08/06/2026 13:45:48,,11/06/2026 10:34:31,6252.0,6252.0,Completed,6252.0,6252.0,"1 hrs, 44 mins","1 hrs, 44 mins",2026-06-08 13:45:48,2026-06-08 15:30:00,6252.0,"1 hrs, 44 mins"
+Merges,CS1795307,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,09/06/2026 11:29:35,Closed,Patient merge,"Please merge this patient's MRN numbers
+4478041 - MASTER
+4496325
+
+Many thanks
+
+Dave",23/06/2026 15:21:27,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,09/06/2026 15:20:25,9,,"Hello David ,
+
+I am pleased to update we have found/come to a resolution for your case CS1795307.
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1795307,09/06/2026 11:29:35,,23/06/2026 15:21:27,13850.0,13850.0,Completed,13850.0,13850.0,"3 hrs, 50 mins","3 hrs, 50 mins",2026-06-09 11:29:35,2026-06-09 15:20:25,13850.0,"3 hrs, 50 mins"
+Merges,CS1797254,Northern Care Alliance NHS Foundation Trust,3 - Medium,12/06/2026 10:49:52,Closed,Patient merge issue,"Hi, I have a patient with 2 emis episodes that will not merge (initially there was 3 but I got 1 to merge).  Pt I.H Hosp No:170542  Episodes 1. OAK2979823  2. 170542  Please can these be merged with episode 2 as the master. Thanks",16/06/2026 10:49:56,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,12/06/2026 15:27:38,7,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1797254.
+ 
+This has been resolved.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1797254,12/06/2026 10:49:52,,16/06/2026 10:49:56,16666.0,16666.0,Completed,16666.0,16666.0,"4 hrs, 37 mins","4 hrs, 37 mins",2026-06-12 10:49:52,2026-06-12 15:27:38,16666.0,"4 hrs, 37 mins"
+Merges,CS1798286,Blackpool Teaching Hospitals NHS Foundation Trust,4 - Low,15/06/2026 14:33:55,Closed,Incorrect Patients Merged,"If you search for patient 992452  on Ascribe, it come up with two patient. I'm not sure how this has happened or when it occured but can you please rectify. 992452 should be patient JS. Currently it's stopping dispensing to that patient because it is saying the hospital number is already in use/",01/07/2026 17:59:29,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Hospital Pharmacy,17/06/2026 17:58:47,11,,"Hello Dan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1798286.
+ 
+992452 removed from the wrong patient and this should be populated correctly.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",,,,,,,,,,,,2026-06-15 14:33:55,2026-06-17 17:58:47,185092.0,"2 days, 3 hrs, 24 mins"
+Merges,CS1798287,East Sussex Healthcare NHS Trust,3 - Medium,15/06/2026 14:35:11,Closed,Error when merging records,"Patient XP02061 has two sets of records and lifetime episodes. They share an X number but cannot be merged. An error message appears (stack trace, see image). This means I cannot close off the open episode left in the Emergency Department from last month.",29/06/2026 08:28:20,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,17/06/2026 17:52:04,17,,"Hello Michaela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1798287.
+ 
+To resolve this, The patients have been merged and it should now be fine.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1798287,15/06/2026 14:35:11,,29/06/2026 08:28:18,66289.0,184613.0,Completed,66289.0,184613.0,"18 hrs, 24 mins","2 days, 3 hrs, 16 mins",2026-06-15 14:35:11,2026-06-17 17:52:04,184613.0,"2 days, 3 hrs, 16 mins"
+Merges,CS1798295,East Sussex Healthcare NHS Trust,3 - Medium,15/06/2026 14:38:23,Closed,Another error when merging records,"Patient XC44845 - two lifetime episodes. Attempted to merge, using NHS number this time (4504864126) but got a Stack Trace error",01/07/2026 17:25:28,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,17/06/2026 17:24:53,16,,"Hello Michaela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1798295.
+ 
+To resolve this, I have merged successfully in the backend table. It should now be fine.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1798295,15/06/2026 14:38:23,,01/07/2026 17:25:27,66097.0,182790.0,Completed,66097.0,182790.0,"18 hrs, 21 mins","2 days, 2 hrs, 46 mins",2026-06-15 14:38:23,2026-06-17 17:24:53,182790.0,"2 days, 2 hrs, 46 mins"
+Merges,CS1799664,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,17/06/2026 13:26:26,Closed,Patient Merge,"Failed patient merge. Please merge manually. 4424685 is the master to be kept.
+
+4424685 Master
+4426819",24/06/2026 18:16:27,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,18/06/2026 15:34:33,11,,"Hello Alan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1799664.
+ 
+This has been merged 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1799664,17/06/2026 13:26:26,,24/06/2026 16:24:41,36487.0,94087.0,Completed,36487.0,94087.0,"10 hrs, 8 mins","1 days, 2 hrs, 8 mins",2026-06-17 13:26:26,2026-06-18 15:34:33,94087.0,"1 days, 2 hrs, 8 mins"
+Merges,CS1799728,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,17/06/2026 14:32:04,Closed,Patient merges,"Good morning,
+
+Please merge the following MRN's (mater patient will be marked below)
+
+4432761 - MASTER
+4349575
+
+1102958 - MASTER
+4497110
+
+Many thanks,
+
+David Jones",24/06/2026 16:24:34,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,21/06/2026 12:27:40,12,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1799728.
+ 
+To resolve this, I have merged the patients records as requested. Episodes should now be available with the hospital number 4432761  and 1102958.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1799728,17/06/2026 14:32:04,,24/06/2026 16:24:32,66476.0,338136.0,Completed,66476.0,338136.0,"18 hrs, 27 mins","3 days, 21 hrs, 55 mins",2026-06-17 14:32:04,2026-06-21 12:27:40,338136.0,"3 days, 21 hrs, 55 mins"
+Merges,CS1800550,Northern Care Alliance NHS Foundation Trust,3 - Medium,18/06/2026 16:24:25,Closed,Pt Merge,"Hi, I have a patient with 2 episodes which will not merge.  Pt: C.C  Hosp No: 878573.  Episodes 1,C202510495   2. 0878573  Please can these be merged with episode 1 as the master and the hosp number changed to 878573. Thanks",23/06/2026 13:02:24,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,20/06/2026 11:44:20,10,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800550.
+ 
+To resolve this, I have merged the episodes and the records should now be available using the number 878573.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1800550,18/06/2026 16:24:25,,23/06/2026 13:02:22,30935.0,155995.0,Completed,30935.0,155995.0,"8 hrs, 35 mins","1 days, 19 hrs, 19 mins",2026-06-18 16:24:25,2026-06-20 11:44:20,155995.0,"1 days, 19 hrs, 19 mins"
+Merges,CS1800786,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,19/06/2026 10:39:39,Closed,Patient Merges,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Records for merging
+
+0054676 (master)
+4497624
+
+1526307 (master)
+4497616
+
+4241068 (master)
+4390792
+
+0658256 (master)
+4258607
+
+Kind Regards,
+
+Gloucestershire Hospitals
+NHS Foundation Trust
+
+Pharmacy Systems Team
+Digital, Technology, & Insights
+Chestnut House
+Great Western Road
+Gloucester
+GL1 3NN
+
+
+Alan Bird
+Pharmacy Systems Team Lead
+
+
+Email: alan.bird1@nhs.net
+Tel: 07977 711954
+
+
+Usual working days: Monday - Friday
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://support.nhs.net/article-categories/joining-nhsmail/>",24/06/2026 18:16:38,system,Acute Care Medicines Management Level 1 Team,Gunjan Idnani,Core Pharmacy,24/06/2026 14:05:03,17,,"Hello Alan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800786.
+ 
+These have been merged.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gunjan",CS1800786,19/06/2026 10:39:39,,24/06/2026 16:24:23,98724.0,444324.0,Completed,98724.0,444324.0,"1 days, 3 hrs, 25 mins","5 days, 3 hrs, 25 mins",2026-06-19 10:39:39,2026-06-24 14:05:03,444324.0,"5 days, 3 hrs, 25 mins"
+Merges,CS1800864,Northern Care Alliance NHS Foundation Trust,3 - Medium,19/06/2026 11:46:32,Closed,Pt Merge,"Hi, I have a patient with 2 Emis episodes that will not merge. Pt: W.W   Hosp No:468205
+Episodes: 1. OAK1520353  2.H468205
+Please can these be merged with episode 1 as the master and the hosp number changing to 468205.  Thanks",23/06/2026 13:02:36,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,20/06/2026 11:03:32,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800864.
+ 
+To resolve this, [The episodes have been merged and the records should now be available using the hospital number 468205.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1800864,19/06/2026 11:46:32,,23/06/2026 13:02:36,18808.0,83820.0,Completed,18808.0,83820.0,"5 hrs, 13 mins","23 hrs, 17 mins",2026-06-19 11:46:32,2026-06-20 11:03:32,83820.0,"23 hrs, 17 mins"
+Merges,CS1800867,Northern Care Alliance NHS Foundation Trust,3 - Medium,19/06/2026 11:48:22,Closed,Pt Merge,"Hi, I have a patient with 2 Emis episodes that will not merge.  Pt: B.M Hosp No: 928366   
+Episodes: 1.OAK3726559  2. 928366
+Please can these be merged with episode 1 as the master and the hosp number changing to 928366. Thanks",23/06/2026 12:57:33,laura.clark3@srft.nhs.uk,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,20/06/2026 11:55:38,8,,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800867.
+ 
+To resolve this, I have merged the episodes. All records available under the hospital number 928366
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1800867,19/06/2026 11:48:22,,23/06/2026 12:57:33,18698.0,86836.0,Completed,18698.0,86836.0,"5 hrs, 11 mins","1 days, 7 mins",2026-06-19 11:48:22,2026-06-20 11:55:38,86836.0,"1 days, 7 mins"
+Merges,CS1800869,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,19/06/2026 11:48:47,Closed,Patient Merges,"Records for merging
+
+0054676 (master)
+4497624
+
+1526307 (master)
+4497616
+
+4241068 (master)
+4390792
+
+0658256 (master)
+4258607",19/06/2026 12:16:28,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,19/06/2026 11:54:39,7,,Closed by customer.,CS1800869,19/06/2026 11:48:47,,19/06/2026 11:54:39,352.0,352.0,Completed,352.0,352.0,5 mins,5 mins,2026-06-19 11:48:47,2026-06-19 11:54:39,352.0,5 mins
+Merges,CS1801949,East Sussex Healthcare NHS Trust,3 - Medium,23/06/2026 09:30:23,Closed,Merged Patient,"There is a patient in the system who somewhere along the way has had 2 X numbers merged. But it appears that the X numbers have been merged the wrong way round.
+
+The patient can be found on the system by searching X343413 but this is in fact the retired X number. The X number in use should actually be X023187.  Patients initials are AR.
+
+Please could these be swapped around so that X023187 is the Master and X343413 is retired.",11/07/2026 11:59:26,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,27/06/2026 11:59:13,11,,"Hello Adam,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1801949.
+ 
+To resolve this, I have swapped the X number. The main records will show with the number X023187, and the other will show with the number X343413.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1801949,23/06/2026 09:30:23,,11/07/2026 11:59:26,113377.0,354530.0,Completed,113377.0,354530.0,"1 days, 7 hrs, 29 mins","4 days, 2 hrs, 28 mins",2026-06-23 09:30:23,2026-06-27 11:59:13,354530.0,"4 days, 2 hrs, 28 mins"
+Merges,CS1802306,East Sussex Healthcare NHS Trust,4 - Low,23/06/2026 13:23:43,Closed,Patient records merged with wrong record as master,"Our local PAS team have merged records, using the incorrect one as the master and then unmerged and re-merged them correctly (twice ie. 2 separate patients).
+ Please can you correct the merges in EMIS (as we are unable to un-merge records)
+1. AS X722093 should be the master - incorrectly merged with X723589 as the master
+2. MF X713394 should be the master - incorrectly merged with  X713421 as the master (deceased)",30/06/2026 14:59:50,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,30/06/2026 14:09:04,16,,"Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1802306.
+ 
+When I investigated, it appears that the records have been merged correctly, and both seem consistent. However, I was not certain about the episodes—you would need to review them individually and confirm between PAS and ePMA.
+I will proceed to close this from my end. Please log a case with us if you need any further assistance.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1802306,23/06/2026 13:23:43,,30/06/2026 14:59:49,112084.0,357137.0,Completed,112084.0,357137.0,"1 days, 7 hrs, 8 mins","4 days, 3 hrs, 12 mins",2026-06-23 13:23:43,2026-06-30 14:09:04,607521.0,"7 days, 45 mins"
+Merges,CS1806059,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,30/06/2026 09:45:38,Closed,Patient merges,"Good morning team,
+
+I have 2 patients that have not successfuly merged in EMIS. Could you assist in merging them for me please?
+
+4498710 - MASTER
+4498712
+
+4498966
+4497618 - MASTER
+
+Kind regards,
+
+Dave",06/07/2026 09:53:20,alan.bird1@nhs.net,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,05/07/2026 13:01:28,8,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1806059.
+ 
+To resolve this, The patients have been merged from the backend as requested.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1806059,30/06/2026 09:45:38,,06/07/2026 09:53:20,112462.0,443750.0,Completed,112462.0,443750.0,"1 days, 7 hrs, 14 mins","5 days, 3 hrs, 15 mins",2026-06-30 09:45:38,2026-07-05 13:01:28,443750.0,"5 days, 3 hrs, 15 mins"
+Merges,CS1807573,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,02/07/2026 08:59:47,Closed,Patient merge,"Please merge the following MRN's for this patient:
+
+MRN 4499294 - MASTER
+MRN 4499289
+
+Kind regards,
+
+Dave",15/07/2026 16:50:18,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,05/07/2026 12:15:27,11,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1807573.
+ 
+To resolve this, The patients have been merged from the backend table as requested.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1807573,02/07/2026 08:59:47,,15/07/2026 16:50:16,57600.0,270940.0,Completed,57600.0,270940.0,16 hrs,"3 days, 3 hrs, 15 mins",2026-07-02 08:59:47,2026-07-05 12:15:27,270940.0,"3 days, 3 hrs, 15 mins"
+Merges,CS1809443,Northern Care Alliance NHS Foundation Trust,3 - Medium,06/07/2026 12:35:10,In Progress,Pt Merge,"Hi I have a patient with 2 emis episodes that will not merge.  Pt: A.A   Episodes  1. 499924.   2. 499924 
+Please can these be merged with episode 2 as the master. Thanks",27/07/2026 16:40:02,Muhammed.Rahman@emishealth.com,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,,15,,,,,,,,,,,,,,2026-07-06 12:35:10,,,
+Merges,CS1809753,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,06/07/2026 17:27:08,Closed,Patient Merge,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Failed patient merge.
+
+MRN to keep: 4499525
+MRN to be merged: 4490148
+
+
+Kind Regards,
+
+Gloucestershire Hospitals
+NHS Foundation Trust
+
+Pharmacy Systems Team
+Digital, Technology, & Insights
+Chestnut House
+Great Western Road
+Gloucester
+GL1 3NN
+
+
+Alan Bird
+Pharmacy Systems Team Lead
+
+
+Email: alan.bird1@nhs.net
+Tel: 07977 711954
+
+
+Usual working days: Monday - Friday
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://support.nhs.net/article-categories/joining-nhsmail/>",15/07/2026 12:16:42,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,07/07/2026 14:00:45,14,,"Hello Alan ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1809753
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1809753,06/07/2026 17:27:08,,15/07/2026 11:40:41,18045.0,74017.0,Completed,18045.0,74017.0,5 hrs,"20 hrs, 33 mins",2026-07-06 17:27:08,2026-07-07 14:00:45,74017.0,"20 hrs, 33 mins"
+Merges,CS1809876,Gloucestershire Hospitals NHS Foundation Trust,3 - Medium,07/07/2026 09:39:08,Closed,Failed patient merge,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+MRN to keep: 4453715
+MRN to merge: 4453718
+
+
+Kind Regards,
+
+Gloucestershire Hospitals
+NHS Foundation Trust
+
+Pharmacy Systems Team
+Digital, Technology, & Insights
+Chestnut House
+Great Western Road
+Gloucester
+GL1 3NN
+
+
+Alan Bird
+Pharmacy Systems Team Lead
+
+
+Email: alan.bird1@nhs.net
+Tel: 07977 711954
+
+
+Usual working days: Monday - Friday
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://support.nhs.net/article-categories/joining-nhsmail/>",15/07/2026 12:16:46,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,07/07/2026 13:54:42,14,,"Hello Alan ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1809876
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1809876,07/07/2026 09:39:08,,15/07/2026 11:40:42,15334.0,15334.0,Completed,15334.0,15334.0,"4 hrs, 15 mins","4 hrs, 15 mins",2026-07-07 09:39:08,2026-07-07 13:54:42,15334.0,"4 hrs, 15 mins"
+Merges,CS1810489,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,07/07/2026 16:57:23,Closed,Patient merge,"Good afternoon, please merge the patient below:
+
+MRN 4430303 – Number kept
+MRN 4499827
+
+Many thanks,
+
+David Jones",15/07/2026 16:50:06,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,08/07/2026 13:55:30,13,,"Hello David ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1810489
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1810489,07/07/2026 16:57:23,,15/07/2026 16:50:04,17888.0,75488.0,Completed,17888.0,75488.0,"4 hrs, 58 mins","20 hrs, 58 mins",2026-07-07 16:57:23,2026-07-08 13:55:30,75487.0,"20 hrs, 58 mins"
+Merges,CS1812166,Northern Lincolnshire And Goole NHS Foundation Trust,3 - Medium,10/07/2026 10:40:30,Closed,Unable to find patient,"merge patient gone wrong, patient disappeared.
+
+1 patient - Hotela, Hotela - Episode DITU - Open. 
+
+patient 2 - 420 893 7599 - Keilly Steel dob - 22/07/1975
+
+Keilly steele has been merged into hotela hotela and needs to be undone
+
+
+",24/07/2026 14:51:26,system,Acute Care Medicines Management Level 1 Team,Azeem Parvez,Core Pharmacy,10/07/2026 14:50:20,10,,"Good Afternoon Lisa,
+
+I have made the changed and the episodes can now be seen. I spoke to Stan who checked the patient and confirmed that all episodes are there.
+
+Thanks,
+
+Azeem",CS1812166,10/07/2026 10:40:30,,24/07/2026 14:51:26,14990.0,14990.0,Completed,14990.0,14990.0,"4 hrs, 9 mins","4 hrs, 9 mins",2026-07-10 10:40:30,2026-07-10 14:50:20,14990.0,"4 hrs, 9 mins"
+Merges,CS1813910,University Hospitals of North Midlands NHS Trust,4 - Low,14/07/2026 16:38:30,Resolved,Unmerge of two NHS numbers,"Good afternoon,
+
+We have a patient where an incorrect NHS number has been merged with the primary patient (unit number K41162). Please can the two NHS numbers be unmerged (NHS number ending in 8638 is incorrect for this patient) as NHS number ending in 2635 is the correct number to remain.
+
+Kind regards,
+
+Louise",23/07/2026 11:37:34,Swati.Dongare@emishealth.com,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,17/07/2026 17:09:41,14,,"Hello Louise ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1813910
+
+To resolved have Unmerge of NHS numbers in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1813910,14/07/2026 16:38:30,17/07/2026 17:09:41,,87524.0,260905.0,Paused,87524.0,260905.0,"1 days, 18 mins","3 days, 28 mins",2026-07-14 16:38:30,2026-07-17 17:09:41,261071.0,"3 days, 31 mins"
+Merges,CS1815973,University Hospitals of North Midlands NHS Trust,4 - Low,17/07/2026 15:08:49,Closed,Unmerge of two NHS numbers,"Good afternoon,
+
+We have a patient where an incorrect NHS number has been merged with the primary patient (unit number 03439446). Please can the two NHS numbers be unmerged (NHS number ending in 7734 is incorrect for this patient) as NHS number ending in 6789 is the correct number to remain.
+
+Kind regards,
+
+Louise",20/07/2026 09:25:58,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,17/07/2026 18:12:25,17,,"Hello Louise ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1815973
+
+To resolved have Unmerge of NHS numbers in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1815973,17/07/2026 15:08:49,,20/07/2026 09:25:56,1712.0,5991.0,Completed,1712.0,5991.0,28 mins,"1 hrs, 39 mins",2026-07-17 15:08:49,2026-07-17 18:12:25,11016.0,"3 hrs, 3 mins"
+Merges,CS1815983,University Hospitals of North Midlands NHS Trust,4 - Low,17/07/2026 15:16:17,Closed,Unmerge of two NHS numbers,"Good afternoon,
+
+We have a patient where an incorrect NHS number has been merged with the primary patient (unit number P30623). Please can the two NHS numbers be unmerged (NHS number ending in 8457 is incorrect for this patient) as NHS number ending in 6989 is the correct number to remain.
+
+Kind regards,
+
+Louise",20/07/2026 08:52:18,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,17/07/2026 17:22:26,15,,"Hello Louise ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1815983
+
+To resolved have Unmerge of NHS numbers in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1815983,17/07/2026 15:16:17,,20/07/2026 08:52:16,6021.0,7367.0,Completed,6021.0,7367.0,"1 hrs, 40 mins","2 hrs, 2 mins",2026-07-17 15:16:17,2026-07-17 17:22:26,7569.0,"2 hrs, 6 mins"
+Merges,CS1816445,Nottingham University Hospitals NHS Trust,3 - Medium,20/07/2026 11:39:32,Closed,Patient merge ,"Hi, i have tried couple times to merge a patient and also got my colleague to try. Every time we try and merge a patient it comes up with an error message. Can this be looked into please? Let me know if you need the Hospital unique patient identifier (Case Number).  Can't issue any drugs to this patient while 2 open PMR's.",27/07/2026 11:45:37,system,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,25/07/2026 13:58:07,42,,"Hello Tom ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1816445
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati",CS1816445,20/07/2026 11:39:32,,27/07/2026 11:45:36,121581.0,372897.0,Completed,121581.0,372897.0,"1 days, 9 hrs, 46 mins","4 days, 7 hrs, 34 mins",2026-07-20 11:39:32,2026-07-25 13:58:07,440315.0,"5 days, 2 hrs, 18 mins"
+Merges,CS1817178,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,21/07/2026 12:06:47,Resolved,Patient merge,"Good afternoon team, please merge the following patient MRN's (MASTER is one we want to keep):
+
+4334517 - MASTER
+4296513
+
+4116620 - MASTER
+4184775
+
+0068539 - MASTER
+4362147
+
+Many thanks,
+
+David Jones",25/07/2026 13:44:13,Muhammed.Rahman@emishealth.com,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,25/07/2026 13:44:13,7,,"Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1817178.
+ 
+To resolve this, I have merged the episodes of patients list above. All the records available under the master's hospital number.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Muhammed Rashik",CS1817178,21/07/2026 12:06:47,25/07/2026 13:44:13,,103993.0,351446.0,Paused,103993.0,351446.0,"1 days, 4 hrs, 53 mins","4 days, 1 hrs, 37 mins",2026-07-21 12:06:47,2026-07-25 13:44:13,351446.0,"4 days, 1 hrs, 37 mins"
+Merges,CS1819231,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,24/07/2026 11:18:40,Resolved,Patient merge,"Good morning,
+
+Please merge this patient in EMIS:
+
+0647773 - MASTER MRN
+4499702
+
+Kind regards,
+
+David Jones",25/07/2026 16:56:49,Swati.Dongare@emishealth.com,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,25/07/2026 16:56:49,9,,"Hello David ,
+
+I am pleased to update we have found/come to a resolution for your Case - CS1819231
+
+To resolved have merged the patients in the backend table. It should be fine now.
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+swati
+",CS1819231,24/07/2026 11:18:40,25/07/2026 16:56:49,,20480.0,106689.0,Paused,20480.0,106689.0,"5 hrs, 41 mins","1 days, 5 hrs, 38 mins",2026-07-24 11:18:40,2026-07-25 16:56:49,106689.0,"1 days, 5 hrs, 38 mins"
+Merges,CS1819785,The Royal Wolverhampton NHS Trust,3 - Medium,27/07/2026 10:14:08,In Progress,issue with changing ward,"Morning,
+
+Could you please look at patient L76488.
+Over the weekend, Pharmacy staff tried to amend the location and consultant on the patient and the system stated there was already a patient with the same hosp number
+
+One of the team tried to do a patient merge but it looked like one had already been done, and there was no other record for the patient.
+
+Could this be investigated please.
+
+Kind regards,
+Beci",30/07/2026 09:20:39,r.brady2@nhs.net,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,ePMA,,15,,,,,,,,,,,,,,2026-07-27 10:14:08,,,
+Merges,CS1820906,Northern Care Alliance NHS Foundation Trust,4 - Low,28/07/2026 13:33:04,In Progress,Please can the following patient episodes be merged ,"To Keep - 715576  To be merged: 2119512.  site 156 - 26666 (When merging myself in the past both records have disappeared is there any guidance to follow when conducting this action myself something I may have missed last time. 
+
+
+Is there any guidance on why patients duplicated - for the particular patient the NHS number has been captured where the PAS number should be which I believe as a result made it so this patient doesn't exist? 
+
+Can I check - where a need to create a new patient is required those outside of PAS updates - capturing the NHS number in the correct box and leaving PAS info as randomly generate or temp - if lets say this patient was to be admitted under our care and as a result on to PAS - would the EMIS system update the existing patient as the NHS numbers match and replace the temp PAS number with the new one. 
+
+would the patient profile be created absent a NHS number but with the correct PAS number causing there to be 2 instances of the same patient. 
+
+Any information would be much appreciated.",29/07/2026 00:18:17,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,,6,,,,,,,,,,,,,,2026-07-28 13:33:04,,,
+Merges,CS1821060,Northern Care Alliance NHS Foundation Trust,3 - Medium,28/07/2026 15:57:40,On hold,Pt merge,"Hi, I have a patient with 3 Emis episodes that will not merge.  Pt: R.Z  Hosp No: 91595. Please can these be merged with episode 3 as the master. Thanks 
+Episodes  1. OAK3399343   2. 91595.  3. 91595",29/07/2026 09:37:45,Swati.Dongare@emishealth.com,Acute Care Medicines Management Level 1 Team,Swati Dongare,Core Pharmacy,,14,,,,,,,,,,,,,,2026-07-28 15:57:40,,,
+Merges,CS1821118,Gloucestershire Hospitals NHS Foundation Trust,4 - Low,28/07/2026 17:00:38,In Progress,Patient merge,"Good afternoon,
+
+Could you please merge the following patient in EMIS please? Top MRN is the MRN to be kept:
+
+0931249
+4372118
+
+Many thanks,
+
+David Jones",29/07/2026 00:16:19,system,Acute Care Medicines Management Level 1 Team,Muhammed Rashik Rahman,Core Pharmacy,,6,,,,,,,,,,,,,,2026-07-28 17:00:38,,,

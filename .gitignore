@@ -26,18 +26,6 @@ Thumbs.db
 *.bak
 archive/Backups/
 
-# Large generated outputs (reports, charts, spreadsheets)
-**/data/raw/report_outputs/
-**/data/raw/*/report_outputs/
-*.xlsx
-*.png
-*.jpg
-*.jpeg
-
-# Robot/merge/lock CSV exports (if generated)
-**/data/raw/*_with_sla.csv
-**/data/raw/*_monthly_counts.csv
-
 # Temporary and caches
 *.tmp
 *.swp

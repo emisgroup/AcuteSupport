@@ -7,15 +7,16 @@ import pandas as pd
 # Base directories (dynamic)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
+charts_dir = os.path.join(BASE_DIR, 'outputs', 'charts')
+tables_dir = os.path.join(BASE_DIR, 'outputs', 'tables')
+reports_dir = os.path.join(BASE_DIR, 'outputs', 'reports')
+os.makedirs(reports_dir, exist_ok=True)
 
-out_dir = os.path.join(RAW_DIR, 'report_outputs')
-output_docx = os.path.join(out_dir, 'Cases_Management_Report_Completed.docx')
-
+output_docx = os.path.join(reports_dir, 'Cases_Management_Report_Completed.docx')
 template = os.path.join(BASE_DIR, 'templates', 'Cases_Management_Report_Template.docx')
-output_docx = os.path.join(out_dir, 'Cases_Management_Report_Completed.docx')
 
 # Load KPI values
-kpi_csv = os.path.join(out_dir,'kpi_overview.csv')
+kpi_csv = os.path.join(tables_dir, 'kpi_overview.csv')
 kpi = {}
 if os.path.exists(kpi_csv):
     kdf = pd.read_csv(kpi_csv)
@@ -129,7 +130,7 @@ for para in paras:
     if m:
         key = m.group(1).strip()
         img_file = charts.get(key, key + '.png')
-        img_path = os.path.join(out_dir, img_file)
+        img_path = os.path.join(charts_dir, img_file)
         if os.path.exists(img_path):
             # remove placeholder text
             for run in para.runs:
@@ -139,7 +140,7 @@ for para in paras:
     if m2:
         key = m2.group(1).strip()
         csv_file = tables.get(key, key + '.csv')
-        csv_path = os.path.join(out_dir, csv_file)
+        csv_path = os.path.join(tables_dir, csv_file)
         if os.path.exists(csv_path):
             for run in para.runs:
                 run.text = run.text.replace(m2.group(0), '')
@@ -155,7 +156,7 @@ for para in list(doc.paragraphs):
     for token in m:
         key = token.strip()
         if key.lower() in charts:
-            img_path = os.path.join(out_dir, charts[key.lower()])
+            img_path = os.path.join(charts_dir, charts[key.lower()])
             if os.path.exists(img_path):
                 # replace token text and insert image
                 for run in para.runs:
@@ -163,6 +164,6 @@ for para in list(doc.paragraphs):
                 insert_image_after_paragraph(doc, para, img_path)
 
 # Final: save completed doc
-os.makedirs(out_dir, exist_ok=True)
+os.makedirs(reports_dir, exist_ok=True)
 doc.save(output_docx)
 print('Saved completed report to', output_docx)

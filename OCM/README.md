@@ -1,17 +1,25 @@
-OCM — Management Report Pipeline
+# OCM — Management Report Pipeline
 
-Purpose
-Scripts and templates to generate management reports from OCM ServiceNow exports.
+## Purpose
+Pipeline and templates to produce executive DOCX management reports from OCM ServiceNow case and SLA exports.
 
-Layout
-- data/raw/               - place source CSVs (OCM_Cases_Last_12-Months.csv, OCM_SLA_Last_12-Months.csv)
-- data/raw/report_outputs - generated charts, CSVs and DOCX
-- scripts/                - processing and reporting scripts
-- templates/              - DOCX templates and Trends.txt
+## Directory Structure
+- `data/raw/` — Source export CSVs (`OCM_Cases_Last_12-Months.csv`, `OCM_SLA_Last_12-Months.csv`)
+- `data/processed/` — Merged and formatted dataset (`Merged_Cases_With_SLA_Formatted.csv`)
+- `data/archive/` — Historical run backups
+- `templates/` — `Cases_Management_Report_Template.docx` and `Trends.txt`
+- `scripts/` — Trend classification and report generation scripts
+- `outputs/` — Deliverables folder
+  - `outputs/charts/` — Visualisation charts
+  - `outputs/tables/` — Trend classification and SLA performance CSVs
+  - `outputs/reports/` — Final DOCX management reports
 
-Quick start
-1) Install Python 3.8+ and required packages
-2) Put exports into data\raw\
-3) Run scripts\run_full_report.py or product-specific scripts from repo root
+## Quick Run
+Run the full report build script from the `OCM/` directory:
+```bash
+python3 scripts/build_full_ocm_docx_report.py
+```
 
-See root README and AGENTS.md for detailed rules and QA checklist.
+## Guidance & Rules
+- See [`AGENTS.md`](file:///home/lee/Documents/1%20Projects/AcuteSupport/OCM/AGENTS.md) for taxonomy specifications, placeholder mappings, and QA checklists.
+- Source exports in `data/raw/` are preserved without manual edits.

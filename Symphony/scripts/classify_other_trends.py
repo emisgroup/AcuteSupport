@@ -6,17 +6,20 @@ from collections import Counter
 # Base directories (dynamic)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
-merged = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
-out_dir = os.path.join(RAW_DIR, 'report_outputs')
-os.makedirs(out_dir, exist_ok=True)
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+merged = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(merged):
+    merged = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+
+out_tables = os.path.join(BASE_DIR, 'outputs', 'tables')
+os.makedirs(out_tables, exist_ok=True)
 
 trends_path = os.path.join(BASE_DIR, 'templates', 'Trends.txt')
-
-df = pd.read_csv(merged, encoding='utf-8')
+if os.path.exists(merged):
+    df = pd.read_csv(merged, encoding='utf-8')
 
 # Build initial trend classification from templates (if available)
 trends_list = []
-trends_path = r'C:\Users\lee.booth\Documents\02_ServiceNow\Management_Reports\Symphony\templates\Trends.txt'
 if os.path.exists(trends_path):
     with open(trends_path,'r',encoding='utf-8') as tf:
         for line in tf:
@@ -124,7 +127,7 @@ for w,c in common_bigrams[:15]:
     print(f"{w}: {c}")
 
 # Write preview CSV with auto suggestions
-preview_path = os.path.join(out_dir,'reclassification_preview.csv')
+preview_path = os.path.join(out_tables,'reclassification_preview.csv')
 cols = list(df2.columns) + ['trend_auto'] if 'trend_auto' in df2.columns else list(df2.columns)
 df2.to_csv(preview_path, index=False)
 

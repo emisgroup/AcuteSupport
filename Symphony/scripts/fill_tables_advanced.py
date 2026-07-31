@@ -7,16 +7,26 @@ from shutil import copyfile
 # Base directories (dynamic)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
-out_dir = os.path.join(RAW_DIR, 'report_outputs')
-filled_doc = os.path.join(out_dir, 'Cases_Management_Report_Completed_filled.docx')
-backup_doc = os.path.join(out_dir, 'Cases_Management_Report_Completed_filled_backup.docx')
-merged_csv = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
-trend_dist_csv = os.path.join(out_dir, 'trend_distribution.csv')
-product_csv = os.path.join(out_dir, 'product_distribution.csv')
-monthly_csv = os.path.join(out_dir, 'monthly_case_trend.csv')
-priority_csv = os.path.join(out_dir, 'priority_profile.csv')
-trend_movement_csv = os.path.join(out_dir, 'trend_movement.csv')
-account_csv = os.path.join(out_dir, 'account_distribution.csv')
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+tables_dir = os.path.join(BASE_DIR, 'outputs', 'tables')
+reports_dir = os.path.join(BASE_DIR, 'outputs', 'reports')
+
+filled_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_filled.docx')
+if not os.path.exists(filled_doc):
+    filled_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed.docx')
+
+backup_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_filled_backup.docx')
+
+merged_csv = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(merged_csv):
+    merged_csv = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+
+trend_dist_csv = os.path.join(tables_dir, 'trend_distribution.csv')
+product_csv = os.path.join(tables_dir, 'product_distribution.csv')
+monthly_csv = os.path.join(tables_dir, 'monthly_case_trend.csv')
+priority_csv = os.path.join(tables_dir, 'priority_profile.csv')
+trend_movement_csv = os.path.join(tables_dir, 'trend_movement.csv')
+account_csv = os.path.join(tables_dir, 'account_distribution.csv')
 
 # load data
 if os.path.exists(merged_csv):
@@ -176,7 +186,7 @@ if len(doc.tables) > 9:
             nr.cells[j].paragraphs[0].add_run(vals[j])
 
 # Save updated doc
-out_path = os.path.join(out_dir, 'Cases_Management_Report_Completed_tables_filled.docx')
+out_path = os.path.join(reports_dir, 'Cases_Management_Report_Completed_tables_filled.docx')
 doc.save(out_path)
 print('Saved filled tables DOCX to', out_path)
 print('Backup saved to', backup_doc)

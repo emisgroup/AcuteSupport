@@ -12,13 +12,23 @@ import statistics
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
-TEMPLATE_DOCX = os.path.join(BASE_DIR, 'templates', 'Cases_Management_Report_Template.docx')
-MERGED_CSV = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
-OUTPUT_DIR = os.path.join(RAW_DIR, 'report_outputs')
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+CHARTS_DIR = os.path.join(BASE_DIR, 'outputs', 'charts')
+TABLES_DIR = os.path.join(BASE_DIR, 'outputs', 'tables')
+REPORTS_DIR = os.path.join(BASE_DIR, 'outputs', 'reports')
 
-FINAL_DOCX_PATH = os.path.join(OUTPUT_DIR, 'Cases_Management_Report_Completed_tables_filled_final.docx')
-PRIMARY_DOCX_PATH = os.path.join(OUTPUT_DIR, 'Meds_Cases_Management_Report.docx')
+os.makedirs(CHARTS_DIR, exist_ok=True)
+os.makedirs(TABLES_DIR, exist_ok=True)
+os.makedirs(REPORTS_DIR, exist_ok=True)
+
+TEMPLATE_DOCX = os.path.join(BASE_DIR, 'templates', 'Cases_Management_Report_Template.docx')
+MERGED_CSV = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(MERGED_CSV):
+    MERGED_CSV = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+
+OUTPUT_DIR = TABLES_DIR
+FINAL_DOCX_PATH = os.path.join(REPORTS_DIR, 'Cases_Management_Report_Completed_tables_filled_final.docx')
+PRIMARY_DOCX_PATH = os.path.join(REPORTS_DIR, 'Meds_Cases_Management_Report.docx')
 
 def fmt_duration(seconds):
     if seconds is None or seconds < 0:

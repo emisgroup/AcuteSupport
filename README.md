@@ -1,23 +1,41 @@
-Management Reports Repository
+# AcuteSupport — Management Reports Repository
 
-Purpose
-Store ServiceNow exports, analysis scripts and generated management reports for multiple products.
+## Purpose
+Store ServiceNow exports, analysis pipelines, and generated executive management reports across AcuteSupport product lines (`Symphony`, `Meds`, `OCM`).
 
-Repository layout (per product)
-- data/raw/        - original CSV exports (do not edit)
-- data/processed/  - cleaned/merged CSVs used by scripts
-- data/raw/report_outputs/ - generated charts, CSVs, DOCX
-- scripts/         - analysis and pipeline scripts (run from repo root)
-- templates/       - DOCX templates and Trends.txt
+## Standard Repository Layout (per product)
+- `data/raw/` — Immutable source CSV exports (do not modify manually)
+- `data/processed/` — Cleaned, merged, and classified CSVs (`Merged_Cases_With_SLA_Formatted.csv`)
+- `data/archive/` — Historical run backups and timestamped CSVs
+- `templates/` — DOCX report templates and `Trends.txt` keyword taxonomies
+- `scripts/` — Active data engineering, trend classification, and DOCX generation scripts
+- `outputs/` — Clean execution deliverables
+  - `outputs/charts/` — Generated PNG visualisations
+  - `outputs/tables/` — Metric CSV tables and classification summaries
+  - `outputs/reports/` — Final management DOCX reports
 
-Quick start
-1) Install Python 3.8+ and packages: pandas, matplotlib, python-docx, Pillow
-   python -m pip install pandas matplotlib python-docx Pillow
-2) Place source CSVs into data\raw\<product>\ using canonical filenames.
-3) From repository root run product-specific scripts in scripts\ or run_full_report.py where available.
+## Quick Start
+1. Install Python 3.8+ and dependencies:
+   ```bash
+   python3 -m pip install pandas matplotlib python-docx Pillow
+   ```
+2. Place source CSV exports in `<product>/data/raw/` using canonical filenames (e.g., `Symphony_Casea_Last_12-Months.csv`, `Symphony_SLA_Last_12-Months.csv`).
+3. Run the product-specific report pipeline:
+   ```bash
+   # Symphony
+   cd Symphony && python3 scripts/run_full_report.py
 
-Notes
-- Keep original exports in data/raw/ for audit. Use data/processed/ for intermediates.
-- Generated outputs are written to data/raw/report_outputs/; these are excluded in .gitignore.
+   # Meds
+   cd Meds && python3 scripts/build_full_meds_docx_report.py
 
-Contact: Lee Booth (lee.booth@emishealth.com)
+   # OCM
+   cd OCM && python3 scripts/build_full_ocm_docx_report.py
+   ```
+
+## Key Governance & Rules
+- Source exports in `data/raw/` are preserved for auditability.
+- Automated script backups are stored under `data/archive/`.
+- Generated deliverables in `outputs/` are excluded from version control via `.gitignore`.
+- Refer to each project's `AGENTS.md` for specific taxonomy rules and QA checklists.
+
+**Contact**: Lee Booth (lee.booth@emishealth.com)

@@ -10,10 +10,17 @@ from datetime import datetime
 # Base directories (dynamic)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
-merged = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+
+merged = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(merged):
+    merged = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+
 trends_path = os.path.join(BASE_DIR, 'templates', 'Trends.txt')
-out_dir = os.path.join(RAW_DIR, 'report_outputs')
-os.makedirs(out_dir, exist_ok=True)
+out_tables = os.path.join(BASE_DIR, 'outputs', 'tables')
+out_charts = os.path.join(BASE_DIR, 'outputs', 'charts')
+os.makedirs(out_tables, exist_ok=True)
+os.makedirs(out_charts, exist_ok=True)
 
 # Read data
 df = pd.read_csv(merged, encoding='utf-8')
@@ -171,15 +178,15 @@ kpi = {
     'avg_sla_duration': format_duration(avg_sla_duration) if not np.isnan(avg_sla_duration) else ''
 }
 
-pd.DataFrame([kpi]).to_csv(os.path.join(out_dir,'kpi_overview.csv'), index=False)
+pd.DataFrame([kpi]).to_csv(os.path.join(out_tables,'kpi_overview.csv'), index=False)
 
 # Save monthly, priority, product, trend tables
-monthly.to_csv(os.path.join(out_dir,'monthly_case_trend.csv'), index=False)
-priority_counts.to_csv(os.path.join(out_dir,'priority_profile.csv'), header=['count']) if not priority_counts.empty else pd.DataFrame().to_csv(os.path.join(out_dir,'priority_profile.csv'))
-product_dist.to_csv(os.path.join(out_dir,'product_distribution.csv'), index=False)
-trend_dist.to_csv(os.path.join(out_dir,'trend_distribution.csv'), index=False)
+monthly.to_csv(os.path.join(out_tables,'monthly_case_trend.csv'), index=False)
+priority_counts.to_csv(os.path.join(out_tables,'priority_profile.csv'), header=['count']) if not priority_counts.empty else pd.DataFrame().to_csv(os.path.join(out_tables,'priority_profile.csv'))
+product_dist.to_csv(os.path.join(out_tables,'product_distribution.csv'), index=False)
+trend_dist.to_csv(os.path.join(out_tables,'trend_distribution.csv'), index=False)
 if not pivot_trend_movement.empty:
-    pivot_trend_movement.to_csv(os.path.join(out_dir,'trend_movement.csv'))
+    pivot_trend_movement.to_csv(os.path.join(out_tables,'trend_movement.csv'))
 
 # Generate charts
 # Monthly case trend
@@ -188,7 +195,7 @@ plt.plot(monthly['created_month'], monthly['cases'], marker='o')
 plt.xticks(rotation=45)
 plt.title('Monthly Case Trend')
 plt.tight_layout()
-plt.savefig(os.path.join(out_dir,'monthly_case_trend.png'))
+plt.savefig(os.path.join(out_charts,'monthly_case_trend.png'))
 plt.close()
 
 # Priority profile
@@ -199,7 +206,7 @@ if not priority_counts.empty:
     plt.xlabel('Priority')
     plt.ylabel('Count')
     plt.tight_layout()
-    plt.savefig(os.path.join(out_dir,'priority_profile.png'))
+    plt.savefig(os.path.join(out_charts,'priority_profile.png'))
     plt.close()
 
 # Product distribution (top 10)
@@ -210,7 +217,7 @@ if not product_dist.empty:
     plt.xticks(rotation=45, ha='right')
     plt.title('Product Distribution (Top 10)')
     plt.tight_layout()
-    plt.savefig(os.path.join(out_dir,'product_distribution.png'))
+    plt.savefig(os.path.join(out_charts,'product_distribution.png'))
     plt.close()
 
 # Trend distribution
@@ -221,7 +228,7 @@ if not trend_dist.empty:
     plt.xticks(rotation=45, ha='right')
     plt.title('Trend Distribution')
     plt.tight_layout()
-    plt.savefig(os.path.join(out_dir,'trend_distribution.png'))
+    plt.savefig(os.path.join(out_charts,'trend_distribution.png'))
     plt.close()
 
 # Trend movement (stacked area)
@@ -231,7 +238,7 @@ if not pivot_trend_movement.empty:
     plt.xticks(rotation=45)
     plt.title('Trend Movement by Month')
     plt.tight_layout()
-    plt.savefig(os.path.join(out_dir,'trend_movement.png'))
+    plt.savefig(os.path.join(out_charts,'trend_movement.png'))
     plt.close()
 
 # Median vs P90 TTR
@@ -242,7 +249,7 @@ vals_minutes = [v/3600 if v else 0 for v in vals]
 plt.bar(metrics, vals_minutes)
 plt.title('Median vs P90 TTR (hours)')
 plt.tight_layout()
-plt.savefig(os.path.join(out_dir,'median_vs_p90.png'))
+plt.savefig(os.path.join(out_charts,'median_vs_p90.png'))
 plt.close()
 
 # SLA performance - average business vs average duration
@@ -252,9 +259,8 @@ sla_vals_hours = [v/3600 if v else 0 for v in sla_vals]
 plt.bar(['Avg SLA Business Time','Avg SLA Duration'], sla_vals_hours)
 plt.title('Average SLA (hours)')
 plt.tight_layout()
-plt.savefig(os.path.join(out_dir,'sla_performance.png'))
+plt.savefig(os.path.join(out_charts,'sla_performance.png'))
 plt.close()
 
-print('Outputs written to', out_dir)
-print('KPI overview saved to', os.path.join(out_dir,'kpi_overview.csv'))
-print('Charts: monthly_case_trend.png, priority_profile.png, product_distribution.png, trend_distribution.png, trend_movement.png, median_vs_p90.png, sla_performance.png')
+print('Tables written to', out_tables)
+print('Charts written to', out_charts)

@@ -5,9 +5,13 @@ import statistics
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 CASES_CSV = os.path.join(BASE_DIR, 'data', 'raw', 'OCM_Cases_Last_12-Months.csv')
 SLA_CSV = os.path.join(BASE_DIR, 'data', 'raw', 'OCM_SLA_Last_12-Months.csv')
-MERGED_CSV = os.path.join(BASE_DIR, 'data', 'raw', 'Merged_Cases_With_SLA_Formatted.csv')
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+os.makedirs(PROCESSED_DIR, exist_ok=True)
+MERGED_CSV = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(MERGED_CSV):
+    MERGED_CSV = os.path.join(BASE_DIR, 'data', 'raw', 'Merged_Cases_With_SLA_Formatted.csv')
 TRENDS_TXT = os.path.join(BASE_DIR, 'templates', 'Trends.txt')
-OUTPUT_DIR = os.path.join(BASE_DIR, 'data', 'raw', 'report_outputs')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'outputs', 'tables')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 TAXONOMY = [

@@ -21,14 +21,23 @@ from datetime import datetime
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+ARCHIVE_DIR = os.path.join(BASE_DIR, 'data', 'archive')
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SCRIPTS_DIR = os.path.join(BASE_DIR, 'scripts')
+OUT_TABLES = os.path.join(BASE_DIR, 'outputs', 'tables')
+OUT_CHARTS = os.path.join(BASE_DIR, 'outputs', 'charts')
+OUT_REPORTS = os.path.join(BASE_DIR, 'outputs', 'reports')
+
+os.makedirs(PROCESSED_DIR, exist_ok=True)
+os.makedirs(ARCHIVE_DIR, exist_ok=True)
+os.makedirs(OUT_TABLES, exist_ok=True)
+os.makedirs(OUT_CHARTS, exist_ok=True)
+os.makedirs(OUT_REPORTS, exist_ok=True)
 
 CASE_CSV = os.path.join(RAW_DIR, 'Symphony_Casea_Last_12-Months.csv')
 SLA_CSV = os.path.join(RAW_DIR, 'Symphony_SLA_Last_12-Months.csv')
-MERGED = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
-OUT_DIR = os.path.join(RAW_DIR, 'report_outputs')
-os.makedirs(OUT_DIR, exist_ok=True)
+MERGED = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
 
 PY = sys.executable
 
@@ -136,7 +145,8 @@ def merge_and_format():
     # backup existing
     if os.path.exists(MERGED):
         ts = datetime.now().strftime('%Y%m%d%H%M%S')
-        bak = MERGED.replace('.csv', f'_backup_{ts}.csv')
+        bak_name = f"Merged_Cases_With_SLA_Formatted_backup_{ts}.csv"
+        bak = os.path.join(ARCHIVE_DIR, bak_name)
         print('Backing up existing merged to', bak)
         os.rename(MERGED, bak)
     merged_df.to_csv(MERGED, index=False)
@@ -163,7 +173,6 @@ def main():
         'classify_other_trends.py',
         'apply_new_trends_and_regenerate.py',
         'export_charts_to_docx.py',
-        'fill_remaining_docx_placeholders.py',
         'fill_tables_advanced.py',
         'fill_metrics_and_finalize_report.py'
     ]
@@ -172,7 +181,7 @@ def main():
         if not ok:
             print('Pipeline halted at', s)
             sys.exit(1)
-    print('\nPipeline completed. Final report at:', os.path.join(OUT_DIR, 'Cases_Management_Report_Completed_tables_filled_final.docx'))
+    print('\nPipeline completed. Final report at:', os.path.join(OUT_REPORTS, 'Cases_Management_Report_Completed_tables_filled_final.docx'))
 
 if __name__ == '__main__':
     main()

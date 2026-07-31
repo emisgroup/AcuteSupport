@@ -18,13 +18,13 @@ Primary inputs (expected paths relative to repository root):
 - templates\Trends.txt
 
 Primary generated artefacts (locations relative to repository root):
-- data\raw\Merged_Cases_With_SLA_Formatted.csv
-- data\raw\report_outputs\kpi_overview.csv
-- data\raw\report_outputs\*.png (charts)
-- data\raw\report_outputs\*.csv (tables)
-- data\raw\report_outputs\Cases_Management_Report_Completed_tables_filled_final.docx
+- data/processed/Merged_Cases_With_SLA_Formatted.csv
+- outputs/tables/kpi_overview.csv
+- outputs/charts/*.png (charts)
+- outputs/tables/*.csv (tables)
+- outputs/reports/Cases_Management_Report_Completed_tables_filled_final.docx
 
-Note: A copy of earlier outputs may remain at raw\report_outputs if a previous run could not be moved; the canonical location for all generated outputs is data\raw\report_outputs.
+Note: Historical backups are archived under data/archive/. Canonical outputs are stored under outputs/.
 
 ---
 

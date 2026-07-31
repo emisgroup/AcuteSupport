@@ -6,12 +6,20 @@ from collections import Counter
 # Base directories (dynamic)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
-merged = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
-out_dir = os.path.join(RAW_DIR, 'report_outputs')
-backup = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted_backup_before_new_trends.csv')
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+ARCHIVE_DIR = os.path.join(BASE_DIR, 'data', 'archive')
 
+merged = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(merged):
+    merged = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+
+out_tables = os.path.join(BASE_DIR, 'outputs', 'tables')
+out_charts = os.path.join(BASE_DIR, 'outputs', 'charts')
+os.makedirs(out_tables, exist_ok=True)
+os.makedirs(out_charts, exist_ok=True)
+
+backup = os.path.join(ARCHIVE_DIR, 'Merged_Cases_With_SLA_Formatted_backup_before_new_trends.csv')
 trends_path = os.path.join(BASE_DIR, 'templates', 'Trends.txt')
-# merged, out_dir and backup already defined above using BASE_DIR/RAW_DIR
 
 print('Reading', merged)
 df = pd.read_csv(merged, encoding='utf-8')
@@ -116,15 +124,15 @@ print('Overwriting merged file with new trend column')
 df.to_csv(merged, index=False)
 
 # Write summary and preview
-os.makedirs(out_dir, exist_ok=True)
-sum_path = os.path.join(out_dir,'reclassification_summary.txt')
+os.makedirs(out_tables, exist_ok=True)
+sum_path = os.path.join(out_tables,'reclassification_summary.txt')
 with open(sum_path,'w',encoding='utf-8') as sf:
     sf.write(f'Other before: {before_other}\n')
     sf.write(f'Other after expanded mapping: {after_expanded}\n')
     sf.write(f'Reclassified with new trends: {reclassified_count}\n')
     sf.write(f'Other remaining: {after_new}\n')
 
-preview_path = os.path.join(out_dir,'reclassification_preview_after.csv')
+preview_path = os.path.join(out_tables,'reclassification_preview_after.csv')
 df.to_csv(preview_path, index=False)
 print('Wrote preview to', preview_path)
 print('Wrote summary to', sum_path)

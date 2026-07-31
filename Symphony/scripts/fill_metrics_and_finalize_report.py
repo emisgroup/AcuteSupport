@@ -9,11 +9,20 @@ import numpy as np
 # Base directories (dynamic)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
-out_dir = os.path.join(RAW_DIR, 'report_outputs')
-merged_csv = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
-input_doc = os.path.join(out_dir, 'Cases_Management_Report_Completed_tables_filled.docx')
-backup_doc = os.path.join(out_dir, 'Cases_Management_Report_Completed_tables_filled_backup2.docx')
-final_doc = os.path.join(out_dir, 'Cases_Management_Report_Completed_tables_filled_final.docx')
+PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+tables_dir = os.path.join(BASE_DIR, 'outputs', 'tables')
+reports_dir = os.path.join(BASE_DIR, 'outputs', 'reports')
+
+merged_csv = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(merged_csv):
+    merged_csv = os.path.join(RAW_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
+
+input_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_tables_filled.docx')
+if not os.path.exists(input_doc):
+    input_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed.docx')
+
+backup_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_tables_filled_backup2.docx')
+final_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_tables_filled_final.docx')
 
 # parse current time (use now as fallback)
 current_time = pd.to_datetime('2026-07-29T23:37:34.349+01:00', utc=True).tz_convert(None)
@@ -105,7 +114,7 @@ notes['90th percentile resolution duration'] = 'P90 time-to-resolution for resol
 
 # Exec summary improved
 # Find top trend
-trend_csv = os.path.join(out_dir,'trend_distribution.csv')
+trend_csv = os.path.join(tables_dir, 'trend_distribution.csv')
 trend_top = ''
 if os.path.exists(trend_csv):
     td = pd.read_csv(trend_csv)

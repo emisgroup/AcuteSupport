@@ -1,21 +1,25 @@
-Meds — Management Report Pipeline
+# Meds — Management Report Pipeline
 
-Purpose
-Tools and scripts to produce an executive DOCX management report from Meds ServiceNow exports.
+## Purpose
+Tools and scripts to produce executive DOCX management reports from Meds ServiceNow case and SLA exports.
 
-Layout
-- data/raw/               - place source CSVs here (Meds_Cases_Last_12-Months.csv, Meds_SLA_Last_12-Months.csv)
-- data/raw/report_outputs - generated charts, tables, CSVs and final DOCX
-- scripts/                - classification, merge and report generation scripts
-- templates/              - DOCX template and Trends.txt
+## Directory Structure
+- `data/raw/` — Source export CSVs (`Meds_Cases_Last_12-Months.csv`, `Meds_SLA_Last_12-Months.csv`, robot/lock/merge exports)
+- `data/processed/` — Merged and formatted dataset (`Merged_Cases_With_SLA_Formatted.csv`)
+- `data/archive/` — Historical run backups
+- `templates/` — `Cases_Management_Report_Template.docx`, `Trends.txt`, `Trends_prelim.txt`
+- `scripts/` — Analysis, trend classification, and DOCX generation scripts
+- `outputs/` — Execution deliverables
+  - `outputs/charts/` — Visualisation charts (`monthly_case_trend.png`, `priority_profile.png`, etc.)
+  - `outputs/tables/` — Trend classification CSVs (`Servicenow_Case_Trend_Classification.csv`, etc.)
+  - `outputs/reports/` — Final DOCX report deliverables
 
-Typical workflow
-1) Copy export CSVs to data/raw/
-2) Run scripts\classify_meds_cases.py to produce trend classification CSV
-3) Run scripts\generate_report_charts.py and other pipeline scripts to produce charts and final DOCX
+## Quick Run
+Run the full report build script from the `Meds/` directory:
+```bash
+python3 scripts/build_full_meds_docx_report.py
+```
 
-Outputs
-- data/raw/report_outputs/trend_classification.csv
-- data/raw/report_outputs/*.png, *.csv, Cases_Management_Report_Completed_tables_filled_final.docx
-
-See AGENTS.md for detailed rules, mappings and QA checklist.
+## Guidance & Rules
+- See [`AGENTS.md`](file:///home/lee/Documents/1%20Projects/AcuteSupport/Meds/AGENTS.md) for detailed classification taxonomy, field mapping, and QA rules.
+- Original source exports remain untouched in `data/raw/` for audit purposes.

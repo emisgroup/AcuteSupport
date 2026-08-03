@@ -1,0 +1,4 @@
+Other before: 178
+Other after expanded mapping: 11
+Reclassified with new trends: 2
+Other remaining: 9

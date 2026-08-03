@@ -1,0 +1,21 @@
+Rank,Case Number,Short Description,Account / NHS Trust,Assigned To,Actual Duration,Actual Duration (Seconds),Business Duration,Business Duration (Seconds),Trend Category,Sub-Category,Linked PRB
+1,CS1623689,Radiology Status Update failure for patient 0393932,Salisbury NHS Foundation Trust,Arfan Mohammad,269d 17h 9m,23303364.0,61d 17h 9m,5332164.0,Integration & Interfaces,Third-Party Systems,N/A
+2,CS1618665,Reports showing under incorrect responsible clinician,Salisbury NHS Foundation Trust,Arfan Mohammad,265d 21h 25m,22973101.0,61d 5h 25m,5289901.0,Reporting & Analytics,Reporting,N/A
+3,CS1680955,Requesting error when Sex: U,The Shrewsbury And Telford Hospital NHS Trust,Arfan Mohammad,249d 5h 37m,21533869.0,57d 14h 20m,4976442.0,Access & Security,Authentication,N/A
+4,CS1676153,Repeat requests not reaching Winpath,Salisbury NHS Foundation Trust,Peter Moran,237d 18h 30m,20543429.0,54d 2h 30m,4674629.0,Integration & Interfaces,Integration Failure,PRB0053452
+5,CS1629766,Elf Test results failing to file at GP Practices,Leeds Teaching Hospitals NHS Trust,Astha Agnihotri,186d 19h 43m,16141430.0,44d 2h 25m,3810303.0,Integration & Interfaces,Integration Failure,N/A
+6,CS1644527,Not validated result,Leeds Teaching Hospitals NHS Trust,Astha Agnihotri,177d 8h 43m,15324191.0,41d 14h 41m,3595298.0,Performance & Availability,Performance,N/A
+7,CS1676576,Pathology 'Copy to me' Review reports,Salisbury NHS Foundation Trust,Arfan Mohammad,170d 5h 42m,14708573.0,38d 13h 42m,3332573.0,Integration & Interfaces,Third-Party Systems,N/A
+8,CS1705356,Field Change - Consultant (Requester) to change to Consultant or Requester,Salisbury NHS Foundation Trust,Arfan Mohammad,166d 23h 24m,14426669.0,37d 8h 25m,3227116.0,Performance & Availability,Performance,N/A
+9,CS1650912,Submission failure notices not being received,Spire Healthcare,Peter Moran,148d 23h 10m,12870616.0,34d 14h 10m,2988616.0,Service Requests,New Request,N/A
+10,CS1651360,Application running very slow,Salisbury NHS Foundation Trust,Peter Moran,147d 4h 13m,12716015.0,34d 3h 13m,2949215.0,Performance & Availability,Performance,N/A
+11,CS1672083,Keystone tracker Failed General Pathology reports: File Level Errors,Tameside and Glossop Integrated Care NHS Foundation Trust,Astha Agnihotri,141d 10h 36m,12220583.0,33d 21m,2852504.0,Integration & Interfaces,Integration Failure,N/A
+12,CS1744957,False positive WAF Block on tQuest Request from EMIS,Guy's and St Thomas' NHS Foundation Trust,Peter Moran,135d 23h 47m,11749668.0,31d 8h 47m,2710068.0,Access & Security,Audit & Compliance,N/A
+13,CS1711561,"Histopathology report rejected with status ""not validated""",The Shrewsbury And Telford Hospital NHS Trust,Peter Moran,129d 22h 45m,11227526.0,30d 7h 45m,2619926.0,Access & Security,Audit & Compliance,PRB0053627
+14,CS1682905,result sent but failed to be recieved by Practice,Leeds Teaching Hospitals NHS Trust,Astha Agnihotri,127d 4h 3m,10987425.0,29d 12h 3m,2549025.0,Integration & Interfaces,Third-Party Systems,N/A
+15,CS1686350,Order was created but this has not come accross to tQuest,Northern Care Alliance NHS Foundation Trust,Arfan Mohammad,125d 23h 47m,10885631.0,28d 23h 47m,2504831.0,Integration & Interfaces,Integration Failure,N/A
+16,CS1705343,Info tab - report required,Salisbury NHS Foundation Trust,Arfan Mohammad,124d 20h 55m,10788923.0,27d 21h 55m,2411723.0,Integration & Interfaces,Integration Failure,N/A
+17,CS1715676,Keystone stuck on housekeeping,The Doctors Laboratory Ltd,Peter Moran,118d 13h 31m,10243865.0,26d 22h 31m,2327465.0,Unclassified,Needs Review,N/A
+18,CS1724764,DTC not displaying in EMIS,Oxford University Hospitals NHS Trust,Arfan Mohammad,117d 12h 59m,10155555.0,27d 7h 55m,2361315.0,Integration & Interfaces,Integration Failure,N/A
+19,CS1705403,Audit required,Salisbury NHS Foundation Trust,Arfan Mohammad,114d 20h 46m,9924363.0,25d 21h 46m,2238363.0,Access & Security,Audit & Compliance,N/A
+20,CS1686207,Linked to CS1674395 Missing results not sent to the practices.,Oxford University Hospitals NHS Trust,Arfan Mohammad,110d 3h 26m,9516410.0,25d 3h 26m,2172410.0,Integration & Interfaces,Third-Party Systems,N/A

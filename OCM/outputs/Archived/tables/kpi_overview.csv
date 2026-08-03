@@ -1,0 +1,2 @@
+total_cases,closed_cases,open_cases,resolved_cases,median_ttr_seconds,p90_ttr_seconds,shortest_ttr_seconds,longest_ttr_seconds,median_ttr,p90_ttr,avg_sla_business_seconds,avg_sla_business,avg_sla_duration_seconds,avg_sla_duration
+1032,973,59,999,351855.0,3714806.4000000004,75.0,24010937.0,"4 days, 1 hrs, 44 mins","42 days, 23 hrs, 53 mins",281536.11470113083,"3 days, 6 hrs, 12 mins",1172301.7431340872,"13 days, 13 hrs, 38 mins"

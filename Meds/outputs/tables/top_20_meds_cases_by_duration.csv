@@ -1,0 +1,21 @@
+Rank,Case Number,Short Description,Account / NHS Trust,Assigned To,Actual Duration,Actual Duration (Seconds),Business Duration,Business Duration (Seconds),Trend Category,Sub-Category,Linked PRB
+1,CS1638109,Reported issues of slow performance using the ePMA Platform,Essex Partnership University NHS Foundation Trust,Ian Holden,295d 2h 30m,25497024.0,70d 10h 7m,6084449.0,Integration & Interfaces,Integration Failure,PRB0052975
+2,CS1610989,Dispensary fallback PCs still not working,The Royal Wolverhampton NHS Trust,Michael Carter,248d 23h 6m,21510404.0,55d 13h 19m,4799976.0,Integration & Interfaces,Integration Failure,N/A
+3,CS1675692,Distribution orders delay,University Hospitals Plymouth NHS Trust,Ian Holden,247d 8h 55m,21372909.0,56d 8h 55m,4870509.0,Integration & Interfaces,Integration Failure,PRB0052874
+4,CS1676382,Performance Issues,North Cumbria Integrated Care NHS Foundation Trust,Michael Carter,221d 8h 29m,19124977.0,51d 1h 52m,4413128.0,Integration & Interfaces,Integration Failure,N/A
+5,CS1664789,Label Issue,North Cumbria Integrated Care NHS Foundation Trust,Michael Carter,219d 7h 27m,18948454.0,49d 15h 9m,4288182.0,Integration & Interfaces,Third-Party Systems,N/A
+6,CS1696946,Supplier mismatch in system,Lancashire Teaching Hospitals NHS Foundation Trust,Ian Holden,217d 23h 36m,18833774.0,49d 16h 36m,4293374.0,Reporting & Analytics,Reporting,N/A
+7,CS1641322,Suspended medicine and every 6/52 frequency,Oxleas NHS Foundation Trust,Ian Holden,193d 15h 3m,16729387.0,45d 5h 47m,3908867.0,Integration & Interfaces,Third-Party Systems,PRB0053234
+8,CS1650816,EMIS Slowness / Errors,Walsall Healthcare NHS Trust,Ian Holden,182d 20h 52m,15799978.0,89d 7h 52m,7717978.0,Integration & Interfaces,Integration Failure,PRB0052975
+9,CS1678565,CIVAS / Manufacturing dispensing,Lancashire Teaching Hospitals NHS Foundation Trust,Ian Holden,165d 19h 32m,14326377.0,38d 12h 8m,3326934.0,Integration & Interfaces,Third-Party Systems,N/A
+10,CS1702293,Slow system speed,"Tees, Esk And Wear Valleys NHS Foundation Trust",Ian Holden,158d 10h 30m,13689002.0,37d 59m,3200350.0,Integration & Interfaces,Integration Failure,PRB0052975
+11,CS1715094,Issue with shared computer losing terminal,Lancashire Care NHS Foundation Trust,Ian Holden,156d 8h 13m,13508009.0,35d 16h 8m,3082095.0,Access & Security,Authentication,N/A
+12,CS1713830,Item enquiry delay,University Hospitals Plymouth NHS Trust,Michael Carter,147d 22h 32m,12781923.0,33d 7h 32m,2878323.0,Integration & Interfaces,Integration Failure,N/A
+13,CS1653182,pagenot loading in pharmacy 'epma medicines reconciliation' An error has occured,United Lincolnshire Teaching Hospitals NHS Trust,Michael Carter,139d 6h 35m,12033301.0,31d 5h 36m,2698573.0,Integration & Interfaces,Third-Party Systems,N/A
+14,CS1682639,10.23 - Medication Marked for Supply but not Clinically Checked,Northumbria Healthcare NHS Foundation Trust,Muhammed Rashik Rahman,138d 11h 46m,11965607.0,32d 36m,2766999.0,Access & Security,Audit & Compliance,N/A
+15,CS1650305,Discontinues prescriptions on closed episodes,Essex Partnership University NHS Foundation Trust,Michael Carter,136d 21h 38m,11828281.0,32d 20h 38m,2839081.0,Integration & Interfaces,Integration Failure,N/A
+16,CS1635912,Stores Automatic Orders performance issues.,Lancashire Teaching Hospitals NHS Foundation Trust,Michael Carter,134d 3h 33m,11590434.0,29d 10h 33m,2543634.0,Access & Security,Authentication,PRB0052576
+17,CS1617195,Pricing issues,West Hertfordshire Hospitals NHS Trust,Azeem Parvez,118d 7h 42m,10222921.0,40d 22h 42m,3537721.0,Performance & Availability,Performance,N/A
+18,CS1672773,Due Doses not showing on the Medicines Due for Ward desktop,Essex Partnership University NHS Foundation Trust,Sean Prescott,115d 15h 9m,9990592.0,27d 54m,2336051.0,Configuration & Administration,Master Data,N/A
+19,CS1708996,Medication item expired,Bolton NHS Foundation Trust,Azeem Parvez,114d 1h 40m,9855659.0,25d 18h 27m,2226461.0,Integration & Interfaces,Integration Failure,N/A
+20,CS1685633,Location Hierarchy,Greater Manchester Mental Health NHS Foundation Trust,Michael Carter,113d 2h 32m,9772347.0,24d 20h 4m,2145895.0,Integration & Interfaces,Integration Failure,N/A

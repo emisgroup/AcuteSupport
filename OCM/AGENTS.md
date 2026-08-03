@@ -12,8 +12,8 @@ This file documents:
 - QA and delivery checks
 
 Primary inputs (expected paths relative to repository root):
-- data\raw\OCM_Cases_Last_12-Months.csv  (case export)
-- data\raw\OCM_SLA_Last_12-Months.csv    (SLA durations)
+- data\raw\Symphony_Cases_Last_12-Months.csv  (case export)
+- data\raw\Symphony_SLA_Last_12-Months.csv    (SLA durations)
 - templates\Cases_Management_Report_Template.docx
 - templates\Trends.txt
 
@@ -46,6 +46,30 @@ Note: Historical backups are archived under data/archive/. Canonical outputs are
 A single wrapper command can be added (e.g., python scripts\run_full_report.py) to execute steps 3→6 in order.
 
 ---
+
+# Start New Command
+
+When the user gives the command `"Start New"`, the agent must execute the output archiving routine:
+- Move all generated files from `outputs/charts/`, `outputs/reports/`, and `outputs/tables/` into their respective target subdirectories under `outputs/Archived/`:
+  - `outputs/charts/*` -> `outputs/Archived/charts/`
+  - `outputs/reports/*` -> `outputs/Archived/reports/`
+  - `outputs/tables/*` -> `outputs/Archived/tables/`
+- Move all processed data files from `data/processed/` into `data/archive/`:
+  - `data/processed/*` -> `data/archive/`
+- **Collision / Conflict Handling**: If a file with the same name already exists in the target archive folder, rename the incoming file by appending a timestamp (`_<YYYYMMDD_HHMMSS>`) before moving it to prevent overwriting existing archived artefacts.
+- **Execution**: Run `python scripts/start_new.py`.
+
+---
+
+# Raw File Ingestion & Ignore Rules
+
+- **Ignored Folders**: Ignore any raw files located inside `IgnoredFiles`, `IgnoreFile`, or any subdirectories under `data/raw/` when processing reports.
+- Only ingest active top-level `.csv` files located directly in `data/raw/`.
+
+---
+
+
+
 
 # CSV field mapping and normalization rules
 

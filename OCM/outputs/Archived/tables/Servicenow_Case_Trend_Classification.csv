@@ -1,0 +1,1033 @@
+Case Number,Short Description Summary,Trend Category,Sub-Category,Confidence,Reasoning,Manual Review Required
+CS1611086,Review Service Inefficiencies,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1613423,"PATIENT ID MF 2125431,Histopathology pathology report",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1613980,multiple version of same result,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1615018,CDS 6.3,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1615914,"tQuest protocol questions, can we default answers?",Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1616360,No results being processed by Keystone,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1616490,SQL reporting,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1616535,ECDS v4 translation service,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1617259,GP practice reporting pathology reports are missing from Monday,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1617433,Query on Keystone status.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1617453,Messages stuck in sending,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1617827,Error Event in Keystone Enterprise,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1618088,Lab reports not being picked up,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1618548,Keystone - Partners,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1618665,Reports showing under incorrect responsible clinician,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1619008,Telepath to Review interface failed 20/07/2025 Open Time: 17:36,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1619957,RE: CDS 6.3,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1620056,We can see there are 227 files stuckin suspect folder,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1620179,Keystone letter template pulling wrong department header,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1620667,Additional information printing off tQuest form - Unreadable,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1620967,Keystone - Test Environment,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1621124,Error Importing Report Error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1621233,Suspect Folder,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1621666,Copy to CRIS,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1622463,Making CDS V63 Live,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1622925,Schedules have skipped since 11:30,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1623082,Adding a comment,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1623138,Reports for G83065 stuck in 'sent' status,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1623689,Radiology Status Update failure for patient 0393932,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1623977,Requests are not flowing from Live TQuest to Telepath,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1624112,Review went down on Friday on today,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1624139,Reports matching to wrong patient,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1624298,Keystone server running at 91% memory randomly,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1624327,Keystone schedules not responding,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1624422,Keystone PMIP8 pick up from LIMS Process Understanding Query,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1624936,Urgent- Inbox Issue,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1625619,"Copy to Me - Review, two pop ups seen",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1625850,Radiology  Specification,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1626718,Radiology  Specification,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1626782,REVIEW01WEB-P2 - D:> Drive space warning,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1626868,Files stuck as 'Sent' (rather than Sending),Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1626876,A report (request ) is being sent out 15000 a day,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1627421,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1627440,Tabs loading when attempting to ammend orderables,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1628093,Files stuck as 'Sent' (rather than Sending),Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1628383,No access to Optum Review after Intranet changes,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1628575,Patient name change not updating in Review,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1628812,More Errors and Failed reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1628900,Review - Service Available,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1629022,Request for Out-of-Hours Support – Server Migration (STG1OCTQUEST01 & STG1EMISSQ,Configuration & Administration,Master Data,High,"Case involves master reference data, order set configuration, test catalogues, or ward lookups.",No
+CS1629067,Results  status is SENT for Queens Crescent,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1629708,Results not being sent back,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1629766,Elf Test results failing to file at GP Practices,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1629789,RADIOLOGY and PATHOLOGY feed in a sending state,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1629873,Review unavailable,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1630060,Issue with Optum CDS Translation Service Arrived notification email,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1630405,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1630473,Reports stuck in 'sent' status,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1630477,Test Tquest server Multiport talker keeps stopping,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1630630,Printing issue post Windows 11 upgrade,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1630712,No Lab reports are coming through Keystone this has been happening since the ...,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1631042,All reports from all surgeries stuck in sent/sending since about 2am  09/08/25,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1631392,BitVise Authentication,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1631537,Duplicate interchange ID error with GP Partner,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1632164,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1632246,tQuest - Unable to edit orderable,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1632279,Patient merge required,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1632297,Test review system - not imported HL7 results,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1632341,Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1632876,Missing dat files in archive folder,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1632938,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1632957,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1633003,Keystone patient matching criteria (minimum data set required),Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1633356,Viking server operating system going out of support,Configuration & Administration,Master Data,High,"Case involves master reference data, order set configuration, test catalogues, or ward lookups.",No
+CS1633991,Reports for Lewisham Care Partnership (G85038) are stuck in 'sent' status.,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1634184,Review results feed stopped at 20:41 14/08/2025 (yesterday),Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1634205,CDS  VALIDATEONLY,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1634253,Delay in results appearing in Review,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1634299,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1634304,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1634417,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1634418,Report not recieved to GP,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1634431,Reports for Thamesmead Health Centre (Y02974) are stuck in 'sent' status,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1635333,Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1635693,Results not going to requestors inbox,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1636203,Delay in results appearing in Review,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1636360,Not been receiving GP orders since yesterday,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1636445,Keystone Password,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1636635,Delays in results processing in Keystone,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1636648,Keystone reports stuck,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1637063,Change of password for mismatch email relay,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1637719,Reports for Brockwell Park Surgery (G85137) are stuck in 'sent' status,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1637755,"Keystone error message this am ""data access error sql failed with error""",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1637965,User Guides when setting up new services on TQUEST,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1638374,Review Path & Rad for Tameside backlog of 4952 files,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1638989,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1639026,Server name/IP to pass to ICT,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1639636,Reports for Burney Street Practice (G83065) stuck in 'sent' status,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1639773,No Activity,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1640045,We are still having issue with TQUEST ordering in UAT,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1640112,Record Query,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1640852,Tabs loading when attempting to change an orderable in UAT tQuest,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1641020,Unable to access tQuest for patient,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1641527,Keystone error - Unable to restore a connection to the Keystone database.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1641756,Issue with Fairhill EMIS,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1642426,Review Synonym Picking up incorrect exams,Data Management,Data Recovery,High,"Case involves record restoration, deleted data recovery, or record merging.",No
+CS1642632,Reports,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1642896,Reports not sent to GP's since 13:40 yesterday,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1642906,15 Digit EDI Sender Code,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1642993,Reports for two surgeries stuck in 'sent' status,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1643032,Keystone - Unable to login FOXISAPI call failed,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1643816,Pathology reports not going to GPs,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1644527,Not validated result,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1644534,More Errors and Failed reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1644596,Review results opening slowly,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1644784,Cannot access Keystone and Review - unable to get past login screens for both.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1644825,details of all Review users,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1645190,Report not reached GP,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1645276,Not validated,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1645462,Results uploaded to wrong patient,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1645772,BitVise public keys,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1646144,More Errors and Failed reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1647478,Space low on f$ database server BCFHVM20-135,Data Management,Data Correction,High,"Case involves database scripts, data corrections, patient record unlinking, or manual data fixes.",No
+CS1647682,Increase the memory for Indigo 4 Discharge Standard  1.0.50,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1647760,Advice on NHS England Cyber Security Alert,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1647984,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1648034,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1648269,Re: Access to Keystone servers for Arfan Mohammad,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1648945,Glossary of events and warnings from our Keystone system,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1648954,Is there a PowerShell script for the suspect folder for UHL system,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1648971,Keystone failing validation when result has unit µmol/L,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1649027,Can you provide a Keystone User Guide for new Users to track a pathology Order,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1649113,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1649140,Bitvise User Configuration  - User,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1649247,EMIS report sending issue,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1649294,Keystone Rejection for Histopathology - 08/09,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1649354,Advice about missing button on users profile,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1649498,Cancelled test with comment showing in Keystone but not seen by GP,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1650361,Review Synonym Picking up incorrect exams,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1650912,Submission failure notices not being received,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1651334,tQuest Non-live,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1651360,Application running very slow,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1651419,No GP Pathology requests to Trust Integration since 05:26 17/09/25,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1651451,Reports for 3 surgeries stuck in 'sent' since Friday,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1651768,Churchmere Medical Group,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1652032,Internal Tquest results not reaching TIE or Winpath,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1652254,Reports Stuck in ‘Sent’ Status – Request for Resolution,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1652456,Tquest to cris interface stopped working at 13:31pm,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1652531,Server Remediation,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1652678,SNOMED Code Transmission to EMIS Web App,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1652703,Tquest to Winpath no messages flowing from 16:21,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1652758,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1652770,"Review Page is not loading ,it went around 1:35 amon 19/09/2025",Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1652818,Duplicate Interchanges,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1653081,Fatal error due to odd character,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1653263,Unable to add new IP ranges to Walsgrave Health Centre (M86040),Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1653392,Review Application is down (call reported at 1:35),Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1653536,Housekeeping error in monitor,Configuration & Administration,Master Data,High,"Case involves master reference data, order set configuration, test catalogues, or ward lookups.",No
+CS1653669,Keystone Winpath Translation queuing 1662 files.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1653836,"Review is down ,page is not loading  ,secondary care",Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1653840,Tquest is very slow - Internal error 500,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1653858,Synonyms in Review,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1654482,"Tquest to LIMS interface failed @18:37pm ,please can you look in to this urgent",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1654802,CDS Translation - Bitvise Client Install,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1655055,Missing discharge letter,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1655275,Stop of services,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1655451,IP CDS file not at SUS,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1655487,Urgent – TQuest Issues at Manor Drive Medical Centre,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1655710,We have observed that the PDF export functionality has not been working on revar,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1655911,LIVE tQuest to LIMS interface is down again.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1656843,review is down @1:25am,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1656848,This run finished due toerror 1705 in method,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1657097,More Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1657128,The radiology requests are without the vital eGFR scores typically embedded,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1658052,The Live Review application not responding for all users,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1658056,The Live Review application not responding,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1658061,The Live Review application not responding,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1658070,Live Review application down for all users,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1658071,More Errors and Failed reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1658101,Live tQuest to Winpath interface down,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1658887,Review Archive 4 - Services turned off,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1658894,Review Archive 1 - Error Log,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1658899,Review Archive 2 - Error Log,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1658903,Review Archive 3 - Error Log,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1658910,Review Archive 4 - Error Log,Configuration & Administration,Configuration Change,High,"Case involves specimen/label printing, printer configuration, forms, or templates.",No
+CS1659005,tQuest to Winpath interface,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1659117,I would like to access an Audit Trail to see who has added a user to TQuest.,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1659534,test emis system,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1660860,Issue access Review on devices,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1660866,Results not sending to: E84665,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1660921,possible to set up a read only access for Tquest (secondary care),Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1661185,Results not sending: E84018,Case Administration,Closure Management,Medium,"Case relates to ticket administration, duplicate handling, or closure.",No
+CS1661404,More Errors and Failed reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1661416,All reports to All GP's stuck in Sending status and No one received any reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1661541,ODBC error in Keystone server,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1661724,The interface for internal tQuest has gone down.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1662341,Duplicate hospital ID in Review,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1662593,Is the https://tghtquest.tgh.nhs.uk  website for Tquest order comms down?,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1662786,Is TQuest order comms  linked to Keystone for status reporting?,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1663667,Results have not been sent out since the 05/10 @ 12am,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1664033,Consultant Drop Down List - Auto population Turn Off,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1664560,Reports not sent and Stuck in SENDING status,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1664751,500 Internal server error,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1664772,500 Internal Server error when saving orders,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1665065,Not processed since yesterday,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1665164,GP Practices ringing up unable to get onto tQuest,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1665326,Wrong NHS no on patient's Review record,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1665443,Radiology Reports stuck as sending,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1665563,Diagnostic Haematology barcode number has got 12 digits instead of 11,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1665631,All Reports in Sending status,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1665862,Easier way to see what tests a protocol is applied too.,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1666318,GP surgery cannot view Radiology reports in EMIS Web DTS mailbox.,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1666453,Review Archive - Reports Stuck in E:\WORK,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1666464,Review Archive - Randomly Skipped Schedules,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1666504,emailed correspondence module,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1666560,Keystone running much slower since 30/09/2025,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1666603,More GP reports showing in SENDING  STATUS!,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1666655,Histology/Cellular Pathology Incorrect Characters,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1666881,More Error Messages,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1666905,reference ranges sent in keystone but not in EMIS,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1667139,'Not Validated' SDEC letters,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1668599,Huge numbers of file level errors since Saturday 11/10.,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1668792,"A record failed on Keystone with status Not Acknowledge, but unclear error.",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1668836,Workflow ID clarification,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1669238,Tquest to LIMS interface failed at 16:01,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1669821,RFH Keystone - Not Validated report?,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1669882,Sample Date/Time of Collection Secondary Care tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1670655,Tquest orders not being picked up electronically by Laboratory,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1670894,tQuest - Updating Orderables Request,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1671094,Errors and Failed Reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1671875,Bitvise User Configuration - User,Case Administration,Closure Management,Medium,"Case relates to ticket administration, duplicate handling, or closure.",No
+CS1671892,More Errors and More reports in Sending Status since after 21:07 from last night,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1672047,Interface blocked when Radiology and Pathology requested at same time,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1672083,Keystone tracker Failed General Pathology reports: File Level Errors,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1672106,tQuest to LIMS interface issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1672198,Radiology report error,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1672916,Some report not going back to GP's,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1673029,Review Archive 1 - Skipped schedules form 18/10/2025 17:22:05,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1673290,Review Archive 4 - Errors,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1673580,Keystone suspect folder error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1673851,Printing issue -Fording bridge and Gilligham madical Practice,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1673890,tQuest to LIMS interface is down,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1674237,GP's  Reporting missing chemistry results on 14th October,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1674335,revarch01app-p1 and http://revarch02app-p2/,Configuration & Administration,Configuration Change,High,"Case involves specimen/label printing, printer configuration, forms, or templates.",No
+CS1674351,Review Archive 2- Skipped schedules form 15/10/2025 17:21:07,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1674395,results not going out,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1674406,Duplicate Patient id  list,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1674500,Unable to place orders on St George's UAT,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1674610,More Errors and Missed 04:00 am Batch of reports to send,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1674706,Unable to upload PMEP ACK files to Telepath server,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1674788,Process stuck in Communications since server restart,Integration & Interfaces,Integration Failure,High,Process communication queue failure following server restart.,No
+CS1674797,tQuest Multiple Selection Character Limit,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1674976,cds 6.3 test,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1675030,CORRUPTED DOCUMENTS IN WORKFLOW MANAGER -  SEE CASE REF CS1666919,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1675151,"Internal tQuest to Lims interface is down again,",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1675331,Installing Bitvise Client,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1675362,New Bitvise Client - authentication not working,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1675618,Access discrepancy. I do not have the same access as my colleagues,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1675967,users are reporting that not all tests are showing in Cumulative Lab View after,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1676153,Repeat requests not reaching Winpath,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1676296,When requesting  repeated pathology test only one TQI number is reaching Winpath,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1676537,Keystone Accounts not logging in,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1676576,Pathology 'Copy to me' Review reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1676682,Request to flip MESH from Keystone (Prod) over to Keystone (Non-Prod),Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1676802,DTS transmission error,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1677124,Unable to see web result,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1677292,Extracts passing EMIS/Optum validation and failing at SUS+,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1677409,Bitvise SSH connection refused,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1677754,Error connecting to cs-translation-internal.emishealth.com via SSH,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1678133,Printer settings - Enquiery,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1678427,Please can you confirm what server nm-review-01.xpat.nhs.uk relates to,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1678712,Bitvise User Configuration,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1678994,sending PDF documents to EMIS,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1679134,Keystone test environment havana-t,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1679234,Optum service desk access,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1679613,CDS Translation Service Failure,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1679645,Review is running slow and displaying error at times,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1680179,Response to Case No CS1677292 required.,Configuration & Administration,Master Data,High,"Case involves master reference data, order set configuration, test catalogues, or ward lookups.",No
+CS1680314,Bitvise User Configuration,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1680375,No CDS translation emails received for APC and OPA since 27th October,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1680420,Cyber Alert CVE-2025-48384,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1680472,Optum CDS Translation email,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1680541,Not receiving Email notfication for CDS starting of this week,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1680835,Add a recipient to the CDS/ECDS email translations service,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1680955,Requesting error when Sex: U,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1681046,tQuest not sending orders,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1682716,Keystone server & application password change required for Optum specialists,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1682905,result sent but failed to be recieved by Practice,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1683257,Review Archive - Current Log of Error Files,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1683439,Not Acknowledged status,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1683478,Bitvise client failing to send CDS files,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1683785,Live Review down for all users,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1683901,"Decommissioning of a legacy AD domain of West Middlesex, which is now part of CW",Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1684008,File restructuring in e drive root of application server,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1684442,Patient mobile phone numbers,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1684862,When users are trying to print getting security warning,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1684876,Patient results on incorrect patient,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1685345,Keystone Server is not working.,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1685509,test file 6.3,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1685667,Workaround / alternative suggestion required for the following report failure.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1685695,Configuring GP surgery to receive radiology results,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1686101,"Error message ""contain non-UNOC character""",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1686207,Linked to CS1674395 Missing results not sent to the practices.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1686350,Order was created but this has not come accross to tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1686532,Missing tests from Catalogue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1686621,Unable to login in BitWise Client SSH,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1686727,include email,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1686792,Unable to Connect to SUS SFTP,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1686894,Bitvise Server,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1686896,Unable to Send CDS SUS Files,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1687143,Bitvise SSH connection refused,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1687212,Keystone - not processing discharge summaries>Urgent.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1687229,Unable to connect to cds-translation-internal.emishealth.com,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1687557,ECDS and CDS Bitvise Software,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1687648,Common Orderable not working,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1687706,ECDS submission,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1687709,Last DPM Reset: 12/11/2025 19:33:43,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1687715,Error connecting to cs-translation-internal.emishealth.com via SSH,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1687986,tQuest - event viewer 790 error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1688174,Result Not Validated,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1688319,ECDS Send Issues,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1688338,FW: ECDS Send Issues,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1688377,Unable to send CDS or ECDS files dues to connection error.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1688427,3.5k files stuck in sending,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1688514,User is experiencing error when connecting to the EMIS CDS translation service,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1688844,Interlink/Context Launch Config Change,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1689018,bitvise client being refused connection to emis server,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1689184,Recall: Delivery Notes From DC (455) Issues,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1689193,Bitvise Client - Connection failed.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1689306,ECDS files not being picked up,Configuration & Administration,Master Data,High,"Case involves master reference data, order set configuration, test catalogues, or ward lookups.",No
+CS1689391,Unable to send cds files via bitvise ssh client. Con refused by TARGET machine,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1689489,Unable to Connect to SUS SFTP,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1689661,Bitvise issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1689812,Fw: Case CS1689306 comments added -ECDS,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1690101,SQL error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1690201,INC1759764 Incident - TQuest (GP Order Comms),Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1690237,ScriptX MeadCo license query,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1690258,Review has stopped updating since 9:55,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1690428,XML Translation,Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1691230,No correspondence not going out since 06:20,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1691240,Suspect files - Not being recycled every 2 hours after Winpath Upgrade,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1691594,Incorrect NHS number associated with a Hospital ID,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1691623,Incorrect NHS number associated with a Hospital ID,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1691717,SQL errors,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1691761,'Sending' status in Test Keystone,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1692220,Over 3k Files stuck as sending,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1692429,Connection not working,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1692642,Any available tQuest training guides for user and administrator please?,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1692927,KHT Tquest Database Issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1692935,New Bitvise Key,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1692959,x 3 files in Suspect folder from 21/11,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1693289,Printer,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1693290,6.3 validate only OPA file,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1693302,Users unable to print tQuest forms,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1694207,Orders not coming across to Soliton,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1695219,XML validation fail,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1695994,Data Request,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1696051,Keystone interchange error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1697295,Issue with Derbyshire practices accessing tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1697346,CDS Translation Email Not Received.,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1698316,Unable to get Review started,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1698338,Unable to send result to Gp,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1698643,Cannot Login onto Keystone via the Web browser,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1698696,Files not processed on 30/11 between approx 04:00 - 06:00,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1699463,Configuring Bitvise Client,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1699752,CS1691594,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1699759,Data Request,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1699761,escape tab in HL7 query,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1699948,Unable to view previous hospital test results within Review,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1700041,new account for laptop,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1700188,Bitvise Connection issue,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1700493,11.5k Files stuck as sending,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1700526,results over weekend marked as sending,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1700558,Please check that keystone hasn't errored after housekeeping.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1700612,Review/tQuest database move query,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1700633,Socket error ~ 10054,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1700802,Review Archive - Updated Export Failures 560 Files Total,Integration & Interfaces,Data Exchange,High,"Case involves structured data exchange, data warehouse extraction, or import/export loading.",No
+CS1700912,Regarding resolution of case CS1700612,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1701107,Requests in Sending Status between 12:50pm 13:00pm,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1701368,MESH service randomly stopping,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1701915,review is showing error trust wide,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1702184,CDS Translation Service Migration: Colin Johnson,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702185,CDS Translation Service Migration: Dean Small,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702326,FW: Migration of CDS Translation Service to AWS,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702383,CDS Translation Service Migration: Commissioning LTHT,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702384,CDS Translation Service Migration: Stuart Wills,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702385,CDS Translation Service Migration: Peter Driscoll,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702386,CDS Translation Service Migration: J Keen,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702387,CDS Translation Service Migration: John Eagle,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702388,CDS Translation Service Migration: Katy Andrew-May,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702389,CDS Translation Service Migration: Andrew Lord,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702390,CDS Translation Service Migration: ITDE Support,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702391,CDS Translation Service Migration: ESTH Information,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702392,CDS Translation Service Migration: Data Warehouse,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702393,CDS Translation Service Migration: Oladipo Dare,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702394,CDS Translation Service Migration: Aasim Hussein,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702395,CDS Translation Service Migration: Rory MacDonald,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702396,CDS Translation Service Migration: Catherine Baker,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702397,CDS Translation Service Migration: Robert Trzebiatowski,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702398,CDS Translation Service Migration: Christopher Brown,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702399,CDS Translation Service Migration: Steve Young,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702400,CDS Translation Service Migration: Byron Stanway,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702401,CDS Translation Service Migration: David Wiles,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702402,CDS Translation Service Migration: Stewart Neale,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702403,CDS Translation Service Migration: Keith Goddard,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702404,CDS Translation Service Migration: FHFT datawarehouse,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702405,CDS Translation Service Migration: HDFT CDS Submissions ..,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702406,CDS Translation Service Migration: Mohammed Moeen Butt,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702407,CDS Translation Service Migration: George Babish,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702408,CDS Translation Service Migration: Robert Allen,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702409,CDS Translation Service Migration: Barry Oldfield,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702410,CDS Translation Service Migration: Deepak Pulikkottil,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702411,CDS Translation Service Migration: Kola Okeyale,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702412,CDS Translation Service Migration: Yuen Lee,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702413,CDS Translation Service Migration: WHH-TR Information Requests,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702414,CDS Translation Service Migration: Kate Strohman,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702415,CDS Translation Service Migration: Information Admin,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702416,CDS Translation Service Migration: Judith Smithson,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702417,CDS Translation Service Migration: GHNT Information,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702418,CDS Translation Service Migration: Dai Howells,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702419,CDS Translation Service Migration: Marlene Steinbach-Hunt,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702421,CDS Translation Service Migration: Carole Jell,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702422,CDS Translation Service Migration: Gill Kimber,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702423,CDS Translation Service Migration: Robert Dalley,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702424,CDS Translation Service Migration: BWC Information Team,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702425,CDS Translation Service Migration: Case Mix Team,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702426,CDS Translation Service Migration: Hnin Naywin,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702427,CDS Translation Service Migration: Clare Hall,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702428,CDS Translation Service Migration: Sean McGarvey,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702429,CDS Translation Service Migration: Samantha Boon,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702430,CDS Translation Service Migration: NGH-TR Data,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702431,CDS Translation Service Migration: James  Vansluis,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702432,CDS Translation Service Migration: Usman  Maqboo,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702433,CDS Translation Service Migration: Paul Crook,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702434,CDS Translation Service Migration: Ryan Eustice,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702435,CDS Translation Service Migration: Calum MacIver,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702436,CDS Translation Service Migration: Robert Cox,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702438,CDS Translation Service Migration: Sian Dibben,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702439,CDS Translation Service Migration: Alex Buckley,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702440,CDS Translation Service Migration: Karen Marsden,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702441,CDS Translation Service Migration: Frankie Punzi,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702442,CDS Translation Service Migration: Rasaq Alaka-Awesu,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702443,CDS Translation Service Migration: Manny Chandra,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702444,CDS Translation Service Migration: Rebecca Turner,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702445,CDS Translation Service Migration: Becky Mansell,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702446,CDS Translation Service Migration: Chris Brown,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702447,CDS Translation Service Migration: Data Engineering,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702448,CDS Translation Service Migration: Information Team,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702449,CDS Translation Service Migration: Pratheepan Jeyapragasam ..,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702450,CDS Translation Service Migration: Ganesh Kondabathini,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702451,CDS Translation Service Migration: Data Quality,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702452,CDS Translation Service Migration: Jayesh Parekh,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702453,CDS Translation Service Migration: Shirley Priestnall,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702454,CDS Translation Service Migration: Modem Subramanyam,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702455,CDS Translation Service Migration: Su Clarke,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702456,CDS Translation Service Migration: Mark Colfar,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702457,CDS Translation Service Migration: Yong Chen,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702458,CDS Translation Service Migration: Business Intelligence,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702459,CDS Translation Service Migration: Spencer Brittain,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702460,CDS Translation Service Migration: Sam Doley,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702461,CDS Translation Service Migration: Sath Data Warehouse,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702462,CDS Translation Service Migration: Sarah Callister,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702463,CDS Translation Service Migration: S Williams,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702464,CDS Translation Service Migration: Ben Ogunfowora,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702465,CDS Translation Service Migration: DBTH Information Development ECDS,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702466,CDS Translation Service Migration: Sarah Hope,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702467,CDS Translation Service Migration: Karl Edwardson,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702468,CDS Translation Service Migration: Megan Jones,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702469,CDS Translation Service Migration: Hollie Funcks,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702470,CDS Translation Service Migration: Kate Aldred,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702471,CDS Translation Service Migration: Carly Quirk,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702472,CDS Translation Service Migration: Jackie Corbett,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702473,CDS Translation Service Migration: Sean Halpin,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702474,CDS Translation Service Migration: Sophie Stubbs,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702475,CDS Translation Service Migration: David Chamberlain,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702476,CDS Translation Service Migration: John McCormick,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702477,CDS Translation Service Migration: Jenna Draper,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702478,CDS Translation Service Migration: Mujahid Abdulghaffar,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702479,CDS Translation Service Migration: Karen  Campbell,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702480,CDS Translation Service Migration: Joanne Hopper,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702481,CDS Translation Service Migration: NTH-TR Information Management,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702482,CDS Translation Service Migration: Nicola Lynn,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702483,CDS Translation Service Migration: l O'Connell,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702484,CDS Translation Service Migration: N Morrison,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702485,CDS Translation Service Migration: Ben Pritchard,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702486,CDS Translation Service Migration: Charlton Alves,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702487,CDS Translation Service Migration: WUTH BI Portal,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702488,CDS Translation Service Migration: Ian Rand,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702489,CDS Translation Service Migration: Karteek Pesaru,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702490,CDS Translation Service Migration: Information Services,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702491,CDS Translation Service Migration: Development Team,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702492,CDS Translation Service Migration: Rachel Hobson,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702493,CDS Translation Service Migration: Eilis Wright,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702494,CDS Translation Service Migration: Ian Jenkinson,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702495,CDS Translation Service Migration: Mandy Howarth,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702496,CDS Translation Service Migration: IMU Team,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702497,CDS Translation Service Migration: Neil Hawes,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702498,CDS Translation Service Migration: Roger Forman,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702499,CDS Translation Service Migration: Lynda Hooligan,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702605,SSL Certificate expiry - help please. - INC0555330,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1702892,MAIN SPECILAITY CODES NEED UPDATING,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1703018,ECDS v4,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1703020,End date of none AWS cds Submission,Data Management,Data Recovery,High,"Case involves record restoration, deleted data recovery, or record merging.",No
+CS1703347,Clinical Incident raised: No record of FIT report in Keystone 02/12/2025,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1703592,Keystone not processing,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1704008,Past Scedules skipping,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1704046,Patient number needs to be removed from record,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1704072,"Histopathology report rejected with status ""not validated"".",Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1704423,CDS Translation Service Migration: Information Team,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1704446,CHI validation query,Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1704447,CHI Validation query,Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1704458,Tquest requests not electronically registering in Tameside LIMS from 12/12/25.,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1704609,New User Chloe Lamb,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1704969,setup not correct in IE,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1705026,Migration of ECDS Translation Service,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1705053,Duplicate interchange error messages,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1705071,Error Importing report Error Message,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1705076,Unable to access Keystone system,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1705343,Info tab - report required,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1705356,Field Change - Consultant (Requester) to change to Consultant or Requester,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1705396,Migration of CDS Translation Service to AWS,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1705403,Audit required,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1705427,tQuest - Primary Care - requester issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1705573,Migrating local systems to new server,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1705654,SUS Submission No confirmation,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1705972,OP 6.3,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1706072,CDS Translation Service Migration,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1706110,ECDS version 4,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1706146,Keystone not processing/sending messages since 13:00  after Windows Updates,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1706264,RW1 CDS Translation Service Migration.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1706416,When will files start being processed,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1706449,Setting up new partner in Keystone,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1706482,CDS and ECDS submissions not being translated and processed via new AWS endpoint,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1706644,Missing user account,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1706826,New Year LSN change required for Blood Sci. for effect 01/01/26.,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1706968,Reports held in suspect folder on Review server,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1707203,users when trying to put a request getting stuck in a page,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1707220,Not Validated Report,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1707378,tQuest Pathology outbound HL7 Message issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1707556,Activate New Service,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1707675,Review not processing files since 20/12/2025,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1707803,Reports in Sending State from 03/11/2025,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1707941,MeadCo License Manager: License Expired,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1708669,tQuest lab numbers,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1708740,"Pending requests are not appearing under the ""Requests"" tab",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1709731,Can not access call CS1702481,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1710515,Not Acknowledged - invalid character in message,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1710553,Review Archive errors,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1711416,Unable to log into Keystone,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1711561,"Histopathology report rejected with status ""not validated""",Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1712093,results not going,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1712358,Path results not being received and processed by Keystone,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1712849,ECDS Version 4,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1713408,CDS Clinet ? information,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1713513,CDS Translation Service Migration: Christopher Brown,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713519,CDS Translation Service Migration: Paul Haithwaite,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713521,CDS Translation Service Migration: Lee Wyton,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713525,CDS Translation Service Migration: Mujahid Abdulghaffar,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713571,CDS Translation Service Migration: Richard Black,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713575,CDS Translation Service Migration: Chris Ainscough,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713577,CDS Translation Service Migration: Chris Barber,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713578,CDS Translation Service Migration: Christopher Brown,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713579,CDS Translation Service Migration: Claire Hill,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713581,CDS Translation Service Migration: Dan Haynes,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713584,CDS Translation Service Migration: Debbie Hope,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713586,CDS Translation Service Migration: Husein Kermali,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713587,CDS Translation Service Migration: Jeanette Fellows,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713589,CDS Translation Service Migration: Jody Croucher,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713592,CDS Translation Service Migration: Mark Scobie,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713598,CDS Translation Service Migration: Neela Tirumala,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713599,CDS Translation Service Migration: Philip Capps,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713600,CDS Translation Service Migration: Robin Douglas,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713603,CDS Translation Service Migration: Ross Simmonds,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713604,CDS Translation Service Migration: Tom Camberwell,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713648,FW: Postponed: Migration of CDS Translation Service to AWS,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713716,FW: Case CS1702392 comments added,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1713921,Review still running slowly,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1714188,switch over time of CDS translation services,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1714290,Urgent: Your?Organisation?Has Not Migrated to the New?CDS Translation Service,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1714300,Viewing of summaries - audit,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1714448,Portal access,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1714450,"Interchanges processing unusually slowly since 11:00 today, 'sents' building up.",Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1714655,CDS Translation Service Migration:,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1714658,CDS Translation Service Migration:,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1714728,My Request - CS1713525,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1714851,Keystone skipping schedules and the suspect folder not clearing out,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1715083,Incorrect report title,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1715346,ECDS Notification,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1715354,e-mail received about BNF link deactivation.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1715377,FW: Case CS1702416 comments added,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715482,FW: Case CS1713716 comments added,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715489,FW: Case CS1713716 comments added,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715493,FW: Case CS1713716 comments added,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715520,Updating automation file,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1715565,Bitvise login issue,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715676,Keystone stuck on housekeeping,Configuration & Administration,System Administration,High,Keystone background housekeeping process hanging.,No
+CS1715784,Unable to Login - Update Settings to be done by Admin,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715867,"Keystone reports stuck on ""not validated"" status due to address length",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1715892,Bitvise AWS Login Authentication Failed,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1715946,Setting up account on cloud,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1715968,login issue,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716082,AWS CDS Translation,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1716138,Live Review multiple outages,Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1716142,AWS CDS Translation connection failure after successful onboarding,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1716213,I've logged into the new AWS profile but our files aren't being sent,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1716261,CDS Translation Service Migration: Charlotte Feist,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716263,CDS Translation Service Migration: Michael Card,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716269,CDS Translation Service Migration,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1716592,Migrate to new AWS CDS service for colleagues,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716610,CDS Translation Service Migration: Paul Rayment,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716702,Please register the following new credentials for CDS submissions,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716707,tquest is not working,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1716739,tQuest servers down,Notifications & Communications,Alerts,High,Case relates to system alert configuration or missing automated alerts.,No
+CS1716822,Public key authentication failed,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1716902,APC Interchange,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1717141,AWS Migration,User Guidance & Training,How-To Request,High,"Case involves operational guidance, order entry assistance, or usage enquiries.",No
+CS1717209,Bitvise AWS Login Err Msg,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1717306,CDS Translation Service Migration: Jeanette Fellows,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1717597,Recall: CDS IP address,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1717598,RE: CDS IP address,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1717599,RE: CDS IP address,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1717623,Keystone is out of date,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1717652,CDS files not at SUS and no notification emails,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1717750,Errors,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1717764,TFC 326 - Acute Internal Medicine Service,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1718050,Could not load error message appearing in Keystone today,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1718060,Truncation of result output,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1718127,Re: [Request ID :##235086##] : Plymouth/Soton: EDS: Repeated EDS Reports,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1718284,Pathology result not displaying latest heading,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1718457,Bitvise can't connet,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1718507,AWS Migration Optum Support Desk Not Responding or Providing Updates CS1715892,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1718565,Urgent: Partial Transfers to /ECDS Send Folder – Immediate Action Required,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1718576,portal access,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1718700,Questions regarding file upload,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1718735,FW: Urgent: Partial Transfers to /ECDS Send Folder – Immediate Action Required,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1719231,Pathology Read Test Codes extract,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1719343,archive server is down -archive server 2,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1719528,Case CS1702401,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1719552,RE: Urgent: Partial Transfers to /ECDS Send Folder – Immediate Action Required,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1719796,I have tried to log in to Bitvise but it will not allow me to,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1719991,Result Notification Failure Examples,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1719997,Submit for manual inspection folder no longer available,Configuration & Administration,System Administration,High,Shared folder path configuration issue for manual inspection.,No
+CS1720101,CDS File Not processed and showing is SUS,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1720300,CDS Translation Service Migration: Steven McClary,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1720357,FW: XML VALIDATED NOT READY: RBT - The Mid Cheshire Hospitals NHS Trust (RBT0...,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1720720,New Public Key,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1720946,CDS Translation Service Migration :uyi.ibironke@nhs.net,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1721130,Missing Valdiate only folder,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1721142,copy to OBR,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1721413,unable to connect AWS Bitwise,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1721487,Not Acknowledged - invalid character in message,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1721738,Automating the ECDS submission,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1721742,Pathology report run processing getting later,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1721894,147 reports sruck in sent from 21:10 - 21:21 yesterday (21/01/26),Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1722103,ECDS Version 4 testing and submission,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1722304,Times of runs,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1722331,error logs in Review for the samples we have the following errors,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1722362,Is it possible to run a test ECDS submission?,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1722405,Manual Inspection folder is not visible,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1722498,CDS Translation Service Migration: Oladipo Dare,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1723198,FW: TRANSLATION FAILED: ECDS - RWH - East and North Herts NHS Trust (RWH) CDS...,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1723215,ECDS files submitted twice,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1723844,Reset support account password please,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1724047,6 messages failed when viewing tracker toolbar but cannot see these errors.,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1724624,Keystone Reports Not Acknowledged,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1724655,Fw: EMIS data flow change to Optum - Port 22,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1724764,DTC not displaying in EMIS,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1724853,CDS Translation Service Migration,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1724907,Drive space warning,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1725072,Review - ENDOSCOPY PROTOCOL QUESTION ORDER CHANGED,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1725217,"More Keystone reports stuck on ""not validated"" status due to address length",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1725254,Results are not being sent back to the requesting clinicinan.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1725305,Review Archive - REVARCH03APP-P3 - Process completed,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1725331,Issues adding new orders to a new common orders section (Express),Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1725382,Churchmere Medical Group,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1725484,Message status Not Validated,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1725839,"More (x2) Keystone reports stuck on ""not validated"" status due to address length",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1725841,Orderables not visible,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1726235,Keystone skipping schedules and the suspect folder not clearing out,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1726294,Files Stuck in Suspect folder,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1726607,Printing Errors,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1726900,Test summary displaying the same Test name multiple times,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1727119,FTP Keystone Error Logs,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1727424,Unable to login to keystone,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1727698,Keystone server issues due to new antivirus software,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1727744,Keystone front end is inaccessible again,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1727811,BitVise - Authentication failed,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1727816,Unable to log in to Bitvise,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1727823,Keystone issue -no pathology report processsing after 14:15,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1727954,3 files from 22:30 run stuck in suspect folder,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1727988,ECDS V4 EMIS Technical Specification,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1728130,Keystone not processing the results,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1728481,ECDS,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1728512,Email notification issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1728583,CDS Translation Delay,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1728594,ECDS Submission,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1728603,No transaltion service email or SUS notification,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1728744,cds 6.3,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1728747,Data corruption of CDS customer submitted files,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1728798,FW: Case CS1726235 comments added,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1729022,Somerset NHS FT - CDS and ECDS Translation not processing,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1729057,no validation report,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1729083,Radiology reports not being sent to GPs,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1729272,tQuest/Keystone not sending results,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1729347,GP letters unsent since Monday,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1729475,ECDS files,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1729587,'Not Delivered' correspondence,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1729626,error accessing Review,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1729708,Errors and failed reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1730189,BCFHVM20-135 server out of space,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1730229,Letters not delivered to E83049,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1730415,FW: Sample ECDS 4 File,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1730537,Uncoded episodes on SUS,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1730654,GP Reporting results not being received around 27/01/2026?,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1730890,ECDS (CDS) v4 submission,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1731352,FW: Urgent reminder: Using remote file directories in Bitvise,Access & Security,Security Concern,High,Case involves suspected security vulnerability or unauthorised access investigation.,No
+CS1731410,Emails not being received,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1731665,Query regarding moving patient documents - related to case number CS1684876,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1731700,RE: Email notification issue,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1731920,ECDS and CDS Query,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1732431,ECDSV4 Test File,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1732790,Trading partner - results hanging in Sent since change,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1732992,Patient name changes breaks report trending / charting,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1733762,Patient Demographics,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1734035,Delay in OPA resubmission confirmation,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1734283,report not coded correctly,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1734307,TGH-PO7-TQUESTD has less than 5GBs of space on the D drive,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1734615,server Stg1OctQuest01  disk space D: is full,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1734637,Getting an error message: Authentication Aborted -No Authentication methods,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1734870,Create SWLP IT new member Optum service desk portal access.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1734878,RFH Keystone server was patched last night. No results seem to be sending,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1734968,Review results are not updated since 20:00 12/02/2026 following patching,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1737274,Meadco licence renewal,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1737549,Stuck Messages,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1737834,Keystone - All messages stuck at Sending since around 5am today,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1737873,Duplicate patient id report,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1738124,reports showing as sending,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1738435,Missing processing result email for ECDS from 18th Feb 2026,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1738675,Incorrect Sample Date/Time of Collection and Receipt,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1739401,Notification of submission not received,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1739738,F Drive is full,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1739809,Export of tQuest Admin,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1739906,Not Acknowledged Status,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1740032,DPM inactivity Monitor,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1740037,Error Message in Keystone,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1740333,Microbiology report failures: Test reports contains >34650 characters,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1741203,Requests - View Icon Display,Configuration & Administration,Configuration Change,High,"Case involves specimen/label printing, printer configuration, forms, or templates.",No
+CS1741337,Keystone,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1742354,Advice how to import,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1742366,Radiology ASTM interface,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1742536,New user Accounts,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1742680,Reports not amended,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1743048,Dr is not auto loading into the request form,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1743367,Results stuck in Sent,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1743573,CDS Translation Service – Testing Availability,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1743797,Keystone General Radiology Messaging Specification,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1744080,Medilogik to Review status update for Endoscopy,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1744133,New Key/Profile,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1744215,Unable to load reports,Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1744233,CDS Translation Service Migration,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1744805,CDS Translation Service – Testing Availability,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1744821,not,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1744829,CDS Files processed multiple times,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1744957,False positive WAF Block on tQuest Request from EMIS,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1744997,Script to be run to remove erroneous characters from Review Archive,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1745273,Incorrect id against patient,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1745674,Https.\\10.170.248.41\review cant not be accessed,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1746093,New error causing Keystone acknowledgement failures for one surgery,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1746553,"there are hughe number of files in keystone server ,please can you look in to th",Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1746727,Unable to access some applications on the PC,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1746772,Not validated results,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1747679,TQUEST 500 - internal server error issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1748090,Unusual activity for 'Failed' (Status) messages - Outgoing,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1748095,Time Stamps missing,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1748951,Communications Error in Monitor Dashboard,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1748959,Reports need to be moved to correct patient,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1749160,Radiology results are not sent,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1749479,Keystone Discharge Summary Configuration,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1749674,FW: Activation: Password Policy Enablement,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1750344,Keystone stuck on PCTI Shcedule,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1750374,Keystone is skipping schedules since yesterday evening,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1750411,Radiology (FIL) formats,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1750529,CDS 6.3 APC XML Not Validated Overseas Visitor,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1750549,Bitwise access lost,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1750661,Re: Optum- Tquest Radiology St Georges,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1750723,Review results are not updated since 19:55 12/03/2026 following patching,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1750817,Revert back to SMTP Mailer from local temporary SMTP Mailer,Notifications & Communications,Alerts,High,Case relates to system alert configuration or missing automated alerts.,No
+CS1751009,Error message on Tquest,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1751682,Folder Size at 900GB,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1751838,tQuest TIE not working,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1752055,Duplicate interchange issue question,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1752332,Unusual DTS error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1752365,The patient’s current GP practice is not updating in Review.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1752370,Keystone,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1753981,St Georges TQuest down for all GP's,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1754081,EMIS - REVIEW,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1754354,Report sent to GP Multiple Times,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1754580,GP surgeries not receiving pathology or radiology reports,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1754590,Status - no acknowledgement status for FMCs.,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1754703,Incorrect Report Titles Displayed,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1756162,Multiple Processing of 1 ECDS Delete file,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1756422,Error on Keystone,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1756642,Programmatic Error on Pathology Message,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1756676,Radiology reports not going to Keystone,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1757248,Error on Keysone Tracker,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1757953,Extract of Protocols,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1758052,Test ECDS file,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1758162,No notifications received,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1758180,8000+ reports stuck in  'sending' status and 9000+ in 'sent' status,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1758257,.net framework 3.4,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1758385,Review unavailable -review page is not loading from 11:18 -26/03/2026,Performance & Availability,Availability,High,"Case reports application outage, site-wide failure, or service unavailability.",No
+CS1758543,results taking several minutes to open,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1758700,ECDS \ CDS Sender ID,Integration & Interfaces,Third-Party Systems,High,ECDS / CDS sender ID configuration for national reporting feed.,No
+CS1759374,No record of result message in Keystone,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1759380,Request to extract the data in pdf format,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1759477,GP Practice query,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1760146,Mailbox issue:  results not going back to requester,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1760417,Not validated exceptions,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1760418,Failure due to invalid characters in the report,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1760421,Radiology Report Not Validated,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1760503,No Order Request coming through  for a user on Tquest snice Saturday.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1760672,review live server review01web-p2 is down time 12:50 noon,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1760694,NPE Keystone not processing,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1761590,All documents going to the GP are stuck on keystone for the past two hours an...,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1761618,flat files,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1761706,Review not sending results,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1761783,tQuest Database Extract,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1762207,Urgent Issue with messages leaving Keystone,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1762410,Patient phone number on tQuest request form generated in EMIS Web,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1762664,Programmatic Error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1762852,Results not releasing from Keystone and random date change,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1763102,A number of historic imaging exams are unexpectedly appearing on the ED2 Review,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1763624,Read Codes extract,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1763726,CDS file failing with errors recorded,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1763856,case CS1739401,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1763918,Keystone logs out when tracker used.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1764380,Unable to connect Bitvise SSH client to transfer the CDS files,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1764633,keystone is showing pending skipped files all day from 13:30 to 16:30,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1764893,CDS 020-OP error,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1765082,Clinical documents Not validated status GP delivery failed,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1765931,Patching of Keystones and BH Review is taking place overnight this Thursday,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1766090,TRANSLATION FAILED: RAX - Kingston Hospital NHS Trust (RAX00) CDS Extract: ecds3,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1766196,Re: Optum- Tquest Radiology St Georges,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1766503,pathology result with sent status not acknowledged for months,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1766779,Keystone is showing skipped shedules.,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1767429,Messages getting blocked and queuing in TIE no response until suspended,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1767925,Keystone server reboot by server team today,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1768105,PCN using EMIS Enterprise wanting to set up tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1768268,Not Validated Status,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1768766,Server (sv-pr-tqapp02) showing error in event viewer,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1769098,UAT2 File Level Error,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1769585,muliple users stating when making a test request a SQL an error is showing .,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1770086,D:\ export\LIMS folder contains >1 million files.,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1770098,Review not transmitting/receiving Pathology & Radiology results.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1770529,FW: TRANSLATION FAILED: ECDS - RVR - Epsom and St Helier (RVR00) CDS Extract:...,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1770592,tQuest Interface is erroring which is stopping the request from flowing.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1771191,we have a CDS Translation Failure but don't undersand the missing data item.,Data Management,Data Quality,High,"Case relates to poor data quality, missing record fields, or data mismatches.",No
+CS1771211,File Level error,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1771344,"500 error on TQuest, urgent suppport required",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1771392,Netting use and access,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1771452,Keystone issues: reports stuck in sent / sending,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1772065,No response email (+ duplicate files sent to SUS),Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1772659,Reports resent,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1773529,EMIS translation emails not receiving,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1774215,Radiology are having problems with order communications via T-quest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1774466,Change notification Lilie 9.1.1 (onsite) to 9.1.1 (Hosted) service,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1774540,Removing requesting permissions but leave access to reports,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1774776,Large files are taking a long time to process.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1774920,scripx error - invalid URL to the custom Print Template or no MeadCo Triprint,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1775165,RE: Tynemouth Medical Practice not receiving Radiology reports,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1775241,print form default setting not  pointing at CSL,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1775456,Missing orders: Queue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1775552,T- Quest problem,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1775691,Patient merge required,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1776455,Unable to upload files,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1776593,Keystone System - Error message 'unable to find carriage return',Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1776940,"Error message in monitor, 115 reports not acknowledged",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1776945,Middlename field for tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1777078,tQuest scriptX renewal.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1777594,Authentication List for GP under tQuest Kingston,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1777797,issues with interchange,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1777814,Case linked to CS1416226,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1778168,tquest assitence,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1778173,Tquest printing pop up,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1778181,Tquest Systm1,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1778234,Unable to request without certain catalougues,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1778349,410 reports from yesterday stuck in sent (multiple locations),Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1778461,tquest St georges,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1778672,ECDS not processing,Integration & Interfaces,Data Exchange,High,"Case involves structured data exchange, data warehouse extraction, or import/export loading.",No
+CS1779581,Trying to automate ECDS submission using batch file,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1780433,Review Merging patients ids automatically,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1780544,CDS files not being collected from Bitvise,Case Administration,Closure Management,Medium,"Case relates to ticket administration, duplicate handling, or closure.",No
+CS1780567,Scriptx updated to 8+,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1780787,Keystone Certificates about to expire,Access & Security,Authentication,High,SSL / TLS security certificate expiration for Keystone application.,No
+CS1781006,Radiology Not Sent to GP Practices,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1781762,Outpatient CDS failing from last Two weeks,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1782339,OP/IP-  PERSON GROUP (CARE PROFESSIONAL) field,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1782348,ScriptX Version,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1782821,Urgent: Lilie–TQuest integration issue causing system hangs at 10HB,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1782910,Organisation not receiving reports,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1782951,OCS_LIMS_limit scheduled task not triggering,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1783077,Communication Error on Keystone,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1783539,Unable to access Keystone,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1783786,Patient number change,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1784062,Multiple ECDS file submissions,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1784157,Migration of Bitwise to new server,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1784619,tQuest LIMS order comms interface down,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1784636,SUS Import not showing,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1784645,Schedules Skipping,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1784760,BCFHVM20-16 is running low on disk space,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1784794,No response emails for submissions,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1785067,Interchange Failure - Station View Health Centre,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1785117,Housekeeper - Archive directory,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1785171,Users unable to log in,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1785242,Keystone issues: processing delays; multiple duplicates; DPM restart,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1785277,APC CDS Failure,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1785598,A number of errors in Keystone resulting in files stuck in suspect,Workflow & Process,Assignment,High,"Case involves task queue routing, checkout zone assignments, or ownership rules.",No
+CS1785613,Several of our OP files failed translation,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1785761,CDS Translations Emails,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1786660,Request Delayed by 2 Years,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1787065,Cannot log on to Bitvise,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1787074,My Bitvise software has stopped working this afternoon.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1787919,GP's unable to request Path orders and View Results,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1788368,DTS error,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1788377,Review,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1788673,ECDS arrival email dups,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1790076,Tquest authenication,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1790547,ERCP,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1790733,Templates Changes,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1790935,Users on 2 practice unable to use EMIS,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1791040,Keystone - Slow Sending results to GP practices.  Pathology received some calls,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1791259,Missing biochem report for patient id 0729392,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1791307,i4Mac - Indigo4,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1792166,Compatibility of the Bitvise Client Software with Newer Versions of Windows Serv,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1792592,Snomed CT,Reporting & Analytics,Reporting,High,"Case involves SSRS report generation, custom reports, or data extraction.",No
+CS1792768,please remove the warning message from Tquest asking user to contact optum suppo,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1793218,Radiology status upload,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1793551,Test Keystone not transmitting messages - impacting NHSCSP CSMS testing today,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1793978,Export of tQuest Data - Protocols/Questions,Case Administration,Closure Management,Medium,"Case relates to ticket administration, duplicate handling, or closure.",No
+CS1794144,GP Surgeries not receiving results,Integration & Interfaces,Integration Failure,High,GP surgery lab result outbound messaging dispatch failure.,No
+CS1794296,Remove hospital id from incorrect patient,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1794787,10:30 pathology run stuck as sending,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1794864,Fw: Case CS1794144 comments added,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1794882,Keystone report not populating,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1795401,Keystone Not Processing,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1795654,NPE tQuest not sending requests to the TIE,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1795803,Log Files filling disk Space,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1796042,Need URL link for Keystone UAT,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1796123,Duplicate Interchange IDs preventing reports being acknowledged,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1796277,tQuest orders missing and not being received on Soliton,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1796479,ADT feed,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1796960,Incorrect primary ID,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1797526,The clinical details when entered by the doctor on t-quest  is not transferring,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1797757,Pathology & Radiology Last DPM Reset 15/06/2026 07:40:23,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1797987,ECDSv4,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1798063,Bitvise connection issue,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1798215,*URGENT* - 10:30 Run did not send,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1798318,Extract of clinicians and their local codes,Access & Security,User Access,High,"Case requests user access enablement, role assignment, active user list, or account reinstatement.",No
+CS1798973,CrowdStrike Falcon possibly causing 1705 errors due to file locks?,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1799185,Quantiferon – TB Gold Plus result is being ‘code matched’  to incorrect test,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1799248,Patient Merge,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1800153,No confirmation from files submitted for CDS,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1800598,Curiosity on setting up question in test tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1800653,GPs not receiving interchanges,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1800774,Protocols and Questions HL7,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1800951,patient address comes up differently,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1801275,Keystone not sending HSL results,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1801438,Old number showing on their Tquest form,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1802278,E:\ Drive on server N-REV-LVW-APP01 is filling up,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1802298,Pathology Orders from tQuest down,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1802343,Message Failures reporting for Trust BI : AD groups and database info required.,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1802899,Keystone issue,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1803054,Clinical Details with illegal characters not being changed,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1803143,Unable to connect Bitvise SSH client to transfer the CDS files,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1803808,Keystoones log to review activity,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1803816,User would like to establish a GP test site for a new order comms solution fo...,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1803854,Practice reporting receiving each document twice,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1803996,Keystone Indexing taking too long to complete.,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1804805,Linked Proforma Tests,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1804885,Re: Lilie Update with tQuest,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1805898,Set up Your Healthcare Community Centre on tQuest,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1805972,Unable to restore connection to the Keystone databse.,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1806199,Deleting patient ID number,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1806212,Created a new login,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1806889,Passthrough BAC File extensions - Dated May 27th 2026,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1807140,DTS error from GP Practice,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1807659,Versions,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1808518,Incorrect patient number - Churchmere,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1808810,Vanbrugh Group Practice (G83021) DTS errors,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1808889,CDS Translation Service Migration,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1809059,need further clarification on CS1794882,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1809653,FW: Query - TQUEST Imaging - INC-561818,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1810556,Review Not Importing Results,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1811106,SAN Enquiry,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1811124,Safety Advisory Notice: SAN- 2026-07-08 - tQuest customers with Radiology req...,Notifications & Communications,Email,High,"Case involves email notification delivery, content, or recipient issues.",No
+CS1811157,Safety Advisory Notice: SAN- 2026-07-08,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1811350,Issues with test requests saving into correct place,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1811414,LIVE GP feed is stuck in a sending state,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1811438,All Radiology and Pathology results stuck in a sending state since yesterday,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1812082,Patient hospital number mix up - Review,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1812295,Keystone advice on new document setup,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1812438,Requests not reaching WinPath CIM,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1812483,results in a state of Arrived,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1813047,bot acknowledged,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1813411,Radiology Reports - Files in Suspected Folder,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1813741,Messages not being received - ?? are they being sent out?,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1814172,"Comms was stopped, now started, but Comms still running",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1814335,New User Key Creation,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1814402,New Bitvise Key,Service Requests,New Request,Medium,"Case represents a service request for creation, test setup, or system updates.",No
+CS1814961,Communications error,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1815243,Not seeing results in Review UAT,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No
+CS1815632,APC FILE not showing in SUS,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1815656,DPM inactivity monitor reset: schedule stuck on PMEP UHSM Cell Path,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1816011,403 - Forbidden: Access is denied from tQuest GUI,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1816574,Radiology Requests Unavailable for User,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1816604,Errors in Keystone,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1816687,Keystone failed messages,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1816884,Authentication failed due to key rejection,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1817450,tQuest Outage today,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1817685,Maria Grande cannot see Flat File from our TEST/UAT Keystone,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1818307,"DPM reset and indexing very slow, users complaining",Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1819583,Reference Range do not appear on report,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1820291,Safety Advisory Notice: SAN- 2026-07-08 - tQuest customers with Radiology req...,Data Management,Data Correction,High,"Case involves database scripts, data corrections, patient record unlinking, or manual data fixes.",No
+CS1820311,failure to request bloods - Lido Medical Practice Jersey,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1820517,Data quality issue in Live Review - patient with incorrect NHS number,Access & Security,Authentication,High,"Case relates to user authentication, password reset, SSO, or certificate management.",No
+CS1820858,Cannot modify tests to create a profile in the live environment,Configuration & Administration,System Administration,High,"Case involves server administration, background housekeeping, disk space, or system properties.",No
+CS1821425,Failure of NHS numbers to transmit to UAT Review,Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1821469,"Keystone issues: DPM resets, duplicates, sluggish",Defects & Errors,Application Defect,Medium,"Case reports application defect, unexpected behaviour, or functional error.",No
+CS1821779,Keystone Front-End Glitching,Integration & Interfaces,Third-Party Systems,High,Case involves external NHS services (SCR/TIE/TRUD/ODS) or third-party lab/vendor systems.,No
+CS1821819,Fw: Case CS1821425 comments added,Integration & Interfaces,Integration Failure,High,"Case relates to HL7 messaging, lab/pathology interop feeds, or order communications interface failures.",No
+CS1821872,Not Acknowledged Reports - Non-Alpha Numeric Characters,Performance & Availability,Performance,High,"Case reports application slowness, response lag, UI freezing, or spinning wheel.",No
+CS1822035,Tquest NPE order issue,Access & Security,Audit & Compliance,High,"Case involves Information Governance, record access audit, or viewing history request.",No

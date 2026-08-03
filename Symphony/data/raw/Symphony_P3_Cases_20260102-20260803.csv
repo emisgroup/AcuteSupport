@@ -1,0 +1,1440 @@
+"number","account","priority","sys_created_on","state","short_description","description","sys_updated_on","assignment_group","assigned_to","product","resolved_at","sys_mod_count","u_problem"
+"CS1712298","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","06/01/2026 09:52:43","Closed","Slow Indexing","Symphony is experiencing significant delays when indexing patient records during scanning. Could you please review the indexing on the MIDAS table to improve performance?","08/01/2026 13:44:06","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","08/01/2026 13:42:42","40",""
+"CS1715109","Norfolk and Norwich University Hospitals NHS Foundation Trust","3 - Medium","09/01/2026 15:42:15","Closed","Patient Merge Issue","Andy Abramowicz reporting one patient record in Symphony is showing to have multiple records.
+
+They would like to merge all these records into one patient.
+
+Patient example:  0495458
+Attendance No: AE-26-003407-1
+
+andy.Abramowicz@nnuh.nhs.uk","23/01/2026 16:55:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","09/01/2026 16:54:11","14",""
+"CS1716445","Norfolk and Norwich University Hospitals NHS Foundation Trust","3 - Medium","13/01/2026 12:48:03","Closed","Patient Merge Issue","Andy Abramowicz calling back in reference CS1715109. 
+
+He advise they do not have access to SAPM so are unable to merge the multiple patient records.
+
+Patient example:  0495458
+Attendance No: AE-26-003407-1
+
+andy.Abramowicz@nnuh.nhs.uk","27/01/2026 13:01:26","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","13/01/2026 12:59:50","9",""
+"CS1717065","Leeds Teaching Hospitals NHS Trust","3 - Medium","14/01/2026 10:43:44","Closed","Can't get into a past clinic appointment","Julie is trying to access a past clinic appointment from 29 December. LGI-Ped ACP clinic (there are two) Clicked on the new one, the other one is overbooked. The patient is 733 293 2741 (first name A).
+
+When she goes into the clinic, it brings up today's date, she's clicking on the left arrow to go back, hears a ping, the system crashes without moving from the January screen. It's then unresponsive.","01/04/2026 00:41:26","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","18/03/2026 00:39:28","41",""
+"CS1718212","South Tees Hospitals NHS Foundation Trust","3 - Medium","15/01/2026 14:34:24","Closed","Access to patient record","Hello
+The Trust has received a subject access request from D352074, for details of anyone that has accessed any information for of the patient or attendances. The date range is 01/01/2021 to date.
+Please could this information be provided.
+Thanks
+Paul","20/01/2026 16:37:21","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","16/01/2026 13:18:37","14",""
+"CS1718901","North West Anglia NHS Foundation Trust","3 - Medium","16/01/2026 13:20:07","Closed","111 scheduling failure","Hiya
+the ICS/111 folks have messaged ED to say they cannot book anyone in 
+when attempting they get a no slot/invalid
+
+their system error:
+""CareConnectBookingService: Error calling https://connect.advhc.net/live/anyconnect/Slots/CareConnect - Error: Operation was unsuccessful because of a client error (UnsupportedMediaType). OperationOutcome: Overall result: FAILURE (2 errors and 0 warnings)
+[ERROR] (no details)(further diagnostics: ERROR_COMMUNICATING_TO_ENDPOINT_URL_https://NHS111-RGN.NWANGLIAFT.NHS.UK/Slot)
+[ERROR] (no details)(further diagnostics: Unsupported_Media_Type)""
+
+our interface servers were actually offline for most of the morning - DAD is running since.. (think it was lunch time things were confidently working)
+I'm hoping that theres possibly a timeout or something 'simple' that makes slots available/connection with the adastra people.
+
+can you have a look and see if theres something obvious? if there is a failure to connect out then any info i can pass on to our IT bods would be grand.
+thanks muchly","30/01/2026 17:08:15","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","30/01/2026 14:39:48","27",""
+"CS1719236","Leeds Teaching Hospitals NHS Trust","3 - Medium","19/01/2026 08:55:36","Closed","IG Audit","Patient: J B
+
+412 482 5986 
+
+Dates to audit: 25/10/2025 - 10/12/2025 
+
+Please could I ask for a list of staff who have accessed these records during the dates to range.","05/02/2026 13:21:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","22/01/2026 13:20:14","12",""
+"CS1719242","Leeds Teaching Hospitals NHS Trust","3 - Medium","19/01/2026 08:58:46","Closed","IG audit request","Patient: D C
+
+ 486 195 8083
+
+Dates to audit: 06/10/2025 - 20/12/2025
+
+Please could I ask for a list of staff who have accessed these records during the dates range above","05/02/2026 13:21:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","22/01/2026 13:21:05","20",""
+"CS1721015","Betsi Cadwaladr University Healthboard","3 - Medium","21/01/2026 10:14:34","Closed","Reportingserver services log files","this morning one of our server team has found our replicated server  7A1A4SRVEDREP1 D: Binaries to be full- log file sitting at 33GB... and 1.66Gb left   what can be deleted from this drive to free up space please?","14/04/2026 13:57:30","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","31/03/2026 13:56:32","56",""
+"CS1721145","Leeds Teaching Hospitals NHS Trust","3 - Medium","21/01/2026 11:19:20","Closed","Discharge letter message split into 2 messages","Discharge letter message has been spit into 2 messages. example 5603168. Attached is the RIE message received. Can this be looked into please as we have had no changes to the TIE and the RIE at Leeds.
+
+Product Category - 	Bundle - Symphony/DAD/Message Contents/Other PAS","11/02/2026 16:59:31","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","28/01/2026 16:58:27","14",""
+"CS1721176","South Tees Hospitals NHS Foundation Trust","3 - Medium","21/01/2026 11:42:32","Closed","Subject access request","Hello
+The Trust have received a Subject Access Request for an audit on details of access to the patient record and any attendances. Patient = D987796, timeframe - from 01/01/2012 to the date the audit is performed.
+Please could this data be provided?
+Thanks
+Paul","22/01/2026 10:50:40","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","22/01/2026 10:15:52","12",""
+"CS1721870","Health Service Executive","3 - Medium","22/01/2026 10:34:55","Closed","Patient Showing as Deceased - NAAS","Clare Larkin calling from NAAS Hospital reporting a patient is showing as deceased and this status needs removing.
+
+Patient: MRN 139540
+
+Clare.larkin@hse.ie
+","05/02/2026 12:07:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","22/01/2026 12:05:56","12",""
+"CS1722975","Mid Yorkshire Teaching NHS Trust","3 - Medium","23/01/2026 15:56:06","Closed","Bed Manager tracking grid needs additional patient removing from the background","The Bed Manager tracking grid has accumulated additional patients in the backend and is running slow again. Please can you run a script to remove these? Screenshot attached. It is showing 51/87 patients on the tracking grid.","06/02/2026 12:33:03","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","27/01/2026 16:38:03","20",""
+"CS1723563","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","26/01/2026 13:04:46","Closed","Staff unable to upload e-docs","Some of our staff are having issues uploading e-docs and get the attached error message.
+
+We have checked the permissions and they have full access to e-docs so we are unsure why this isn't working.
+
+The generic account they use has access to Generic - Clinical & Generic - Nursing which has full access to e-docs.
+When they use their normal accounts they have CIC- Nurse which has full access to e-docs.
+
+Please can you suggest how we resolve this.","10/02/2026 08:21:48","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","10/02/2026 08:21:46","25",""
+"CS1723601","Mid Yorkshire Teaching NHS Trust","3 - Medium","26/01/2026 13:38:17","Closed","FW: Audit of patient record","STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit for the below on Symphony please?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 19 January 2026 08:47
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>
+Subject: Audit of patient record
+
+Dear all,
+
+
+Can you please provide an audit of the staff members who have accessed the patient record 0442525 from the 14th January 2026 to 18 January 2026
+
+
+
+
+
+Regards
+
+[MYDS_Logo]
+Martin Moorhouse
+Information Governance
+Manager
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+Book time with MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ismsaljsauthenabled&ep=pcard__;!!IJLR5QJm7ttc!m2H5MnUzt_QlZ0w5zYGuZAcadaoKET4IopGxxTthxHSprBZLJs4nOGyoqJOXrTgy76G4N6Mp0SwysVrcggUN$>
+
+
+
+
+
+
+
+From: HOWELL, Stacey (MID YORKSHIRE TEACHING NHS TRUST) <stacey.howell1@nhs.net<mailto:stacey.howell1@nhs.net>>
+Sent: 19 January 2026 08:28
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Subject: Re: RE:
+
+Hi Martin
+
+The evening of the 15th January.
+
+Many thanks
+Stacey
+
+________________________________
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Sent: 19 January 2026 08:10
+To: HOWELL, Stacey (MID YORKSHIRE TEACHING NHS TRUST) <stacey.howell1@nhs.net<mailto:stacey.howell1@nhs.net>>
+Subject: RE:
+
+
+Hi Stacey,
+
+
+
+Do you know the date of the incident? And we will audit from the day before to today
+
+
+
+Martin
+
+
+
+From: HOWELL, Stacey (MID YORKSHIRE TEACHING NHS TRUST) <stacey.howell1@nhs.net<mailto:stacey.howell1@nhs.net>>
+Sent: 16 January 2026 16:11
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Subject:
+Importance: High
+
+
+
+Hi Martin
+
+
+
+Following our conversation this morning, I have gained consent from Liam to share his NHS number.
+
+
+
+4089390354
+
+
+
+Kind regards,
+
+[https://attachments.office.net/owa/stacey.howell1@nhs.net/service.svc/s/GetAttachmentThumbnail?id=AAkALgAAAAAAHYQDEapmEc2byACqAC%2FEWg0AcwJOf3qS10GpknyeXav8fgAFDkXiEgAAARIAEABzqlwJL%2BKbTL2HN9b5EU2E&thumbnailType=2&owa=outlook.office.com&X-OWA-CANARY=X-OWA-CANARY_cookie_is_null_or_empty&token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InVnWlFaL01Dc3VtYTJsdGFlOTlLRUlPWHlYaz0iLCJ4NXQiOiJ1Z1pRWi9NQ3N1bWEybHRhZTk5S0VJT1h5WGs9Iiwibm9uY2UiOiItT1BzQlREMUNWLWw0c1JlU1g3S2hLT1B1NFBjUGNwY1VSQV90R0swRWNVeksyeS03Vm10alZkOUQ0ZTJXcU91MjNad19JaE55bWVWYVVtTWVjSFFlOU5CcTZBY0ZuU3ZKTGZ0NlV6cWxWdU10QkZpOGEzNDUyaE16Z1l6Q1NVM1p2STZIQTJyT2ZJMmNpMGlwR2gxUlZUUjVWX1Z2VmljTWpJbnBKZEpMNFEiLCJpc3Nsb2MiOiJMTzJQMjY1TUIxNDM3Iiwic3JzbiI6NjM5MDQ0MDMyMTA0NDc3MzkyfQ.eyJzYXAtdmVyc2lvbiI6IjMzIiwiYXBwaWQiOiJhZjNlYmJiYS1jMjNmLTQ5MmEtYWE5My04MzQyMTY5NmVjNGIiLCJpc3NyaW5nIjoiV1ciLCJhcHBpZGFjciI6IjIiLCJhcHBfZGlzcGxheW5hbWUiOiIiLCJ1dGkiOiI1ZjViMzU3Ny1jZjE0LTQwYTgtOTI3Zi04M2EwZTI2MGZhZGQiLCJpYXQiOjE3Njg4MTExNzgsInZlciI6IlNUSS5Vc2VyLkNhbGxiYWNrVG9rZW4uVjEiLCJ0aWQiOiIzN2MzNTRiMjg1YjA0N2Y1YjIyMjA3YjQ4ZDc3NGVlMyIsInRydXN0ZWRmb3JkZWxlZ2F0aW9uIjoiZmFsc2UiLCJ0b3BvbG9neSI6IntcIlR5cGVcIjpcIk1hY2hpbmVcIixcIlZhbHVlXCI6XCJMTzJQMjY1TUIxNDM3LkdCUlAyNjUuUFJPRC5PVVRMT09LLkNPTVwifSIsInJlcXVlc3Rvcl9hcHBpZCI6IjE1N2NkZmJmLTczOTgtNGE1Ni05NmMzLWU5M2U5YWIzMDliNSIsInJlcXVlc3Rvcl9hcHBfZGlzcGxheW5hbWUiOiJPZmZpY2UgMzY1IEV4Y2hhbmdlIE1pY3Jvc2VydmljZSIsInNjcCI6Ik93YUF0dGFjaG1lbnRzLlJlYWQiLCJvaWQiOiIyNjgwZmY4MC0yZDMwLTQxOTAtODdjNS1kZTdkYTQzNTA4MzIiLCJwdWlkIjoiMTAwMzIwMDA3RjU4MzFERSIsInNtdHAiOiJzdGFjZXkuaG93ZWxsMUBuaHMubmV0IiwidXBuIjoic3RhY2V5Lmhvd2VsbDFAbmhzLm5ldCIsInVzZXJjYWxsYmFja3VzZXJjb250ZXh0aWQiOiI3MTE0ZWRhNzU0MWE0MjBiYTlkNTM4ODNjMGVhMTU5ZiIsInNpZ25pbl9zdGF0ZSI6Imttc2kiLCJlbWJlZGRlZHVzZXJ0b2tlbnR5cGUiOiJBQUQiLCJ1c2VyYWNjZXNzdG9rZW4iOiJleUowZVhBaU9pSktWMVFpTENKdWIyNWpaU0k2SW5SUlgyOTVTbTVsWlZWdFptcGxPSGhYV0RKVGREVnNaUzF5VTJSaVpWcFFhREpNYmtzMmRVOUdiMEVpTENKaGJHY2lPaUpTVXpJMU5pSXNJbmcxZENJNklsQmpXRGs0UjFnME1qQlVNVmcyYzBKRWEzcG9VVzF4WjNkTlZTSXNJbXRwWkNJNklsQmpXRGs0UjFnME1qQlVNVmcyYzBKRWEzcG9VVzF4WjNkTlZTSjkuZXlKaGRXUWlPaU]
+
+Stacey Howell
+
+Matron
+
+Emergency Department & UTC
+
+
+
+[Smart Phone with solid fill] Mobile - 07714271946
+
+     Ext 56270
+
+
+
+Mid Yorkshire Teaching  NHS  Trust
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!m2H5MnUzt_QlZ0w5zYGuZAcadaoKET4IopGxxTthxHSprBZLJs4nOGyoqJOXrTgy76G4N6Mp0SwysfOe7oBu$>","11/02/2026 12:25:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","28/01/2026 12:24:56","17",""
+"CS1723630","Leeds Teaching Hospitals NHS Trust","3 - Medium","26/01/2026 14:02:16","Closed","Interface error","From Richard Cannon LTH Intergration:
+
+I may have found the problem as the Stored Proc dbo. GetYASPatient is now returning the following error 
+ 
+Msg 8171, Level 16, State 2, Procedure YAS_Patients, Line 8 [Batch Start Line 2]
+Hint 'noexpand' on object 'dbo.YAS_PatientsInner' is invalid.
+Msg 4413, Level 16, State 1, Procedure dbo.GetYASPatient, Line 20 [Batch Start Line 2]
+Could not use view or function 'dbo.YAS_Patients' because of binding errors.
+
+its a SP on their Database which we wrote for them to create. We had issues around the last upgrade with probably the same error i think but we fixed it. It looks like its reverted back pre-October","13/02/2026 14:51:29","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","30/01/2026 14:50:22","24",""
+"CS1723745","Swansea Bay University Health Board","3 - Medium","26/01/2026 15:30:38","Closed","Omnicell and MPI DAD outbound messages queued","Omnicell and MPI DAD outbound messages queued since 24/1/26, please can a DAD restart be performed.","10/02/2026 10:51:28","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","27/01/2026 10:50:44","18",""
+"CS1723826","Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust","3 - Medium","26/01/2026 16:42:01","Closed","CTM alert messages queued ","CTM alert messages queued ","09/02/2026 17:13:26","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","26/01/2026 17:11:35","10",""
+"CS1724856","Gibraltar Health Authority (GHA)","3 - Medium","27/01/2026 20:47:54","Closed","Symphony wont load","Symphony would not load kept asking for the DB name","12/02/2026 12:19:26","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","29/01/2026 12:18:18","11",""
+"CS1724887","Torbay and South Devon NHS Foundation Trust","3 - Medium","28/01/2026 08:50:39","Closed","Unable to log in to Symphony","Any users already logged in to Symphony are still in but anyone trying to log in is unable to, just gets stuck on preparing at all hospitals.
+
+ED have had to go to business cont.
+
+Many thanks
+Dani","17/02/2026 13:51:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/02/2026 13:49:58","50",""
+"CS1725163","Wye Valley NHS Trust","3 - Medium","28/01/2026 11:39:55","Closed","Sending messages to Maxims medical tracker","Patient not appearing on medical tracker due to a symphony error","09/02/2026 12:47:52","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","30/01/2026 16:56:27","17",""
+"CS1726859","Mid Yorkshire Teaching NHS Trust","3 - Medium","30/01/2026 14:56:58","Closed","FW: Our ref: PE107366   FW: Possible Unauthorised Records Access 438 359 0039","STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit on Symphony for below?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 29 January 2026 11:05
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; CINNAMON, Gareth (MID YORKSHIRE TEACHING NHS TRUST) <gareth.cinnamon@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>
+Subject: Fw: Our ref: PE107366 FW: Possible Unauthorised Records Access 438 359 0039
+
+Good morning all,
+
+
+Can you run and audit of your systems to see if the staff member Isla Shackleton has accessed patient unit no: 1498190
+
+
+
+
+
+
+
+Regards
+
+
+
+[MYDS_Logo]
+
+Martin Moorhouse
+
+Information Governance
+Manager
+
+
+
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+
+Dewsbury & District Hospital
+
+Halifax Road, Dewsbury,
+
+West Yorkshire, WF13 4HS
+
+
+
+Book time with MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ismsaljsauthenabled&ep=pcard__;!!IJLR5QJm7ttc!kBUa4pKcjtQmA6JBlfhlR0PM1efRA0WLJaRbcZO1ce3zmK5Xjcf_fgkt1-qiKqxyCcbY44kVSzsXCzNGSQ8G$>
+
+
+
+
+
+
+________________________________
+From: PALSMIDYORKS (MID YORKSHIRE TEACHING NHS TRUST) <myh-tr.palsmidyorks@nhs.net<mailto:myh-tr.palsmidyorks@nhs.net>>
+Sent: 29 January 2026 10:59 AM
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>; IGMIDYORKS (MID YORKSHIRE TEACHING NHS TRUST) <midyorks.ig@nhs.net<mailto:midyorks.ig@nhs.net>>
+Subject: Our ref: PE107366 FW: Possible Unauthorised Records Access 438 359 0039
+
+
+Hi Martin
+
+
+
+Please could you see the below - are you able to look into this and do I need to obtain the patient's consent (first) as the concern has come in from the son?
+
+Patient unit no: 1498190
+
+
+
+Many thanks
+
+
+
+Amanda
+
+
+
+Amanda Prout | Deputy PALS & Complaints Manager
+
+The Mid Yorkshire Teaching NHS Trust | Pinderfields Hospital | Aberford Road | Wakefield | WF1 4DG | 01924 542972
+
+Extension 57480
+
+Available via Teams
+
+
+
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kBUa4pKcjtQmA6JBlfhlR0PM1efRA0WLJaRbcZO1ce3zmK5Xjcf_fgkt1-qiKqxyCcbY44kVSzsXCyacxgzl$>","06/02/2026 12:31:52","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","02/02/2026 15:38:37","12",""
+"CS1727058","Mid Yorkshire Teaching NHS Trust","3 - Medium","02/02/2026 07:24:31","Closed","MidYorks: HL7 PAS Messages queueing: Symphony","Dear Sir/Madam
+
+
+HL7 PAS messages to Symphony are queuing – we are passing to:
+
+
+Server: SVCSYMPHONYDAD     Port: 9010
+
+
+The messages commenced queuing yesterday (01/02).
+
+
+Please can you investigate and resolve at the earliest opportunity?
+
+
+Greatly appreciated.
+
+
+Regards
+Waheed","16/02/2026 10:19:29","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","02/02/2026 10:18:27","14",""
+"CS1727069","Western Sussex Hospitals NHS Trust","3 - Medium","02/02/2026 08:13:38","Closed","A04 System Error","Morning,
+
+I have an A04 outbound message for Worthing ED that I cannot clear, which throws up the following error.
+
+DATETIME: 02-Feb-2026 08:11:41|| DESCRIPTION: Invalid use of Null|| SOURCE: FWDADQueMsg|| COMPONENT: FWDADQueMsg|| ERRORNO: 94|| PROCEDURE: FWDADQueue.PopulateObject|| CODEBLOCK: || USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: UHSL02131|| SERVERNAME: RYREMISSQL1-AG1.sussex.nhs.uk|| LOGGEDUSER: PopeR|| SITE: UHSussex LIVE|| BUILDNO: 3.1.1.6|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: 10.0||","16/02/2026 13:37:30","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","02/02/2026 13:35:41","22",""
+"CS1727616","Luton And Dunstable Hospital NHS Foundation Trust","3 - Medium","02/02/2026 13:28:27","Closed","Symphony suspended messages","Hi support,
+
+Since 2025-11-11 10:00 we have seen messages from our Ice results to Symphony suspend on our TIE.
+The total suspended messages: 3485
+Ack received back:
+
+ERROR <Ens>ErrSuspending: Suspending message 1245447453 as requested by message handler with status: ERROR <Ens>ErrGeneral: Suspending HL7 Message body 10@EnsLib.HL7.Message / 328063550 because response 6@EnsLib.HL7.Message MSA code 'AE' matched ReplyCodeActions 1-6 : ':?R=RF,:?E=S,:~=S,:?A=C,:*=S,:I?=W', resulting in Action code S : MSH|^~\&|SYMPHONY|SymphonyDAD|ICE||20260202124726||ORU^R01|20260202124726774+0|T|2.4|||||||| MSA|AE|20260202124726774+0||||
+
+HL7 Message contents:
+
+MSH|^~\&|ICE^ICE|REPORTING|||20260202124717||ORU^R01|20260202124726774+0|P|2.4|28927218||AL|AL|||
+PID|1||V074863^^^RC100^MRN~7274342002^^^NHS^NHS||Removed patient information
+PV1|1||BACCEM|||||B5200396^BRIGGS|B5200396^BRIGGS||||||||||||
+ORC|RE|56135101|||||||202601310700|||B5200396^BRIGGS|BACCEM^^^^^^^^Accident & Emergency||||||||
+OBR|1|56135101|26B50080157|COMA^REQUEST COMMENT (BIOCHEMISTRY/ENDOCRINOLOGY)^LC|||202601301748|||||||202601310700|T034&Blood^Blood|B5200396^BRIGGS||||26B50080157||202602021246||ICE|F|||||||||||
+OBX|1|ST|COMA^Request Comment (Biochemistry/Endocrinology)^LC||||||||F|||202601301748|26B50080157|
+NTE|1|T|Request received to add tests to previous sample|
+NTE|2|T|Laboratory number:25b50109577|
+NTE|3|T|Date additional request received - 31/01/26|
+NTE|4|T|Time additional request received - 07:01|
+OBR|2|56135101|26B50080157|TFT^THYROID FUNCTION (FT4 \T\ TSH)^LC|||202601301748|||||||202601310700|T034&Blood^Blood|B5200396^BRIGGS||||26B50080157||202602021246||ICE|F|||||||||||
+OBX|1|ST|FT4^Free Thyroxine (FT4)^LC||Request not processed||||||F|||202601301748|26B50080157|
+OBX|2|ST|TSH^Thyroid Stimulating Hormone (TSH)^LC||||||||F|||202601301748|26B50080157|
+NTE|1|T|Request not processed|
+NTE|2|T|Too early to fully assess the change in result|
+NTE|3|T|or response to treatment. We recommend repeat|
+NTE|4|T|testing after at least 3 months to fully assess|
+NTE|5|T|the effect of replacement in hypothyroid patients|
+NTE|6|T|and 2-4 weeks in patients on anti-thyroid therapy.|
+NTE|7|T|If on review there are other indications and the|
+NTE|8|T|test is considered to contribute to patient care,|
+NTE|9|T|please contact the laboratory. The sample will|
+NTE|10|T|be held for three days.|
+NTE|11|T|See 22/1/26|
+
+
+
+Can you advise why the messages are suspending?
+
+Kind regards,
+Tommy Hall","12/03/2026 11:17:52","Acute Care Symphony Support Level 2","Sheree Chadwick","Symphony","26/02/2026 00:19:34","57",""
+"CS1727623","South Tees Hospitals NHS Foundation Trust","3 - Medium","02/02/2026 13:40:18","Closed","Soft deleted account","Hello
+It looks like account jcbakerw is soft deleted. I've just unlocked the account but it's no longer showing when searching for the account.
+Thanks
+Paul","02/02/2026 15:45:24","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","02/02/2026 15:34:14","18",""
+"CS1727681","Aneurin Bevan University Healthboard","3 - Medium","02/02/2026 14:25:40","Closed","User Account Not Visible","Have been in via staff management to unsuspend a user account, user name Denise Player, successfully unsuspended account however when attempting to go back into account to check access and searching for user by name, it comes back with No matches meeting the search criteria were found, when I know it exists as I juts amended the leaving date on the account and unsuspended it.  This user is on duty now and needs access","02/02/2026 15:01:45","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","02/02/2026 14:47:24","15",""
+"CS1727777","South Tees Hospitals NHS Foundation Trust","3 - Medium","02/02/2026 15:37:44","Closed","Update required to network path","Hello
+
+We need to move the Midas network path from \\stnas1\Midas to \\stds\servershar$\Symphony\Midas
+
+Is this something that can be done?
+I've tried doing myself but I'm not am not able to type the address into the field and can't browse to the required location.
+
+Can this be done on the Test environment initially to ensure it works before updating the Training and Live environments?
+
+thanks
+
+Paul","13/02/2026 14:18:29","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","13/02/2026 13:44:36","16",""
+"CS1728328","Health Service Executive","3 - Medium","03/02/2026 11:31:25","Closed","Clinics on Symphony","We are trying to extract data from symphony so that we can report on the number of patients that have attended each clinic on symphony. We need the breakdown per clinic by clinic name. We are unable to see at all the field that has the clinic name. Can you let us know please on the backend what field we need to include in extract to be able to identify the clinic name? currently we can only capture how many attended all clinics. This is for both ED and AMAU dept on 1. Naas live and 2. Naas Test","24/02/2026 09:07:28","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","10/02/2026 09:07:11","17",""
+"CS1728432","South Tees Hospitals NHS Foundation Trust","3 - Medium","03/02/2026 12:26:15","Closed","Test DAD restart","Paul has requested a restart of the test DAD service, via Camis","03/02/2026 13:36:08","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/02/2026 12:49:26","9",""
+"CS1729164","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","04/02/2026 11:05:23","On hold","Integration Flags issue for new Patientrack Process","Trust identified an issue when retrospective obs are recorded on patientrack and received via integration (this is a new functionality the Trust have in Production and are looking to progress in to live in February 2026)
+
+When these are recorded retrospectively in patient track they are shown in Symphony in a different order and not in chronological order, symphony integration fail to recognize the NEWS score is a retrospective score and change the score in the symphony tracking grid.
+
+Example.
+- Last set of obs is done at 11.00 NEWS=5
+- staff record retrospective obs that were done at 10.00 with NEWS=0
+- the NEWS in the Symphony tracking grid should remain 5 (as last set of observation) , instead the NEWS score changed to 'zero'.
+
+this introduces a clinical risk:
+- discrepancy on what symphony tracking grid and patientrack chart/screens is displaying ( patientrack is the single source of truth)
+- risk of staff only looking at symphony and not double checking in patientrack , hence clinical decision/escalation might be missed or based on 'old' score. 
+
+integration issue- symphony , potential high use of retrospective obs functionality  for highly acute patients (esp in RESUS) 
+
+at the moment no existing control ( only education and comms) ","06/07/2026 13:53:19","Acute Care Symphony Support Level 2","Lee Booth","Symphony","","26","PRB0053378"
+"CS1731024","North West Anglia NHS Foundation Trust","3 - Medium","06/02/2026 15:08:56","Closed","restart SCR/CPIS","Afternoon,
+can you do the usual jboss/iis/dad restart please?
+we've had reception call about ""slow attendances"" yesterday and its only just been passed to us application type people to know what has happened.
+just getting a barber pole or white page (timeout)
+thanks very much","06/02/2026 17:00:07","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","06/02/2026 16:59:01","18",""
+"CS1731354","Isle Of Wight NHS Trust","3 - Medium","09/02/2026 08:29:23","Closed","ECDS reports not pulled through","Last ECDS report on Friday 6th Feb, none from 7th, 8th or 9th","26/02/2026 10:11:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","12/02/2026 10:11:18","40",""
+"CS1731473","Western Health and Social Care Trust","3 - Medium","09/02/2026 09:46:51","Closed","'Transaction log for database full'","Hi, we cannot access symphony today","10/02/2026 15:13:43","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","09/02/2026 14:46:37","28",""
+"CS1732496","Leeds Teaching Hospitals NHS Trust","3 - Medium","10/02/2026 09:37:02","Closed","BRM department remove grey team","Can you please remove the grey team from BRM department","27/02/2026 23:19:11","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","13/02/2026 11:40:14","19",""
+"CS1733508","Swansea Bay University Health Board","3 - Medium","11/02/2026 10:45:31","Closed","DHCW Integration services unable to send Pathology results to WEDS symphony","DHCW Integration services are currently unable to send Pathology results to WEDS on endpoint: sbuwedseie_prod.cymru.nhs.uk: 18121
+“…ServiceExecutionException: WEDS_SBHB_Pathology_Result_Sender : Unable to send the message to the server
+caused by
+java.net.SocketException: Socket closed…”
+Port query is showing as “Listening”
+Currently have a queue of 1158 messages trying to send","25/02/2026 15:15:30","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","11/02/2026 15:14:46","16",""
+"CS1733630","South Tees Hospitals NHS Foundation Trust","3 - Medium","11/02/2026 11:59:52","Closed","Restart of Symphony DAD required.","Hello
+Please could Symphony DAD be restarted as a new Special Case indicator has been added to the system.
+Thanks
+Paul","11/02/2026 15:39:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","11/02/2026 15:26:32","14",""
+"CS1734133","South Tees Hospitals NHS Foundation Trust","3 - Medium","12/02/2026 09:36:33","Closed","Deleted account","Hello
+Please could you remove the soft delete on user account jcsstill.
+Thanks
+Paul","13/02/2026 10:00:49","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","13/02/2026 09:58:42","17",""
+"CS1734762","Tallaght University Hospital","3 - Medium","13/02/2026 01:41:18","Closed","User needs password reset","User T18009340 needs a password reset. Contact is Karl Tipping +353 87 991 4282.","27/02/2026 11:17:43","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","13/02/2026 01:55:28","8",""
+"CS1734959","Swansea Bay University Health Board","3 - Medium","13/02/2026 10:30:23","Closed","Duty Clinician Date Expired","Consultant Nurse who is usually always shown as the duty clinician, has reported that since 1/1/26 their name is no longer showing on discharge summaries sent to GPs. After investigating, it looks as though an end date was set for 31/12/25 (see screenshot). To reinstate should we select edit to change the end date in duty clinician history or should we select add on duty clinician management screen?","06/03/2026 11:17:22","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","20/02/2026 08:25:59","23",""
+"CS1735135","Mid Yorkshire Teaching NHS Trust","3 - Medium","13/02/2026 12:50:47","Closed","FW: List of patients with Penicillamine as allergy","STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+
+Please can audit be extracted for below:
+
+
+
+I have used the eAudit functionality but found 0 results. Can you do a deeper dive in the backend and query the Allergies in Indicators to see if Penicillamine has been added to a pt please?
+
+
+
+I searched by the below criteria in eAudit but this didn't bring up any results.
+
+
+
+  *   Patient details - Indicators - Allergies - Other
+  *   Patient details - Indicators - Specify Allergies - Contains - (added a few different variations for penicillamine)
+
+
+
+Thanks.
+
+Aamir Maqsud
+
+Digital Systems Manager
+
+The Mid Yorkshire Teaching NHS Trust
+
+Dewsbury & District Hospital
+
+Halifax Road, Dewsbury,
+
+West Yorkshire, WF13 4HS
+
+
+
+From: MCNALLY, Daniel (MID YORKSHIRE TEACHING NHS TRUST) <daniel.mcnally@nhs.net<mailto:daniel.mcnally@nhs.net>>
+Sent: 09 February 2026 14:25
+To: MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net<mailto:aamir.maqsud@nhs.net>>; BAXTER, Rebecca (MID YORKSHIRE TEACHING NHS TRUST) <rebecca.baxter5@nhs.net<mailto:rebecca.baxter5@nhs.net>>
+Subject: List of patients with Penicillamine as allergy
+
+
+
+Will you be able to run me a report of patients in symphony with the allergy
+
+
+
+""penicillamine""
+
+
+
+recorded
+
+
+
+Patient safety alert about it
+
+
+
+National patient safety alert - harm from incorrect recording of a penicillin allergy as a penicillamine allergy<https://urldefense.com/v3/__https://www.england.nhs.uk/wp-content/uploads/2025/11/national-patient-safety-alert-penicillamine-allergy-recording.pdf__;!!IJLR5QJm7ttc!kSfAFSIUzTlU3KQHkq2Bux3A1GspmpeLAY5kwMOuwtQOjasMd9KG9EzK812jfYplYiZG8ZoKuNCfTKsNw5YP$>
+
+
+
+ideally need unit number, names, list of allergies recorded, date allergy recorded, if way of excluding deceased patients as well would be helpful
+
+
+
+Cheers
+
+
+
+Dr Daniel McNally
+
+
+
+Consultant in Acute Medicine
+
+Associate Chief Clinical Information Officer for the Acute Care Division
+
+Deputy Head of Clinical Service for Acute Medicine
+
+
+
+Mobile via 01924 541000
+
+Secretary: 01924 542267 (52267)
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kSfAFSIUzTlU3KQHkq2Bux3A1GspmpeLAY5kwMOuwtQOjasMd9KG9EzK812jfYplYiZG8ZoKuNCfTJ_pN21C$>","04/03/2026 11:16:12","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","18/02/2026 10:56:54","18",""
+"CS1735426","Health Service Executive","3 - Medium","13/02/2026 15:10:21","Closed","GP not Letters pulling the Diagnosis from Symphony ","We seem to be having problems with the GP Letters pulling the Diagnosis from Symphony please see attached an example (1st attachment)
+
+This is what is in the system for this patient (2nd attachment)
+
+Could you have a look at this for us please and let me know 
+","18/03/2026 00:31:27","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","04/03/2026 00:29:29","26",""
+"CS1735935","Wye Valley NHS Trust","3 - Medium","15/02/2026 14:09:23","Closed","Dad restart required","DAD restart required as messages are not getting through
+Contact is Jayne Carr 01432 372914 hereford.edreception@nhs.net","20/02/2026 08:02:07","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","16/02/2026 08:01:50","13",""
+"CS1736336","Swansea Bay University Health Board","3 - Medium","16/02/2026 12:05:38","Closed","Link to WCP not loading","Users report they are unable to access WCP via the link in the next action menu. Not getting an error message,  just blank screen with egg timer. Was working ok last week.","03/03/2026 11:16:59","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","17/02/2026 09:42:39","14",""
+"CS1737589","South Tees Hospitals NHS Foundation Trust","3 - Medium","18/02/2026 08:58:39","Closed","Audit request","Hello
+Would it be possible to provide details of all staff that have accessed the patient record and or attendances for patient D081807?
+Thanks
+Paul","19/02/2026 11:37:26","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","18/02/2026 15:59:22","12",""
+"CS1738233","Gibraltar Health Authority (GHA)","3 - Medium","18/02/2026 23:08:33","Closed","OOH call, Symphony lost connection","Call from site to say Symphony has gone down, no one can connect. When trying getting a message to say server not found.
+Gibraltar IT had made some changes earlier in the evening regards cable replacement and removing/replacing a switch that is EOL.","13/03/2026 13:53:27","Acute Care Symphony Support Level 2","Lee Booth","Symphony","27/02/2026 13:51:31","20",""
+"CS1739585","South Tees Hospitals NHS Foundation Trust","3 - Medium","20/02/2026 15:24:57","Closed","Account soft deleted","Hello
+Account jceatkin has a soft delete on it. The account had a Leaving Date that had passed on it, I set that back to the default date and the account is no longer available to select. This happens every time I change the leaving date back to the default date on accounts.
+Please could the soft delete be removed?
+Thanks
+Paul","23/02/2026 14:35:35","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","23/02/2026 14:33:50","18",""
+"CS1739668","Children's Health Ireland","3 - Medium","20/02/2026 18:52:04","Closed","Patients not going across from iPMS to Symphony","Hello,
+
+Crumlin ED department have been on to us over new patients registered on iPMS not showing on Symphony. We have restarted the Symphony DAD and checked the Rhapsody integration engine and could find no issues. When I registered a patient about half an hour ago it appeared but just got a call from ED to state H01841028 was registered and not coming across. Can you please see if you can see anything to indicate why? Please call Dawn on 00353873435739 with updates as she is on call covering this issue. 
+
+Thanks","09/03/2026 11:17:45","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","23/02/2026 08:46:30","7",""
+"CS1739937","South Tees Hospitals NHS Foundation Trust","3 - Medium","23/02/2026 10:27:27","Closed","Restart of DAD required","Hello
+Could the Live Symphony DAD service be restarted so that it picks up a new Special Case indicator?
+Thanks
+Paul","27/02/2026 11:17:09","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","27/02/2026 09:41:38","8",""
+"CS1742210","Western Sussex Hospitals NHS Trust","3 - Medium","26/02/2026 10:00:11","Closed","Worthing - A08","Morning, can you remove the A08 outbound message for WE-26-015966-1? It has been in the queue and is unable to process for >24 hrs","27/02/2026 08:38:49","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","27/02/2026 08:12:19","20",""
+"CS1742764","Health Service Executive","3 - Medium","26/02/2026 16:40:13","Closed","Extracts not running","Hope you don’t mind me contacting yourselves directly. Rebecca is currently unavailable.
+
+Symphony ED Connolly data is sent across via the server to MedModus for the BI reporting and analytics .
+
+The extracts are not being received on time since yesterday, with the long delays between the extracts (normally these are sent every hour during a day). The last extract has come through this morning at 11am.
+
+I have raised same with the Connolly IT – please see the email below.
+ T: 0857 – 262 - 450    |    @Marzena.Przybylik@hse.ie 
+
+Can you please check it at your end?
+
+Also, please let me know if I need to log the issue via another channel.
+
+ 
+
+I appreciate your assistance.
+
+Thank you
+
+ 
+
+Regards
+
+Marzena","16/03/2026 12:55:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","02/03/2026 12:54:29","20",""
+"CS1742850","Western Sussex Hospitals NHS Trust","3 - Medium","27/02/2026 08:38:37","Closed","A03 - Message - Please assign to Konrad","Hi Konrad,
+
+Thank you.
+
+Worthing ED has an A03 message since 26/02 that I cannot pass. Please can you try to push it through?","13/03/2026 12:09:26","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","27/02/2026 12:08:37","8",""
+"CS1743239","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","27/02/2026 13:33:41","Closed","A02 Messages failing to trigger ","A number of A02 messages have been identified as failing to trigger ","31/03/2026 12:49:28","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","17/03/2026 12:48:27","22",""
+"CS1743747","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","02/03/2026 10:27:28","Closed","eNotes Created by ID field","I am trying to add a Created by ID field to our RAT eNotes DEP so that I can then use that to have a flagged column for RAT on the tracking screen. 
+
+However, when I have tried to add a Created by field only the Freetext option is available for What type of data.
+
+On the previous call instructions it said it could be possible to add a flag column for enotes but did mention:
+Your local Symphony configuration team may wish to:
+Introduce an appropriate field (e.g. a Staff field or dedicated lookup for RAT completion), and
+Then configure that field as a flag as outlined above.
+
+Is there something I am doing incorrectly?","23/03/2026 09:23:55","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","13/03/2026 14:27:01","21",""
+"CS1744109","Swansea Bay University Health Board","3 - Medium","02/03/2026 14:26:20","Closed","MPI and Omnicell outbound messages queued","MPI and Omnicell outbound messages queued. Please can DAD be restarted.","16/03/2026 14:57:27","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","02/03/2026 14:57:17","6",""
+"CS1744138","South Tees Hospitals NHS Foundation Trust","3 - Medium","02/03/2026 14:48:35","Closed","Symphony live patching","Hello
+Our ICT Operations Team have patched the Symphony test servers and are ready to patch the live servers. The live patching is scheduled to start at 08:00 on Wednesday 4th March 2026.
+The schedule will be:
+08:00am restart:
+STAS825 (DAD)
+STAS827 (EIE)
+STAS828 (SCR ME)
+STAS829 (Reporting)
+STAS830 (SQL)
+
+09:00am restart:
+STAS826 (DAD)
+STAS831 (SQL)
+STAS834 (SCR EIE)
+
+Please be advised that as STAS827 (EIE) is also being patched it's possible that the stuck message issue may arise. The patching will be monitored and the previously provided fix for stuck message will be used if required.
+
+Regards
+
+Paul","05/03/2026 11:25:20","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","05/03/2026 10:14:23","16",""
+"CS1745113","Western Sussex Hospitals NHS Trust","3 - Medium","04/03/2026 08:03:18","On hold","Advanced filters","Morning, 
+
+ST Richards ED, I have an advanced filter 'UTC' which keeps disappearing; the same filter is active in Worthing ED with no issues.  
+
+Please, can I have an audit to find out who keeps removing the filter, as this is causing issues in monitoring the patients.
+Thank you
+
+Russell","06/07/2026 13:52:36","Acute Care Symphony Support Level 2","Lee Booth","Symphony","","27","PRB0052368"
+"CS1745524","South Tees Hospitals NHS Foundation Trust","3 - Medium","04/03/2026 12:41:53","Closed","MIYA is not receiving any messages from EIE","EIE is not sending any messages across the interface to Alcidion/MIYA system. Interface has been checked on site and working fine. can someone look into it for us.","08/03/2026 23:16:18","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - EIE","04/03/2026 13:30:19","7",""
+"CS1745691","Swansea Bay University Health Board","3 - Medium","04/03/2026 15:37:01","Closed","Users report system freezing/not responding","Users report system freezing/not responding. Affecting all users. Have checked and there are no local network issues.","24/03/2026 08:03:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","10/03/2026 08:02:51","32",""
+"CS1745889","North West Anglia NHS Foundation Trust","3 - Medium","05/03/2026 08:43:19","Closed","Restart SCR/CPIS/JBOSS thingies","Morning,
+can you do the quick restart of IIS/Jboss/dad that we have to do every now and then please?
+its clearly stopped working and 'time out' during the night and causing the obvious delays in checking people in
+thanks very much","05/03/2026 11:16:08","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - SCR & PDS","05/03/2026 10:36:22","17",""
+"CS1747576","Western Health and Social Care Trust","3 - Medium","09/03/2026 11:45:27","Closed","e-audit request","Hello, is it possible to run a report on e-audit for patients presenting with self-harm but also what time they were seen by a clinician? We need this data for an urgent FOI if someone is able to respond todat please. Thanks","19/03/2026 10:38:04","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - Additional Departments","12/03/2026 15:16:08","10",""
+"CS1748482","Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust","3 - Medium","10/03/2026 13:27:15","Closed","Patient has been double Booked","D1377909 has been double booked with someone else in the same time slot but he is not showing and they are unable to then book him into a new slot as the system says he is already booked in.","24/03/2026 16:43:28","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","10/03/2026 16:41:36","9",""
+"CS1748861","Leeds Teaching Hospitals NHS Trust","3 - Medium","11/03/2026 09:38:34","In Progress","patient not showing on report","Patient 4548512 not showing on report from 09/03/2026 -11/03/2026 the report been done from 
+tools
+reports
+LGI
+LGI own reports
+Paeds attend 16-18","02/06/2026 16:13:32","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","","29",""
+"CS1749091","Swansea Bay University Health Board","3 - Medium","11/03/2026 12:26:14","Closed","System running slow - Awaiting reinstall","Consultant nurse reports that fat client (stand alone) symphony is running slow on his device today, getting timer icon when saving information.","14/04/2026 00:31:26","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","31/03/2026 00:29:29","29",""
+"CS1749434","Wye Valley NHS Trust","3 - Medium","12/03/2026 06:51:21","Closed","AE Comm Point Down","Please restart DAD for WVT.","26/03/2026 08:41:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","12/03/2026 08:40:18","14",""
+"CS1750314","North West Anglia NHS Foundation Trust","3 - Medium","13/03/2026 10:28:33","Closed","emis/optum ""restart","emis/optum ""restart","13/03/2026 13:59:39","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","13/03/2026 13:59:11","18",""
+"CS1751046","Wye Valley NHS Trust","3 - Medium","16/03/2026 10:45:55","Closed","NHS 111 link not working properly","CDA viewer not working - unable to view NHSS 111 clinician comments and NHS 111 are receiving error messages","15/04/2026 02:15:28","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - 111 Module","01/04/2026 02:14:28","22",""
+"CS1751663","Aneurin Bevan University Healthboard","3 - Medium","17/03/2026 08:04:42","Closed","Dep Config Locked","Dep Config is showing as locked unable to unlock from locked records screen see attached document with screenshot","17/03/2026 09:24:03","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","17/03/2026 09:00:16","12",""
+"CS1751767","North West Anglia NHS Foundation Trust","3 - Medium","17/03/2026 09:28:37","Closed","there are SCR missing for recent patients that have been booked in?","there are SCR missing for recent patients that have been booked in?
+
+Please see attached screen shot","17/03/2026 16:28:32","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","17/03/2026 16:26:05","14",""
+"CS1756982","Western Health and Social Care Trust","3 - Medium","24/03/2026 13:04:59","Closed","Symphony Login Error","Hi, we cannot access Symphony in SWAH at the minute there is a sytem error, ive attached. please advise. Thanks","08/04/2026 08:38:54","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","25/03/2026 12:08:01","22",""
+"CS1757222","Health Service Executive","3 - Medium","24/03/2026 16:13:20","Closed","AMAU clinic gone from 1. Naas live last noted friday 20th March","AMAU clinic gone from 1. Naas live last noted friday 20th March, when check within clinics for AMAU can t see it - see screen shot.","08/04/2026 10:59:30","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","25/03/2026 10:59:24","23",""
+"CS1758621","Health Service Executive","3 - Medium","26/03/2026 14:29:54","Closed","Connolly -  Messages not processing","Dear All
+
+I have just received a call from ED to say that Symphony messages are not being received from IPMs which is also causing the NIMIs accounts not to open
+
+
+Could you please check the inbound/outbound messages
+
+
+Kind Regards,
+Rebecca
+
+ ","10/04/2026 09:19:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","27/03/2026 09:18:37","16",""
+"CS1759288","Swansea Bay University Health Board","3 - Medium","27/03/2026 13:43:02","Closed","Clinic slots locked","MIU physio clinic for 10/4/26 has three clinic slots unavailable to book into. Please can it be checked for appointments stuck.","10/04/2026 16:03:28","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","27/03/2026 16:03:11","13",""
+"CS1759570","North West Anglia NHS Foundation Trust","3 - Medium","30/03/2026 08:36:43","Closed","Restart iis/jboss/dad","Morning,
+can you do the usual restart for SCR please?
+we have an out of hours call last night that its not working, tried this morning and cant load any and creating an attendance is giving us a slow barber pole of loading that never works
+thanks muchly
+(i know high gets down to medium, but as we are starting to ramp up attendances.. that delay really winds up the admin team)","30/03/2026 09:46:39","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","30/03/2026 09:44:46","17",""
+"CS1760262","Western Sussex Hospitals NHS Trust","3 - Medium","30/03/2026 17:26:22","Closed","Messages Not Coming Through","Will King (on call engineer) reporting the messages are not coming into Symphony and they require a DAD restart.
+
+The Trust contact is Russell Pope.
+
+Will King
+07903774455
+
+","13/04/2026 17:49:26","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","30/03/2026 17:48:54","8",""
+"CS1760401","Torbay and South Devon NHS Foundation Trust","3 - Medium","31/03/2026 09:52:20","Closed","Batch print - status failed","Hi all,
+
+ED have printed the batch printed the Adult GP letters and it printed 20-30 of them and now it's just stuck on status failed,
+
+The Paediatric ones seem okay but apparently were only a couple of them,
+
+Please could someone investigate? I will enable the account,
+
+Many thanks
+Charlie","15/04/2026 11:01:28","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","01/04/2026 10:59:44","30",""
+"CS1761472","Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust","3 - Medium","01/04/2026 11:52:50","Closed","Issues with Symphony Backup","Hi, 
+I have received the following email from the Trust Information Dev Team regarding an issue with Symphony backups not working:
+'The Symphony backups haven’t worked for the last 2 days.  Are you able to assist with this?
+
+The location of the backup files is \\DH-SY02DBS001\DBHBackups$\FULL
+ 
+Screenshot below.  
+ (see attached document for Screenshot) 
+We restore the latest file each day so we can update the data for a number of reports. 
+
+Does this need logging with Optum?
+
+David Rees'
+
+Can someone please advise? 
+Many Thanks
+Laura","22/04/2026 15:07:49","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","08/04/2026 15:06:09","22",""
+"CS1761620","Mid Yorkshire Teaching NHS Trust","3 - Medium","01/04/2026 13:57:22","Closed","FW: PALS Enquiry PE108578 | ","STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit of below?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 23 March 2026 07:27
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; CINNAMON, Gareth (MID YORKSHIRE TEACHING NHS TRUST) <gareth.cinnamon@nhs.net>
+Subject: FW: PALS Enquiry PE108578 |
+Importance: High
+
+
+Morning all,
+
+
+
+Hospital number: 7693864
+
+Can you check if staff member Victoria Foulds-Duncan has accessed their records since September 2022.
+
+
+
+Regards
+
+[MYDS_Logo]
+Martin Moorhouse
+Information Governance
+Manager
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+
+
+Extension:  36210
+External Tel:  01924 319210
+Email: martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>
+[cid:image002.jpg@01DCBA96.6FEB8900]
+[cid:image003.png@01DCBA96.6FEB8900]
+
+Please don't print this e-mail unless you really need to.
+Disclaimer:
+This is an e-mail from The Mid Yorkshire Teaching NHS Trust (the Trust). This message and any files transmitted with it are confidential. If you are not the intended recipient any reading, printing, storage, disclosure, copying or any other action taken in respect of the e-mail is prohibited and may be unlawful.
+If you have received this message in error, please notify the sender immediately by using the reply function and then delete what you have received. The Trust accepts no responsibility for any changes made to this message after it has been sent by the original author. The views or opinions contained herein do not necessarily represent the views of the Trust. This e-mail or any of its attachments may contain data that falls within the scope of the Data Protection Acts. You must ensure that any handling or processing of such data by you is fully compliant with the terms and provisions of the Data Protection Act 2018
+
+
+[https://res.public.onecdn.static.microsoft/assets/bookwithme/misc/CalendarPerson20px.png]<https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ep=bwmEmailSignature__;!!IJLR5QJm7ttc!g2RUhcnothrqti1UcgimA6PsqfM09i40XA9Xv11wGH2n5GC6aRg4DpX0XIe-E1ceIajQM88TJ61WIbHdC9vy3L2S$>
+Book time to meet with me<https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ep=bwmEmailSignature__;!!IJLR5QJm7ttc!g2RUhcnothrqti1UcgimA6PsqfM09i40XA9Xv11wGH2n5GC6aRg4DpX0XIe-E1ceIajQM88TJ61WIbHdC9vy3L2S$>
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!g2RUhcnothrqti1UcgimA6PsqfM09i40XA9Xv11wGH2n5GC6aRg4DpX0XIe-E1ceIajQM88TJ61WIbHdC65z6KxJ$>","07/04/2026 13:10:58","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","01/04/2026 18:04:43","9",""
+"CS1762576","North West Anglia NHS Foundation Trust","3 - Medium","03/04/2026 09:05:33","Closed","SCR not working within Symphony","SCR intermittent within ED, problem occurred within the week logged by Lee Dransfield.  Internal incident resolution advised ""Supplier restarted the ""SCR check""","21/04/2026 09:57:30","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony - SCR & PDS","07/04/2026 09:57:14","14",""
+"CS1763034","South Tees Hospitals NHS Foundation Trust","3 - Medium","07/04/2026 12:17:00","Closed","Links to STNAS1","Hello
+This is related to case CS1727788.
+We are still getting connections to \\stnas1\midas and \\stnas1\symphony$
+Please find attached screen shots showing connections. The Midas connections are old scanned images that users are looking at.
+Some are connections to / from the EIE Management Console from STAS827 and STAS829.
+Thanks
+Paul","22/04/2026 10:35:11","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","15/04/2026 15:37:10","22",""
+"CS1763154","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","07/04/2026 14:00:31","Closed","Alerts flagging incorrectly","Hello,
+
+We added a new alert a few weeks ago and its intermittently flagging incorrectly.
+Sometimes when this happens they do a reset on something (sorry i can't remember) - it normally happens with the teddy bear icon.","13/04/2026 13:08:18","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","13/04/2026 13:08:16","21",""
+"CS1763563","Betsi Cadwaladr University Healthboard","3 - Medium","08/04/2026 10:21:05","Closed","latest paed obs and  paed obs table failing to populate summary report in SSRS","users have reported paeds latest obs and full table of obs are failing to appear on summary report on SSRS summary report. (Dafydd Horan on leave unable to chase with him)... CS1721015 Carlos  repointed Summary report to Live...  summary report being triggered DAD now failing for paeds obs- entirely when triggered,.. unknown as to why this should be the case for paeds and adults is fine.
+
+Paeds obs report DAD service to SSRS being used in interim as that appears fine.","14/04/2026 13:14:01","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","14/04/2026 13:13:59","36",""
+"CS1764246","Leeds Teaching Hospitals NHS Trust","3 - Medium","09/04/2026 10:09:58","Closed","Error logging into Live Symphony","Julie is unable to log into Live symphony.
+Receives the attached error when attempting to do so.","14/05/2026 06:16:02","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","30/04/2026 02:04:28","20",""
+"CS1764863","South Tees Hospitals NHS Foundation Trust","3 - Medium","10/04/2026 09:07:30","Closed","Soft deleted account","Hello
+I've updated the expiry date on account jcnmcgur but it now looks like there is a soft delete on the account as I can longer see it in Staff Management.
+Thanks
+Paul","10/04/2026 09:55:48","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","10/04/2026 09:52:10","6",""
+"CS1766802","Leeds Teaching Hospitals NHS Trust","3 - Medium","14/04/2026 08:02:25","Closed","symphony locations ","I have done some housekeeping of the symphony locations and added the corridor care locations, ready for reporting of ED corridor care which the Trust needs to implement from 5th May 2026.
+
+The following locations, do not have an option to make “Inactive”. They have all been suspended, but they still appear on the live list of locations. 
+
+Could you please ask Optum to investigate this and make them all “Inactive” please. 
+See attached.","15/05/2026 12:17:03","Acute Care Symphony Support Level 2","Sheree Chadwick","Symphony","01/05/2026 10:29:29","45",""
+"CS1767365","North West Anglia NHS Foundation Trust","3 - Medium","14/04/2026 12:58:56","Closed","Restart SCR","Hello,
+
+SCR is not working in Symphony. Please can you do the usual restarts of JBOSS, IIS and DAD.
+
+Many thanks,
+Donna","14/04/2026 16:14:23","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","14/04/2026 16:13:32","15",""
+"CS1767719","Leeds Teaching Hospitals NHS Trust","3 - Medium","15/04/2026 07:32:17","Closed","ECDS Failed","Dear Customer,
+
+This email is to notify you that the file ecds_extract_20260415 0615_v3.txt has reached a final state within the Translation Service.
+
+The interchange has been marked as TRANSLATION FAILED. A problem occurred in either the extract contents or the system configuration which meant a valid interchange could not be created. Please check the Keystone error messages for further information on this failure.
+
+There are records that have failed validation. Details of the records have been attached to this email as file failed_records_report_for_ecds_extract_20260415 0615_v3.txt
+
+One or more errors occurred during the processing of this extract. These errors appear below:
+
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] 6 records did not have a valid CDS Type.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] 6 records did not have an Organisation Site Identifier (of Treatment).
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] 6 records did not have an Emergency Care Department Type.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:28 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] 6 records did not have an Emergency Care Attendance Identifier.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] 6 records did not have an Emergency Care Arrival Date.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] 6 records did not have an Emergency Care Arrival Time.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] 6 records did not have an Age at CDS Activity Date.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The first record number is 271. Unique CDS ID 183964008^20260413^220200.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The second record number is 2283. Unique CDS ID 413334001^20260413^230600.
+15/04/2026 07:22:29 -  [CDS Encode - Fatal] The third record number is 3914. Unique CDS ID 243751002^20260413^234400.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The fourth record number is 4180. Unique CDS ID 183964008^20260413^202600.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The fifth record number is 4719. Unique CDS ID 183964008^20260413^160700.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The sixth record number is 6070. Unique CDS ID 183964008^20260413^235300.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] 6 records did not have a Care Professional Tier (Emergency Care) #1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The first record number is 270. Unique CDS ID SJH-26-027626-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The second record number is 2282. Unique CDS ID SJH-26-027640-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The third record number is 3913. Unique CDS ID SJH-26-027641-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The fourth record number is 4179. Unique CDS ID SJH-26-027578-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The fifth record number is 4718. Unique CDS ID SJH-26-027551-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The sixth record number is 6069. Unique CDS ID SJH-26-027608-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] 6 records did not have a Care Professional Discharge Responsibility Indicator (Emergency Care) #1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The first record number is 270. Unique CDS ID SJH-26-027626-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The second record number is 2282. Unique CDS ID SJH-26-027640-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The third record number is 3913. Unique CDS ID SJH-26-027641-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The fourth record number is 4179. Unique CDS ID SJH-26-027578-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The fifth record number is 4718. Unique CDS ID SJH-26-027551-1.
+15/04/2026 07:22:30 -  [CDS Encode - Fatal] The sixth record number is 6069. Unique CDS ID SJH-26-027608-1.","04/05/2026 16:29:27","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","20/04/2026 16:29:20","40",""
+"CS1767760","South Tees Hospitals NHS Foundation Trust","3 - Medium","15/04/2026 08:44:22","Closed","Postcoder not working","Hello
+The postcoder link is not working.
+Please could this be looked into urgently as the departments are not able to register patients.
+Thanks
+Paul","15/04/2026 15:23:24","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","15/04/2026 15:10:56","32",""
+"CS1768313","South Tees Hospitals NHS Foundation Trust","3 - Medium","15/04/2026 14:02:13","Closed","Replication issue","Hello
+It appears that the replication is down, the ED Summary is blank for some patients, example is attendance JCUH-26-026964. Please could this be looked into?
+Thanks
+Paul","22/04/2026 10:34:53","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","15/04/2026 15:15:20","13",""
+"CS1768322","South Tees Hospitals NHS Foundation Trust","3 - Medium","15/04/2026 14:09:19","Closed","GP Connect not working","Hello
+The GP Connect DEP is given the error:
+""Webservice currently unavailable. An unexpected condition was encountered.""
+Please could this be looked into?
+thanks
+Paul","16/04/2026 15:23:45","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","16/04/2026 15:19:40","34",""
+"CS1768597","Wye Valley NHS Trust","3 - Medium","16/04/2026 07:15:54","Closed","DAD Restart","WVT
+
+Symphony comm point down - please restart.","30/04/2026 09:25:28","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - DAD","16/04/2026 09:25:09","12",""
+"CS1768680","South Tees Hospitals NHS Foundation Trust","3 - Medium","16/04/2026 09:18:32","Closed","Replication issue","Hello
+The Trust have had some outages over night. These look to have affected the replication service in Symphony. Please could this be looked into?
+Example attendance JCUH-26-027117, the ED Summary is not fully populated for this attendance.
+Thanks
+Paul","20/04/2026 09:59:09","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","16/04/2026 12:32:48","14",""
+"CS1769590","North West Anglia NHS Foundation Trust","3 - Medium","17/04/2026 10:56:59","Closed","restart jboss/iis/dad","Morning,
+we've had a pretty large outage in the wee hours this morning. a lot of restarting has made many things back to normal - but for some reason scr hasnt
+would you mind doing the usual restarts for us please?
+Much appreciated, thanks","24/04/2026 16:39:25","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - SCR & PDS","17/04/2026 11:33:32","3",""
+"CS1770217","Swansea Bay University Health Board","3 - Medium","20/04/2026 09:49:56","Closed","Error message displayed when trying to download Midas document","Subject Access users report they are getting an error message when trying to save Midas Documents (see screenshot). Current users affected; Ed180438; CL211654; al148502. Accessing via fat client (standalone symphony).","25/05/2026 12:07:29","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","11/05/2026 12:06:46","51",""
+"CS1770574","North West Anglia NHS Foundation Trust","3 - Medium","20/04/2026 12:54:32","Closed","SCR is not working in Symphony","SCR is not working in Symphony. Please can you do the usual restarts of JBOSS, IIS and DAD.
+
+thanks
+Rhiannon","20/04/2026 16:36:19","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - SCR & PDS","20/04/2026 16:25:38","11",""
+"CS1771506","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","21/04/2026 14:24:16","Closed","NHS 111 Integration - Schedules within Symphony","In reference to: CS1729202
+
+A fix by Cleric has enabled NHS 111 schedules to be received into Symphony. Unfortunately the locations are showing as undefined and we need to determine why the careconnect json packet is showing this. 
+Can further investigation on your side be held to find  out why this is showing as undefined? 
+
+----------------------------------------------------
+
+Hi All,
+
+Oladele and I have now met over Teams, and we have successful sent two tests into EMIS symphony.
+
+The address is showing as Undefined as no address/location is provided in the CareConnect JSON Packet. The Change has been made to our Live environment so Real Live referrals with Bookings will start to populate in your system. We will continue to monitor our CareConnect bookings into the afternoon.
+
+ Kind regards
+ 
+Andy
+ 
+Andrew Walford
+ICC Systems Technician
+North West Ambulance Service NHS Trust","02/06/2026 12:04:36","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","02/06/2026 12:04:34","39",""
+"CS1771668","Swansea Bay University Health Board","3 - Medium","21/04/2026 17:30:19","Closed","Clinic attendance header contains incorrect condition","Clinic attendance nmiu-26-015235-2 has been cancelled but the header in e-view is showing incorrect condition of cardiac arrest (screenshot). Not sure how this was added, how can we remove this condition please.","07/05/2026 12:16:51","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","23/04/2026 10:58:17","22",""
+"CS1771829","Health Service Executive","3 - Medium","22/04/2026 10:11:33","Closed","Patient incorrectly set as Deceased.","Margaret rang to advise that Patient 021577 is incorrectly marked as deceased, but is currently in RESUS.
+Can this status please be corrected.","06/05/2026 10:19:28","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","22/04/2026 10:19:23","8",""
+"CS1772228","Health Service Executive","3 - Medium","22/04/2026 15:28:11","Closed","PAS interface has stopped - St. Columcille's hospital.","No patient additions are updates are coming through. PAS supplier noted this:
+
+Yes, looks like the listener on the Symphony side is down – can you get them to restart. I have just restarted our side and same issue. 
+ 
+You will need to get EMIS to restart the listener – if it takes them some time to do that we might need to restart our side again – so let me know if you need me to do that.","23/04/2026 13:48:39","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - ADT Interfacing","23/04/2026 12:35:06","25",""
+"CS1772471","Betsi Cadwaladr University Healthboard","3 - Medium","23/04/2026 10:04:44","Closed","patient level e-docs system message to all users trying to open","all users trying to open this patients patient level e-doc are getting same error message- first seen in ATT number YGED-26-015636-1 the today in YGED-26-015724-1.... patient has extensive frequent attendance history past 6 years. pt currently on site - users unable to access key documentation.","28/04/2026 10:30:00","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","28/04/2026 10:29:58","24",""
+"CS1772488","NHS Ayrshire and Arran","3 - Medium","23/04/2026 10:18:55","Closed","Radiology order not sent as expected","Our downstream Radiology system didn't receive an order for a patient as expected.  Looking at the DAD event log, it appears that no duty clinician has appeared in the order message.  Looking at duty clinician history, a duty clinician had been defined for the period the order was placed.  I've put the chi in \\EDPRDSQL\C$\Temp\2304.txt and opened the NAYRSHIRE\UNISOFT account for today.  Can this be looked into?  Thanks","30/04/2026 10:36:38","Acute Care Symphony Support Level 1","Gareth Evans","Symphony - DAD","27/04/2026 12:55:31","17",""
+"CS1772624","Health Service Executive","3 - Medium","23/04/2026 11:59:37","Closed","Access to STC Reports Replicated DB","Aoife Maguire is a new started to Patient Accounts and needs access to Symphony SQL Server Reporting Services - Folder STC Reports Replicated DB","11/06/2026 11:13:44","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","28/05/2026 11:12:17","41",""
+"CS1772837","Luton And Dunstable Hospital NHS Foundation Trust","3 - Medium","23/04/2026 15:05:41","Closed","Patient not Discharged","Patient H040602 is still showing on Bedford Symphony as being attenend even though they've been discharged.
+
+We received an A01 but no A03 for the patient from Symphony.
+
+Could you please investigate?
+
+Kr
+Wilson","11/05/2026 12:18:03","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - DAD","29/04/2026 14:34:32","22",""
+"CS1774139","Swansea Bay University Health Board","3 - Medium","27/04/2026 14:15:15","Closed","Omnicell cabinet not displaying patient details","The service have reported that the omnicell cabinet is not displaying patient details that should be pulled over from symphony. Issue started on the weekend. I have checked DAD outbound messages but none are queued from this weekend/today. Please can the integration for omnicell be checked","13/05/2026 18:16:56","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","29/04/2026 15:32:01","12",""
+"CS1774225","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","27/04/2026 15:35:20","Closed","Teddy Flags not present ","Since the weekend, the teddy bear to identify children was not present, meaning that some children are getting missed for triages. It is happening with most child patients.","14/05/2026 10:35:35","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","07/05/2026 10:12:25","22",""
+"CS1774575","Occupational Health Service","3 - Medium","28/04/2026 11:21:29","Closed","looking at a server emisweb1 , we would like to decommission but need confirmation from optum","I am hoping for assistance, we are looking at a server EMISWEB1 and the IP:163.160.107.35, This is not utilised for symphony.
+
+This is windows 2008 server, so an old server that we would very much like to decommission.
+
+The organisation code is 23290.  The product was used for occupational health within Leeds teaching hospitals.
+
+I don’t believe this is used anymore, but we will need some level of approval before it can be considered for decommission.","15/05/2026 10:57:25","Acute Care Symphony Support Level 1","Gareth Evans","Optum Help Centre","12/05/2026 11:08:44","14",""
+"CS1774644","Mid Yorkshire Teaching NHS Trust","3 - Medium","28/04/2026 12:00:07","Closed","Symphony postcode error ","Hello,
+
+Our AE depts (PGI,PGH & DDH)  are experiencing issue with the postcode finder the attached error is being received when entering a postcode on Symphony, this is causing extra work for our staff when registering patients. Could this issue be dealt with a matter of urgency please?","15/05/2026 18:16:49","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - Capscan Matchcode (GBG)","01/05/2026 15:30:28","13",""
+"CS1775409","Betsi Cadwaladr University Healthboard","3 - Medium","29/04/2026 12:39:06","Closed","e-docs missing","related to  CS177772471 have found a folder empty where expecting several hundred e-docs","01/06/2026 17:03:30","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","01/06/2026 17:03:28","51",""
+"CS1775543","Leeds Teaching Hospitals NHS Trust","3 - Medium","29/04/2026 14:26:20","Closed","ECDS","hen trying to extract this data via [EMIS_SYM_LEEDS_ECDS] .[dbo].[sy_ECDS_runExtract] an error is thrown.
+Variables passed:
+@startdate VARCHAR(10) = '01/01/2024'
+, @enddate VARCHAR(10) = '27/04/2026'
+, @version TINYINT = 4
+
+Msg 2628, Level 16, State 1, Procedure dbo.sy_ECDS_Extract_v4, Line 670 [Batch Start Line 2]
+String or binary data would be truncated in table 'EMIS_SYM_LEEDS_ECDS.dbo.ECDS_Extract_Data4', column 'EC_Attendance_Category'. Truncated value: ''.","26/05/2026 15:13:27","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","12/05/2026 15:12:00","22",""
+"CS1775722","Leeds Teaching Hospitals NHS Trust","3 - Medium","30/04/2026 07:46:52","Closed","ECDS failed","Dear Customer,
+
+This email is to notify you that the file ecds_extract_20260430 0615_v3.txt has reached a final state within the Translation Service.
+
+The interchange has been marked as TRANSLATION FAILED. A problem occurred in either the extract contents or the system configuration which meant a valid interchange could not be created. Please check the Keystone error messages for further information on this failure.
+
+One or more errors occurred during the processing of this extract. These errors appear below:
+
+30/04/2026 07:35:42 -  [EMIS Health eCDS v3 Single Line Delimited Fatal] File ECDS_EXTRACT_20260430 0615_V3.TXT does not contain the field delimiter of | on line 120.","19/05/2026 18:18:02","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","05/05/2026 12:27:53","10",""
+"CS1775750","Health Service Executive","3 - Medium","30/04/2026 08:54:53","Closed","Batch printing error","When Staff click on Tools-Batch printing the error attached appears. Only happens on  one laptop and to all users that log onto symphony on that laptop. Unable to batch print due to error appearing","28/05/2026 01:45:26","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","14/05/2026 01:44:28","9",""
+"CS1776299","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","30/04/2026 16:03:18","Closed","Unable to MIDAS due to error","Hello,
+
+A member of staff is having issues with MIDAS scanning in symphony. They are getting an error stating there is number-barcode conflict which they can't resolve.
+
+Member of staff is Pauline Bezuszko
+
+Please can you advise why this is happening.","06/05/2026 15:15:04","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","06/05/2026 15:15:03","22",""
+"CS1777027","South Tees Hospitals NHS Foundation Trust","3 - Medium","01/05/2026 16:16:40","Closed","URGENT - SYMPHONY DOWN ACROSS SITE","The symphony system is down - we are unable to login, screens are hanging, n ot refresshing off across all departments","12/05/2026 12:17:00","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","05/05/2026 09:18:53","33",""
+"CS1777339","South Tees Hospitals NHS Foundation Trust","3 - Medium","05/05/2026 10:31:50","Closed","STAS820 disk space","Hello
+Our ICT Ops team have reported that the S: and L: drives are full on STAS820. It looks like new '_Upgrade' DB's have been created and a fulling the drive.
+Could you say what they are and if they be cleaned up?
+Thanks
+Paul","13/05/2026 09:37:48","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","11/05/2026 16:52:12","15",""
+"CS1777353","Swansea Bay University Health Board","3 - Medium","05/05/2026 10:38:36","Closed","DAD messages queueing for Omnicell feeds and MPI outbound","DAD messages queueing for Omnicell feeds and MPI outbound. May need DAD restart please.","21/05/2026 08:05:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","07/05/2026 08:03:30","16",""
+"CS1778604","Health Service Executive","3 - Medium","07/05/2026 03:58:36","Closed","Patients with duplicate MRNs","Contact is Caroline Dalton 01 646 6250 caroline.dalton1@hse.ie
+When they bring up the patient with MRN 54654, the wrong patient is coming up. The patient they're seeing has initials MS and it should be VG.","21/05/2026 06:16:19","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","07/05/2026 04:46:27","8",""
+"CS1779275","Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust","3 - Medium","07/05/2026 13:54:21","On hold","'Finish' button greyed out on multiple DEPs ","We have repeated issues with DEPs being completed by staff (both clinical and reception) whereby they complete the fields on a DEP and then when they complete the last field on the DEP the 'Finish' button greys out and they are unable to save and close the DEP. It will hang on this for a long time but does  not allow them to continue, eventually they have to click the X to come out of the DEP and try to record it again from the beginning. One user today (Jessica Staniforth) has had this happen to her while using the Chief Complaint DEP, the ED Discharge DEP, and the TTO DEP. 
+Do you have any ideas why this would happen? It is causing significant delays in care and treatment. 
+Thanks
+Laura","06/07/2026 13:42:19","Acute Care Symphony Support Level 2","Lee Booth","Symphony","","35","PRB0053689"
+"CS1779345","Western Sussex Hospitals NHS Trust","3 - Medium","07/05/2026 14:41:16","Closed","CPIS Failed(JBOSS)","Current with Matthew Hanson
+
+JBOSS application is currently having issues due to memory cap.
+
+Both Worthing and ST Richards are unable to retrieve child protection alerts.","25/05/2026 16:09:26","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","11/05/2026 16:09:08","11",""
+"CS1781225","Luton And Dunstable Hospital NHS Foundation Trust","3 - Medium","12/05/2026 10:38:43","Closed","QAS - address search and postcode is not working for Bedford Symphony Live","URGENT - 
+QAS - address search and postcode is not working for Bedford Symphony Live
+Please kindly update 
+Many thanks
+Zak
+IT Team","26/05/2026 14:45:28","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","12/05/2026 14:44:56","16",""
+"CS1781953","Swansea Bay University Health Board","3 - Medium","13/05/2026 10:31:51","Closed","Error message when trying to scan documents to a patient","User reports getting an error message when trying to scan documents to a patient, attendance nmiu-26-017997-1. Error message screenshot attached.","01/06/2026 11:55:30","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","18/05/2026 11:53:53","21",""
+"CS1781968","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","13/05/2026 10:41:26","Closed","DAD stopped working","
+[code]<a title=""DAD keeps crashing – what should we do?"" href='kb_view.do?sys_kb_id=52177eed83eccf10d0bd9030ceaad322' >KB5005524 : DAD keeps crashing – what should we do?</a>[/code]","03/06/2026 12:13:44","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","20/05/2026 12:11:46","20",""
+"CS1782464","Leeds Teaching Hospitals NHS Trust","3 - Medium","14/05/2026 06:47:14","Closed","Domestic abuse audit","I request this audit back last year CS153929. Can you please provide a list of both adults and children that have been flagged for high risk of domestic abuse. The report need to include the PAS number and NHS number. I know this is a big asked but is needed for a meeting today at 10am.","28/05/2026 10:17:27","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","14/05/2026 10:16:04","32",""
+"CS1783560","Cumbria Teaching PCT","3 - Medium","15/05/2026 13:04:03","Closed","Password complexity special character","We have a generic user account and the password was changed recently but as this now includes the need of a special character we want to reset it back to its original value as it has broken a bespoke single sign on program that was developed a number of years ago. When going into the global parameters for users changing the 'minimum number of special characters in a password' to 0 it says 'The Minimum number of Special characters should not be Less than 1'.
+
+Is there any way in the backend to run a script to set this 0, we can then change the password back to the value we need it and then revert it back to 1?","19/05/2026 12:07:00","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","19/05/2026 12:06:58","14",""
+"CS1783796","Aneurin Bevan University Healthboard","3 - Medium","15/05/2026 15:58:32","Closed","TEST DAD Configuration","Christopher would like to know which Database their UAT DAD Server is currently pointing to.
+
+He would like this to be pointed to their Symphony Test DB.
+
+UAT DAD Server
+10.65.161.170
+
+Before we make any changes he would like to know what the current setup is.
+","19/05/2026 10:53:29","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","15/05/2026 16:29:49","8",""
+"CS1783808","Aneurin Bevan University Healthboard","3 - Medium","15/05/2026 16:19:27","Closed","Test DB (EMIS_SYM_AB_DEV_130526) showing offline","Christopher calling to report that his DBA Monitoring team have advised the below DB is currently showing as down.
+
+He does not recognise this DB and would like this investigated.
+
+DB Name: EMIS_SYM_AB_DEV_130526
+
+","19/05/2026 10:53:17","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","15/05/2026 16:25:22","10",""
+"CS1784509","South Tees Hospitals NHS Foundation Trust","3 - Medium","18/05/2026 15:41:34","Closed","Restart of Symphony DAD required","Hello
+Some new special case flags have been added, therefore a restart of Symphony DAD is required so that the interface picks up the new flags.
+Thanks
+Paul","19/05/2026 09:43:55","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - DAD","19/05/2026 09:08:18","13",""
+"CS1785266","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","19/05/2026 16:12:11","Closed","Slow performance issues across sites and difficulty with log on","Several users across sites report slow performance and log in issues. CPU load 100% and fluctuating. Our IT systems have looked into this and cannot resolve.","15/06/2026 12:51:30","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","02/06/2026 13:31:23","22",""
+"CS1786089","University Hospital Southampton NHS Foundation Trust","3 - Medium","21/05/2026 09:22:22","Closed","Symphony reporting not feeding through Eye Casualty data","Our Symphony reporting database is currently not working, our eye casualty data is not feeding through to RHMSYMSQLC.
+
+We are getting an error to say the Delete statement conflicted with the reference constraint FK_Patient_Assets_ass_OwnerID.
+
+I'll attach a picture of the message","04/06/2026 11:03:27","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","21/05/2026 11:02:20","13",""
+"CS1786176","Luton And Dunstable Hospital NHS Foundation Trust","3 - Medium","21/05/2026 10:29:23","Closed","No data from Symphony Luton in the data warehouse","Hi Support
+URGENT
+No data from Symphony Luton in the data warehouse
+Please follow up","09/06/2026 13:57:27","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","26/05/2026 13:57:22","22",""
+"CS1786243","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","21/05/2026 11:27:43","Resolved","DAD Message delays from locked records and occasional ntdll errors.","We had a patient yesterday who attended RSCH and had an ED Episode added at 2:18 but the A04 didn’t get to the TIE until 2:29, please could you have a look and see why there was such a long delay?
+
+5228997 (AA) – RSCH-26-034891-1","08/07/2026 09:51:50","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","08/07/2026 09:51:50","33","PRB0053699"
+"CS1786626","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","21/05/2026 20:51:07","Closed","Messages were queuing specifically 02","The DAD was restarted on site as messages were stuck, although some have now cleared we still have 16 outstanding. This is causing issues with downstream systems. Some messages been stuck for 15 mins now.","11/06/2026 14:57:27","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","28/05/2026 14:56:34","24",""
+"CS1787132","Luton And Dunstable Hospital NHS Foundation Trust","3 - Medium","22/05/2026 16:53:19","Closed","CS1786176 - Urgent: No data from Symphony Luton to SSRS","The above reference was fixed today however  it doesn't appear that all the Luton EMIS raw tables have sync'ed properly - e.g. emisl.Triage, result_Details since 19th ???","26/05/2026 15:23:01","Acute Care Symphony Support Level 1","Carlos Berrios","Symphony","26/05/2026 11:35:38","21",""
+"CS1787355","Leeds Teaching Hospitals NHS Trust","3 - Medium","26/05/2026 09:55:24","Closed","Deceased Account","Can you provide an audit of any staff that have accessed or made any changes on  466 135 3730  between 13/05/2026 and 15/05/2026. Can you also check if any transfers of episode of care were done that are connected to the above please.","15/06/2026 11:35:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","01/06/2026 11:33:28","20",""
+"CS1789772","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","28/05/2026 16:35:42","Closed","Slowness","Symphony really slow when user tries to access - affecting multiple people.","29/05/2026 09:40:51","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","29/05/2026 09:16:46","16",""
+"CS1789839","Isle Of Wight NHS Trust","3 - Medium","29/05/2026 08:25:40","Closed","interface stopping intermittently","we have had issues with the A03 interface which appears to have stopped a few times since yesterday.  It looks like it stopped around 10:40 on the 28th and messages were queueing as suspended.  then there was some activity around 16:10 for a couple of hours ( but the suspended messages did not clear).  it then looks like it stopped again till 04:40 ish this morning.  There were 81 suspended messages when I checked this morning covering from 10:40 onwards which all cleared when i changed them to Queue.  Can you investigate to see why this dropped and was the restarts at 16:10 and 04:40 manual restarts?","05/06/2026 10:36:12","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - DAD","02/06/2026 17:56:54","58",""
+"CS1790390","South Tees Hospitals NHS Foundation Trust","3 - Medium","29/05/2026 17:00:08","Closed","Midas images can't be viewed","Hello
+The Midas images for the following attendances can't be viewed by multiple users on multiple machines:
+SDEC-26-004290
+SDEC-26-004149
+SDEC-26-004524
+SDEC-26-004320
+SDEC-26-004504
+SDEC-26-003299
+
+Are you able to check in the database for what is recorded as the location for the images?
+thanks
+Paul","01/06/2026 08:39:17","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - MIDAs","01/06/2026 08:39:16","8",""
+"CS1791131","North West Anglia NHS Foundation Trust","3 - Medium","01/06/2026 14:54:39","Closed","Audit 26-05","Please can an audit be created for each patient listed in the Word doc using the criteria supplied in the Word doc.","09/06/2026 15:41:53","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/06/2026 11:25:44","18",""
+"CS1791357","University Hospital Southampton NHS Foundation Trust","3 - Medium","02/06/2026 08:55:49","Closed","user is unable to see list of patients that under his name ","Issue description:  user is unable to see list of patients that under his name 
+
+Have any similar issues been raised previously: no
+
+Contact name (If not the contact selected on the case):
+Preferred contact details: 07761803671","12/06/2026 10:34:54","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","02/06/2026 16:27:31","22",""
+"CS1791632","Kent Community Health NHS Foundation Trust","3 - Medium","02/06/2026 11:38:38","Closed","Batch printing error","Any user who tries to batch print from one of the computers is receiving the attached error message.
+
+We have tested that batch printing on other computers and it works fine, we have also tested printing to the selected printer from outside of Symphony and it works fine.
+
+Please could you investigate","16/06/2026 09:11:56","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","16/06/2026 09:11:55","20",""
+"CS1791788","North West Anglia NHS Foundation Trust","3 - Medium","02/06/2026 13:10:02","Closed","Restart jboss/iis/dad","Afternoon,
+just found out our reception / admin team have been struggling with slow attenances for most of the morning and not told anyone
+would you do the usual restarting for the SCR/CPIS popup to work again (jboss/iis/dad) please?
+
+dont get timeout like normal, just looks for pt with barber pole loading and then popup vanishes = obvs adds 30-40secs to each attendance.
+
+thanks muchly","02/06/2026 18:17:12","Acute Care Symphony Support Level 1","Gareth Evans","Symphony - SCR & PDS","02/06/2026 14:38:39","12",""
+"CS1792092","North West Anglia NHS Foundation Trust","3 - Medium","03/06/2026 08:36:28","Closed","IIS/Jboss/DAD again","Morning,
+I think WSUS on the servers has been done a couple of hours ago and caused an issue with SCR server or DAD - nobody is complaining about interface messages though...
+Just the delay as SCR popup times out
+It was only yesterday lunch, but would do the restarting thing again please?
+thanks very much","03/06/2026 12:17:42","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/06/2026 09:00:35","14",""
+"CS1792623","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","03/06/2026 14:02:04","Closed","Error message on one particular patient","Call logged by our DPoW site when searching for a particular pt.
+Tried on other pc's and same error message. See attached.","09/07/2026 14:26:47","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","09/07/2026 10:20:21","64",""
+"CS1794488","Swansea Bay University Health Board","3 - Medium","08/06/2026 10:31:08","Closed","Unable to book into clinic slot","Unable to book into clinic slot for MIU physio clinic 12/6/26 @ 9am.","24/06/2026 11:05:29","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","10/06/2026 11:04:40","19",""
+"CS1794785","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","08/06/2026 14:03:21","Closed","DB2","Please the DB2 be sync'd up properly for the cluster, so we can fail over and it is sync'd like the live DB1.
+This is to ensure our daily ToC operational reporting tools can be used continuously.","10/06/2026 11:13:14","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","09/06/2026 10:15:32","17",""
+"CS1794943","Health Service Executive","3 - Medium","08/06/2026 16:33:25","Closed","Print button greyed out","If a user logs off and on again, the print item in the tools menu is greyed out. Users still logged in can get the option, but the users who currently have the option need to log out soon as their shift will be over.
+
+Those users are: sgallagher and kdoherty.
+
+Nothing has been changed recently.
+
+Logged by Steve McCabe.
+
+While he was talking to me, they've tried again and it's worked.
+(My mistake — I've clicked yes to clinical harm and it should have been no).
+
+(Looks like it might have been a network problem getting to the template)","22/06/2026 16:37:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","08/06/2026 16:35:49","8",""
+"CS1795481","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","09/06/2026 13:51:18","Resolved","DAD restart on site","Hi Carlos, as promised Roy has sent across screenshots of the errors on the live nodes and I have a screenshot of the locked records: DAD was restarted on site.","11/06/2026 14:29:34","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","11/06/2026 14:29:34","22","PRB0053699"
+"CS1796075","Swansea Bay University Health Board","3 - Medium","10/06/2026 12:22:28","Resolved","Error message when discharging and trying to book clinic appointment","Users report receiving an error message when trying to book a clinic appointment when discharging an attendance. They are first getting a message that says 'The date selected for the clinic has been disabled because, annual leave', when they select 'OK' they then get a system error message (screenshot attached).","19/06/2026 11:47:13","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","19/06/2026 11:47:13","36","PRB0053730"
+"CS1796381","Wye Valley NHS Trust","3 - Medium","11/06/2026 07:23:19","Closed","DAD Restart","A&E Comm point down at WVT.
+
+Please restart.","25/06/2026 08:31:26","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - DAD","11/06/2026 08:30:04","7",""
+"CS1796483","North West Anglia NHS Foundation Trust","3 - Medium","11/06/2026 09:54:17","Closed","Error 91 Message","Following error message is displaying on one PC:
+
+DATETIME: 11-Jun-2026 08:00:04|| DESCRIPTION: Object variable or With block variable not set|| SOURCE: FWSymphonyICWDesktop|| COMPONENT: FWSymphonyICWDeskTop|| ERRORNO: 91|| PROCEDURE: RefreshConfigData method|| CODEBLOCK: Error refreshing config data|| USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: PCID17166|| SERVERNAME: SYMDBO02SQL|| LOGGEDUSER: whylesc|| SITE: North West Anglia|| BUILDNO: 3.1.1.14|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: 10.0||
+
+PC has been rebooted, Symphony application has been uninstalled and reinstalled. User can log in but gets the error above. User is unable to work and is on ED reception","19/06/2026 09:16:35","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","19/06/2026 09:08:45","31",""
+"CS1796637","Northern Care Alliance NHS Foundation Trust","3 - Medium","11/06/2026 11:23:02","Closed","SCR message, automatic email alert","The trust is getting automatic error messages by email, warning of message timeouts. The text of the error is:
+
+The NCA SCR Message Engine has recorded [20] message timeouts since [2026-06-11 08:10:00.380].
+NCA Recipients: Please log a call with EMIS Symphony Support and ask them to check the PEL Message Audit on N-SYM-LVW-INT01.
+EMIS Recipients: Please verify a call has been logged and investigate the issues on N-SYM-LVW-INT01.
+
+Email is attached.","26/06/2026 16:23:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","12/06/2026 16:23:25","18",""
+"CS1796671","South Tees Hospitals NHS Foundation Trust","3 - Medium","11/06/2026 11:45:52","Closed","Restart of Symphony DAD required","Hello
+A new special case indicator has been added to the system. Could Symphony DAD be restarted so the the new indicator is picked up by the interface?
+thanks
+Paul","11/06/2026 15:51:53","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony - DAD","11/06/2026 12:39:40","4",""
+"CS1796735","Luton And Dunstable Hospital NHS Foundation Trust","3 - Medium","11/06/2026 12:23:04","Closed","Failing Demographic Updates ","STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+
+Hi Support,
+
+The following demos are failing to update Symphony and we are not getting a reason in the NACK from Symphony. Could you please investigate?
+
+
+MSH|^~\&|PiMSInt|iSOFT Engine|Symphony|AE|20260611114908||ADT^A31|2054026|P|2.4
+EVN|A31|20260611114908
+
+PID|||LE017359^^^^PAS~4869290030^^^^NHS||***Truncated***
+
+PD1|||Kingsway \T\ Bramingham Surgery, Kingsway Health Centre, 385 Dunstable Road, Luton, Bedfordshire^LU4 8BY^Y02332|G9337099^SAEED^A^""""^""""^DR
+
+NK1|1|***Truncated***
+
+AL1|1|CLIN|""""^""""|CA^Check if patient is on current Chemotherapy/Radiotherapy treatment. Consider neutropenic sepsis or metastatic spinal cord compression. Please alert the Acute Oncology Service Team if applicable.
+
+MSH|^~\&|PiMSInt|iSOFT Engine|Symphony|AE|20260611114908||ADT^A31|2054024|P|2.4
+EVN|A31|20260611114908
+PID|||D3022096^^^^PAS~4010609206^^^^NHS||***Truncated***
+PD1|||Kingsbury Court Surgery, Church Street, Dunstable, Bedfordshire^LU5 4RS^E81045|G9501500^Dogra^Ks^""""^""""^DR
+NK1|1|***Truncated***
+AL1|1|CLIN|""""^""""|CA^Check if patient is on current Chemotherapy/Radiotherapy treatment. Consider neutropenic sepsis or metastatic spinal cord compression. Please alert the Acute Oncology Service Team if applicable.
+
+MSH|^~\&|PiMSInt|iSOFT Engine|Symphony|AE|20260611114907||ADT^A31|2054022|P|2.4
+EVN|A31|20260611114907
+PID|||60591420^^^^PAS~4467491546^^^^NHS||***Truncated***
+PD1|||Rothschild House Group, Rothschild House Surgery, Chapel Street, Tring, Hertfordshire^HP23 6PU^E82001|G9532272^AMINI^M^""""^""""^DR
+NK1|1|***Truncated***
+AL1|1|CLIN|""""^""""|""""^""""
+
+NACK received -
+MSH|^~\&|PiMSInt|iSOFT Engine|Symphony||20260611114909||ACK^A31|2054026|P|2.3||||||||
+MSA|AE|2054026||||
+
+Kr,
+
+[cid:image007.jpg@01D7B519.CC02BBA0]
+
+
+
+[cid:image008.jpg@01D7B519.CC02BBA0]
+
+Wilson Kamau
+
+Systems Integration Development Specialist
+
+Bedfordshire Hospitals NHS Foundation Trust
+
+
+
+Email: Wilson.Kamau@bedsft.nhs.uk<mailto:Wilson.Kamau@bedsft.nhs.uk>
+
+Tel: 07724700056
+
+Visit: www.bedfordshirehospitals.nhs.uk<http://www.bedfordshirehospitals.nhs.uk/>
+
+[cid:image009.jpg@01D7B519.CC02BBA0]","14/07/2026 15:29:30","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","11/06/2026 15:19:46","14",""
+"CS1797613","Aneurin Bevan University Healthboard","3 - Medium","12/06/2026 16:12:19","Closed","Several PCs logged off and are now getting error messages","Several PCs in the emergency department were automatically logged off. Now when users try to log on to those PCs they get an error. Chris will add the error when this is logged. But it says that a file VBALLML6.ocx is missing.
+
+I've advised Chris to check that the file is there, and if not to copy from a working PC; and to try running the Symphony installer.","15/06/2026 09:43:42","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","15/06/2026 09:43:41","17",""
+"CS1798125","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","15/06/2026 12:30:19","Closed","Panda","There seems to be an issue with viewing A&E attendances via our Panda link, they can open the Patient Episodes so they can see them listed:
+
+Came to me via email","02/07/2026 08:15:27","Acute Care Symphony Support Level 2","Sheree Chadwick","Symphony","18/06/2026 08:14:33","11",""
+"CS1798138","Tallaght University Hospital","3 - Medium","15/06/2026 12:40:15","Closed","Symphony AMAU Transfers","Hi All,
+
+We are having an issue with AMAU transfers on Symphony/DAD.
+Patients aren't transferring from Adults to AMAU.
+
+I've restarted the DAD application and the DAD server but the patients still aren't transferring.
+
+MRNs
+312033
+502909
+36894
+
+Can you investigate please.
+
+Cheers,
+Dean","03/07/2026 15:11:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","19/06/2026 15:10:28","17",""
+"CS1798826","South Tees Hospitals NHS Foundation Trust","3 - Medium","16/06/2026 11:27:54","Closed","Restart required","Hello
+Please could live Symphony DAD be restarted, as a new special case indicator has been added?
+Thanks
+Paul","16/06/2026 13:48:07","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - DAD","16/06/2026 12:37:54","8",""
+"CS1799105","Aneurin Bevan University Healthboard","3 - Medium","16/06/2026 14:50:53","Closed","Error After Installing RISP Client","Hi,
+
+Our IT team installed a RISP client on several PCs in ED at GUH on 12/06/2026. After the install on these PC's Symphony logged its self out and when users attempted to log back in they got the following error message:
+
+DATETIME: 12-Jun-2026 15:37:52|| DESCRIPTION: Component 'vbalIml6.ocx' or one of its dependencies not correctly registered: a file is missing or invalid|| SOURCE: FWProcMenu2|| COMPONENT: FWProcMenu2|| ERRORNO: 339|| PROCEDURE: MenuStrip LoadStripProperties Method|| CODEBLOCK: Error while loading menustrips properties|| USFMESSAGE: An Error has occurred while loading the menustrip properties.|| APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: IT0089454|| SERVERNAME: ABB_ACCSQL_DB|| LOGGEDUSER: guhed|| SITE: Aneurin Bevan Health Board|| BUILDNO: 2.39.1.18|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 2.39.1|| MDACVERSION: 10.0||
+
+Our desktops engineer went back to site and reinstalled Symphony and they were then able to log in to Symphony. 
+
+Are you able to advise why installing the RISP client caused this and what steps we can take to mitigate this from happening again as the project has now been placed on hold and we still have the other half of ED to do and all our minor injury units.","07/07/2026 09:34:54","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","07/07/2026 09:34:53","35",""
+"CS1799308","Mid Yorkshire Teaching NHS Trust","3 - Medium","17/06/2026 09:16:54","Closed","Postcode finder not working again - GBG Loqate","The postcode finder is not working again. Please can this be looked at as a matter of urgency please? This has happened again even though we were told this wouldn't happen again.","02/07/2026 14:13:28","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","18/06/2026 14:12:33","18",""
+"CS1799617","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","17/06/2026 12:44:36","Closed","Slow performance ","Very slow performance at Keswick and Penrith UTC's, 30+ minutes to log on and 5+ minutes to complete actions. No error messages.","18/06/2026 12:35:50","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","18/06/2026 12:35:49","13",""
+"CS1799950","Norfolk and Norwich University Hospitals NHS Foundation Trust","3 - Medium","18/06/2026 05:09:57","Closed","Symphony DAD Interface will not start after Windows Updates","Symphony DAD Interface will not start after installing June 2026 Windows Updates","22/06/2026 08:54:57","Acute Care Symphony Support Level 1","Gareth Evans","Symphony - DAD","18/06/2026 10:42:29","14",""
+"CS1800403","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","18/06/2026 14:09:33","Closed","Audit","
+Please could you do an audit trail of access by a Noah Hendricks for me please, if possible today? I have run the audit report but it shows no more data after 25th March and I'm not sure why? Any information you could provide would be great.
+
+","02/07/2026 14:11:29","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","18/06/2026 14:11:27","8",""
+"CS1800444","Swansea Bay University Health Board","3 - Medium","18/06/2026 14:34:57","Closed","Omnicelle and MPI DAD messages queuing","Omnicelle and MPI DAD messages queuing. Please can DAD be restarted","02/07/2026 15:49:26","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","18/06/2026 15:47:39","7",""
+"CS1800754","Mid Yorkshire Teaching NHS Trust","3 - Medium","19/06/2026 10:12:21","Closed","Postcode finder not working again","We had this issue on Wednesday when the postcoder finder was not working and Sheree resolved this. Can this be looked at again as it isnt working again?","03/07/2026 14:55:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","19/06/2026 14:54:47","16",""
+"CS1802995","Swansea Bay University Health Board","3 - Medium","24/06/2026 13:49:29","Closed","Omnicell and MPI DAD messages queued","Omnicell and MPI DAD messages queued. Please can DAD be restarted","10/07/2026 15:43:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","26/06/2026 15:41:31","27",""
+"CS1803006","Isle Of Wight NHS Trust","3 - Medium","24/06/2026 14:01:41","Closed","System slow and some sort of error message","Logged by Louis Ortega. System is running slow. One of Louis' colleagues saw an error message 'unable to connect to 3rd party' but we don't know where that was coming.
+
+Looks like the slowness has happened to everyone in reception. We don't know about the rest of the trust. But only one PC has the error message.
+
+We don't know whether IT have changed anything.
+
+It's been going on about an hour.
+
+St Mary's Hospital 01983 822099 extension 3649","08/07/2026 14:19:26","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","24/06/2026 14:17:49","9",""
+"CS1803228","Kent Community Health NHS Foundation Trust","3 - Medium","25/06/2026 08:22:42","Closed","Batch printing error","We raised a similar call a few weeks ago on CS1791632 where we were advised to try reinstalling. 
+We ended up swapping out the entire computer and installing Symphony from scratch it has been working for a while but now receiving the same error when trying to trigger the batch print
+
+DATETIME: 24-Jun-2026 16:28:02|| DESCRIPTION: Type mismatch|| SOURCE: FWSelectPrintJobs|| COMPONENT: FWSelectPrintJobs|| ERRORNO: 13|| PROCEDURE: SelectPrintJobs.PopulateForAvailableJobs|| CODEBLOCK: || USFMESSAGE: || APPLICATION: Symphony BatchPrinting|| ATTENDANCENO: || PATIENTID: || PCNAME: KCHT7032496|| SERVERNAME: KCHTGHPRDSQL02\SYMPHONY|| LOGGEDUSER: SWalker|| SITE: Eastern & Coastal Kent CS|| BUILDNO: || OS: Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: ||","13/07/2026 09:10:57","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","30/06/2026 11:51:16","21",""
+"CS1803612","Bedford Hospital NHS Trust","3 - Medium","25/06/2026 11:23:42","Closed","Dischage does not go through to IPM for B074955","Dischage does not go through to IPM for B074955. There was an open A&E episode on 19.03.25, which prevented the discharge of the patient from IPM . We have manually dichotomised the patient on Symptomy, but nothing is updating the IPM. We had our devs looking into this and shared their findings below
+""So there is an A03 discharge from Symphony, which has gone through successfully. However, there have been multiple A08 discharge update messages that have failed, as IPM cannot locate the ED attendance. I have resent the A03, which did go through to IPM, but it has had no effect on adding the discharge.""
+
+Could you please resolve this issue","24/07/2026 06:01:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","10/07/2026 05:59:29","17",""
+"CS1803868","Mid Yorkshire Teaching NHS Trust","3 - Medium","25/06/2026 14:37:08","Closed","Bed Manager tracking grid","We seem to have an issue with historical attendances since showing in the backend of the Bed Manager module. Please can someone look at this and see if the script is still running as expected to removed  old attendances? We changed this to any attendances over a week. But may need to change to less than this as this is slowing down Bed Manager module vastly. Users are complaining about speed and being able to complete their work.","01/07/2026 10:22:57","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","26/06/2026 15:37:17","19",""
+"CS1804949","South Tees Hospitals NHS Foundation Trust","3 - Medium","29/06/2026 08:50:58","Closed","Low disk space","The DB's on Symphony Test have pushed the disk to less than 10% capacity (STAS820 & STAS821 S:\ drives). Can something be done to shrink these? More specifically, the EMIS_EIE_SouthTees_Upgrade_Primary.mdf takes up the majority of space.","13/07/2026 11:40:34","Acute Care Symphony Support Level 2","Carlos Berrios","Symphony","10/07/2026 17:26:56","29",""
+"CS1805158","Northern Care Alliance NHS Foundation Trust","3 - Medium","29/06/2026 10:57:36","Closed","Management plans second stage not updating the first stage","When users enter a second Management Plan for a patient, it should update the first but instead it's creating  a second management plan.
+
+EG patient number 03989793 is on the tracking grid right now.
+
+(Management plan is a DEP). This seems to have started over the weekend; probably Sunday.","15/07/2026 10:59:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","01/07/2026 10:57:56","13",""
+"CS1805273","Swansea Bay University Health Board","3 - Medium","29/06/2026 11:54:32","Closed","MPI DAD outbound messages queuing","MPI DAD outbound messages queuing, users report processing delays when creating new episode. Not sure if DAD restart is needed?","14/07/2026 08:51:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","30/06/2026 08:50:51","20",""
+"CS1805483","Swansea Bay University Health Board","3 - Medium","29/06/2026 13:13:21","Closed","Users unable to log in via Remote app","Users unable to log in via Remote app, users have been using system earlier today but now receiving error messages (screenshots attached). Users unable to book patients in, causing delays. Users em150091 and so001811","15/07/2026 11:25:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","01/07/2026 11:23:49","57",""
+"CS1806086","Children's Health Ireland","3 - Medium","30/06/2026 09:58:59","On hold","Batch printing not working","Batch printing is not working. they are getting error message when they select add. when you click ok on error message the next page appears but there are no print jobs to add. screen shots attached.","03/08/2026 00:19:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony - Printed Output","","40",""
+"CS1806507","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","30/06/2026 14:10:02","Closed","Symphony performance extremely slow","Generally slow from logging on to all types of actions, reported across sites.","02/07/2026 13:17:03","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","02/07/2026 13:17:01","19",""
+"CS1806739","Health Service Executive","3 - Medium","30/06/2026 16:59:17","Closed","Test iPMS number not coming over to test Symphony","Could you please check the test server is running as Anne is trying to put up test patients and they are not carrying over from Test IPMS to test Symphony ","10/07/2026 10:41:33","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","30/06/2026 17:00:35","4",""
+"CS1806923","Swansea Bay University Health Board","3 - Medium","01/07/2026 10:00:09","Closed","PMI number not created for patient","PMI number not created for patient who attended yesterday 30/6/26. NMIU-26-025946-1 & 2.
+When in Patient details screen and selecting 'Close', receiving error message when sending data to Pas (attached). Had a look at DAD outbound messages and there's an A28 queued for MPI from yesterday for this patient.","15/07/2026 15:57:30","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","01/07/2026 15:56:50","14",""
+"CS1807258","North West Anglia NHS Foundation Trust","3 - Medium","01/07/2026 13:21:21","Closed","restart dad/iis/jboss","Afternoon,
+usual thing that takes hours for someone to complain to us to log with you.....
+when you get a chance can you please jump on and restart the things - no SCR/CPIS and delays attending (where it times out)
+thanks very much","01/07/2026 15:33:13","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","01/07/2026 14:55:42","16",""
+"CS1807531","Norfolk and Norwich University Hospitals NHS Foundation Trust","3 - Medium","01/07/2026 18:19:34","Closed","Full Audit of access to this patients records","URGENT - GDPR potential breach - Please provide a detailed audit log, including all access to the Patient 2286610 Loralei Atkin and their care over the past year. This should include any view access made, and any screens that might have shown care episodes for this patient.
+
+The audit must include the staff login ID, full name, role, date and time of access, what data was accessed (or if not possible the screen access and what details might be on that screen).
+
+This request was originally made through the account manager Thomas Jennings who was arranging a support person to assist in May","20/07/2026 14:55:28","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","06/07/2026 14:54:56","15",""
+"CS1807735","Northampton General Hospital NHS Trust","3 - Medium","02/07/2026 10:28:57","Closed","Historical documents not in midas folder","Trust is trying to migrate Midas documents to their new system, but not finding them in the Midas folder. For Opthamology.
+
+Oye is going to send screenshots in response to this.
+
+Oye is 077 2105 7381","30/07/2026 11:35:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","16/07/2026 11:34:22","22",""
+"CS1807819","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","02/07/2026 11:09:33","On hold","Symphony DEP Config access","We have threee new System Administrators in our team who have been given access to Symphony. They are okay with opening and using Stand Alone Patient Merge but when trying to open DEP Config it is taking hours and then when it does open all the DEPs are uncollapsed.
+
+Do you know why this would be happening?","29/07/2026 02:44:28","Acute Care Symphony Support Level 2","Sheree Chadwick","Symphony","","75",""
+"CS1808032","Health Service Executive","3 - Medium","02/07/2026 13:19:09","Closed","CHB ED OUT-PATIENT: is DAD running on test?","Could you check the test server as I have put the below test patient up on test symphony and Ray is not receiving any messages back to the Test IPMs system please 
+
+(forwarded message says: Can you please register the below patient on the test Symphony. MRN is 813169)
+","06/07/2026 14:45:07","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/07/2026 11:17:34","11",""
+"CS1808690","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","03/07/2026 12:42:07","Closed","Symphony Crashed boths sites - Multiple users","Reports from both Grimsby and Scunthorpe that Symphony has crashed on multiple pc's twice this morning and now back up but running slower than usual.
+Local IT and Networking check and all ok.
+Please could a health check be performed?","06/07/2026 12:08:19","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","06/07/2026 11:59:09","32",""
+"CS1808891","South Tees Hospitals NHS Foundation Trust","3 - Medium","03/07/2026 15:39:54","Closed","Restart Required","Hello
+A restart of the Live Symphony DAD is required as new special case flags have been added.
+Thanks
+Paul","06/07/2026 08:38:45","Acute Care Symphony Support Level 1","Gareth Evans","Symphony - DAD","06/07/2026 08:15:27","11",""
+"CS1809437","Swansea Bay University Health Board","3 - Medium","06/07/2026 12:28:52","Closed","Unable to print labels","Department suffered network issues earlier today, weren't able to print cas cards and labels. Network issue now resolved, able to print cas cards but still cannot print labels from zebra printers. Wondered if something needs to be restarted optum side? Or is there is something else we need to look at please.","21/07/2026 08:13:27","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","07/07/2026 08:11:55","20",""
+"CS1810219","Bedford Hospital NHS Trust","3 - Medium","07/07/2026 13:07:32","In Progress","Symphoney does not send document s to Viper.","Dear Support, 
+We have receiced the following reposrt. 
+""  used to be able to access Viper 'documents' but now they don't show up or some do and some don't. It doesn't make a difference which computer I'm working from. Are you able to fix this so I can access it again please?""
+I have logged toi with Viper support. They have investiaged and aske dme to log a ticket with you Seee details below from Viper support 
+
+""Hi Arafath,
+Thank you for providing the second patient example.
+This confirms what we were seeing with the first example. For this patient, we can see that a document was received from Symphony for the ED attendance on 18th June, however the document was not uploaded into IMX.
+On reviewing the message, it appears to contain an invalid HL7 segment at line 11, where the segment ID is simply ""X"" rather than a valid HL7 segment identifier. As a result, IMX is unable to process and upload the document.
+Could you please raise this with Symphony using the example below for investigation? If there have been any recent changes or updates to Symphony, it would also be useful to know.
+• Patient ID: 7099779729 
+• Message Control ID: 2026061894561907 
+• Message Date/Time: 18/06/2026 13:36:57
+Please ask them to confirm whether this MDM message was sent with an ""X"" segment at line 11, and if so, whether this is expected behaviour. From our investigation so far, this invalid segment appears to be preventing the document from being successfully processed by IMX.
+""
+Thanks
+Arafath","03/08/2026 01:38:25","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","","21",""
+"CS1810673","Wye Valley NHS Trust","3 - Medium","08/07/2026 10:05:13","Closed","Generic account has access to everything following Symphony downtime ","Symphony was down for about an hour overnight. Since then (and we don't know whether it's related), the generic account has got access to everything except looking at clinical e-notes.
+
+In general, it's behaving wierdly. Notes appear to be disappearing from next action menu.
+
+Recently there's been a lot of work on DEP config, creating a new area (EEMAC) — maybe that's related?","28/07/2026 15:59:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","14/07/2026 15:57:27","23",""
+"CS1811100","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","08/07/2026 15:45:04","Closed","Teddy bear flag missing","Please can the SQL script be run to reset the flags on our Symphony. This was resolved by Gareth last time
+
+I created a new flag and this has removed the teddy bear flag","09/07/2026 10:31:27","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","09/07/2026 10:31:25","19",""
+"CS1811171","Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust","3 - Medium","08/07/2026 17:27:31","Closed","Messages stuck","CaMIS Team requested a DAD restart as some messages were stuck.","22/07/2026 17:31:28","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","08/07/2026 17:29:40","10",""
+"CS1811799","South Tees Hospitals NHS Foundation Trust","3 - Medium","09/07/2026 14:59:34","Closed","Location of Icons folder","Hello
+This call is related to call CS1727788. We are still getting active connections to the old servers after moving from STNAS1\symphony$. I've checked through Symphony and in the  Symphony System Properties, the Icons Folder is still pointing to \\symphonyfs\emis$.
+Could this be changed to \\stds\servershare$\Symphony\Symphony\Symphony\CONFIG\Icons?
+Thank you
+Paul","10/07/2026 10:36:09","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","10/07/2026 09:30:03","16",""
+"CS1811956","Brighton And Sussex University Hospitals NHS Trust","3 - Medium","10/07/2026 08:10:37","Closed","Audit trail of demographic changes","Please can I have an audit trail of all demographic changes, for patient 5220321 (NS), including what changes were made and by whom, since January 2026.","24/07/2026 15:33:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","10/07/2026 15:32:44","14",""
+"CS1813197","South Tees Hospitals NHS Foundation Trust","3 - Medium","13/07/2026 16:03:30","Closed","Restart required","Hello
+Could the Live DAD be restarted as a new special case indicator has been added.
+thanks
+Paul","14/07/2026 10:15:29","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - DAD","13/07/2026 17:16:28","12",""
+"CS1813676","Leeds Teaching Hospitals NHS Trust","3 - Medium","14/07/2026 12:55:10","Closed","DAD restart","Can you restart DAD please","28/07/2026 14:37:27","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","14/07/2026 14:37:23","16",""
+"CS1813916","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","14/07/2026 16:44:06","On hold","patient GP feeding to Symphony from Lorenzo","Through checking some ToC reports for failed bundles we found 2 patients who had a GP on Symphony but when we checked they don't have a GP on Lorenzo/Spine so we understand why a bundle hasn't been sent but not sure why Lorenzo hasn't updated and removed the GP on Symphony.
+
+The patients are sgh-26-030725 and ae-26-034875","28/07/2026 00:59:28","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","","19",""
+"CS1813990","North Cumbria Integrated Care NHS Foundation Trust","3 - Medium","15/07/2026 08:38:45","On hold","HIE Viewer popping up script error","Staff are currently receiving a syntax error when they try to launch HIE Viewer (GNCR)
+This normally pops up without issue - is this related at all to the current GNCR outage?","29/07/2026 14:48:52","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","","22",""
+"CS1814077","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","15/07/2026 09:43:11","Closed","Contextual Link","Hi Optum,
+Please could you update our contextual link, as we have been provided with an updated URL which goes live from 10:00am today.
+To ensure continuity of service and prevent any disruption, please update the existing contextual link to the new address as soon as possible.
+Please let me know once this has been completed.
+I am unavailable on my direct dial if you could contact me via email or via this ticket.
+Kind Regards,
+Jo","16/07/2026 10:53:02","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony","16/07/2026 10:50:25","40",""
+"CS1814446","Leeds Teaching Hospitals NHS Trust","3 - Medium","15/07/2026 14:37:03","Resolved","Showing incorrect date on record","2068687 PAS number is showing the incorrect date on the time line see attached","29/07/2026 08:22:38","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","29/07/2026 08:22:38","30",""
+"CS1814607","Wye Valley NHS Trust","3 - Medium","16/07/2026 07:05:32","Closed","DAD Restart -WVT","Comm point down - please restart DAD.","30/07/2026 08:37:26","Acute Care Symphony Support Level 1","Sheree Chadwick","Symphony - DAD","16/07/2026 08:35:44","8",""
+"CS1816131","Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust","3 - Medium","18/07/2026 15:43:34","Closed","Unable to register patients","William S calling to advise they are having issues with registering patients.
+
+07484 515418","28/07/2026 10:32:40","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","18/07/2026 16:20:04","11",""
+"CS1816315","Western Sussex Hospitals NHS Trust","3 - Medium","20/07/2026 10:08:14","Resolved","Remove ADT messages ","ST Richards ED
+
+We currently have an A04 and A02 message that has errored and is unable to be cleared.
+
+ DATETIME: 20-Jul-2026 10:07:55|| DESCRIPTION: Invalid use of Null|| SOURCE: FWDADQueMsg|| COMPONENT: FWDADQueMsg|| ERRORNO: 94|| PROCEDURE: FWDADQueue.PopulateObject|| CODEBLOCK: || USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: UHSL02131|| SERVERNAME: RYREMISSQL1-AG1.sussex.nhs.uk|| LOGGEDUSER: PopeR|| SITE: UHSussex LIVE|| BUILDNO: 3.1.1.6|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: 10.0||","21/07/2026 08:32:37","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","21/07/2026 08:32:38","7",""
+"CS1817654","Swansea Bay University Health Board","3 - Medium","22/07/2026 10:08:06","Resolved","Unable to book into clinic slot","Unable to book into 9:30 clinic slot for MIU physio clinic 30/7/26. There is a double line showing at the top of the tracking grid which usually indicates there is a stuck attendance blocking the slot which we can't see front end.","29/07/2026 15:29:50","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","29/07/2026 15:28:00","38",""
+"CS1817709","Swansea Bay University Health Board","3 - Medium","22/07/2026 10:46:51","On hold","User unable to log in, error message","User unable to log into stand alone (fat client) symphony, user getting error message (screenshot attached). Username cl211654.","29/07/2026 01:54:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","","14",""
+"CS1818047","Swansea Bay University Health Board","3 - Medium","22/07/2026 15:30:14","On hold","DoD flag needs to be removed from patient","Please can date of death flag be removed from patient, PMI 219680","30/07/2026 02:54:28","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","","16",""
+"CS1818169","Bedford Hospital NHS Trust","3 - Medium","22/07/2026 21:19:14","Closed","Bedford Symphony - No A03 sent from Symphony for patient H088173","Hi Support,
+
+No A03 came out of Symphony to PAS - I get this message when I try to edit the discharge time:
+DATETIME: 22-Jul-2026 21:04:52|| DESCRIPTION: || SOURCE: || COMPONENT: FWAEFormGen|| ERRORNO: 0|| PROCEDURE: Sub cmdFinish_Click.|| CODEBLOCK: Error invoking performfinishroutine.|| USFMESSAGE: Error processing 'OK' navigation button.  DEP=ED Discharge:DEFORM=Discharge:DEFIELD=Actions taken (Safeguarding)|| APPLICATION: Symphony Version 2|| ATTENDANCENO: BED-26-050906-1|| PATIENTID: 505974|| PCNAME: BHCMY74M3|| SERVERNAME: BEDSQLSYMLSNR|| LOGGEDUSER: JClavey|| SITE: Bedford Hospital NHS Trust|| BUILDNO: 2.39.1.19|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 2.39.1|| MDACVERSION: 10.0||
+
+Thanks
+Jo
+07815923033","24/07/2026 09:21:40","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","24/07/2026 09:14:59","15",""
+"CS1818947","North West Anglia NHS Foundation Trust","3 - Medium","23/07/2026 16:17:42","Resolved","GP Update Q1 2026","Hello
+
+Please can the GP Update for Q1 2026 be installed on our test system and subsequently our live system.","03/08/2026 09:17:14","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/08/2026 09:17:15","27",""
+"CS1818953","Northern Lincolnshire And Goole NHS Foundation Trust","3 - Medium","23/07/2026 16:21:31","Resolved","Updated Contextual Link","Hi, we opened a call CS1814077 but we were provided with a slightly incorrect URL.
+Please could this be updated:
+From: https://nlg-plwebv,nlg,nhs,uk/csp/nlg/login/csp?u
+
+To: https://nlg-plwebv.nlg.nhs.uk/webv/?nhs=","24/07/2026 11:04:39","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","24/07/2026 11:04:40","16",""
+"CS1819577","Leeds Teaching Hospitals NHS Trust","3 - Medium","25/07/2026 12:29:40","Resolved","Unable to discharge patients","Matt Whelan calling from Leeds on call IT Team.
+
+Matt advises the ED department are unable to discharge patients. The process is hanging and taking a long time. 
+
+They also advise the BRM Grey Team patients need clearing off the tracking grid as its taking a long time to refresh.
+
+Matt Whelan - 07979 703475","26/07/2026 00:16:18","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","25/07/2026 13:20:58","7",""
+"CS1820146","North West Anglia NHS Foundation Trust","3 - Medium","27/07/2026 13:26:15","In Progress","Unable to book Xray through Symphony users are getting errors","When trying to book xray through Symphony getting below error.  Tried different PC’s and still gets the same error","30/07/2026 16:07:22","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony","","27",""
+"CS1822075","Northern Care Alliance NHS Foundation Trust","3 - Medium","30/07/2026 12:23:19","Resolved","Messages building up","From Paul Knowles
+
+Trust are receiving messages saying messages are building up. Paul is forwarding one to me.
+Started at 10:10 this morning.","03/08/2026 09:43:10","Acute Care Symphony Support Level 1","Gareth Evans","Symphony","03/08/2026 09:43:10","16",""
+"CS1822778","Swansea Bay University Health Board","3 - Medium","31/07/2026 15:17:24","On hold","WCCG endpoint downtime 4/8/26 19:00-21:00","We've had notification of WCCG downtime 4/8/26 at 19:00-21:00, WCCG client senders will be unable to send messages to the WCCG web service endpoints. This will affect sending discharge summaries from symphony during this time.
+Is it possible to arrange summaries to be retriggered on 5th august please.","01/08/2026 00:16:49","Acute Care Symphony Support Level 1","Shazad Ishaque","Symphony - DAD","","7",""
+"CS1822990","University Hospital Southampton NHS Foundation Trust","3 - Medium","03/08/2026 09:23:26","On hold","Issues with Symphony replication server","Hi team,
+
+Our Business Intelligence team have flagged with us that there appears to be issues with the Symphony replication database. Could you investigate from your side and address any issues that might be occurring please.
+
+Many thanks","03/08/2026 10:26:45","Acute Care Symphony Support Level 1","Konrad Siddons","Symphony","","12",""

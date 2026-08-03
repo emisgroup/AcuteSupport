@@ -2,10 +2,13 @@ import csv
 import os
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-INPUT_CSV = os.path.join(BASE_DIR, 'data', 'raw', 'Symphony_Casea_Last_12-Months.csv')
+INPUT_CSV = os.path.join(BASE_DIR, 'data', 'processed', 'Merged_Cases_With_SLA_Formatted.csv')
+if not os.path.exists(INPUT_CSV):
+    INPUT_CSV = os.path.join(BASE_DIR, 'data', 'raw', 'Symphony_Cases_Last_12-Months.csv')
 TRENDS_TXT = os.path.join(BASE_DIR, 'templates', 'Trends.txt')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'data', 'raw', 'report_outputs')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 
 TAXONOMY = [
     ("Access & Security", "User Access"),

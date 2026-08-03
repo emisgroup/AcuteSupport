@@ -4,6 +4,8 @@ import os
 import pandas as pd
 from shutil import copyfile
 import numpy as np
+from datetime import datetime
+
 
 # Paths
 # Base directories (dynamic)
@@ -24,8 +26,9 @@ if not os.path.exists(input_doc):
 backup_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_tables_filled_backup2.docx')
 final_doc = os.path.join(reports_dir, 'Cases_Management_Report_Completed_tables_filled_final.docx')
 
-# parse current time (use now as fallback)
-current_time = pd.to_datetime('2026-07-29T23:37:34.349+01:00', utc=True).tz_convert(None)
+# Dynamic runtime timestamp
+current_time = datetime.now()
+
 
 # helper
 def format_duration(seconds):
@@ -131,9 +134,13 @@ if median_open is not None:
 exec_lines.append('Recommended priorities: (1) rapidly create KB articles and automation for high-volume, low-complexity issues; (2) strengthen triage to reduce P90 resolution; (3) remediate recurring environmental/import processes causing operational noise.')
 executive_summary = ' '.join(exec_lines)
 
-# Source Data placeholder value
-source_data_text = ('Source files: Symphony_Casea_Last_12-Months.csv (case data) and Symphony_SLA_Last_12-Months.csv (SLA durations), merged on case number. '
-                    f'Derived dataset: Merged_Cases_With_SLA_Formatted.csv. Report generated: {current_time.strftime("%Y-%m-%d %H:%M:%S")}.')
+# Source Data placeholder value (dynamically discovered active top-level raw CSV files)
+active_raw_files = [f for f in sorted(os.listdir(RAW_DIR)) if f.lower().endswith('.csv') and not os.path.isdir(os.path.join(RAW_DIR, f))]
+source_files_str = ', '.join(active_raw_files) if active_raw_files else 'Active raw CSV exports in data/raw/'
+source_data_text = (f"Source files: {source_files_str}, merged on case number. "
+                    f"Derived dataset: Merged_Cases_With_SLA_Formatted.csv. "
+                    f"Report generated: {current_time.strftime('%Y-%m-%d %H:%M:%S')}.")
+
 
 # Recommended management actions (priority, recommendation, rationale)
 recommended = [

@@ -45,6 +45,21 @@ tables = {
 # helper: replace placeholder text in runs
 placeholder_re = re.compile(r"\{([^}]+)\}")
 
+# explicit mapping for custom placeholders in template
+explicit_kpi_map = {
+
+    'Total Cases': str(kpi.get('total_cases', '')),
+    'Open/UnResolved': str(kpi.get('open_cases', '')),
+    'TTR': str(kpi.get('median_ttr', '')),
+    'Top Trend': 'Integration & Interfaces / Third-Party Systems'
+}
+
+explicit_chart_map = {
+    'CASES CREATED BY MONTH CHART': 'monthly_case_trend.png',
+    'Top Products by Case Volume Chart': 'product_distribution.png',
+    'Priority Profile Chart': 'priority_profile.png'
+}
+
 def replace_placeholders_in_paragraph(paragraph):
     full_text = ''.join(run.text for run in paragraph.runs)
     matches = placeholder_re.findall(full_text)
@@ -53,16 +68,12 @@ def replace_placeholders_in_paragraph(paragraph):
     new_text = full_text
     for key in matches:
         k = key.strip()
-        # KPI replacement
-        if k in kpi and kpi.get(k) not in [None, '']:
+        if k in explicit_kpi_map:
+            new_text = new_text.replace('{' + key + '}', explicit_kpi_map[k])
+        elif k in kpi and kpi.get(k) not in [None, '']:
             new_text = new_text.replace('{' + key + '}', str(kpi.get(k)))
-        # duration formatting fields may exist as *_formatted in kpi
         elif k in kpi:
             new_text = new_text.replace('{' + key + '}', str(kpi.get(k)))
-        else:
-            # leave as-is for chart/table placeholders; will be handled separately
-            pass
-    # set paragraph text to new_text (clear runs)
     for i in range(len(paragraph.runs)-1, -1, -1):
         paragraph.runs[i].clear()
     if new_text:
@@ -72,10 +83,7 @@ def replace_placeholders_in_paragraph(paragraph):
 
 def insert_image_after_paragraph(doc, paragraph, image_path, width_inches=6):
     p = paragraph._p
-    idx = doc.paragraphs.index(paragraph)
-    # Insert a new paragraph after this one
     new_p = doc.add_paragraph()
-    # Move the new paragraph to after the target by reordering xml
     p.getparent().insert(p.getparent().index(p)+1, new_p._p)
     run = new_p.add_run()
     run.add_picture(image_path, width=Inches(width_inches))
@@ -88,10 +96,8 @@ def insert_table_after_paragraph(doc, paragraph, csv_path, max_rows=10):
     df = pd.read_csv(csv_path)
     rows = df.shape[0]
     cols = df.shape[1]
-    # build table with header + up to max_rows
-    p = paragraph._p
     new_p = doc.add_paragraph()
-    p.getparent().insert(p.getparent().index(p)+1, new_p._p)
+    paragraph._p.getparent().insert(paragraph._p.getparent().index(paragraph._p)+1, new_p._p)
     table = doc.add_table(rows=1, cols=cols)
     hdr_cells = table.rows[0].cells
     for ci, col in enumerate(df.columns):
@@ -110,19 +116,38 @@ doc = Document(template)
 for para in doc.paragraphs:
     replace_placeholders_in_paragraph(para)
 
-# Also check tables for placeholders in cell text
 for table in doc.tables:
     for row in table.rows:
         for cell in row.cells:
             for para in cell.paragraphs:
                 replace_placeholders_in_paragraph(para)
 
-# Second pass: handle chart and table placeholders specially
-# Look for placeholders like {Chart:monthly_case_trend} or {Table:monthly_case_trend}
+# Helper to replace explicit chart placeholders in a paragraph
+def replace_explicit_charts(para):
+    for ph, img_name in explicit_chart_map.items():
+        placeholder_tag = '{' + ph + '}'
+        if placeholder_tag in para.text:
+            img_path = os.path.join(charts_dir, img_name)
+            if os.path.exists(img_path):
+                for run in para.runs:
+                    run.text = ''
+                run = para.add_run()
+                run.add_picture(img_path, width=Inches(3.2 if 'Table' in str(type(para._p.getparent())) else 6))
+
+for para in list(doc.paragraphs):
+    replace_explicit_charts(para)
+
+for table in doc.tables:
+    for row in table.rows:
+        for cell in row.cells:
+            for para in list(cell.paragraphs):
+                replace_explicit_charts(para)
+
 chart_pattern = re.compile(r"\{\s*(?:Chart|Image)\s*:\s*([^}]+)\s*\}", re.IGNORECASE)
+
+
 table_pattern = re.compile(r"\{\s*Table\s*:\s*([^}]+)\s*\}", re.IGNORECASE)
 
-# Walk paragraphs to insert images/tables
 paras = list(doc.paragraphs)
 for para in paras:
     text = para.text
@@ -132,7 +157,6 @@ for para in paras:
         img_file = charts.get(key, key + '.png')
         img_path = os.path.join(charts_dir, img_file)
         if os.path.exists(img_path):
-            # remove placeholder text
             for run in para.runs:
                 run.text = run.text.replace(m.group(0), '')
             insert_image_after_paragraph(doc, para, img_path)
@@ -146,7 +170,6 @@ for para in paras:
                 run.text = run.text.replace(m2.group(0), '')
             insert_table_after_paragraph(doc, para, csv_path)
 
-# Additionally, simple placeholders matching chart names in braces will be replaced by images
 simple_chart_pattern = re.compile(r"\{\s*([a-z0-9_]+)\s*\}", re.IGNORECASE)
 for para in list(doc.paragraphs):
     text = para.text
@@ -158,10 +181,10 @@ for para in list(doc.paragraphs):
         if key.lower() in charts:
             img_path = os.path.join(charts_dir, charts[key.lower()])
             if os.path.exists(img_path):
-                # replace token text and insert image
                 for run in para.runs:
                     run.text = run.text.replace('{' + token + '}', '')
                 insert_image_after_paragraph(doc, para, img_path)
+
 
 # Final: save completed doc
 os.makedirs(reports_dir, exist_ok=True)

@@ -35,7 +35,8 @@ Store ServiceNow exports, analysis pipelines, and generated executive management
 ## Key Governance & Rules
 - Source exports in `data/raw/` are preserved for auditability.
 - Automated script backups are stored under `data/archive/`.
-- Generated deliverables in `outputs/` are excluded from version control via `.gitignore`.
+- Generated deliverables in `outputs/` **are** committed to version control. The repository has
+  no `.gitignore` by design — nothing is ignored, and reports are tracked as auditable artefacts.
 - Refer to each project's `AGENTS.md` for specific taxonomy rules and QA checklists.
 
 **Contact**: Lee Booth (lee.booth@emishealth.com)

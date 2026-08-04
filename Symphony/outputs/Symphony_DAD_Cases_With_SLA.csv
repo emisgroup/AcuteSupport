@@ -1,0 +1,2310 @@
+﻿Trend,Case Number,Priority,State,Account,Product,Short Description,Sys Created On,Resolved At,"TTR (days, hrs, mins)","SLA Business Duration (days, hrs, mins)","SLA Actual Duration (days, hrs, mins)",TTR (Seconds),SLA Business Duration (Seconds),SLA Actual Duration (Seconds),SLA Stage,SLA Start Time,SLA Pause Time,SLA End Time,Assignment Group,Assigned To,Sys Updated On,Sys Updated By,Sys Mod Count,Problem,Description,Close Notes
+DAD,CS1631037,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Stuck Messages in DAD Outbound Queue,11/08/2025 09:58:24,11/08/2025 14:11:06,"4 hrs, 12 mins","4 hrs, 12 mins","4 hrs, 12 mins",15162.0,15162.0,15162.0,Completed,11/08/2025 09:58:24,,18/08/2025 11:11:34,Acute Care Symphony Support Level 1,Shazad Ishaque,18/08/2025 11:11:35,system,13,,"Hi, Please see the attached document showing messages that are stuck in our DAD outbound queue.
+Re-queuing them has not helped as they default back to Suspended status shortly after.  Please assist us with clearing these messages.
+Many thanks","Hello Susan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1631037.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1631264,2 - High,Closed,Hospice Peterborough And Stamford Hospitals NHS Foundation Trust,Optum Help Centre,SCR / CPIS,11/08/2025 12:03:41,11/08/2025 18:15:47,"6 hrs, 12 mins",N/A,N/A,22326.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,15/08/2025 14:05:56,system,10,,"issue is with SCR / CPIS connections through Symphony completion of booking a patient in) and not a CareFlow issue.
+ there are no national outages on NHS Spine
+Can you please restart  EMIS to restart IIS/Jboss/DAD
+example incident and description - CS1532442. 
+reception staff are attending/popup doesn't complete : Really slow booking in. When getting demographics it is very slow and taking a long time to finalise. It is performing the spine search as no tick coming once patient is booked in.","Hello Nazia,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1631264.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1631603,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,Attendance SCR/CPIS check isnt working,11/08/2025 18:12:06,11/08/2025 18:17:23,5 mins,0 mins,5 mins,317.0,0.0,317.0,Completed,11/08/2025 18:12:06,,25/08/2025 18:17:26,Acute Care Symphony Support Level 1,Shazad Ishaque,25/08/2025 18:17:26,system,8,,"This case was logged by Nazia hakim.
+
+issue is with SCR / CPIS connections through Symphony completion of booking a patient in) and not a CareFlow issue.
+ there are no national outages on NHS Spine
+Can you please restart  EMIS to restart IIS/Jboss/DAD
+example incident and description - CS1532442. 
+reception staff are attending/popup doesn't complete : Really slow booking in. When getting demographics it is very slow and taking a long time to finalise. It is performing the spine search as no tick coming once patient is booked in.","Hello Michael,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1631603.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1633263,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD,14/08/2025 08:21:36,14/08/2025 08:38:14,16 mins,16 mins,16 mins,998.0,998.0,998.0,Completed,14/08/2025 08:21:36,,28/08/2025 08:39:26,Acute Care Symphony Support Level 1,Gareth Evans,28/08/2025 08:39:27,system,9,,Can you please restart the DAD service for Hereford Hospital/WVT.,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1633263.
+ 
+To resolve this, I've started DAD as requested and watched the queue clear down. It looks like the DAD server was restarted about 4:30 this morning.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1633351,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Symphony - edocs items stuck in the outbound DAD queue,14/08/2025 09:37:40,14/08/2025 14:28:27,"4 hrs, 50 mins","4 hrs, 50 mins","4 hrs, 50 mins",17447.0,17447.0,17447.0,Completed,14/08/2025 09:37:40,,28/08/2025 14:29:26,Acute Care Symphony Support Level 1,Shazad Ishaque,28/08/2025 14:29:27,system,12,,"Good Morning 
+
+There are 9 messages stuck in the outbound DAD queue EYE - eDocs v2.0 - Attendance ID with suspended status since 12/08/25 .
+
+Please can you look into this?
+
+Best,
+
+Kind Regards
+Ashley | EPR","Hello Ashley,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1633351.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1634082,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,DAD lock - near constant - can you see what/why?,15/08/2025 09:28:36,12/09/2025 16:04:13,"28 days, 6 hrs, 35 mins","14 hrs, 50 mins","15 hrs, 52 mins",2442937.0,53431.0,57177.0,Completed,15/08/2025 09:28:36,,26/09/2025 16:05:27,Acute Care Symphony Support Level 1,Shazad Ishaque,26/09/2025 16:05:28,system,37,,"Morning,
+Yesterday when creating attendances the reception team are seeing a lot of ""DAD lock"" messages - to the point it takes a couple of minutes and prevents them booking in at normal speed.
+
+Normally i would just ask IT to restart/failover. Its taken a while for the severity to reach me to do anything...
+Is there anything you can do to see why this is happening to try prevent it being common/happening less/etc?
+
+Obviously it needs a kick right now. I've logged here to see if theres anything you can see (that you wouldnt if IT did their reboot)
+
+Its common that we do it - its not like its happening every month/week = it will be fine for 2m then need 2 restarts in 2w, very random but happening more since upg last year than before
+thanks","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1634082.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1634817,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Stuck Messages in DAB Outbound Queue,18/08/2025 09:27:40,18/08/2025 11:29:41,"2 hrs, 2 mins","2 hrs, 2 mins","2 hrs, 2 mins",7321.0,7321.0,7321.0,Completed,18/08/2025 09:27:40,,26/08/2025 09:59:13,Acute Care Symphony Support Level 1,Konrad Siddons,26/08/2025 09:59:13,Susan.Bradshaw@uhs.nhs.uk,7,,"Hi, Please see attached screenshot showing messages that are stuck in our DAD outbound queue.  Re-queueing them has not helped as they default back to suspended shortly after.  Please assist us with clearing these messages.
+
+Many thanks.","Hello Susan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1634817.
+ 
+To resolve this:
+
+The 2 Suspended Messages in your screenshot are both for Attendance ED-25-084656-1.
+These will not currently process due to there being missing data in the messages for a Mandatory Field.
+For both, this is the Patient Hospital Number (PMI Number) which has not been created for the associated Patient whose NHS Number is 7233692777
+
+Once the Hospital Number has been added to the Patient, if you then reset the 2 messages to Queued they should then process normally.
+
+Many thanks
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1634971,3 - Medium,Closed,Northern Care Alliance NHS Foundation Trust,Symphony,RE: Stuck message in Symphony DAD queue,18/08/2025 11:01:28,02/09/2025 02:29:28,"14 days, 15 hrs, 28 mins","13 hrs, 6 mins","1 day, 1 hr, 6 mins",1265280.0,47187.0,90387.0,Completed,18/08/2025 11:01:28,,04/09/2025 12:32:34,Acute Care Symphony Support Level 1,Konrad Siddons,04/09/2025 12:32:34,jonathan.stanger-moore@nca.nhs.uk,9,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+
+Dear Support
+
+Please could you investigate a stuck message in the Symphony DAD queue.
+
+Its Status is 'Currently Processing' but is not clearing and I am unable to delete it.
+
+UID
+Attendance<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=atd_num&sortdir=ASC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhRTs0GN5$>
+Department<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=dpt_name&sortdir=ASC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhXkvbUWE$>
+DAD Service<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=ser_name&sortdir=ASC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhZilIL54$>
+Message Definition<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=mdf_name&sortdir=ASC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhSHBGJbg$>
+Status<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=vc_status&sortdir=ASC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhchIKW0w$>
+Reason<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=fam_reason&sortdir=ASC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhehzItl9$>
+Created<https://urldefense.com/v3/__http://n-sym-lcw-app01/SymphonyChecks/DADFailedMessages.cshtml?sort=fam_created&sortdir=DESC__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhRc5lWTx$>
+02166722
+AEF-25-051158-1
+Fairfield
+FF - A04 A+E Attendance
+FF ADT^A04
+Currently Processing
+Service has been configured to queue messages immediately
+13/08/2025 08:44:06
+
+
+Many thanks
+
+------------------------------------------------------------------------------
+Jonathan Stanger-Moore
+Senior Integration Specialist
+Informatics & Digital
+Northern Care Alliance NHS Foundation Trust
+Email: jonathan.stanger-moore@nca.nhs.uk<mailto:jonathan.stanger-moore@nca.nhs.uk>
+Web: www.northerncarealliance.nhs.uk<https://urldefense.com/v3/__http://www.northerncarealliance.nhs.uk/__;!!IJLR5QJm7ttc!hEZu29hEYVzGsjOnDxxgFJ0igJzhbrjP8th014JaQoscjA0KlxrUWrtOhuModVdjYHDT7zAnAO3KTD8Ai7AHhc7E-vZv$>","Hi,
+
+I'm getting in touch regarding your case CS1634971 which you raised on 18/08/2025 11:01:28 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+DAD,CS1636643,3 - Medium,Closed,Northern Care Alliance NHS Foundation Trust,Symphony,DAD event monitor ,20/08/2025 13:27:14,20/08/2025 13:28:27,1 min,1 min,1 min,73.0,73.0,73.0,Completed,20/08/2025 13:27:14,,03/09/2025 13:29:28,Acute Care Symphony Support Level 1,Gareth Evans,03/09/2025 13:29:28,system,6,,"Support have received the following message by email:
+
+The last INBOUND DAD Service event was logged at 2025-08-20 11:46:43.857 (3498 sec(s) ago)
+The last OUTBOUND DAD Service event was logged at 2025-08-20 11:46:38.027 (3503 sec(s) ago)
+Please check that Ascribe SymphonyDAD Windows Service is still running on Failover Cluster SYM-LIVE-DADSRV (10.137.248.81).
+Nodes for the Failover Cluster are SYM-LIVE-DAD02 (10.137.248.76) and SYM-LIVE-DAD03 (10.137.248.77)
+","Hello Account,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1636643.
+ 
+To resolve this, I have restarted DAD and can see messages coming through.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1637673,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,DAD Outbound Queue - SGH ED TimeLine and A04,22/08/2025 09:19:19,22/08/2025 10:19:55,1 hr,1 hr,1 hr,3636.0,3636.0,3636.0,Completed,22/08/2025 09:19:19,,22/08/2025 10:25:55,Acute Care Symphony Support Level 1,Konrad Siddons,22/08/2025 10:25:55,miguel.batista@uhs.nhs.uk,7,,"Hello,
+Optum Support Team,
+
+Could you please fix the cause that is not allowing the message in the SGH ED TimeLine and A04 Queues to be sent? The message is the one related to the entry ED-25-084656-1.
+
+Please let me know if you need any more information.
+
+Kind regards,
+
+Miguel | EPR Team","Hello Miguel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1637673.
+ 
+To resolve this:
+
+This issue was previously raised by Susan Bradshaw via case CS1634817.
+
+That case was resolved with the following advice which as yet seems not to have been followed.
+If this is done you should be able to clear the 'stuck' messages:
+
+""The 2 suspended Messages in your screenshot are both for Attendance ED-25-084656-1.
+These will not currently process due to there being missing data in the messages for a Mandatory Field.
+For both, this is the Patient Hospital Number (PMI Number) which has not been created for the associated Patient whose NHS Number is 7233692777.
+
+Once the Hospital Number has been added to the Patient, if you then reset the 2 messages to Queued they should then process normally"".
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1640366,2 - High,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,Restart DAD for Symphony messaging,29/08/2025 08:28:09,29/08/2025 11:20:35,"2 hrs, 52 mins",37 mins,"1 hr, 9 mins",10346.0,2240.0,4151.0,Completed,29/08/2025 08:28:09,,05/09/2025 10:51:30,Acute Care Symphony Support Level 1,Shazad Ishaque,05/09/2025 10:51:32,system,16,,"Good morning, 
+
+Are you able to restart the DAD server please? As  messaging between eCamis & Symphony is not flowing we have around 18 patients who's DOD is missing in Symphony.
+
+These are the PMI numbers for patients
+3492061
+7770481
+1439860
+1406668
+0059808
+3625508
+0290354
+3143191
+3255384
+7108358
+1393562
+0093093
+1563149
+1427841
+0479145
+1437281
+1380081
+2101207","Hello Reena,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1640366.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1642757,2 - High,Closed,Swansea Bay University Health Board,Symphony,DAD outbound messages queuing,02/09/2025 11:33:19,02/09/2025 13:15:49,"1 hr, 42 mins",19 mins,19 mins,6150.0,1189.0,1189.0,Completed,02/09/2025 11:33:19,,02/09/2025 14:44:47,Acute Care Symphony Support Level 1,Gareth Evans,02/09/2025 14:44:48,system,12,,"DAD outbound messages are queuing since this morning, info is not sending to omnicell and causing delays in department","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1642757.
+ 
+To resolve this, I restarted DAD and watched the queue clear down.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1643400,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,SCR/CPIS attendance (possible performance),03/09/2025 10:21:16,04/09/2025 08:19:03,"21 hrs, 57 mins","1 hr, 27 mins","16 hrs, 35 mins",79067.0,5240.0,59732.0,Completed,03/09/2025 10:21:16,,18/09/2025 08:19:26,Acute Care Symphony Support Level 1,Gareth Evans,18/09/2025 08:19:27,system,20,,"Morning
+can you please restart the services that run the checks at attendance?
+CS1631603
+jboss, iis, dad - i think from memory
+
+getting quite a few issues from ED about performance, but only tangible thing so far is this - after doing this we'll check with them about anything else
+
+As its every attendance they're urgently telling us there are people out the door 'panic' if you would asap please.
+thanks muchly","Hello Lee,
+ 
+Thanks for confirming that we've resolved your case CS1643400.
+ 
+To resolve this, I restarted DAD, JBoss and IIS.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1643932,3 - Medium,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Error Message when loading DEP Config,03/09/2025 16:30:56,04/09/2025 09:50:47,"17 hrs, 19 mins","5 hrs, 19 mins","17 hrs, 19 mins",62391.0,19190.0,62390.0,Completed,03/09/2025 16:30:56,,04/09/2025 13:46:39,Acute Care Symphony Support Level 1,Konrad Siddons,30/03/2026 14:59:03,Sheree.Chadwick@emishealth.com,15,,"Hi , 
+
+I am getting the below and attached error message when trying to load DEP Config for our LIVE database. 
+
+If I bypass the error message I can log into the config but it expands each DEP and opens up every field.
+
+I have noticed on my most recent log in, that on DEP Config it appears as if the outcome part of the 'Interventions' DEP has gone missing. This isn't reflected on the live system. This was one of the fields that my colleague recently made a config change to as well, I am wondering if it could be related to that DEP?
+
+Are you able to investigate and advise? This crash has occurred midway through rolling out some changes in LIVE so ideally we need this investigated quickly. I am cautious to attempt to make further changes when we are getting these errors. 
+
+
+DATETIME: 03-Sep-2025 15:42:40|| DESCRIPTION: Object variable or With block variable not set|| SOURCE: DEPConfig|| COMPONENT: DEPConfig|| ERRORNO: 91|| PROCEDURE: frmMain.AddField|| CODEBLOCK:  || USFMESSAGE:  || APPLICATION: Symphony DEP Config|| ATTENDANCENO: || PATIENTID: || PCNAME: NCIC-AE-DAD01|| SERVERNAME: NCICSQLSL02|| LOGGEDUSER: robbie.morley|| SITE: NCIC|| BUILDNO: 3.1.1|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: ||","Hello Robbie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1643932.
+ 
+To resolve this:
+
+There was a duplicate entry in the CFG_Deffields table causing the error you reported.
+We have removed this and the error no longer appears; the DEP Config loads correctly without the previous appearance of all DEP s being expanded.
+
+We would advise when making DEP Config changes that you click on a different DEP to that you have been working in before Saving and Exiting.
+This has been found to reduce the chances of any similar anomalies arising when adding or updating config.
+
+If there still remains and issue with the Interventions' DEP, please raise a new case for that to be investigated.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1644097,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Outbound Failure DAD Messague Queue,04/09/2025 09:39:29,04/09/2025 11:36:42,"1 hr, 57 mins","1 hr, 57 mins","1 hr, 57 mins",7033.0,7032.0,7032.0,Completed,04/09/2025 09:39:29,,05/09/2025 12:58:43,Acute Care Symphony Support Level 1,Gareth Evans,05/09/2025 12:58:45,system,11,,"Good Morning,
+
+In our daily checks this morning we found six items stuck in the outbound queue    eDocs v2.0 - Attendance ID + new footer (6) with queued and suspended status for over 24 hours.
+
+Please have you look into this.
+
+Many thanks
+Ashley | EPR","Hello Ashley,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1644097.
+ 
+To resolve this, I've restarted the DAD service, re-queued those messages and confirmed that they are no longer in the queue.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1644520,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound messages queued,04/09/2025 14:24:25,04/09/2025 16:08:07,"1 hr, 43 mins",58 mins,58 mins,6222.0,3484.0,3484.0,Completed,04/09/2025 14:24:25,,18/09/2025 16:09:27,Acute Care Symphony Support Level 1,Shazad Ishaque,18/09/2025 16:09:28,system,16,,"DAD outbound messages are queued since this morning, may need DAD restart","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1644520.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1644865,3 - Medium,Closed,Children's Health Ireland,Symphony,Issues with DAD,05/09/2025 09:50:20,16/09/2025 13:40:11,"11 days, 3 hrs, 49 mins","9 hrs, 32 mins","1 day, 2 hrs, 31 mins",964191.0,34348.0,95486.0,Completed,05/09/2025 09:50:20,,16/09/2025 14:58:17,Acute Care Symphony Support Level 1,Konrad Siddons,16/09/2025 14:58:19,system,21,,"We are frequently having to restart the DAD every week, the reason being that patients are not intrerfacing with symphony once messages are sent to the DAD. Once restarted the messages come through.","Hello Adrian,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1644865.
+ 
+To resolve this:
+
+We have checked the Symphonydad.log file and Windows Event Viewer again for 11/09/26 and there is nothing of any relevance recorded.
+We have also checked message processing for that day and there appears no actual interruption in the flow of the PMI Inbound patient data) message processing.
+
+As we advised previously, you continue to use the Symphony.exe Application version of the DAD Interface.
+This can sometimes appear to fail where there are network issues locally (this has been previously the case within CHI), or where there is any period of inactivity from the PAS end of the interface the DAD can appear to 'trip'.
+The Application version can be sensitive to the performance and status of the DAD server and how long it has been running since last  rebooted and Windows updates applied.  We recommend this be done every month or 2at least.
+
+There are no signs of any specific connection rejections for 11/05/25.
+We are throughout assuming that you are logging onto the DAD server using the account  HEALTHIRL\CHISymphonyDAD and are starting the interface using the  account SYMPHONYDAD.
+If  using another account may well cause issues with processing.
+
+In either case. before restating the DAD it is always advised that you first ensure it is stopped. This can be checked and achieved via Task Manager, ending the task FWDADServWkr.exe (if running) followed by SymponDAD.exe.
+Then restart the DAD.
+
+If you are using an Integration Engine (TIE) between the Symphony end of the interface and the PAS end, we would advise having that checked, as we at Optum do not support it and possibly monitored in case this is causing issues with Interface performance or connectivity. Likewise your local Network generally.
+
+Overall, we would suggest if this situation is ongoing that you raise a request for us to scope, configure and enable the Windows Service version of the DAD interface to take over from the Application version.
+The Service tends to be more robust and less likely to fail.
+
+I hope this helps.
+
+Many thanks
+
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1646405,2 - High,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,DAD restart,09/09/2025 08:22:55,09/09/2025 09:05:39,42 mins,42 mins,42 mins,2564.0,2564.0,2564.0,Completed,09/09/2025 08:22:55,,23/09/2025 09:07:26,Acute Care Symphony Support Level 1,Konrad Siddons,23/09/2025 09:07:26,system,5,,CAMIS TEam advised Live DAD Interface required restart.,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1646405.
+ 
+To resolve this:
+
+The DAD interface was successfully restarted.
+CAMIS Team report that all queues are now cleared which is also the case in Symphony.
+
+Many thanks, 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1646731,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound messages queued,09/09/2025 11:35:30,11/09/2025 13:05:01,"2 days, 1 hr, 29 mins","9 hrs, 14 mins","9 hrs, 14 mins",178171.0,33249.0,33249.0,Completed,09/09/2025 11:35:30,,25/09/2025 13:05:26,Acute Care Symphony Support Level 2,Sheree Chadwick,25/09/2025 13:05:27,system,32,,"DAD outbound messages are queued, please can DAD be restarted.","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1646731.
+ 
+To resolve this, Messages have now processed
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1647685,4 - Low,Closed,Western Sussex Hospitals NHS Trust,Symphony,Number of connections to  a Symphony Port for HL7 Messages,10/09/2025 13:07:28,12/09/2025 10:18:33,"1 day, 21 hrs, 11 mins","7 hrs, 38 mins","23 hrs, 38 mins",162665.0,27482.0,85082.0,Completed,10/09/2025 13:07:28,,22/09/2025 10:39:21,Acute Care Symphony Support Level 1,Gareth Evans,22/09/2025 10:39:24,system,12,,"Hello, Please could you confirm how many connections can be made to a single port for sending HL7 messages to the Symphony DAD? E.g. can we have multiple connections for sending results to port 9004?
+Kind regards, Kit","Hello Kit,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1647685.
+ 
+To resolve this, I gave the requested information.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1648011,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,A&E Comm Point Down,11/09/2025 06:52:43,11/09/2025 10:12:06,"3 hrs, 19 mins",42 mins,"2 hrs, 5 mins",11963.0,2550.0,7541.0,Completed,11/09/2025 06:52:43,,25/09/2025 10:13:31,Acute Care Symphony Support Level 1,Konrad Siddons,25/09/2025 10:13:32,system,17,,Please restart DAD,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1648011.
+ 
+To resolve this:
+
+The DAD Interface has been restarted as requested, following the server being rebooted some 5 hours ago.
+
+All outbound queues are now cleared.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1648114,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Symphony DAD message  queue Outbound  failure,11/09/2025 09:28:12,12/09/2025 11:51:00,"1 day, 2 hrs, 22 mins","10 hrs, 22 mins","1 day, 2 hrs, 22 mins",94968.0,37368.0,94968.0,Completed,11/09/2025 09:28:12,,18/09/2025 10:16:53,Acute Care Symphony Support Level 1,Konrad Siddons,18/09/2025 10:16:53,ashley.carbino@uhs.nhs.uk,10,,"Good Morning 
+
+As part of our systems checks, there are some messages stuck in outbound DAD queue in Symphony.  
+
+Please can you have  a look?
+
+Edocs v2.0 Attendance ID queue
+
+see the screenshot attached.
+
+Best,
+
+Kind Regards
+Ashley | EPR","Hello Ashley,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1648114.
+ 
+To resolve this:
+
+There appeared to be an intermittent issue with the TCP-IP connection for the eDocs DAD service.
+This seems to have been rectified by performing a DAD restart and requeing any Suspended messages..
+The outbound messages showing as Suspended in your initial screenshot have now been successfully processed that the eDocs queue is clear.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1648858,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,12/09/2025 09:03:27,12/09/2025 13:32:24,"4 hrs, 28 mins",20 mins,20 mins,16137.0,1219.0,1219.0,Completed,12/09/2025 09:03:27,,15/09/2025 10:33:56,Acute Care Symphony Support Level 1,Konrad Siddons,15/09/2025 10:33:56,rachel.price@wvt.nhs.uk,7,,Rachel called to request DAD restart as patients are not coming across on the interface,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1648858.
+ :
+As previously discussed, the DAD interface was successfully carried out soon after you called.
+As agreed, having heard no more from you since, I have now set this case to resolved.
+
+Many thanks
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1649595,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Stuck Messages in DAB Outbound Queue. ,15/09/2025 09:18:09,16/09/2025 14:41:08,"1 day, 5 hrs, 22 mins","5 hrs, 3 mins","5 hrs, 3 mins",105779.0,18220.0,18220.0,Completed,15/09/2025 09:18:09,,16/09/2025 14:46:34,Acute Care Symphony Support Level 1,Shazad Ishaque,16/09/2025 14:46:34,Susan.Bradshaw@uhs.nhs.uk,12,,"Hi, Please see attached screenshot showing messages that are stuck in our DAD outbound queue.  Re-queueing them has not helped as they default back to suspended shortly after.  Please assist us with clearing these messages.
+
+Many thanks.","Hello Susan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1649595.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1650129,4 - Low,Closed,Bedford Hospital NHS Trust,Symphony,Symphony Test Interop not working to Bedford Test ICE,15/09/2025 14:06:48,01/10/2025 02:54:28,"15 days, 12 hrs, 47 mins","12 hrs, 10 mins","1 day, 20 hrs, 10 mins",1342060.0,43848.0,159048.0,Completed,15/09/2025 14:06:48,,15/10/2025 02:55:26,Acute Care Symphony Support Level 1,Konrad Siddons,15/10/2025 02:55:27,system,16,,"Hi Support,
+
+Not sure i have chosen the correct subject.
+
+I am trying to interop from Bedford Test Symphony to Bedford Test ICE and I am getting this error message:
+
+DATETIME: 15-Sep-2025 14:04:00|| DESCRIPTION: Method '~' of object '~' failed|| SOURCE: FWDADServUI|| COMPONENT: FWDADServUI|| ERRORNO: -2147417851|| PROCEDURE: FWDADSCM.Run|| CODEBLOCK: Error calling worker start method|| USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: BHCMY74M3|| SERVERNAME: BEDSQLSYMT03|| LOGGEDUSER: JClavey|| SITE: Bedford Hospital NHS Trust|| BUILDNO: 2.39.1|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 2.39.1|| MDACVERSION: 10.0||
+ 
+Yet on the patient screen it is showing I have tried to raise a test.","Hi,
+
+I'm getting in touch regarding your case CS1650129 which you raised on 15/09/2025 14:06:48 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+DAD,CS1651867,2 - High,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,CTM Alert,17/09/2025 15:24:56,17/09/2025 15:27:35,2 mins,2 mins,2 mins,159.0,159.0,159.0,Completed,17/09/2025 15:24:56,,17/09/2025 16:38:37,Acute Care Symphony Support Level 1,Konrad Siddons,17/09/2025 16:38:37,paul.saunders2@nhs.net,5,,CAMIS Team reported a suspected DAD failure and requested restart.,"Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1651867.
+ 
+To resolve this:
+
+The Live DAD Interface as successfully restarted and the CAMIS Team have confirmed all queues are now clear - this is also the case for outbound Symphony queues.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1655696,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: Patient 7793533 ,24/09/2025 13:08:01,01/10/2025 11:36:03,"6 days, 22 hrs, 28 mins","10 hrs, 12 mins","1 day, 18 hrs, 12 mins",599282.0,36773.0,151973.0,Completed,24/09/2025 13:08:01,,15/10/2025 11:37:28,Acute Care Symphony Support Level 1,Gareth Evans,15/10/2025 11:37:30,system,23,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Hi,
+
+How long should it take for a new patient registration from PAS feed into Symphony? The below has taken 5 minutes but I have created a test patient today and it still hasn't appeared on Symphony. This patients hospital number is 7793557. I created this over 30 minutes ago.
+
+Please can you have a look to see if there is an issue with EIE/DAD? The updates should be imminent from PAS to Symphony.
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: SMITH, Hannah (MID YORKSHIRE TEACHING NHS TRUST) <h.smith82@nhs.net>
+Sent: 24 September 2025 09:50
+To: MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>
+Subject: Patient 7793533
+
+Hi Aamir,
+
+The above patient is an example of Receptionists creating on ECamis but didn't pull through to symphony for 5 minutes so Nagina had to create on Symphony... at which point it used same unit no.
+
+The issue is it isn't pulling through quick enough from Ecamis and theyre having to do it twice when theres large ques.
+
+Thankyou.
+
+Kind regards,
+
+[Logo]
+Hannah Smith
+A&E Reception Team Leader - Trustwide
+Emergency Medicine
+Mid Yorkshire Hospitals NHS Trust
+
+PGH * 01924 541778 (ext: 51778)
+DDH * 01924 541744 (ext: 51744)
+Mobile - 07745746599
+* h.smith82@nhs.net<mailto:h.smith82@nhs.net>
+
+Working pattern:
+Mon & Tues 0730 - 1700
+Weds, Thurs & Fri 0730 - 1430
+
+[cid:image002.png@01DC2D38.A85EB5F0]
+[cid:image003.png@01DC2D38.A85EB5F0]
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kd3wrrLv2WUuZsZIr4gfjSpbPtkX-M1JP_rL6ZDxcXVs13ttAgB1a_vTjxU1-pD2i3H48KIiIYyW1V4R46rM$>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1655696.
+  
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1656053,2 - High,Closed,Wye Valley NHS Trust,Symphony,Messages not going through,24/09/2025 21:13:57,24/09/2025 21:37:23,23 mins,23 mins,23 mins,1406.0,1406.0,1406.0,Completed,24/09/2025 21:13:57,,08/10/2025 21:37:26,Acute Care Symphony Support Level 1,Sheree Chadwick,08/10/2025 21:37:26,system,12,,"Bridgette called to ask for a dad restart as messages are not going through 
+
+01432372909","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1656053.
+ 
+To resolve this, please DAD restarted all messages now flowing
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1656115,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Discharge summaries stuck in the queue - unable to proceed,25/09/2025 09:13:06,26/09/2025 10:49:31,"1 day, 1 hr, 36 mins","9 hrs, 36 mins","1 day, 1 hr, 36 mins",92185.0,34585.0,92185.0,Completed,25/09/2025 09:13:06,,30/09/2025 08:28:53,Acute Care Symphony Support Level 1,Gareth Evans,30/09/2025 08:28:54,system,11,,"Hello Team,
+
+We have these two instances stuck in our DAD Queue and ED discharges are unable to be proceed.
+
+eDocs v2.0 - Attendance ID + new footer	ED-25-102176-1	LF	0	2025-09-24T12:48:14.820
+eDocs v2.0 - Attendance ID + new footer	ED-25-102259-1	JT	0	2025-09-24T15:47:19.347
+
+Could you please have a look into this?
+
+Kind regards,
+Monika","Hello Monika,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1656115.
+ 
+To resolve this, I've restarted the DAD service, and I can see that those discharges are no longer in the queue.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1657842,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Restart of Symphony DAD required,29/09/2025 09:34:26,29/09/2025 10:31:29,57 mins,57 mins,57 mins,3423.0,3423.0,3423.0,Completed,29/09/2025 09:34:26,,29/09/2025 11:07:22,Acute Care Symphony Support Level 1,Konrad Siddons,29/09/2025 11:07:22,paul.saunders2@nhs.net,6,,"Hello
+A restart of Symphony DAD is required as a new Special Case indicator has been added.
+Please could this be actioned?
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1657842.
+ 
+To resolve this:
+
+The Live DAD interface has been successfully restarted, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1658283,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound messages queueing ,29/09/2025 12:58:02,29/09/2025 14:30:58,"1 hr, 32 mins","1 hr, 32 mins","1 hr, 32 mins",5576.0,5576.0,5576.0,Completed,29/09/2025 12:58:02,,13/10/2025 14:31:29,Acute Care Symphony Support Level 1,Konrad Siddons,13/10/2025 14:31:29,system,6,,"MPI outbound messages queueing since 11:57, causing system delays. Possibly need DAD restart?","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1658283.
+ 
+To resolve this:
+
+The DAD Interface was successfully stopped and restated.
+The MPI Outbound queue is now cleared.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1661369,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD Interface,02/10/2025 08:58:42,02/10/2025 14:26:58,"5 hrs, 28 mins",30 mins,30 mins,19696.0,1859.0,1859.0,Completed,02/10/2025 08:58:42,,14/10/2025 13:55:08,Acute Care Symphony Support Level 1,Konrad Siddons,14/10/2025 13:55:10,system,14,,"Rachel called to request a restart of the Live DAD Interface.
+
+Contact number - 07967582479","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1661369.
+ 
+To resolve this:
+As previously discussed, the DAD Interface having been restarted successfully, as requested and inbound Patient data being received and acknowledged afterwards, this case has now been set to resolved, having been left on hold until lunchtime, as agreed.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1662446,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,DAD Interface,02/10/2025 21:16:07,02/10/2025 21:43:48,27 mins,0 mins,27 mins,1661.0,0.0,1661.0,Completed,02/10/2025 21:16:07,,14/10/2025 13:55:00,Acute Care Symphony Support Level 1,Shazad Ishaque,14/10/2025 13:55:00,rachel.price@wvt.nhs.uk,9,,Amaan calling from the Trust requesting a DAD restart. He advises this has been requested by Rachel Price.,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1662446.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1665974,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound MPI messages queueing,08/10/2025 11:26:54,08/10/2025 13:01:22,"1 hr, 34 mins","1 hr, 34 mins","1 hr, 34 mins",5668.0,5668.0,5668.0,Completed,08/10/2025 11:26:54,,22/10/2025 13:01:26,Acute Care Symphony Support Level 1,Konrad Siddons,22/10/2025 13:01:28,system,11,,"DAD outbound MPI messages queueing, please can DAD be restarted","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1665974.
+ 
+To resolve this:
+
+Your having confirmed that the MPI Outbound queue  was clearing (it is now clear) this case has been set to resolved.
+
+Many thanks
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1667484,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,09/10/2025 17:10:47,09/10/2025 17:20:40,9 mins,0 mins,9 mins,593.0,0.0,593.0,Completed,09/10/2025 17:10:47,,23/10/2025 17:21:28,Acute Care Symphony Support Level 1,Konrad Siddons,23/10/2025 17:21:28,system,6,,"Bridget rang form reception to request a DAD restart following instruction from Leah Savage.
+Contact Number - 01432 372909","Hello leah,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1667484.
+ 
+To resolve this:
+
+The Live DAD Interface was found to be running with no outbound messages queued.
+However, we have successfully stopped and restarted DAD, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1668253,2 - High,Closed,Wye Valley NHS Trust,Symphony,Trust have called for a dad restart,10/10/2025 21:23:17,10/10/2025 21:54:29,31 mins,31 mins,31 mins,1872.0,1872.0,1872.0,Completed,10/10/2025 21:23:17,,14/10/2025 13:54:22,Acute Care Symphony Support Level 2,Sheree Chadwick,14/10/2025 13:54:22,rachel.price@wvt.nhs.uk,6,,Bridgette called asked for a dad restart ,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1668253.
+ 
+To resolve this, DAD has been restarted but this appears to be a request rather than an issue.  
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1669729,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound messages queued,14/10/2025 12:18:38,14/10/2025 18:05:33,"5 hrs, 46 mins","3 hrs, 6 mins","3 hrs, 6 mins",20815.0,11198.0,11198.0,Completed,14/10/2025 12:18:38,,28/10/2025 18:07:26,Acute Care Symphony Support Level 1,Shazad Ishaque,28/10/2025 18:07:27,system,18,,MPI and omnicell DAD outbound message queues building since yesterday. Please can DAD be restarted.,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1669729.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1670128,2 - High,Closed,Wye Valley NHS Trust,Symphony,OOH - DAD Restart,14/10/2025 20:30:53,14/10/2025 20:37:45,6 mins,6 mins,6 mins,412.0,412.0,412.0,Completed,14/10/2025 20:30:53,,15/10/2025 10:07:08,Acute Care Symphony Support Level 1,Konrad Siddons,15/10/2025 10:07:08,rachel.price@wvt.nhs.uk,5,,"Reception called, having been asked by Consultant on duty to d so to request DAD restart.
+Did not know reason.
+
+Passed me on to  Consultant 'Rachel' who explained she ha undertaken some DEP config changes to attempt to alleviate an issue with the interface with PAS and had been advised by my colleague Sherrie to request DAD restart if this was done.","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1670128.
+ 
+To resolve this:
+
+The DAD interface was successfully stopped and restarted, as requested.
+
+Many thanks. 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1670967,2 - High,Closed,Wye Valley NHS Trust,Symphony,OOH - DAD restart,15/10/2025 18:31:15,15/10/2025 18:41:17,10 mins,10 mins,10 mins,602.0,601.0,601.0,Completed,15/10/2025 18:31:15,,16/10/2025 16:01:35,Acute Care Symphony Support Level 1,Konrad Siddons,16/10/2025 16:01:35,rachel.price@wvt.nhs.uk,5,,"Gemma called from reception to ask for DAD restart as there appear to be issues with messaging between Symphony and Maxim.
+
+Contact number - 07888 292723","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1670967.
+ 
+To resolve this:
+
+The DAD interface was stopped and restarted as requested.
+Messages can be seen processing and outbound queues are clear.
+Called reception to advise the above.
+
+Many thanks.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1670987,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,16/10/2025 07:14:13,16/10/2025 08:32:59,"1 hr, 18 mins","1 hr, 18 mins","1 hr, 18 mins",4726.0,4726.0,4726.0,Completed,16/10/2025 07:14:13,,30/10/2025 08:33:26,Acute Care Symphony Support Level 1,Konrad Siddons,30/10/2025 08:33:26,system,5,,"Hi - our symphony comm point is down, please can you restart the DAD.","Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1670987.
+ 
+To resolve this:
+
+The DAD interface has been successfully restarted, as requested.
+All Symphony queues are currently clear.
+
+Many thanks.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1672331,4 - Low,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Symphony Test environment only sending through new Eye Cas attendances into TIE.,17/10/2025 14:18:52,30/10/2025 15:44:57,"13 days, 1 hr, 26 mins","2 days, 6 hrs, 42 mins","10 days, 23 hrs, 34 mins",1128365.0,196928.0,948894.0,Completed,17/10/2025 14:18:52,,30/10/2025 16:09:26,Acute Care Symphony Support Level 1,Gareth Evans,30/10/2025 16:09:28,system,32,,"We're currently in the process of testing a patient messaging feed into CHIE and have noted that we're only receiving the admitting encounter into our TIE from the SymphonyDAD which is linked to our current UHS Symphony Test environment.
+
+We have ended encounters and deleted attendances, but none of these messages have made it through into TIE even though Symphony mentions that the DAD service(s) have run correctly.","Hello Christopher,
+
+Brilliant, thanks for confirming that we've found a resolution for your case CS1672331.
+
+To resolve this, I started the test DAD service.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Gareth"
+DAD,CS1677810,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound queue messages building,27/10/2025 15:47:38,28/10/2025 12:17:44,"20 hrs, 30 mins",5 hrs,"20 hrs, 30 mins",73806.0,18006.0,73806.0,Completed,27/10/2025 15:47:38,,11/11/2025 12:19:26,Acute Care Symphony Support Level 1,Konrad Siddons,11/11/2025 12:19:26,system,9,,"DAD outbound queue messages building since 26/10 for MPI and Omnicell, can DAD be restarted please","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1677810.
+ 
+To resolve this:
+
+We restarted the Live DAD Interface yesterday afternoon, as requested.
+We monitored the outbound queues afterwards and can confirm that as of this morning the outbound ques are all clear.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1678683,2 - High,Closed,Isle Of Wight NHS Trust,Symphony,Interface appeared to have stopped,29/10/2025 08:21:31,29/10/2025 14:17:52,"5 hrs, 56 mins","1 hr, 22 mins","1 hr, 22 mins",21381.0,4928.0,4928.0,Completed,29/10/2025 08:21:31,,29/10/2025 14:48:26,Acute Care Symphony Support Level 1,Sheree Chadwick,29/10/2025 14:48:28,system,24,,We are not getting messages as expected to PAS and Dedalus advise they are not receiving anything. there is a queue in Symphony.  I tried stopping and restarting in DAD but this has not helped,"Hello John,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1678683.
+ 
+To resolve this, DAD and PAS restarted
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1679586,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,Restart DAD,30/10/2025 06:40:54,30/10/2025 08:49:29,"2 hrs, 8 mins",0 mins,"1 hr, 30 mins",7715.0,0.0,5444.0,Completed,30/10/2025 06:40:54,,13/11/2025 08:51:27,Acute Care Symphony Support Level 1,Sheree Chadwick,13/11/2025 08:51:29,system,13,,A&E Comm point down.,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1679586.
+ 
+To resolve this, DAD started 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1685103,2 - High,Closed,Wye Valley NHS Trust,Symphony,Called and asked for dad restart,08/11/2025 19:23:02,09/11/2025 04:04:46,"8 hrs, 41 mins",11 mins,11 mins,31304.0,692.0,692.0,Completed,08/11/2025 19:23:02,,10/11/2025 11:40:44,Acute Care Symphony Support Level 2,Sheree Chadwick,10/11/2025 11:40:44,rachel.price@wvt.nhs.uk,9,,,"Hello Claire,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1685104.
+ 
+To resolve this,DAD redtart done as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1687646,2 - High,Closed,Wye Valley NHS Trust,Symphony,Symphony Comm Point Down,13/11/2025 06:33:24,13/11/2025 08:21:20,"1 hr, 47 mins","1 hr, 47 mins","1 hr, 47 mins",6476.0,6475.0,6475.0,Completed,13/11/2025 06:33:24,,27/11/2025 08:21:27,Acute Care Symphony Support Level 1,Konrad Siddons,27/11/2025 08:21:27,system,7,,Please restart DAD,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1687646.
+ 
+To resolve this, please follow these steps:
+
+The Live DAD Interface was not running - presumably as a result of the DAD Server having been rebooted a little under 4 hours ago.
+The interface has been successfully restarted and all outbound queues are now clear.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1689088,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,14/11/2025 17:29:08,14/11/2025 17:42:31,13 mins,0 mins,13 mins,803.0,0.0,803.0,Completed,14/11/2025 17:29:08,,28/11/2025 17:43:26,Acute Care Symphony Support Level 1,Shazad Ishaque,28/11/2025 17:43:26,system,7,,"Gemma calling to request a DAD restart.
+
+","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1689088.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1689146,3 - Medium,Closed,Health Service Executive,Symphony,Patients are not coming in from IPMS,16/11/2025 11:12:51,16/11/2025 12:18:09,"1 hr, 5 mins",0 mins,39 mins,3918.0,0.0,2363.0,Completed,16/11/2025 11:12:51,,30/11/2025 12:19:26,Acute Care Symphony Support Level 1,Shazad Ishaque,30/11/2025 12:19:26,system,12,,"Jakub Pluciennik calling for a DAD restart as patients are not coming in from IPMS
+
+Jakub - 00353894365530","Hello,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1689146.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1689237,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Stuck Messages in DAB Outbound Queue. ,17/11/2025 09:31:04,17/11/2025 15:37:17,"6 hrs, 6 mins","6 hrs, 6 mins","6 hrs, 6 mins",21973.0,21972.0,21972.0,Completed,17/11/2025 09:31:04,,01/12/2025 15:37:27,Acute Care Symphony Support Level 1,Shazad Ishaque,01/12/2025 15:37:27,system,9,,"Hi, Please see attached screenshot showing messages that are stuck in our DAD outbound queue.  Re-queueing them has not helped as they default back to suspended shortly after.  Please assist us with clearing these messages.","Hello Susan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1689237.
+ 
+Cleared the DAD queue as requested.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1691956,4 - Low,Closed,Tallaght University Hospital,Symphony,TUH REF 745300 - DAD Queue Outbound - Suspended Status,20/11/2025 14:09:57,31/12/2025 02:54:29,"40 days, 12 hrs, 44 mins","2 days, 15 hrs, 37 mins","7 days, 23 hrs, 37 mins",3501872.0,229058.0,689858.0,Completed,20/11/2025 14:09:57,,05/01/2026 11:37:51,Acute Care Symphony Support Level 1,Sheree Chadwick,05/01/2026 11:37:53,system,80,,"Hi,
+
+We noticed we have a significant number of ""suspended"" status messages in our DAD queue (For Example: ""Healthlink Outbound REF (Adult) (2518)"")
+
+I know this was worked on CS1632072 at some point. It was mentioned ""There have been no failures since the work a couple of weeks ago"". What was this work?
+
+We had some queries regarding the large number of suspended messages?
+
+- Do you know what caused this large number of suspended messages?
+- Are you able to change the status to requeue them or delete them in bulk? We do not seem to have this ability
+
+Thanks
+Jason","Hi,
+
+I'm getting in touch regarding your case CS1691956 which you raised on 20/11/2025 14:09:57 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+DAD,CS1691974,3 - Medium,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Messages Stuck,20/11/2025 14:22:47,20/11/2025 14:26:40,3 mins,3 mins,3 mins,233.0,233.0,233.0,Completed,20/11/2025 14:22:47,,21/11/2025 09:55:07,Acute Care Symphony Support Level 1,Shazad Ishaque,21/11/2025 09:55:07,laura.setterington2@nhs.net,8,,eCamis Team requested a Live DAD Interface restart.,"Hello,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1691974.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1692121,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Restart of Live DAD required,20/11/2025 16:22:55,20/11/2025 17:16:36,53 mins,37 mins,53 mins,3221.0,2225.0,3221.0,Completed,20/11/2025 16:22:55,,21/11/2025 08:59:02,Acute Care Symphony Support Level 1,Konrad Siddons,21/11/2025 08:59:02,paul.saunders2@nhs.net,6,,"Hello
+Would it be possible to restart the Live Symphony DAD so that it picks up new Special Case indicators?
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1692121.
+ 
+To resolve this:
+
+The Live DAD Interface has been successfully restarted, as requested.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1692395,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Restart of Live Symphony DAD required,21/11/2025 10:28:24,21/11/2025 15:01:18,"4 hrs, 32 mins","4 hrs, 26 mins","4 hrs, 26 mins",16374.0,15965.0,15965.0,Completed,21/11/2025 10:28:24,,21/11/2025 15:09:56,Acute Care Symphony Support Level 1,Gareth Evans,21/11/2025 15:09:58,system,13,,"Hello
+Apologies, another restart of the live Symphony DAD is required as another special case indicator has been added.
+Please could this be actioned?
+Thanks
+Paul","Hello Paul,
+ 
+Thanks for confirming that we've found a resolution for your case CS1692395.
+ 
+To resolve this, I restarted DAD as requested.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1692455,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD outbound messages queuing,21/11/2025 11:07:24,24/11/2025 13:27:18,"3 days, 2 hrs, 19 mins","9 hrs, 14 mins","3 days, 17 mins",267594.0,33290.0,260242.0,Completed,21/11/2025 11:07:24,,08/12/2025 13:27:26,Acute Care Symphony Support Level 1,Gareth Evans,08/12/2025 13:27:27,system,23,,DAD outbound messages queuing for MPI and omnicell feeds,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1692455.
+ 
+To resolve this, I restarted DAD and we confirmed that the queue eventually cleared down.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1692862,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD restart required,23/11/2025 11:59:10,23/11/2025 12:54:39,55 mins,55 mins,55 mins,3329.0,3329.0,3329.0,Completed,23/11/2025 11:59:10,,07/12/2025 12:55:26,Acute Care Symphony Support Level 1,Gareth Evans,07/12/2025 12:55:26,system,11,,"DAD restart required, as messages aren't passing
+Contact is Gemma Harrington 07888 292723","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1692862.
+ 
+To resolve this, I restarted DAD as requested and Gemma and I confirmed that new referrals were being generated correctly.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1693468,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,repeated locks via DAD on attendance/reception,24/11/2025 14:31:45,24/12/2025 15:09:18,"30 days, 37 mins","2 days, 9 hrs, 1 min","11 days, 1 hr, 58 mins",2594253.0,205270.0,957498.0,Completed,24/11/2025 14:31:45,,07/01/2026 15:09:26,Acute Care Symphony Support Level 1,Shazad Ishaque,07/01/2026 15:09:27,system,30,,"Hiya,
+we've had quite a few calls logged (where we have examples to pass to you like this, we do) since our 3.1.1 upgrade
+at this point we are starting to wonder if there is a change along with it that has adversely effected us... whether its load balancing we didnt have before or 3.1 handles queued messages differently (doesnt bypass pt lock for next message)
+
+we have a user over the weekend that has had a bad time of the ""locking"" at reception
+can you have a look at the list of examples and times (i have been sent screenshots which you dont need but can have!)
+the last time we did this it was pointed at the users causing this almost exclusively, which is possible but  this reinforces my ""did something happen with upgrade"" point
+
+dis0017729 22/11/25 1109 (repeated searching to create attendance - 14times)
+dis3220602 23/11/25 1712
+dis1102805 23/11/25 1418
+dis0469267 23/11/25 1411
+dis0500955 23/11/25 1406
+dis0447614 23/11/25 1205
+dis0047533 23/11/25 0810
+dis3265495 22/11/25 1812 (38 attempts)
+dis3216933 22/11/25 1736 (9 attempts)
+dis3265488 22/11/25 1605 (11)
+dis1159266 22/11/25 1014 (3 attempts. all 4 pcs on reception having the problem at this time with their own patients)
+There are more examples.
+dis32xx is new patients, so these will be newly registered in pas and hl7 to symphony. others clearly needed an update of some description.
+feels like the message used to update pt demographics behaves differently/longer (purely based on the number and noise of the complaint).
+but, again.. new registrations didnt need 3 minutes of wait before creating an attendance to avoid the lock prompt
+
+its entirely possibly of course, that dad has got these msgs stuck in a queue for other reasons rather than its slowly importing and locking record/then fighting user who opens pt and locks record/finish importing record/create attendance","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1693468.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1695294,3 - Medium,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,Discharge summary stuck in the queue - unable to proceed,27/11/2025 09:55:26,15/12/2025 12:06:50,"18 days, 2 hrs, 11 mins","1 day, 15 hrs, 58 mins","6 days, 7 hrs, 58 mins",1563084.0,143935.0,547135.0,Completed,27/11/2025 09:55:26,,15/12/2025 12:10:03,Acute Care Symphony Support Level 1,Konrad Siddons,15/12/2025 12:10:05,system,23,,"Hello Team,
+
+We have this instance stuck in our DAD Queue, which gets suspended after requeuing.
+
+Eye - eDocs v2.0 - Attendance ID	EYE-25-026311-1	ST	0	2025-11-26T20:49:37.973
+
+Could you please have a look into this?
+
+Kind regards,
+Monika","Hello Monika,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1695294.
+ 
+To resolve this:
+
+Thank you for your feedback.
+You confirmed that having followed our advice to edit the Discharge Notes on the Attendance in question, to replace the full stops which were actually incorrect code ASCII CHR code 7 instead of ASCII CHR code 46), the stuck Discharge Summary has now processed successfully.
+We believe the original incorrect entries probably resulted from a keyboard issue when the Notes were entered. The malformed characters generated then prevented the message being processed by the DAD Interface.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1700322,3 - Medium,Closed,Northern Care Alliance NHS Foundation Trust,Symphony,Symphony Failover Cluster is not showing DAD,05/12/2025 15:55:32,05/12/2025 17:03:45,"1 hr, 8 mins",11 mins,11 mins,4093.0,705.0,705.0,Completed,05/12/2025 15:55:32,,19/12/2025 17:05:30,Acute Care Symphony Support Level 1,Shazad Ishaque,19/12/2025 17:05:30,system,15,,"Michael Winter (Applications Team) reporting they are unable to see the Failover Cluster Manager as its blank - no nodes or connections can be seen.
+
+Symphony Failover Cluster servers are:
+
+N-SYM-LVW-APP01
+N-SYM-LVW-APP02
+
+Michael - 07939 006696","Hello Account,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1700322.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1700704,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Restart of Symphony DAD required,08/12/2025 10:39:14,08/12/2025 13:42:34,"3 hrs, 3 mins","2 hrs, 26 mins","2 hrs, 26 mins",11000.0,8807.0,8807.0,Completed,08/12/2025 10:39:14,,08/12/2025 14:25:11,Acute Care Symphony Support Level 1,Gareth Evans,08/12/2025 14:25:13,system,14,,"Hello
+Please could the Symphony DAD service be restarted?
+A new special case flag has been added and a restart is require to pick up the new indcator.
+Thanks
+Paul","Hello Paul,
+ 
+Thanks for confirming that we've found a resolution for your case CS1700704.
+ 
+To resolve this, I restarted DAD as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1700964,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Test interface ,08/12/2025 13:39:54,08/12/2025 17:55:16,"4 hrs, 15 mins","2 hrs, 48 mins","3 hrs, 38 mins",15322.0,10112.0,13082.0,Completed,08/12/2025 13:39:54,,09/12/2025 10:48:55,Acute Care Symphony Support Level 1,Gareth Evans,09/12/2025 10:48:57,system,15,,"Morning,
+following on from the refresh of the test db last week (copy of live, usual sort of thing)
+can we get services started, dad HL7 interfaces enabled and start dad importing/exporting messages?
+and maybe restart the dad entirely once it runining? i dont know how it works, just that now we have a copy of live overwritten.. its time to get interfaces working so we can do some testing
+
+its only the HL7 services and the medway inbound that are required
+(we have a few weblink type ones that really arent required and can be left stopped)
+
+thanks very much","Hello Lee,
+ 
+Thanks for confirming that we've found a resolution for your case CS1700964.
+ 
+To resolve this, I enabled the individual DAD services and started the main DAD service.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1701568,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Test - errors now interface working,09/12/2025 11:54:22,23/12/2025 11:47:47,"13 days, 23 hrs, 53 mins","3 days, 7 hrs, 53 mins","13 days, 23 hrs, 53 mins",1209205.0,287605.0,1209205.0,Completed,09/12/2025 11:54:22,,06/01/2026 11:49:27,Acute Care Symphony Support Level 1,Shazad Ishaque,06/01/2026 11:49:29,system,17,,"Morning,
+and sorry for the gift that keeps giving...
+DB overwritten with live like normal, interfaces on the other day and can see msgs and find expected updates...
+this morning - actually trying to create attendances and do downstream messaging and start to work with it properly has now got an issue.
+upon finding the patient (looks updated and okay via hl7), get the DAD lock message for some reason (same as current live issue - nothing been down with pt for over a day) attached
+when accepting the lock and wanting to load neapolitan/create attendance the lock doesnt reappear, i get another error about ""class not registered"" (attached)
+
+assume this will happen to you tooo (just search for firstname of test and you'll find a couple)
+can you have a look at this please?","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1701568.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1701898,2 - High,Closed,Northern Lincolnshire And Goole NHS Foundation Trust,Symphony,DAD Interface down,09/12/2025 16:26:41,09/12/2025 17:48:36,"1 hr, 21 mins","1 hr, 18 mins","1 hr, 18 mins",4915.0,4715.0,4715.0,Completed,09/12/2025 16:26:41,,10/12/2025 08:53:12,Acute Care Symphony Support Level 1,Konrad Siddons,10/12/2025 08:53:13,system,11,,Please check and if necessary restart DAD Interface,"Hello Joanne,
+
+I'm pleased to let you know that we've found a resolution for your case CS1701898.
+
+To resolve this:
+Occasionally if there is an interruption in message traffic or there is a temporary Network issue the DAD interface can fail.
+Unfortunately in this instance there does not appear to be anything specific recorded in the error logs etc to give a reason for the failure on this occasion.
+
+As per my telephone call just now:
+An element of the DAD interface called FWDADServWkr had failed.
+I stopped and restarted the DAD Interface via the Cluster Manager and having checked the outbound queues are clear and messages are flowing in both directions, I have now set this case to resolved as agreed.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+DAD,CS1702848,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,11/12/2025 06:44:18,11/12/2025 09:48:20,"3 hrs, 4 mins","1 hr, 43 mins","1 hr, 43 mins",11042.0,6186.0,6186.0,Completed,11/12/2025 06:44:18,,25/12/2025 09:49:27,Acute Care Symphony Support Level 1,Shazad Ishaque,25/12/2025 09:49:27,system,9,,Comm point down - please restart DAD.,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1702848.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1703141,4 - Low,Closed,Aneurin Bevan LHB-Blaenau Gwent Locality,Optum Help Centre, I would like to look at the generic docs for the DAD ,11/12/2025 11:36:57,15/12/2025 11:59:42,"4 days, 22 mins",N/A,N/A,346965.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,29/12/2025 12:01:27,system,5,,"Thank you for taking the time to discuss your case with me today, here is a breakdown of what was discussed:
+Logged by Wendy Davies I would like to look at the generic docs for the DAD as I believe it is possible to configure the system to generate a message to our Integration engine when a patient is in ED
+Issue Description: I would like to look at the generic docs for the DAD as I believe it is possible to configure the system to generate a message to our Integration engine when a patient is in ED
+Affected Service: 
+Affected User:
+Contact name: Wendy.
+Telephone: 07785542744
+Email: wendy.davies6@wales.nhs.uk
+Preferred time and method of contact:
+Customer Availability: 
+
+Physical Location:
+Room Number:
+
+","Hello David,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1703141.
+ 
+To resolve this:
+This case was raised against an incorrect CDB / Customer CDB code.
+Has therefore been closed and replaced by CS1703141.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1704143,2 - High,Closed,Western Sussex Hospitals NHS Trust,Symphony,Msssages not going through to PAS OOH,13/12/2025 09:20:23,13/12/2025 09:38:29,18 mins,18 mins,18 mins,1086.0,1086.0,1086.0,Completed,13/12/2025 09:20:23,,27/12/2025 09:39:26,Acute Care Symphony Support Level 2,Sheree Chadwick,27/12/2025 09:39:26,system,9,,Will called On call to advise messages not processing through requesting dad restart,"Hello Russell,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1704143.
+ 
+To resolve this, DAD restarted
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1704473,4 - Low,Closed,Aneurin Bevan University Healthboard,Symphony, I would like to look at the generic docs for the DAD ,15/12/2025 11:40:11,16/12/2025 12:36:12,"1 day, 56 mins","8 hrs, 56 mins","1 day, 56 mins",89761.0,32161.0,89761.0,Completed,15/12/2025 11:40:11,,30/12/2025 12:37:27,Acute Care Symphony Support Level 1,Konrad Siddons,30/12/2025 12:37:27,system,9,,"As discussed by phone with Wendy Davies this morning, this case replaces CS1703141 which was raised on 11/12/25 via online chat.
+That case was raised against a Primary Care account in error.
+Case details :
+
+""Thank you for taking the time to discuss your case with me today, here is a breakdown of what was discussed:
+Logged by Wendy Davies I would like to look at the generic docs for the DAD as I believe it is possible to configure the system to generate a message to our Integration engine when a patient is in ED
+Issue Description: I would like to look at the generic docs for the DAD as I believe it is possible to configure the system to generate a message to our Integration engine when a patient is in ED
+Affected Service: 
+Affected User:
+Contact name: Wendy.
+Telephone: 07785542744
+Email: wendy.davies6@wales.nhs.uk""","Hello Wendy,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1704473.
+ 
+To resolve this:
+
+I have passed your request for information to your Optum Account Director, James Heels.
+james.heels@optum.com
+
+I have asked him to facilitate our Deployment Team reaching out to you to discuss your requirements in detail and provide guidance and support in your efforts to define the proposed messaging process.
+
+I would anticipate you being contacted by my Deployment colleagues in the near future.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1709022,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,MPI and Omnicell messages queued,24/12/2025 12:31:51,24/12/2025 15:02:23,"2 hrs, 30 mins","1 hr, 59 mins","1 hr, 59 mins",9032.0,7178.0,7178.0,Completed,24/12/2025 12:31:51,,07/01/2026 15:03:28,Acute Care Symphony Support Level 1,Shazad Ishaque,07/01/2026 15:03:29,system,16,,MPI outbound and Omnicell message queues are building since this morning. Possibly needs DAD restart please?,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1709022.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1709638,4 - Low,Closed,Bedford Hospital NHS Trust,Symphony,A&E episode not going through to iPM,29/12/2025 14:31:58,29/12/2025 16:27:10,"1 hr, 55 mins","1 hr, 55 mins","1 hr, 55 mins",6912.0,6912.0,6912.0,Completed,29/12/2025 14:31:58,,12/01/2026 16:27:28,Acute Care Symphony Support Level 1,Konrad Siddons,12/01/2026 16:27:28,system,9,,"Hi,
+
+A&E episode for patient J064948 does not go through to iPM from Symphony. Our dev team have said that the message may be stuck in the DAD outbound queue. Could you investigate why in-patient messages are not triggered by Symphony please? Visit number for the affected is BED-25-084418-1
+
+Thank you.
+
+Kind regards,
+Kahlil","Hello Kahlil,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1709638.
+ 
+To resolve this:
+We have interrogated the Live Symphony database and there are no queued or unprocessed outbound messages relating to the specified Patient / Attendance.
+
+A01 - New attendance ADT^A01 triggered and was successfully processed on 26/12/25 @ 14:03
+
+A03 - Discharge from ED ADT^A03 was triggered and successfully processed on 26/12/25 @ 16:22
+
+MDM^T02 Discharge Summary  T02 Outbound was triggered and processed on 26/12/25 @ 16:22
+
+Several A08 - Update Discharge ADT^A08 messages were triggered and processed on 29/12/25 @ between 11:10 and 13:54.
+
+Following each of the above A08 messages being processed, a MDM^T02 Discharge Summary  T02 Outbound was triggered and processed on 26/12/25 the last of which was successfully processed @ 13:54.
+
+There is no evidence form the above of any actual failures of messages to be triggered nor processed, as there were Acknowledgements received back from target systems in each case.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1712953,2 - High,Closed,North West Anglia NHS Foundation Trust,Symphony,SCR/CPIS restart asap please,07/01/2026 08:38:00,07/01/2026 14:38:49,6 hrs,"1 hr, 21 mins","1 hr, 21 mins",21649.0,4916.0,4916.0,Completed,07/01/2026 08:38:00,,07/01/2026 14:39:27,Acute Care Symphony Support Level 1,Konrad Siddons,07/01/2026 14:39:29,system,16,,"Morning, can you do the usual SCR restart for us (dad/iis/jboss etc)
+we've had a flurry of calls this morning about big delays at reception as it takes an age to save and launch an scr window that times out - hence the ""high""
+thanks very much","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1712953.
+ 
+To resolve this:
+
+Following successful restart of the Services associated with SCR and CPIS, together with the DAD interface, you confirmed that processing has returned to normal.
+As agreed, we have now set this case to resolved.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1715209,2 - High,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,OOH - DAD Interface,09/01/2026 20:07:29,09/01/2026 21:47:53,"1 hr, 40 mins",14 mins,14 mins,6024.0,887.0,887.0,Completed,09/01/2026 20:07:29,,23/01/2026 21:49:26,Acute Care Symphony Support Level 1,Konrad Siddons,23/01/2026 21:49:26,system,7,,"Trust on call - Joseph Namihas called to advise that reception have reported new patients are not coming over into Symphony form PAS.
+Believes DAD Interface restart may be required.
+Arose about 30 minutes ago.
+
+Contact Number - 07873 110353","Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1715209.
+ 
+To resolve this:
+
+DAD Interface successfully restarted.
+All Outbound queues cleared.
+No further issues reported.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1717618,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,15/01/2026 07:00:20,15/01/2026 09:08:35,"2 hrs, 8 mins","2 hrs, 8 mins","2 hrs, 8 mins",7695.0,7695.0,7695.0,Completed,15/01/2026 07:00:20,,29/01/2026 09:09:27,Acute Care Symphony Support Level 1,Konrad Siddons,29/01/2026 09:09:27,system,5,,"Hi
+
+Our symphony comm point is down.
+
+Please restart the DAD.","Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1717618.
+ 
+To resolve this:
+
+The Live DAD Interface has been successfully restarted as requested.
+Messages can be seen flowing in both directions.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1718132,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Adastra Outbound DAD Messaging,15/01/2026 13:37:58,22/01/2026 14:02:30,"7 days, 24 mins","5 hrs, 3 mins","5 hrs, 17 mins",606272.0,18193.0,19052.0,Completed,15/01/2026 13:37:58,,05/02/2026 14:03:27,Acute Care Symphony Support Level 1,Shazad Ishaque,05/02/2026 14:03:28,system,20,,"Hi, 
+We have an outbound DAD interface from Symphony to Adastra. This is triggered by completing the Discharge to FCMSUCC DEP. 
+Is there a report or anything that I can use to monitor that these messages have been sent successfully? As we have had reports that Adastra are not receiving the messages. An example of one they say is not received is for patient D2283697 attendance DRI-26-004903-1
+Thanks, Laura","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1718132.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1718901,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,111 scheduling failure,16/01/2026 13:20:07,30/01/2026 14:39:48,"14 days, 1 hr, 19 mins","4 hrs, 2 mins","2 days, 18 hrs, 49 mins",1214381.0,14564.0,240571.0,Completed,16/01/2026 13:20:07,,30/01/2026 17:08:13,Acute Care Symphony Support Level 1,Shazad Ishaque,30/01/2026 17:08:15,system,27,,"Hiya
+the ICS/111 folks have messaged ED to say they cannot book anyone in 
+when attempting they get a no slot/invalid
+
+their system error:
+""CareConnectBookingService: Error calling https://connect.advhc.net/live/anyconnect/Slots/CareConnect - Error: Operation was unsuccessful because of a client error (UnsupportedMediaType). OperationOutcome: Overall result: FAILURE (2 errors and 0 warnings)
+[ERROR] (no details)(further diagnostics: ERROR_COMMUNICATING_TO_ENDPOINT_URL_https://NHS111-RGN.NWANGLIAFT.NHS.UK/Slot)
+[ERROR] (no details)(further diagnostics: Unsupported_Media_Type)""
+
+our interface servers were actually offline for most of the morning - DAD is running since.. (think it was lunch time things were confidently working)
+I'm hoping that theres possibly a timeout or something 'simple' that makes slots available/connection with the adastra people.
+
+can you have a look and see if theres something obvious? if there is a failure to connect out then any info i can pass on to our IT bods would be grand.
+thanks muchly","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1718901.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1721145,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,Discharge letter message split into 2 messages,21/01/2026 11:19:20,28/01/2026 16:58:27,"7 days, 5 hrs, 39 mins","16 hrs, 20 mins","1 day, 4 hrs, 20 mins",625147.0,58854.0,102054.0,Completed,21/01/2026 11:19:20,,11/02/2026 16:59:30,Acute Care Symphony Support Level 1,Konrad Siddons,11/02/2026 16:59:31,system,14,,"Discharge letter message has been spit into 2 messages. example 5603168. Attached is the RIE message received. Can this be looked into please as we have had no changes to the TIE and the RIE at Leeds.
+
+Product Category - 	Bundle - Symphony/DAD/Message Contents/Other PAS","Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1721145.
+ 
+To resolve this:
+
+We checked the generated and transmitted messages for the specified Attendance and confirmed that there was no evidence of the message(s) having been split by Symphony and formatting was as per the defined Message Definition.
+In addition, following transmission, there were immediate affirmative Acknowledgements received indicating acceptance of the data by the target system(s).
+
+We have suggested that a particular data string found in the message relating to the Patient Address may have been misinterpreted by one of your downstream systems.
+The Address 'SHEADER DRIVE' may have been taken as 'HEADER' resulting in the received message being truncated and a secondary message created from the point this data was encountered.
+
+Many thanks]
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1723745,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,Omnicell and MPI DAD outbound messages queued,26/01/2026 15:30:38,27/01/2026 10:50:44,"19 hrs, 20 mins","2 hrs, 23 mins","2 hrs, 55 mins",69606.0,8594.0,10516.0,Completed,26/01/2026 15:30:38,,10/02/2026 10:51:26,Acute Care Symphony Support Level 1,Konrad Siddons,10/02/2026 10:51:28,system,18,,"Omnicell and MPI DAD outbound messages queued since 24/1/26, please can a DAD restart be performed.","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1723745.
+ 
+To resolve this:
+
+We restarted the Live DAD Interface.
+Your having now confirmed that the outbound queues, including Omnicell and MPI are now cleared down, this case has been set to Resolved.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1726342,2 - High,Closed,Wye Valley NHS Trust,Symphony,Mesages not going to maxims,29/01/2026 18:38:13,29/01/2026 18:53:30,15 mins,15 mins,15 mins,917.0,917.0,917.0,Completed,29/01/2026 18:38:13,,09/02/2026 12:47:36,Acute Care Symphony Support Level 1,Sheree Chadwick,09/02/2026 12:47:38,system,10,,Called to ask for dad restart,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1726342.
+ 
+To resolve this, DAD restaretd
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1727058,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,MidYorks: HL7 PAS Messages queueing: Symphony,02/02/2026 07:24:31,02/02/2026 10:18:27,"2 hrs, 53 mins","1 hr, 18 mins","2 hrs, 32 mins",10436.0,4707.0,9131.0,Completed,02/02/2026 07:24:31,,16/02/2026 10:19:28,Acute Care Symphony Support Level 1,Shazad Ishaque,16/02/2026 10:19:29,system,14,,"Dear Sir/Madam
+
+
+HL7 PAS messages to Symphony are queuing – we are passing to:
+
+
+Server: SVCSYMPHONYDAD     Port: 9010
+
+
+The messages commenced queuing yesterday (01/02).
+
+
+Please can you investigate and resolve at the earliest opportunity?
+
+
+Greatly appreciated.
+
+
+Regards
+Waheed","Hello Waheed,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1727058.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1727069,3 - Medium,Closed,Western Sussex Hospitals NHS Trust,Symphony,A04 System Error,02/02/2026 08:13:38,02/02/2026 13:35:41,"5 hrs, 22 mins","4 hrs, 22 mins","5 hrs, 3 mins",19323.0,15746.0,18198.0,Completed,02/02/2026 08:13:38,,16/02/2026 13:37:29,Acute Care Symphony Support Level 1,Shazad Ishaque,16/02/2026 13:37:30,system,22,,"Morning,
+
+I have an A04 outbound message for Worthing ED that I cannot clear, which throws up the following error.
+
+DATETIME: 02-Feb-2026 08:11:41|| DESCRIPTION: Invalid use of Null|| SOURCE: FWDADQueMsg|| COMPONENT: FWDADQueMsg|| ERRORNO: 94|| PROCEDURE: FWDADQueue.PopulateObject|| CODEBLOCK: || USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: UHSL02131|| SERVERNAME: RYREMISSQL1-AG1.sussex.nhs.uk|| LOGGEDUSER: PopeR|| SITE: UHSussex LIVE|| BUILDNO: 3.1.1.6|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: 10.0||","Hello Russell,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1727069.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1727606,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony,Restart the DAD,02/02/2026 13:21:12,02/02/2026 14:24:34,"1 hr, 3 mins",58 mins,58 mins,3802.0,3489.0,3489.0,Completed,02/02/2026 13:21:12,,16/02/2026 14:25:26,Acute Care Symphony Support Level 1,Gareth Evans,16/02/2026 14:25:27,system,15,,"Hello.
+Would it be possible to restart the DAD interface please. 
+Thank you
+Sarah","Hello Sarah,
+ 
+Thanks for confirming that we've found a resolution for your case CS1727606.
+ 
+To resolve this, I restarted DAD as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1727616,3 - Medium,Closed,Luton And Dunstable Hospital NHS Foundation Trust,Symphony,Symphony suspended messages,02/02/2026 13:28:27,26/02/2026 00:19:34,"23 days, 10 hrs, 51 mins","1 day, 12 hrs, 30 mins","3 days, 12 hrs, 30 mins",2026267.0,131420.0,304220.0,Completed,02/02/2026 13:28:27,,12/03/2026 00:21:26,Acute Care Symphony Support Level 2,Sheree Chadwick,12/03/2026 11:17:52,system,57,,"Hi support,
+
+Since 2025-11-11 10:00 we have seen messages from our Ice results to Symphony suspend on our TIE.
+The total suspended messages: 3485
+Ack received back:
+
+ERROR <Ens>ErrSuspending: Suspending message 1245447453 as requested by message handler with status: ERROR <Ens>ErrGeneral: Suspending HL7 Message body 10@EnsLib.HL7.Message / 328063550 because response 6@EnsLib.HL7.Message MSA code 'AE' matched ReplyCodeActions 1-6 : ':?R=RF,:?E=S,:~=S,:?A=C,:*=S,:I?=W', resulting in Action code S : MSH|^~\&|SYMPHONY|SymphonyDAD|ICE||20260202124726||ORU^R01|20260202124726774+0|T|2.4|||||||| MSA|AE|20260202124726774+0||||
+
+HL7 Message contents:
+
+MSH|^~\&|ICE^ICE|REPORTING|||20260202124717||ORU^R01|20260202124726774+0|P|2.4|28927218||AL|AL|||
+PID|1||V074863^^^RC100^MRN~7274342002^^^NHS^NHS||Removed patient information
+PV1|1||BACCEM|||||B5200396^BRIGGS|B5200396^BRIGGS||||||||||||
+ORC|RE|56135101|||||||202601310700|||B5200396^BRIGGS|BACCEM^^^^^^^^Accident & Emergency||||||||
+OBR|1|56135101|26B50080157|COMA^REQUEST COMMENT (BIOCHEMISTRY/ENDOCRINOLOGY)^LC|||202601301748|||||||202601310700|T034&Blood^Blood|B5200396^BRIGGS||||26B50080157||202602021246||ICE|F|||||||||||
+OBX|1|ST|COMA^Request Comment (Biochemistry/Endocrinology)^LC||||||||F|||202601301748|26B50080157|
+NTE|1|T|Request received to add tests to previous sample|
+NTE|2|T|Laboratory number:25b50109577|
+NTE|3|T|Date additional request received - 31/01/26|
+NTE|4|T|Time additional request received - 07:01|
+OBR|2|56135101|26B50080157|TFT^THYROID FUNCTION (FT4 \T\ TSH)^LC|||202601301748|||||||202601310700|T034&Blood^Blood|B5200396^BRIGGS||||26B50080157||202602021246||ICE|F|||||||||||
+OBX|1|ST|FT4^Free Thyroxine (FT4)^LC||Request not processed||||||F|||202601301748|26B50080157|
+OBX|2|ST|TSH^Thyroid Stimulating Hormone (TSH)^LC||||||||F|||202601301748|26B50080157|
+NTE|1|T|Request not processed|
+NTE|2|T|Too early to fully assess the change in result|
+NTE|3|T|or response to treatment. We recommend repeat|
+NTE|4|T|testing after at least 3 months to fully assess|
+NTE|5|T|the effect of replacement in hypothyroid patients|
+NTE|6|T|and 2-4 weeks in patients on anti-thyroid therapy.|
+NTE|7|T|If on review there are other indications and the|
+NTE|8|T|test is considered to contribute to patient care,|
+NTE|9|T|please contact the laboratory. The sample will|
+NTE|10|T|be held for three days.|
+NTE|11|T|See 22/1/26|
+
+
+
+Can you advise why the messages are suspending?
+
+Kind regards,
+Tommy Hall","Hi,
+
+I'm getting in touch regarding your case CS1727616 which you raised on 02/02/2026 13:28:27 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+DAD,CS1728432,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Test DAD restart,03/02/2026 12:26:15,03/02/2026 12:49:26,23 mins,23 mins,23 mins,1391.0,1391.0,1391.0,Completed,03/02/2026 12:26:15,,03/02/2026 13:36:08,Acute Care Symphony Support Level 1,Gareth Evans,03/02/2026 13:36:08,paul.saunders2@nhs.net,9,,"Paul has requested a restart of the test DAD service, via Camis","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1728432, and I hope you don't mind me logging an extra one as well as the one you logged with Camis.
+ 
+To resolve this, I restarted DAD as requested.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1729891,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony,DAD Reset,05/02/2026 10:40:28,05/02/2026 11:04:56,24 mins,24 mins,24 mins,1468.0,1468.0,1468.0,Completed,05/02/2026 10:40:28,,05/02/2026 11:21:54,Acute Care Symphony Support Level 1,Shazad Ishaque,05/02/2026 11:21:54,sarah.osman12@nhs.net,8,,"Hello, please could you restart the DAD.
+Thank you
+Sarah","Hello Sarah,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1729891.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1731024,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,restart SCR/CPIS,06/02/2026 15:08:56,06/02/2026 16:59:01,"1 hr, 50 mins","1 hr, 44 mins","1 hr, 44 mins",6605.0,6275.0,6275.0,Completed,06/02/2026 15:08:56,,06/02/2026 17:00:06,Acute Care Symphony Support Level 1,Gareth Evans,06/02/2026 17:00:07,system,18,,"Afternoon,
+can you do the usual jboss/iis/dad restart please?
+we've had reception call about ""slow attendances"" yesterday and its only just been passed to us application type people to know what has happened.
+just getting a barber pole or white page (timeout)
+thanks very much","Hello Lee,
+ 
+Thanks for confirming that we've found a resolution for your case CS1731024.
+ 
+To resolve this, I restarted IIS, JBoss and DAD as requested.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1733630,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Restart of Symphony DAD required.,11/02/2026 11:59:52,11/02/2026 15:26:32,"3 hrs, 26 mins","3 hrs, 10 mins","3 hrs, 10 mins",12400.0,11420.0,11420.0,Completed,11/02/2026 11:59:52,,11/02/2026 15:39:24,Acute Care Symphony Support Level 1,Gareth Evans,11/02/2026 15:39:27,system,14,,"Hello
+Please could Symphony DAD be restarted as a new Special Case indicator has been added to the system.
+Thanks
+Paul","Hello Paul,
+ 
+Thanks for confirming that we've found a resolution for your case CS1733630.
+ 
+To resolve this, I restarted DAD as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1734044,2 - High,Closed,Wye Valley NHS Trust,Symphony,DAD Restart,12/02/2026 06:52:44,12/02/2026 08:55:27,"2 hrs, 2 mins","1 hr, 23 mins","1 hr, 23 mins",7363.0,4997.0,4997.0,Completed,12/02/2026 06:52:44,,26/02/2026 08:57:26,Acute Care Symphony Support Level 1,Shazad Ishaque,26/02/2026 08:57:27,system,13,,"Hi
+
+Our symphony comm point is down - can you please restart the DAD.","Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1734044.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1735935,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,Dad restart required,15/02/2026 14:09:23,16/02/2026 08:01:50,"17 hrs, 52 mins",0 mins,"17 hrs, 52 mins",64347.0,0.0,64347.0,Completed,15/02/2026 14:09:23,,20/02/2026 08:02:07,Acute Care Symphony Support Level 1,Gareth Evans,20/02/2026 08:02:07,rachel.price@wvt.nhs.uk,13,,"DAD restart required as messages are not getting through
+Contact is Jayne Carr 01432 372914 hereford.edreception@nhs.net","Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1735935.
+ 
+To resolve this, I restarted DAD as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1738714,4 - Low,Closed,Northern Health and Social Care Trust,Symphony,DAD Messages Status,19/02/2026 14:17:37,26/02/2026 10:03:50,"6 days, 19 hrs, 46 mins","1 day, 2 hrs, 9 mins","4 days, 2 hrs, 9 mins",589573.0,94155.0,353355.0,Completed,19/02/2026 14:17:37,,26/02/2026 11:03:11,Acute Care Symphony Support Level 1,Gareth Evans,26/02/2026 11:03:14,system,15,,"Hello,
+
+Could you please check if there have been any messages flowing through the DAD queue for the northern trust within the last 4 weeks. We're hoping there aren't any or very rare occurrences.
+
+If there are can an audit be created of the messages that have gone through.
+
+Many Thanks,
+Daniel Earley","Hello Daniel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1738714.
+ 
+To resolve this, I confirmed that no messages had passed in the previous four weeks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1739668,3 - Medium,Closed,Children's Health Ireland,Symphony,Patients not going across from iPMS to Symphony,20/02/2026 18:52:04,23/02/2026 08:46:30,"2 days, 13 hrs, 54 mins",0 mins,"2 days, 13 hrs, 54 mins",222866.0,0.0,222866.0,Completed,20/02/2026 18:52:04,,09/03/2026 08:47:26,Acute Care Symphony Support Level 1,Konrad Siddons,09/03/2026 11:17:45,system,7,,"Hello,
+
+Crumlin ED department have been on to us over new patients registered on iPMS not showing on Symphony. We have restarted the Symphony DAD and checked the Rhapsody integration engine and could find no issues. When I registered a patient about half an hour ago it appeared but just got a call from ED to state H01841028 was registered and not coming across. Can you please see if you can see anything to indicate why? Please call Dawn on 00353873435739 with updates as she is on call covering this issue. 
+
+Thanks","Hello Adrian,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1739668.
+ 
+To resolve this:
+
+The Live Symphony DAD Interface has been successfully restarted.
+Inbound Patient messages can now be seen processing and being received into Symphony.
+
+Many thanks.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1739937,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Restart of DAD required,23/02/2026 10:27:27,27/02/2026 09:41:38,"3 days, 23 hrs, 14 mins","1 day, 7 hrs, 14 mins","3 days, 23 hrs, 14 mins",342851.0,112451.0,342851.0,Completed,23/02/2026 10:27:27,,27/02/2026 09:57:18,Acute Care Symphony Support Level 1,Konrad Siddons,27/02/2026 11:17:09,system,8,,"Hello
+Could the Live Symphony DAD service be restarted so that it picks up a new Special Case indicator?
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1739937.
+ 
+To resolve this:
+
+The requested DAD restart has been carried out, as requested.
+Apologies again for the delay.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1744109,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,MPI and Omnicell outbound messages queued,02/03/2026 14:26:20,02/03/2026 14:57:17,30 mins,30 mins,30 mins,1857.0,1857.0,1857.0,Completed,02/03/2026 14:26:20,,16/03/2026 14:57:27,Acute Care Symphony Support Level 1,Konrad Siddons,16/03/2026 14:57:27,system,6,,MPI and Omnicell outbound messages queued. Please can DAD be restarted.,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1744109.
+ 
+To resolve this:
+
+The Live DAD Interface has been restarted, as requested.
+Outbound message queues can now be seen processing normally - there may be a slight backlog to process over the next coup-ler of hpours or so.
+
+Many thanks
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1744138,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Symphony live patching,02/03/2026 14:48:35,05/03/2026 10:14:23,"2 days, 19 hrs, 25 mins","18 hrs, 1 min","2 days, 2 hrs, 1 min",242748.0,64865.0,180065.0,Completed,02/03/2026 14:48:35,,05/03/2026 11:25:19,Acute Care Symphony Support Level 1,Konrad Siddons,05/03/2026 11:25:20,system,16,,"Hello
+Our ICT Operations Team have patched the Symphony test servers and are ready to patch the live servers. The live patching is scheduled to start at 08:00 on Wednesday 4th March 2026.
+The schedule will be:
+08:00am restart:
+STAS825 (DAD)
+STAS827 (EIE)
+STAS828 (SCR ME)
+STAS829 (Reporting)
+STAS830 (SQL)
+
+09:00am restart:
+STAS826 (DAD)
+STAS831 (SQL)
+STAS834 (SCR EIE)
+
+Please be advised that as STAS827 (EIE) is also being patched it's possible that the stuck message issue may arise. The patching will be monitored and the previously provided fix for stuck message will be used if required.
+
+Regards
+
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1744138.
+ 
+To resolve this:
+The issue with messages from CAMIS into Symphony had been raised internally at OPTUM and was investigated accordingly.
+This was subsequently resolved.
+As instructed, this case has been set back to Resolved.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1744351,4 - Low,Closed,Bedford Hospital NHS Trust,Symphony,Bedford Symphony Test Interop to ICE,03/03/2026 08:37:14,10/04/2026 02:19:28,"37 days, 17 hrs, 42 mins","3 days, 16 hrs, 35 mins","13 days, 18 hrs, 3 mins",3260534.0,318902.0,1188194.0,Completed,03/03/2026 08:37:14,,24/04/2026 02:21:26,Acute Care Symphony Support Level 2,Sheree Chadwick,24/04/2026 02:21:27,system,96,,"Good morning,
+
+When I am trying to interop in to ICE to place a request it comes up with an error message which i have attached on a word doc. We have restarted the DAD but can't seem to figure out what is going on.
+
+This is quite urgent as I am doing investigative testing for when we upgrade Bedford i.PM to v8
+
+Many thanks
+Jo","Hi,
+
+I'm getting in touch regarding your case CS1744351 which you raised on 03/03/2026 08:37:14 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+DAD,CS1744893,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Message Definition Issue,03/03/2026 14:19:57,19/03/2026 13:40:20,"15 days, 23 hrs, 20 mins","1 day, 23 hrs, 28 mins","3 days, 23 hrs, 28 mins",1380023.0,170908.0,343708.0,Completed,03/03/2026 14:19:57,,23/03/2026 08:55:08,Acute Care Symphony Support Level 1,Konrad Siddons,23/03/2026 08:55:10,system,55,,"We have a DAD interface configured within our Symphony system that launches a link to a regional Cerner HIE shared record called GNCR.
+
+We have been informed by the system provider that we user names from the launching system (Symphony) are not appearing as expected within the NHS E audits and this is breaching pre-existing system agreements.
+
+Our suspicion, based on the user name information provided via the audit is that currently the Staff User ID is being passed to GNCR when it should be passing through the user forename. So user info is appearing in the audit as McGrath, 2363 or Lorimer, 2762 rather than surname, forename.
+
+Can you please review and correct the current DAD configuration for the GNCR HIE Viewer within our Live Symphony system so that the mapping is passing through user forename and not user id.
+
+Thanks.","Hello Andrew,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1744893.
+ 
+To resolve this:
+
+Thank you for your feedback.
+I am pleased the message format change has rectified the reported issue in Live Symphony.
+
+I have now set this case to Resolved.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1745889,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony - SCR & PDS,Restart SCR/CPIS/JBOSS thingies,05/03/2026 08:43:19,05/03/2026 10:36:22,"1 hr, 53 mins",N/A,N/A,6783.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,05/03/2026 11:16:08,system,17,,"Morning,
+can you do the quick restart of IIS/Jboss/dad that we have to do every now and then please?
+its clearly stopped working and 'time out' during the night and causing the obvious delays in checking people in
+thanks very much","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1745889.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1749152,2 - High,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,EIE/DAD restart,11/03/2026 13:21:43,12/03/2026 15:34:49,"1 day, 2 hrs, 13 mins","2 hrs, 22 mins","3 hrs, 59 mins",94386.0,8565.0,14394.0,Completed,11/03/2026 13:21:43,,16/03/2026 14:20:42,Acute Care Symphony Support Level 1,Shazad Ishaque,16/03/2026 14:20:45,system,33,,Please can you restart EIE/DAD as the messages from PAS are not flowing into Symphony?,"Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1749152.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1749434,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,AE Comm Point Down,12/03/2026 06:51:21,12/03/2026 08:40:18,"1 hr, 48 mins",0 mins,"1 hr, 38 mins",6537.0,0.0,5905.0,Completed,12/03/2026 06:51:21,,26/03/2026 08:41:27,Acute Care Symphony Support Level 1,Gareth Evans,26/03/2026 08:41:27,system,14,,Please restart DAD for WVT.,"Hello Richard,
+ 
+Thanks for confirming that we've found a resolution for your case CS1749434.
+ 
+To resolve this, I started DAD as requested.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1756737,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony - DAD,DAD restart,24/03/2026 10:21:12,27/03/2026 16:30:46,"3 days, 6 hrs, 9 mins",N/A,N/A,281374.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,10/04/2026 16:31:27,system,12,,"Hello. Due to the clocks going forward over the weekend - Sunday 1am.  The DAD restart will need to happen. I have emailed the reception staff to remind them and to call and ask for the restart. 
+Is this something that can be done automatically? Opposed to asking staff to call in?","Hello Sarah,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1756737.
+ 
+To resolve this:
+
+On call staff and Support Management have been made aware of your plans for Sunday following clocks changing.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1759000,2 - High,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Issue with DAD,27/03/2026 10:08:49,27/03/2026 10:18:19,9 mins,9 mins,9 mins,570.0,570.0,570.0,Completed,27/03/2026 10:08:49,,07/04/2026 12:06:13,Acute Care Symphony Support Level 1,Gareth Evans,07/04/2026 12:06:13,paul.saunders2@nhs.net,6,,My colleagues from CaMIS have requested a DAD restart,"Hello Paul,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1759000.
+ 
+To resolve this, I restarted DAD
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1759570,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,Restart iis/jboss/dad,30/03/2026 08:36:43,30/03/2026 09:44:46,"1 hr, 8 mins",24 mins,47 mins,4083.0,1440.0,2837.0,Completed,30/03/2026 08:36:43,,30/03/2026 09:46:37,Acute Care Symphony Support Level 1,Gareth Evans,30/03/2026 09:46:39,system,17,,"Morning,
+can you do the usual restart for SCR please?
+we have an out of hours call last night that its not working, tried this morning and cant load any and creating an attendance is giving us a slow barber pole of loading that never works
+thanks muchly
+(i know high gets down to medium, but as we are starting to ramp up attendances.. that delay really winds up the admin team)","Hello Lee,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1759570.
+ 
+To resolve this, I restarted IIS, JBOSS and DAD as requested.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+
+Gareth
+"
+DAD,CS1760262,3 - Medium,Closed,Western Sussex Hospitals NHS Trust,Symphony,Messages Not Coming Through,30/03/2026 17:26:22,30/03/2026 17:48:54,22 mins,0 mins,22 mins,1352.0,0.0,1352.0,Completed,30/03/2026 17:26:22,,13/04/2026 17:49:26,Acute Care Symphony Support Level 1,Shazad Ishaque,13/04/2026 17:49:26,system,8,,"Will King (on call engineer) reporting the messages are not coming into Symphony and they require a DAD restart.
+
+The Trust contact is Russell Pope.
+
+Will King
+07903774455
+
+","Hello Russell,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1760262.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1763563,3 - Medium,Closed,Betsi Cadwaladr University Healthboard,Symphony,latest paed obs and  paed obs table failing to populate summary report in SSRS,08/04/2026 10:21:05,14/04/2026 13:13:59,"6 days, 2 hrs, 52 mins","1 day, 9 hrs, 3 mins","6 days, 1 hr, 3 mins",528774.0,118989.0,522189.0,Completed,08/04/2026 10:21:05,,14/04/2026 13:13:59,Acute Care Symphony Support Level 1,Konrad Siddons,14/04/2026 13:14:01,system,36,,"users have reported paeds latest obs and full table of obs are failing to appear on summary report on SSRS summary report. (Dafydd Horan on leave unable to chase with him)... CS1721015 Carlos  repointed Summary report to Live...  summary report being triggered DAD now failing for paeds obs- entirely when triggered,.. unknown as to why this should be the case for paeds and adults is fine.
+
+Paeds obs report DAD service to SSRS being used in interim as that appears fine.",Closed by customer.
+DAD,CS1767365,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,Restart SCR,14/04/2026 12:58:56,14/04/2026 16:13:32,"3 hrs, 14 mins","1 hr, 23 mins","1 hr, 23 mins",11676.0,5020.0,5020.0,Completed,14/04/2026 12:58:56,,14/04/2026 16:14:21,Acute Care Symphony Support Level 1,Shazad Ishaque,14/04/2026 16:14:23,system,15,,"Hello,
+
+SCR is not working in Symphony. Please can you do the usual restarts of JBOSS, IIS and DAD.
+
+Many thanks,
+Donna","Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1767365.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1768597,3 - Medium,Closed,Wye Valley NHS Trust,Symphony - DAD,DAD Restart,16/04/2026 07:15:54,16/04/2026 09:25:09,"2 hrs, 9 mins",N/A,N/A,7755.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,30/04/2026 09:25:28,system,12,,"WVT
+
+Symphony comm point down - please restart.","Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1768597.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1769590,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony - SCR & PDS,restart jboss/iis/dad,17/04/2026 10:56:59,17/04/2026 11:33:32,36 mins,N/A,N/A,2193.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,24/04/2026 16:39:25,lee.dransfield@nhs.net,3,,"Morning,
+we've had a pretty large outage in the wee hours this morning. a lot of restarting has made many things back to normal - but for some reason scr hasnt
+would you mind doing the usual restarts for us please?
+Much appreciated, thanks","Hello Lee,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1769590.
+ 
+To resolve this:
+
+The SCR / PDS related Services and the DAD interface have been successfully restarted, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1770072,2 - High,Closed,University Hospital Southampton NHS Foundation Trust,Symphony,OOH - HOSTED _ OPS Live DAD SERVER ALERT,20/04/2026 04:14:38,20/04/2026 12:58:32,"8 hrs, 43 mins",53 mins,53 mins,31434.0,3194.0,3194.0,Completed,20/04/2026 04:14:38,,01/05/2026 08:11:17,Acute Care Symphony Support Level 1,Konrad Siddons,01/05/2026 08:11:19,system,16,,Hosted Ops called at 04:45 to advise they had a server alert requiring DAD restart.,"Hello Bentley,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1770072.
+ 
+To resolve this:
+
+The Live DAD Interface was successfully restarted and PMI Inbound A28 and A31 messages were coming into Symphony, and being acknowledged as successful by 04:20.
+CAMIS Team have since confirmed that all is functioning correctly from their perspective.
+Case has therefore been set to Resolved.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1770574,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony - SCR & PDS,SCR is not working in Symphony,20/04/2026 12:54:32,20/04/2026 16:25:38,"3 hrs, 31 mins",N/A,N/A,12666.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,20/04/2026 16:36:19,system,11,,"SCR is not working in Symphony. Please can you do the usual restarts of JBOSS, IIS and DAD.
+
+thanks
+Rhiannon","Hello Rhiannon,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1770574.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1772488,3 - Medium,Closed,NHS Ayrshire and Arran,Symphony - DAD,Radiology order not sent as expected,23/04/2026 10:18:55,27/04/2026 12:55:31,"4 days, 2 hrs, 36 mins",N/A,N/A,354996.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,30/04/2026 10:36:38,system,17,,"Our downstream Radiology system didn't receive an order for a patient as expected.  Looking at the DAD event log, it appears that no duty clinician has appeared in the order message.  Looking at duty clinician history, a duty clinician had been defined for the period the order was placed.  I've put the chi in \\EDPRDSQL\C$\Temp\2304.txt and opened the NAYRSHIRE\UNISOFT account for today.  Can this be looked into?  Thanks","Hello Ewen,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1772488.
+ 
+To resolve this, I confirmed that the issue was a missing RIS number, as you'd suspected.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1772631,4 - Low,Closed,Luton And Dunstable Hospital NHS Foundation Trust,Symphony - DAD,Symphony test outputting unescaped ampersand in Hl7,23/04/2026 12:04:17,11/05/2026 17:32:40,"18 days, 5 hrs, 28 mins",N/A,N/A,1574903.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,12/05/2026 09:23:09,system,42,,"Symphony output un escaped ampersand in HL7 causing issues for our systems.
+
+Symphony patient address populated using postcode tool and had underscore. In HL7 this turned into unescaped ampersand. 
+
+This is noticed in current test environment.
+
+Message:
+
+MSH|^~\&|SYMPHONYDAD|SYMPHONY|TIE|IPM|20260422111207||ADT^A28|2026042212711612|P|2.4|||AL|AL|||
+EVN|A28|20260422111207|20260422111207|||20260422111207|
+PID|||60590152^^^PAS~^^^NHS||Pep^Symphonyreg^^^MISS||20001008|F|||Luton & Dunstable Hospital Nhs^Lewsey Road^Luton^United Kingdom^LU4 0DZ||01582491166^HOME~07111222333^MOB|||S|R/C|||||D||||8|none||||
+PD1|||WHEATFIELD SURGERY^GPPRC^E81008|G8433097^ESTEKIBARDEH^AH|
+NK1||^^^^|^NSP|^^^^^^|||","Hello Wilson,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1772631.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1774139,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,Omnicell cabinet not displaying patient details,27/04/2026 14:15:15,29/04/2026 15:32:01,"2 days, 1 hr, 16 mins","1 hr, 55 mins","1 hr, 55 mins",177406.0,6937.0,6937.0,Completed,27/04/2026 14:15:15,,13/05/2026 15:33:28,Acute Care Symphony Support Level 1,Gareth Evans,13/05/2026 18:16:56,system,12,,The service have reported that the omnicell cabinet is not displaying patient details that should be pulled over from symphony. Issue started on the weekend. I have checked DAD outbound messages but none are queued from this weekend/today. Please can the integration for omnicell be checked,"Hello Yvette,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1774139.
+ 
+To resolve this, I restarted DAD and observed Omnicell messages flowing.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+
+Gareth
+"
+DAD,CS1777353,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,DAD messages queueing for Omnicell feeds and MPI outbound,05/05/2026 10:38:36,07/05/2026 08:03:30,"1 day, 21 hrs, 24 mins","2 hrs, 11 mins","16 hrs, 44 mins",163494.0,7883.0,60293.0,Completed,05/05/2026 10:38:36,,21/05/2026 08:05:27,Acute Care Symphony Support Level 1,Shazad Ishaque,21/05/2026 08:05:27,system,16,,DAD messages queueing for Omnicell feeds and MPI outbound. May need DAD restart please.,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1777353.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1778306,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony - DAD,DAD restart,06/05/2026 12:45:30,06/05/2026 13:25:37,40 mins,N/A,N/A,2407.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,20/05/2026 18:18:01,system,4,,Hello would it be possible to do DAD restart? Thank you,"Hello Sarah,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1778306.
+ 
+To resolve this:
+
+The Live DAD Interface has been successfully restarted, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1781968,3 - Medium,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD stopped working,13/05/2026 10:41:26,20/05/2026 12:11:46,"7 days, 1 hr, 30 mins","3 hrs, 21 mins","3 hrs, 21 mins",610220.0,12076.0,12076.0,Completed,13/05/2026 10:41:26,,03/06/2026 12:13:43,Acute Care Symphony Support Level 1,Konrad Siddons,03/06/2026 12:13:44,system,20,,"
+[code]<a title=""DAD keeps crashing – what should we do?"" href='kb_view.do?sys_kb_id=52177eed83eccf10d0bd9030ceaad322' >KB5005524 : DAD keeps crashing – what should we do?</a>[/code]","Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1781968.
+ 
+To resolve this:
+
+Your having confirmed that this case was raised to capture this particular example of DAD failing, with a view to raising cases whenever the DAD needs to be restarted, thus allowing collection of supporting data for more detailed investigation, I have now set this case to Resolved, as agreed.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1782465,2 - High,Closed,Wye Valley NHS Trust,Symphony - DAD,Dad Restart,14/05/2026 06:51:03,14/05/2026 08:30:28,"1 hr, 39 mins",N/A,N/A,5965.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,28/05/2026 08:31:26,system,5,,A+E Comm point down at WVT - please restart.,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1782465.
+ 
+To resolve this, I've started DAD, and I can see messages flowing. It'll take them a while to catch up. It looks like the DAD server was restarted about half past four this morning.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1782479,2 - High,Closed,Wye Valley NHS Trust,Symphony - DAD,Need DAD restart ,14/05/2026 07:58:58,14/05/2026 08:21:26,22 mins,N/A,N/A,1348.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,18/05/2026 15:47:37,rachel.price@wvt.nhs.uk,5,,Messaging is not going through  between symphony & Maxims,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1782479.
+ 
+To resolve this, I've started DAD, and I can see messages flowing. It'll take them a while to catch up. It looks like the DAD server was restarted about half past four this morning.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+DAD,CS1783796,3 - Medium,Closed,Aneurin Bevan University Healthboard,Symphony,TEST DAD Configuration,15/05/2026 15:58:32,15/05/2026 16:29:49,31 mins,31 mins,31 mins,1877.0,1877.0,1877.0,Completed,15/05/2026 15:58:32,,19/05/2026 10:53:29,Acute Care Symphony Support Level 1,Shazad Ishaque,19/05/2026 10:53:29,christopher.lj.phillips@wales.nhs.uk,8,,"Christopher would like to know which Database their UAT DAD Server is currently pointing to.
+
+He would like this to be pointed to their Symphony Test DB.
+
+UAT DAD Server
+10.65.161.170
+
+Before we make any changes he would like to know what the current setup is.
+","Hello Christopher ,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1783796.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1784509,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony - DAD,Restart of Symphony DAD required,18/05/2026 15:41:34,19/05/2026 09:08:18,"17 hrs, 26 mins",N/A,N/A,62804.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,19/05/2026 09:43:55,system,13,,"Hello
+Some new special case flags have been added, therefore a restart of Symphony DAD is required so that the interface picks up the new flags.
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1784509.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1786243,3 - Medium,Resolved,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD Message delays from locked records and occasional ntdll errors.,21/05/2026 11:27:43,08/07/2026 09:51:50,"47 days, 22 hrs, 24 mins","8 days, 4 hrs, 20 mins","32 days, 20 hrs, 20 mins",4141447.0,706807.0,2838007.0,Paused,21/05/2026 11:27:43,08/07/2026 09:51:50,,Acute Care Symphony Support Level 2,Carlos Berrios,08/07/2026 09:51:50,carlos.berrios@emishealth.com,33,PRB0053699,"We had a patient yesterday who attended RSCH and had an ED Episode added at 2:18 but the A04 didn’t get to the TIE until 2:29, please could you have a look and see why there was such a long delay?
+
+5228997 (AA) – RSCH-26-034891-1","Hi Alison,
+I believe the improved patient lock control job has improved message flow, and there have been no reported issues of further delays.
+Combined with Roy's service monitoring with auto restart system in event of executable errors.
+We have a problem record open with development for future code improvements.
+I'll mark this support case as closed with the improvements we've applied."
+DAD,CS1786278,2 - High,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,Our DAD has gone down,21/05/2026 11:57:23,21/05/2026 13:01:21,"1 hr, 3 mins",32 mins,32 mins,3838.0,1967.0,1967.0,Completed,21/05/2026 11:57:23,,04/06/2026 13:01:26,Acute Care Symphony Support Level 1,Sheree Chadwick,04/06/2026 13:01:26,system,14,,We gave nearly 40 queued messages please can you restart the DAD,"Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1786278.
+ 
+To resolve this, DAD not restarted as already failed over and queues had cleared.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1786626,3 - Medium,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,Messages were queuing specifically 02,21/05/2026 20:51:07,28/05/2026 14:56:34,"6 days, 18 hrs, 5 mins","1 hr, 33 mins","13 hrs, 42 mins",583527.0,5615.0,49348.0,Completed,21/05/2026 20:51:07,,11/06/2026 14:57:26,Acute Care Symphony Support Level 1,Konrad Siddons,11/06/2026 14:57:27,system,24,,"The DAD was restarted on site as messages were stuck, although some have now cleared we still have 16 outstanding. This is causing issues with downstream systems. Some messages been stuck for 15 mins now.","Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1786626.
+ 
+To resolve this:
+
+We interrogated the Live Database and Audit tables, together with examining the Event Logs.
+We reported back our finding in our previous update.
+
+This case has now been set to Resolved.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1787155,2 - High,Closed,Bon Secours Hospital Cork,Symphony,Patient With MRN 88389 Not Appearing On Symphony EDIS,22/05/2026 17:33:17,22/05/2026 18:45:30,"1 hr, 12 mins",0 mins,"1 hr, 12 mins",4333.0,0.0,4333.0,Completed,22/05/2026 17:33:17,,22/05/2026 18:45:30,Acute Care Symphony Support Level 1,,23/05/2026 00:15:54,system,5,,"Hi there,
+
+The hospital have reported that the patient with MRN 88389 is not appearing on Symphony EDIS.
+
+The below ADT^A01 HL7 message (with patient-identifiable data removed) was sent to the Symphony EDIS interface:
+
+MSH|^~\\&|PIMSINT|ISOFT ENGINE|RHAPSODY|ADT|20260522094719||ADT^A01|892190074|P|2.3|||AL|AL\r
+EVN|A01|20260522094719\r
+PID|1|88389^^^1|88389^^^1|\r
+PD1|||Silverdale Practice, Blackrock Hall PCC, Skehard Road, Blackrockl Cork^GPPRC^SIL05|GPHAU02^Haugh^John^^^DR||||||||\r
+NK1||\r
+PV1|1|IPE|BSC070^MAU06^^^^^^^MAU|ELECT|||OSU21^O Sullivan^Ronan^^^PROF^AE|GPHAU02^Haugh^John^^^DR|OSU21^O Sullivan^Ronan^^^PROF^AE|Accident and Emergency||||NSP|||OSU21^O Sullivan^Ronan^^^PROF^AE||2855190|||||||||||||||||RO|USRES|||SHARE||||20260522094600||||||||\r
+PV2|||||||||20260523230000|1||||||||||||||||||||||||||\r
+
+Following which the Symphony EDIS interface returned the following positive acknowledgement:
+
+MSH|^~\\&|SYMPHONY|DAD|PIMSINT|ISOFT ENGINE|20260522094648||ACK^A01|892190074|P|2.4|||AL|NE\r
+MSA|AA|892190074|\r
+
+Kind regards,
+
+Rowan",Closed by customer.
+DAD,CS1787187,4 - Low,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD was restarted internally last night,24/05/2026 11:57:36,29/05/2026 10:34:05,"4 days, 22 hrs, 36 mins","10 hrs, 40 mins","1 day, 23 hrs, 42 mins",426989.0,38426.0,171770.0,Completed,24/05/2026 11:57:36,,12/06/2026 10:35:26,Acute Care Symphony Support Level 2,Sheree Chadwick,12/06/2026 10:35:26,system,21,,"Our IT had to restart the DAD last night at 5:36am due to queued messages, the issue is now resolved but we are logging when this is needed for monitoring purposes.","Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1787187.
+ 
+To resolve this,Information gathered for visibility.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1787222,4 - Low,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD restart,26/05/2026 07:38:28,28/05/2026 14:07:00,"2 days, 6 hrs, 28 mins","8 hrs, 10 mins","1 day, 1 hr, 32 mins",196112.0,29433.0,91925.0,Completed,26/05/2026 07:38:28,,11/06/2026 14:07:26,Acute Care Symphony Support Level 1,Sheree Chadwick,11/06/2026 14:07:27,system,29,,DAD went down again on Sunday at about 9:34 am and was restarted by our IT at 10:24am which resolved the problem. I am logging this call as we want to monitor how many times the DAD goes down.,"Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1787222.
+ 
+To resolve this, Information gathered and noted for visibility purposes. 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1789867,4 - Low,Resolved,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD went down,29/05/2026 09:03:32,10/06/2026 14:50:36,"12 days, 5 hrs, 47 mins",39 mins,39 mins,1057624.0,2369.0,2369.0,Paused,29/05/2026 09:03:32,29/05/2026 09:43:01,,Acute Care Symphony Support Level 1,Konrad Siddons,10/06/2026 14:50:36,konrad.siddons@emishealth.com,12,PRB0053699,DAD went down at 7:59 this morning and was restarted on site by our IT. So logging this call as part of the investigation.,"Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1789867.
+ 
+To resolve this:
+
+Thea case has been linked to Problem Record and set to Resolved, as agreed with Sheree Chadwick.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1791788,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony - SCR & PDS,Restart jboss/iis/dad,02/06/2026 13:10:02,02/06/2026 14:38:39,"1 hr, 28 mins",N/A,N/A,5317.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,02/06/2026 18:17:12,system,12,,"Afternoon,
+just found out our reception / admin team have been struggling with slow attenances for most of the morning and not told anyone
+would you do the usual restarting for the SCR/CPIS popup to work again (jboss/iis/dad) please?
+
+dont get timeout like normal, just looks for pt with barber pole loading and then popup vanishes = obvs adds 30-40secs to each attendance.
+
+thanks muchly","Hello Lee,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1791788.
+ 
+To resolve this, I restarted the requested services.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1792092,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,IIS/Jboss/DAD again,03/06/2026 08:36:28,03/06/2026 09:00:35,24 mins,0 mins,19 mins,1447.0,35.0,1174.0,Completed,03/06/2026 08:36:28,,03/06/2026 09:08:15,Acute Care Symphony Support Level 1,Gareth Evans,03/06/2026 12:17:42,system,14,,"Morning,
+I think WSUS on the servers has been done a couple of hours ago and caused an issue with SCR server or DAD - nobody is complaining about interface messages though...
+Just the delay as SCR popup times out
+It was only yesterday lunch, but would do the restarting thing again please?
+thanks very much","Hello Lee,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1792092.
+ 
+No need to apologise for starting my day with an easy win... To resolve this, I restarted IIS/JBOSS/DAD as requested.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1793655,4 - Low,Resolved,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD restart ,05/06/2026 09:20:07,10/06/2026 14:52:42,"5 days, 5 hrs, 32 mins","1 hr, 53 mins","1 hr, 53 mins",451955.0,6836.0,6836.0,Paused,05/06/2026 09:20:07,05/06/2026 11:14:03,,Acute Care Symphony Support Level 1,Konrad Siddons,10/06/2026 14:52:42,konrad.siddons@emishealth.com,24,PRB0053699,DAD was restarted last night at 4:40am at the Trust. This is logged for monitoring purposes,"Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1793655.
+ 
+To resolve this:
+
+This case has been linked to the Problem Record and set to Resolved, as agreed with Sheree Chadwick.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1793711,4 - Low,Resolved,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD has gone down again today,05/06/2026 09:59:31,10/06/2026 14:56:03,"5 days, 4 hrs, 56 mins","1 hr, 14 mins","1 hr, 14 mins",449792.0,4495.0,4495.0,Paused,05/06/2026 09:59:31,05/06/2026 11:14:26,,Acute Care Symphony Support Level 1,Konrad Siddons,10/06/2026 14:56:03,konrad.siddons@emishealth.com,13,PRB0053699,DAD has gone down again today at 9:59am and is being restarted in the Trust. This call is just for monitoring.,"Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1793711.
+ 
+To resolve this:
+
+This case has been linked to the Problem Record ans set to Resolved, as agreed with Sheree Chadwick.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1795481,3 - Medium,Resolved,Brighton And Sussex University Hospitals NHS Trust,Symphony,DAD restart on site,09/06/2026 13:51:18,11/06/2026 14:29:34,"2 days, 38 mins","16 hrs, 38 mins","2 days, 38 mins",175096.0,59896.0,175096.0,Paused,09/06/2026 13:51:18,11/06/2026 14:29:34,,Acute Care Symphony Support Level 2,Carlos Berrios,11/06/2026 14:29:34,carlos.berrios@emishealth.com,22,PRB0053699,"Hi Carlos, as promised Roy has sent across screenshots of the errors on the live nodes and I have a screenshot of the locked records: DAD was restarted on site.","Additional occurrence of ntdll fault recorded,
+Linked to open problem record and CS1786243 open case"
+DAD,CS1796381,3 - Medium,Closed,Wye Valley NHS Trust,Symphony - DAD,DAD Restart,11/06/2026 07:23:19,11/06/2026 08:30:04,"1 hr, 6 mins",N/A,N/A,4005.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,25/06/2026 08:31:26,system,7,,"A&E Comm point down at WVT.
+
+Please restart.","Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1796381.
+ 
+To resolve this:
+
+The Live DAD Interface has been successfully restarted, as requested.
+All outbound queues are now clear.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1796671,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony - DAD,Restart of Symphony DAD required,11/06/2026 11:45:52,11/06/2026 12:39:40,53 mins,N/A,N/A,3228.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,11/06/2026 15:51:53,paul.saunders2@nhs.net,4,,"Hello
+A new special case indicator has been added to the system. Could Symphony DAD be restarted so the the new indicator is picked up by the interface?
+thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1796671.
+ 
+To resolve this:
+
+The Live DAD Interface has been successfully restarted, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1798138,3 - Medium,Closed,Tallaght University Hospital,Symphony,Symphony AMAU Transfers,15/06/2026 12:40:15,19/06/2026 15:10:28,"4 days, 2 hrs, 30 mins","11 hrs, 33 mins","1 day, 3 hrs, 33 mins",354613.0,41594.0,99194.0,Completed,15/06/2026 12:40:15,,03/07/2026 15:11:26,Acute Care Symphony Support Level 1,Shazad Ishaque,03/07/2026 15:11:27,system,17,,"Hi All,
+
+We are having an issue with AMAU transfers on Symphony/DAD.
+Patients aren't transferring from Adults to AMAU.
+
+I've restarted the DAD application and the DAD server but the patients still aren't transferring.
+
+MRNs
+312033
+502909
+36894
+
+Can you investigate please.
+
+Cheers,
+Dean","Hello Dean,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1798138.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+DAD,CS1798826,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony - DAD,Restart required,16/06/2026 11:27:54,16/06/2026 12:37:54,"1 hr, 10 mins",N/A,N/A,4200.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,16/06/2026 13:48:07,paul.saunders2@nhs.net,8,,"Hello
+Please could live Symphony DAD be restarted, as a new special case indicator has been added?
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1798826.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1799950,3 - Medium,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony - DAD,Symphony DAD Interface will not start after Windows Updates,18/06/2026 05:09:57,18/06/2026 10:42:29,"5 hrs, 32 mins",N/A,N/A,19952.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,22/06/2026 08:54:57,system,14,,Symphony DAD Interface will not start after installing June 2026 Windows Updates,"Hello Garry,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1799950.
+ 
+To resolve this, I started DAD as an application, then killed it and started the service as normal.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1800444,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,Omnicelle and MPI DAD messages queuing,18/06/2026 14:34:57,18/06/2026 15:47:39,"1 hr, 12 mins","1 hr, 12 mins","1 hr, 12 mins",4362.0,4362.0,4362.0,Completed,18/06/2026 14:34:57,,02/07/2026 15:49:26,Acute Care Symphony Support Level 1,Konrad Siddons,02/07/2026 15:49:26,system,7,,Omnicelle and MPI DAD messages queuing. Please can DAD be restarted,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800444.
+ 
+To resolve this:
+
+The DAD interface has been restarted as requested.
+All outbound queues are now clear.
+
+Please note - your 2 NDC DAD servers WA-WNSY02DAD001 and WA-WNSY02DAD002 have both been up for over 56 days.
+We recommend the servers are rebooted at least monthly to reduce the chances of failures.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1802995,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,Omnicell and MPI DAD messages queued,24/06/2026 13:49:29,26/06/2026 15:41:31,"2 days, 1 hr, 52 mins","18 hrs, 4 mins","2 days, 1 hr, 4 mins",179522.0,65076.0,176676.0,Completed,24/06/2026 13:49:29,,10/07/2026 15:43:26,Acute Care Symphony Support Level 1,Shazad Ishaque,10/07/2026 15:43:27,system,27,,Omnicell and MPI DAD messages queued. Please can DAD be restarted,"Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1802995.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1805273,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,MPI DAD outbound messages queuing,29/06/2026 11:54:32,30/06/2026 08:50:51,"20 hrs, 56 mins","2 hrs, 31 mins","2 hrs, 31 mins",75379.0,9086.0,9086.0,Completed,29/06/2026 11:54:32,,14/07/2026 08:51:26,Acute Care Symphony Support Level 1,Shazad Ishaque,14/07/2026 08:51:27,system,20,,"MPI DAD outbound messages queuing, users report processing delays when creating new episode. Not sure if DAD restart is needed?","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1805273.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1806923,3 - Medium,Closed,Swansea Bay University Health Board,Symphony,PMI number not created for patient,01/07/2026 10:00:09,01/07/2026 15:56:50,"5 hrs, 56 mins","5 hrs, 56 mins","5 hrs, 56 mins",21401.0,21401.0,21401.0,Completed,01/07/2026 10:00:09,,15/07/2026 15:57:28,Acute Care Symphony Support Level 1,Shazad Ishaque,15/07/2026 15:57:30,system,14,,"PMI number not created for patient who attended yesterday 30/6/26. NMIU-26-025946-1 & 2.
+When in Patient details screen and selecting 'Close', receiving error message when sending data to Pas (attached). Had a look at DAD outbound messages and there's an A28 queued for MPI from yesterday for this patient.","Hello Yvette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1806923.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1807258,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,restart dad/iis/jboss,01/07/2026 13:21:21,01/07/2026 14:55:42,"1 hr, 34 mins",43 mins,43 mins,5661.0,2606.0,2606.0,Completed,01/07/2026 13:21:21,,01/07/2026 15:33:12,Acute Care Symphony Support Level 1,Gareth Evans,01/07/2026 15:33:13,system,16,,"Afternoon,
+usual thing that takes hours for someone to complain to us to log with you.....
+when you get a chance can you please jump on and restart the things - no SCR/CPIS and delays attending (where it times out)
+thanks very much","Hello Lee,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1807258.
+ 
+To resolve this, I restarted the requested services.
+
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1808032,3 - Medium,Closed,Health Service Executive,Symphony,CHB ED OUT-PATIENT: is DAD running on test?,02/07/2026 13:19:09,03/07/2026 11:17:34,"21 hrs, 58 mins",38 mins,38 mins,79105.0,2293.0,2293.0,Completed,02/07/2026 13:19:09,,06/07/2026 14:45:07,Acute Care Symphony Support Level 1,Gareth Evans,06/07/2026 14:45:07,Rebecca.McGuirk1@hse.ie,11,,"Could you check the test server as I have put the below test patient up on test symphony and Ray is not receiving any messages back to the Test IPMs system please 
+
+(forwarded message says: Can you please register the below patient on the test Symphony. MRN is 813169)
+","Hello Rebecca,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1808032.
+ 
+To resolve this, I ascertained that your attendance was being rejected by the external system because there was an open attendance there.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1808891,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony - DAD,Restart Required,03/07/2026 15:39:54,06/07/2026 08:15:27,"2 days, 16 hrs, 35 mins",N/A,N/A,232533.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,06/07/2026 08:38:45,system,11,,"Hello
+A restart of the Live Symphony DAD is required as new special case flags have been added.
+Thanks
+Paul","Hello Paul,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1808891.
+ 
+To resolve this, I restarted DAD as requested
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+DAD,CS1811171,3 - Medium,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Messages stuck,08/07/2026 17:27:31,08/07/2026 17:29:40,2 mins,0 mins,2 mins,129.0,0.0,129.0,Completed,08/07/2026 17:27:31,,22/07/2026 17:31:28,Acute Care Symphony Support Level 1,Shazad Ishaque,22/07/2026 17:31:28,system,10,,CaMIS Team requested a DAD restart as some messages were stuck.,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1811171.
+ 
+Successfully connected to the DAD Failover server (DH-SY02DAD002) and restarted DAD. Monitored all the stuck messages which now have been fully processed.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1811205,4 - Low,Closed,Wye Valley NHS Trust,Symphony - DAD,DAD Restart,09/07/2026 07:17:39,09/07/2026 16:09:19,"8 hrs, 51 mins",N/A,N/A,31900.0,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,23/07/2026 16:09:27,system,13,,"Hi
+
+Our symphony comm point is down.
+
+Please can you restart the DAD service for Wye Valley NHS","Hello Rachel, Richard,
+
+Thank you for your time on the phone today, as discussed I've restarted DAD, and it looks like Symphony's now working. You've just got patient uploads to test and if they're working then we can close this.
+
+Please do not hesitate to respond to this email if you have any questions.
+
+Kind regards
+
+Gareth"
+DAD,CS1813197,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony - DAD,Restart required,13/07/2026 16:03:30,13/07/2026 17:16:28,"1 hr, 12 mins",N/A,N/A,4378.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,14/07/2026 10:15:29,system,12,,"Hello
+Could the Live DAD be restarted as a new special case indicator has been added.
+thanks
+Paul","Hello Paul,
+
+Thanks for letting me know. This case CS1813197 will now be closed.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+DAD,CS1813676,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,DAD restart,14/07/2026 12:55:10,14/07/2026 14:37:23,"1 hr, 42 mins",35 mins,35 mins,6133.0,2120.0,2120.0,Completed,14/07/2026 12:55:10,,28/07/2026 14:37:26,Acute Care Symphony Support Level 1,Sheree Chadwick,28/07/2026 14:37:27,system,16,,Can you restart DAD please,"Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1813676.
+ 
+To resolve this, DAD restarted as requested after adding new codes
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1814607,3 - Medium,Closed,Wye Valley NHS Trust,Symphony - DAD,DAD Restart -WVT,16/07/2026 07:05:32,16/07/2026 08:35:44,"1 hr, 30 mins",N/A,N/A,5412.0,,,,,,,Acute Care Symphony Support Level 1,Sheree Chadwick,30/07/2026 08:37:26,system,8,,Comm point down - please restart DAD.,"Hello Richard,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1814607.
+ 
+To resolve this, [DAD restarted as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1816142,2 - High,Closed,Wye Valley NHS Trust,Symphony,Called for a dad restart,19/07/2026 20:06:25,19/07/2026 20:14:20,7 mins,7 mins,7 mins,475.0,475.0,475.0,Completed,19/07/2026 20:06:25,,02/08/2026 20:15:26,Acute Care Symphony Support Level 2,Sheree Chadwick,02/08/2026 20:15:26,system,8,,Called for a dad restart due to messaging failures,"Hello Rachel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1816142.
+ 
+To resolve thisDAD restarted as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+DAD,CS1816315,3 - Medium,Closed,Western Sussex Hospitals NHS Trust,Symphony,Remove ADT messages ,20/07/2026 10:08:14,21/07/2026 08:32:38,"22 hrs, 24 mins","6 hrs, 51 mins","22 hrs, 24 mins",80664.0,24706.0,80664.0,Completed,20/07/2026 10:08:14,,04/08/2026 08:33:27,Acute Care Symphony Support Level 1,Konrad Siddons,04/08/2026 08:33:27,system,8,,"ST Richards ED
+
+We currently have an A04 and A02 message that has errored and is unable to be cleared.
+
+ DATETIME: 20-Jul-2026 10:07:55|| DESCRIPTION: Invalid use of Null|| SOURCE: FWDADQueMsg|| COMPONENT: FWDADQueMsg|| ERRORNO: 94|| PROCEDURE: FWDADQueue.PopulateObject|| CODEBLOCK: || USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: UHSL02131|| SERVERNAME: RYREMISSQL1-AG1.sussex.nhs.uk|| LOGGEDUSER: PopeR|| SITE: UHSussex LIVE|| BUILDNO: 3.1.1.6|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 3.1.1|| MDACVERSION: 10.0||","Hello Russell,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1816315.
+ 
+To resolve this:
+
+The failed A02 and A04 messages for St Richards ED have been removed, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+DAD,CS1821439,4 - Low,In Progress,Isle Of Wight NHS Trust,Symphony,Merge A40 message not processed,29/07/2026 12:11:29,,Unresolved,N/A,N/A,,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,30/07/2026 00:18:10,system,6,,We have merged a record in PAS and sent an A40 message.  I can see in the DAD logs that the A40 message was received and looks correct but it has not merged the 2 records in Symphony.  Patient casenote numbers are IW408764 (the retained number) and IW467305 (the discarded number).  I know we can resolve this using SAPM bur this is the second time in a week that merged records have failed.  Please can you let me know they the A40 messages are not being processed as expected,

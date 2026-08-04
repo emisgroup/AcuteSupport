@@ -1,0 +1,2688 @@
+﻿Trend,Case Number,Priority,State,Account,Product,Short Description,Sys Created On,Resolved At,"TTR (days, hrs, mins)","SLA Business Duration (days, hrs, mins)","SLA Actual Duration (days, hrs, mins)",TTR (Seconds),SLA Business Duration (Seconds),SLA Actual Duration (Seconds),SLA Stage,SLA Start Time,SLA Pause Time,SLA End Time,Assignment Group,Assigned To,Sys Updated On,Sys Updated By,Sys Mod Count,Problem,Description,Close Notes
+Audit,CS1627665,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 25-14 Request,04/08/2025 12:25:43,05/08/2025 10:48:00,"22 hrs, 22 mins","5 hrs, 14 mins","21 hrs, 10 mins",80537.0,18856.0,76239.0,Completed,04/08/2025 12:25:43,,05/08/2025 11:10:17,Acute Care Symphony Support Level 1,Gareth Evans,05/08/2025 11:10:19,system,16,,Please can you complete an audit using the attached parameters,"Hello Donna,
+ 
+Thanks for confirming that I've resolved your case CS1627665.
+ 
+To resolve this, I provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1627877,4 - Low,Closed,Bedford Hospital NHS Trust,Symphony,Audit request,04/08/2025 15:28:50,20/08/2025 14:54:20,"15 days, 23 hrs, 25 mins","2 days, 6 hrs, 37 mins","8 days, 6 hrs, 37 mins",1380330.0,196632.0,715032.0,Completed,04/08/2025 15:28:50,,26/08/2025 09:09:27,Acute Care Symphony Support Level 1,Konrad Siddons,26/08/2025 09:09:29,system,25,,"Hi,
+Could I get an audit report for all activity on patient M031245 from 01/01/2025 to present please?
+Thank you.
+Kind regards,
+Kahlil","Hello Kahlil,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1627877.
+ 
+To resolve this:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with Hospital Number M031245, from 01/01/25 onwards. 
+
+The spreadsheet contains tabs for:
+
+Users who have accessed the eView data for the Patient.
+Users who have searched for the Patient using their Hospital Number
+Users who have searched for the Patient using their NHS Number - No entries found
+Users who have searched for the Patient using their forename and Surname - No entries found.
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients)., please follow these steps:
+
+I hope this helps
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1630452,3 - Medium,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Access Audit,08/08/2025 11:30:24,08/08/2025 15:02:46,"3 hrs, 32 mins","3 hrs, 26 mins","3 hrs, 26 mins",12742.0,12379.0,12379.0,Completed,08/08/2025 11:30:24,,08/08/2025 16:40:11,Acute Care Symphony Support Level 1,Gareth Evans,15/08/2025 09:59:14,system,21,,"Can you please provide an audit of who has accessed the Symphony record of the following patient, including date, time and staff name for the period 01/08/2024 - 07/08/2025.
+For patient details please contact Angela.Cooke@ncic.nhs.uk.
+Many thanks.","Hello Angela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1630452.
+ 
+To resolve this, we provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1648961,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 25-18 Request,12/09/2025 09:53:58,12/09/2025 15:53:02,"5 hrs, 59 mins","5 hrs, 59 mins","5 hrs, 59 mins",21544.0,21544.0,21544.0,Completed,12/09/2025 09:53:58,,12/09/2025 16:27:09,Acute Care Symphony Support Level 1,Shazad Ishaque,12/09/2025 16:27:11,system,14,,Please can an audit be completed using the parameters attached,"Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1648961.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1649123,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony,Audit of who created 2 records,12/09/2025 11:23:24,15/09/2025 12:10:21,"3 days, 46 mins","8 hrs, 46 mins","3 days, 46 mins",262017.0,31617.0,262017.0,Completed,12/09/2025 11:23:24,,19/09/2025 08:13:51,Acute Care Symphony Support Level 1,Konrad Siddons,19/09/2025 08:13:51,john.moore9@nhs.net,7,,"On the 11th 2 records were created in Symphony with a patient name of Unknown, Unknown under local ID's of IW461836 & IW461837.  there were no episodes created in Symphony but I need to know who created the record in Symphony.  thanks","Hello John,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1649123.
+ 
+To resolve this:
+
+We have interrogated the Live Symphony database and our findings are as follows:
+
+Patient IW461836 (Name = Unknown Unknown) was created on 11/09/25 @ 21:52 apparently by user harrist .
+
+Patient IW461837 (Name = Unknown Unknown) was created on 11/09/25 @ 21:57 also by user harrist .
+
+I hope this helps
+
+Many thanks
+
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1649186,3 - Medium,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Audit Report of Staff Activity,12/09/2025 12:10:03,15/09/2025 15:41:24,"3 days, 3 hrs, 31 mins","1 day, 11 hrs, 42 mins","2 days, 23 hrs, 42 mins",271881.0,128541.0,258141.0,Completed,12/09/2025 12:10:03,,15/09/2025 15:41:24,Acute Care Symphony Support Level 1,Gareth Evans,15/09/2025 15:41:26,system,16,,"Can you please provide an audit of all patient activity in Symphony by the following:
+Staff Name: Kelly Kirkbride
+Timeframe: 04/04/2023 - 12/09/2025
+Many thanks.",Closed by customer.
+Audit,CS1649986,4 - Low,Closed,Gibraltar Health Authority (GHA),Symphony,Audit reports only retrieving results up to 2022 ,15/09/2025 12:29:04,23/09/2025 11:52:55,"7 days, 23 hrs, 23 mins","1 day, 17 hrs, 16 mins","6 days, 10 hrs, 56 mins",689031.0,148562.0,557787.0,Completed,15/09/2025 12:29:04,,23/09/2025 12:03:48,Acute Care Symphony Support Level 2,Sheree Chadwick,23/09/2025 12:03:50,system,40,,"All audit reports seem to be running of an old database; there was an update to Symphony and Camis in March 2022 not sure if this had an impact on this or not.
+
+the databases that seem to be outdated are:
+
+PatDetailsAudit
+PatSearchAudit
+EAuditAudit
+
+can this be looked into please.","Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1649986.
+ 
+To resolve this, entered the audit tables to articles to be replicated,
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1650585,3 - Medium,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Audit of Patient record,16/09/2025 10:22:26,16/09/2025 14:14:27,"3 hrs, 52 mins","2 hrs, 5 mins","2 hrs, 5 mins",13921.0,7543.0,7543.0,Completed,16/09/2025 10:22:26,,16/09/2025 14:17:02,Acute Care Symphony Support Level 1,Gareth Evans,16/09/2025 14:17:04,system,16,,"Good Morning.  Can you please provide an audit of the following patient's record in Symphony to show when eView and/or demographic details were accessed or the patient searched for and by whom. 
+
+NHS No: 400 813 2104
+Timescales: 01/09/2025 - 15/09/2025
+
+If you require patient name and DoB please let me know.
+Many thanks in advance.
+
+Kind Regards
+Angela","Hello Angela,
+ 
+Thanks for confirming that we've found a resolution for your case CS1650585.
+ 
+To resolve this, I provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1657322,3 - Medium,Closed,Wye Valley NHS Trust,Symphony,Missing ED Discharge Reports,26/09/2025 13:14:09,21/10/2025 14:09:48,"25 days, 55 mins","3 days, 18 hrs","17 days, 1 hr, 43 mins",2163339.0,324038.0,1474986.0,Completed,26/09/2025 13:14:09,,21/10/2025 14:38:02,Acute Care Symphony Support Level 2,Sheree Chadwick,21/10/2025 14:38:04,system,102,,Our ED team have checked their 7 day audit report for patients that have attended ED and noticed that a significant number of ED summary documents have not been sent out patient's GP systems via WVT TIE and Docman. When we checked the TIE for the patients in the attached documents it shows that their documents were not received by the TIE from Symphony. Please can you check why the associated Documents were not sent from Symphony and if possible resend them to our TIE. Many thanks Steffen,"Hello Steffen,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1657322.
+ 
+To resolve this, Trust have had to reinstall symphony on some machines.  I have pushed through any failed discharge messages.  Messages are now being created from the reinstalled pcs.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1658937,4 - Low,Closed,Betsi Cadwaladr University Healthboard,Symphony,unable to export from e-audit,30/09/2025 10:11:31,03/10/2025 14:12:25,"3 days, 4 hrs","1 day, 3 hrs, 58 mins","3 days, 3 hrs, 35 mins",273654.0,100690.0,272120.0,Completed,30/09/2025 10:11:31,,06/10/2025 17:12:53,Acute Care Symphony Support Level 1,Konrad Siddons,06/10/2025 17:12:55,system,14,,Unable to export details to excel from E-Audit when opting for  'list of patients',"Hello Sarah,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1658937.
+ 
+To resolve this:
+
+Your having confirmed that the issue is no longer apparent this case has been set to resolved.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1663026,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Audit when User last accessed system,03/10/2025 14:22:33,06/10/2025 13:21:03,"2 days, 22 hrs, 58 mins","6 hrs, 58 mins","2 days, 22 hrs, 58 mins",255510.0,25110.0,255510.0,Completed,03/10/2025 14:22:33,,06/10/2025 13:26:10,Acute Care Symphony Support Level 1,Konrad Siddons,06/10/2025 13:26:11,system,11,,"Hi, 
+Can an audit be done to see when user MacquarrieD last accessed the Symphony system?
+Thanks, Laura","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1663026.
+ 
+To resolve this:
+
+We have checked the Staff table entry for user MacquarrieD and the field stf_lastsuccesslogondtime contains NULL.
+This would indicate that the user has not logged into Live Symphony since the  field was first introduced.
+
+We therefore checked all users who have logons recorded on the Login_Details table, where the above user is confirmed as not present and the earliest event is for 03/11/21 @ 17:02:15.
+
+This would indicate that user MacquarrieD  has not successfully logged into Live Symphony since at least that date / time.
+
+I hope this helps
+
+Many thanks 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1666316,4 - Low,Closed,Children's Health Ireland,Symphony,Audit of symphony users accessing patient demographics,08/10/2025 14:33:36,10/10/2025 12:57:27,"1 day, 22 hrs, 23 mins","14 hrs, 23 mins","1 day, 22 hrs, 23 mins",167031.0,51830.0,167030.0,Completed,08/10/2025 14:33:36,,24/10/2025 12:59:26,Acute Care Symphony Support Level 1,Konrad Siddons,24/10/2025 12:59:28,system,14,,"can we get an audit trail of all symphony users who access certain patients.
+
+H01749248 
+H01466992 
+H01384038 
+
+The time frame we are looking for is 01/07/2025 - 25/09/2025.
+
+Can this be done?
+
+Thanks Adrian","Hello Adrian,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1666316.
+ 
+To resolve this:
+
+We have interrogated the Symphony Audit tables on the Live Symphony database.
+We have been unable to find any evidence therein of the Patient Demographics data for the 3 specified patients having been viewed by user(s) for the period 01/07/25 to 25/09/25 inclusive.
+
+I hope this helps.
+
+Many thanks
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1667460,4 - Low,Closed,Northern Lincolnshire And Goole NHS Foundation Trust,Symphony,User ID,09/10/2025 16:34:59,10/10/2025 14:06:39,"21 hrs, 31 mins","9 hrs, 31 mins","21 hrs, 31 mins",77500.0,34300.0,77500.0,Completed,09/10/2025 16:34:59,,17/10/2025 15:18:12,Acute Care Symphony Support Level 1,Konrad Siddons,17/10/2025 15:18:12,Joanne.hancock@nhs.net,6,,"Hi, please could you confirm, if we can amend userid names does this any impact any previous activity and user audit?","Hello Joanne,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1667460.
+ 
+To resolve this, please follow these steps:
+
+
+Assuming the system allows you to change the LogonID for a given user, (use of Active Directory can prevent this  for example), provided the corresponding STAFF table entry remains for the same individual, there should be no issue.
+Likewise if the User's name is changed (for example after marriage etc), the same should be the case.
+
+The system records the STAFF Table record ID against any data or transactions associated with the given user, rather than their name or LogonID, so that will remain unchanged for any historical data and carry forward as the STAFF Table entry remains in use on an ongoing bases.
+
+I hope this helps.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1670198,4 - Low,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Access to Patient record,15/10/2025 08:54:28,17/10/2025 13:55:12,"2 days, 5 hrs","20 hrs, 30 mins","2 days, 4 hrs, 36 mins",190844.0,73840.0,189372.0,Completed,15/10/2025 08:54:28,,21/10/2025 10:31:46,Acute Care Symphony Support Level 1,Konrad Siddons,21/10/2025 10:31:48,system,16,,"Hello
+
+Would it be possible to provide audit details of who accessed the record and any attendances for patient D720189, between 20/11/2024 and 14/10/2025.
+
+Thanks
+
+Paul","Hello Paul,
+
+I'm pleased to let you know that we've found a resolution for your case CS1670198.
+
+To resolve this:
+
+Apologies - spreadsheet now attached.
+
+We have interrogated the Symphony audit tables using the following criteria:.
+
+Users who have accessed the eView data for the Patient. - No entries found
+Users who viewed Patient Demographic data - No entries found
+Users who have searched for the Patient using their District - No entries found
+Users who have searched for the Patient using their NHS Number - No entries found
+Users who have searched for the Patient using their forename and Surname - No entries found.
+
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients) - 4 entries found.
+
+Please find the attached spreadsheet showing details.
+
+I hope this helps
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+Audit,CS1672424,4 - Low,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,Audit request - 7716202,17/10/2025 14:55:24,23/10/2025 16:54:26,"6 days, 1 hr, 59 mins","1 day, 9 hrs, 59 mins","6 days, 1 hr, 59 mins",525542.0,122341.0,525541.0,Completed,17/10/2025 14:55:24,,24/10/2025 12:11:15,Acute Care Symphony Support Level 1,Shazad Ishaque,24/10/2025 12:11:16,system,14,,"Can you provide an audit of all staff who have accessed 7716202 records from the 13/10/25 on Symphony please?
+Thanks.","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1672424.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1675797,4 - Low,Closed,Luton And Dunstable Hospital NHS Foundation Trust,Symphony,Breaches report,23/10/2025 12:32:49,17/02/2026 13:42:14,"117 days, 1 hr, 9 mins","4 days, 18 hrs, 20 mins","10 days, 7 hrs, 20 mins",10112965.0,411637.0,890437.0,Completed,23/10/2025 12:32:49,,03/03/2026 13:43:27,Acute Care Symphony Support Level 1,Gareth Evans,03/03/2026 23:18:11,system,114,,"Hi Support
+
+We have setup an automatic Breach report on e-audit, however it does not state number of hours patients has been in ED
+This is a daily report that has been created, how do we add a column to show number of hours
+Many thanks
+Zak
+IT Team","Hi Zakar
+
+I am resolving this case, as the SSRS Breach Report was amended by me to include the Breach reason back in Oct 2025.
+
+If you require any other reports amending, please log a new call , so it can be reviewed as to whether this can be done as a support call or needs to be passed over to the Sales department for a quotation.
+
+Kind Regards
+Jackie"
+Audit,CS1676292,4 - Low,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,1458724 - Address update audit,24/10/2025 09:16:29,24/10/2025 10:43:28,"1 hr, 26 mins",51 mins,51 mins,5219.0,3078.0,3078.0,Completed,24/10/2025 09:16:29,,24/10/2025 12:10:49,Acute Care Symphony Support Level 1,Konrad Siddons,24/10/2025 12:10:50,system,13,,"There has been an update on 8/9/25 @ 12:04 to this patients address. Please can you audit the member of staff that made this change on Symphony please?
+Thanks.","Hello Aamir,
+
+I'm pleased to let you know that we've found a resolution for your case CS1676292.
+
+To resolve this:
+
+We interrogated the Symphony Database files and Audit files and the specified Address change shows as being made by user 'SYMPHONYDADSERVICE'.
+We checked the DAD_Eventlogs table and this confirms receipt of A31IB (Patient Details Update) message from CAMIS via the PMI Inbound Service at the time and data specified in this case.
+
+I hope this helps
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+Audit,CS1677216,4 - Low,Closed,Bedford Hospital NHS Trust,Symphony,Audit request,27/10/2025 08:55:33,29/10/2025 11:23:38,"2 days, 2 hrs, 28 mins","11 hrs, 55 mins","1 day, 3 hrs, 59 mins",181685.0,42921.0,100788.0,Completed,27/10/2025 08:55:33,,29/10/2025 11:28:00,Acute Care Symphony Support Level 1,Shazad Ishaque,29/10/2025 11:28:02,system,16,,"Hi,
+
+Could I get an audit report for all activity for patient F058837 since 01/01/2018 to present please?
+
+Thank you.
+
+Kind regards,
+
+Kahlil","Hello Kahlil,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1677216.
+ 
+To resolve this, we provided the requested audit.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1677275,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Patient Audit - J251591,27/10/2025 09:22:24,27/10/2025 10:45:13,"1 hr, 22 mins",24 mins,24 mins,4969.0,1448.0,1448.0,Completed,27/10/2025 09:22:24,,27/10/2025 10:45:43,Acute Care Symphony Support Level 1,Gareth Evans,27/10/2025 10:45:45,system,16,,"Hello
+Would it be possible to provide details of the Symphony users that have access the record for patient J251591 between 01/02/2025 and 31/03/2025?
+Thanks
+Paul","Hello Paul,
+ 
+Thanks for confirming that we've found a resolution for your case CS1677275.
+ 
+To resolve this, I provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1681867,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Audit of Patient record access,04/11/2025 09:32:13,05/11/2025 12:52:55,"1 day, 3 hrs, 20 mins","6 hrs, 1 min","6 hrs, 1 min",98442.0,21690.0,21690.0,Completed,04/11/2025 09:32:13,,05/11/2025 13:32:59,Acute Care Symphony Support Level 1,Gareth Evans,05/11/2025 13:33:01,system,16,,"Hello
+Is it possible to provide details of which members of staff have access the records and any attendances  for the following patients: D127233, D470844, D485615, J381359?
+Thanks
+Paul","Hello Paul,
+ 
+Thanks for confirming that we've found a resolution for your case CS1681867.
+ 
+To resolve this, I provided the requested audit
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1683876,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,Audit of staff ,06/11/2025 12:47:13,06/11/2025 18:05:06,"5 hrs, 17 mins","5 hrs, 17 mins","5 hrs, 17 mins",19073.0,19073.0,19073.0,Completed,06/11/2025 12:47:13,,20/11/2025 18:05:26,Acute Care Symphony Support Level 1,Shazad Ishaque,20/11/2025 18:05:26,system,11,,A name change has been made on 5567824 can an audit  of the record be completed and supply the full name of the staff member please,"Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1683876.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1684555,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: IG breach,07/11/2025 11:22:50,07/11/2025 16:37:34,"5 hrs, 14 mins","5 hrs, 14 mins","5 hrs, 14 mins",18884.0,18884.0,18884.0,Completed,07/11/2025 11:22:50,,12/11/2025 10:21:31,Acute Care Symphony Support Level 1,Shazad Ishaque,12/11/2025 10:21:34,system,11,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can an audit be provided on Symphony for below user please?
+
+Ginette.Walmsley. Records accessed on 13/10/25.
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Sent: 05 November 2025 13:54
+To: CINNAMON, Gareth (MID YORKSHIRE TEACHING NHS TRUST) <gareth.cinnamon@nhs.net<mailto:gareth.cinnamon@nhs.net>>; HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net<mailto:jason.horler@nhs.net>>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net<mailto:jackie.walsh2@nhs.net>>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net<mailto:aamir.maqsud@nhs.net>>
+Subject: FW: IG breach
+Importance: High
+
+Good afternoon all,
+
+Can you run a report on the user below for all patients they accessed on the 13/10/25
+
+Many Thanks
+
+Martin
+
+From: PRECIOUS, Melanie (MID YORKSHIRE TEACHING NHS TRUST) <m.precious@nhs.net<mailto:m.precious@nhs.net>>
+Sent: 05 November 2025 11:16
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Subject: IG breach
+
+Morning Martin,
+
+As discussed, could I please request a report of patient records accessed on 13:10:25 by Ginette Walmsley as part on an ongoing investigation.
+
+
+Many thanks.
+
+Kind regards
+Melanie
+
+Melanie Precious
+Clinical Lead, Theatres
+Tel: 01924 542140
+Mob: 07740021488
+Email: m.precious@nhs.net<mailto:m.precious@nhs.net>
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!nFcru7QZXumbKiznEqqGodcLKSWyzss2wAnJpw4aMvO8EXFNKx_Lz_JaVG-PoLoqsXWKEh-RYPzTCB-yysVC$>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1684555.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1685775,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 25-21,10/11/2025 15:32:22,12/11/2025 13:15:22,"1 day, 21 hrs, 43 mins","3 hrs, 29 mins","3 hrs, 42 mins",164580.0,12579.0,13356.0,Completed,10/11/2025 15:32:22,,12/11/2025 13:46:46,Acute Care Symphony Support Level 1,Gareth Evans,12/11/2025 13:46:48,system,18,,"Good afternoon,
+
+Please can an audit be completed on patient record DIS0544874. Please audit who has searched for the patient using their name, NHS number or DIS ID, who has accessed the patients eView and any DEPs accessed and finally who has carried out any functions on this patient record.","Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1685775.
+ 
+To resolve this, I provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1686145,4 - Low,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Patient Access Audit,11/11/2025 10:20:02,12/11/2025 13:29:16,"1 day, 3 hrs, 9 mins","10 hrs, 57 mins","1 day, 2 hrs, 57 mins",97754.0,39449.0,97049.0,Completed,11/11/2025 10:20:02,,12/11/2025 14:20:44,Acute Care Symphony Support Level 1,Konrad Siddons,12/11/2025 14:20:46,system,15,,"Hello
+Please could you provide details of the staff that have accessed the record and attendances for patient J570989.
+thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1686145.
+ 
+To resolve this, please follow these steps:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with District Number J570989, since 01/10/2025.
+The spreadsheet contains tabs for:
+
+Users who have accessed the eView data for the Patient. (30 entries found)
+Users who have accessed the Demographic data for the Patient. (14 entries found)
+Users who have searched for the Patient using their District Number (2 entries found)
+Users who have searched for the Patient using their NHS Number (0 entries found)
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients). (2 entries found)
+
+I hope this helps.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1686934,4 - Low,Closed,Western Health and Social Care Trust,Symphony,Staff audit,12/11/2025 09:52:25,17/11/2025 12:58:10,"5 days, 3 hrs, 5 mins","20 hrs, 39 mins","1 day, 8 hrs, 39 mins",443145.0,74367.0,117567.0,Completed,12/11/2025 09:52:25,,24/11/2025 10:44:29,Acute Care Symphony Support Level 1,Konrad Siddons,24/11/2025 10:44:31,system,25,,"Hi, is it possible in this version to run an audit on what users have been accessing the system in the last 6 months? Thanks","
+Hello Laura,
+
+I'm pleased to let you know that we've found a resolution for your case CS1686934.
+
+To resolve this:
+
+Please find the attached spreadsheet which contains details of all Users of Symphony who have logged into the Live system since 01/05/25, as requested.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further
+
+Now replaced by CS1689583
+
+Kind regards,
+Konrad"
+Audit,CS1687265,4 - Low,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: Audit J RIce,12/11/2025 12:44:21,19/11/2025 17:30:06,"7 days, 4 hrs, 45 mins","1 day, 18 hrs, 21 mins","7 days, 2 hrs, 44 mins",621945.0,152483.0,614693.0,Completed,12/11/2025 12:44:21,,03/12/2025 17:31:27,Acute Care Symphony Support Level 1,Konrad Siddons,03/12/2025 17:31:28,system,20,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit on Symphony for below patient?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 11 November 2025 09:56
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>; BAPTY, Paul (MID YORKSHIRE TEACHING NHS TRUST) <paul.bapty@nhs.net>
+Subject: Audit J RIce
+
+
+Dear all,
+
+Can you provide an staff access list for the last 5 years for the following patient
+
+7569548
+
+Regards
+
+[MYDS_Logo]
+Martin Moorhouse
+Information Governance
+Manager
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+Book time with MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ismsaljsauthenabled&ep=pcard__;!!IJLR5QJm7ttc!jd-hw3OCKtOdq0b4cIoY55T-LQflgU5E2wwwAOIinTpmkE6caeRhOh90C8po0jwp5O7xKvLuk6o86rJfDcRj$>
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!jd-hw3OCKtOdq0b4cIoY55T-LQflgU5E2wwwAOIinTpmkE6caeRhOh90C8po0jwp5O7xKvLuk6o86lH4PhgE$>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1687265.
+ 
+To resolve this
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with PAS Number 7569548 for the last 5 years, as requested.
+The spreadsheet contains tabs for:
+
+Users who have accessed the eView data for the Patient. 
+Users who have accessed the Demographic data for the Patient. 
+Users who have searched for the Patient using their PAS Number
+Users who have searched for the Patient using their NHS Number
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients). 
+
+I hope this helps.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad
+
+"
+Audit,CS1689583,4 - Low,Closed,Western Health and Social Care Trust,Optum Help Centre,Staff audit,17/11/2025 12:53:40,17/11/2025 15:22:00,"2 hrs, 28 mins",N/A,N/A,8900.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,17/11/2025 15:41:25,laura.Doherty@westerntrust.hscni.net,7,,"Hi, is it possible in this version to run an audit on what users have been accessing the system in the last 6 months? 
+
+I just need the start date to be 1 June 2025 please as this will let me see who has been accessing symphony even after it was technically not active.
+
+If possible can I please have the data including each time the user has logged in since 1 June?
+Is it possible to have this in date order by any chance.
+Replaces CS1686934
+
+Thanks","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1689583.
+ 
+To resolve this:
+
+Please find the attached spreadsheet containing all logons to Live Symphony since 01/06/25 sorted in chronological order, as requested.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1691662,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,Patient audit,20/11/2025 10:51:36,21/11/2025 10:51:59,1 day,"4 hrs, 42 mins","4 hrs, 42 mins",86423.0,16950.0,16950.0,Completed,20/11/2025 10:51:36,,05/12/2025 10:53:29,Acute Care Symphony Support Level 1,Gareth Evans,05/12/2025 10:53:29,system,13,,"(Anneliese, this is from another user but I've put you down as the contact because I had to put someone)
+
+Hi Janette, I've had a request from Norfolk & Norwich FT as they've received a subject access request which requires an audit of access to a patient's medical record. I've asked to log a ticket on the Optum Help Centre but Becky Jones tells me that you maybe able to help? 
+ 
+Hospital Number: 1646278
+Patient:  LdB
+Between 31/10/2025 to 05/11/2025","Hello Anneliese,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1691662.
+ 
+To resolve this, I provided the requested audit.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1695721,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,IG audit request,27/11/2025 14:54:18,28/11/2025 12:31:54,"21 hrs, 37 mins","9 hrs, 37 mins","21 hrs, 37 mins",77856.0,34656.0,77856.0,Completed,27/11/2025 14:54:18,,12/12/2025 12:33:26,Acute Care Symphony Support Level 1,Shazad Ishaque,12/12/2025 12:33:26,system,10,,"I need an audit to look at which staff accessed a particular patient record on a set date.
+date 24/06/2025 patient ID 412 366 2358","Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1695721.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1698201,4 - Low,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,"National Patient Safety Alert - Audit of ""penicillamine""",02/12/2025 16:00:30,04/12/2025 17:16:42,"2 days, 1 hr, 16 mins","1 day, 1 hr, 16 mins","2 days, 1 hr, 16 mins",177372.0,90971.0,177371.0,Completed,02/12/2025 16:00:30,,18/12/2025 17:17:27,Acute Care Symphony Support Level 1,Shazad Ishaque,18/12/2025 17:17:27,system,10,,"Hi,
+
+We have received a National Patient Safety Alert relating to patient harm from the incorrect recording of a penicillin allergy as a penicillamine allergy.
+
+Could you run an audit to find if any of the patients with an allergy flag of, “penicillamine”?
+
+Thanks,","Hello Andrew,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1698201.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1701036,4 - Low,Closed,Western Sussex Hospitals NHS Trust,Symphony,Staff SSRS,08/12/2025 14:52:06,09/12/2025 15:31:20,"1 day, 39 mins","7 hrs, 21 mins","23 hrs, 21 mins",88754.0,26494.0,84094.0,Completed,08/12/2025 14:52:06,,23/12/2025 15:31:27,Acute Care Symphony Support Level 1,Konrad Siddons,23/12/2025 15:31:28,system,18,,"Afternoon,
+
+I have a few SSRS reports looking at staff/patient audits. Ideally, I am looking for a report / SQL that looks at everything a staff member has done on a given date.",Combined report uploaded
+Audit,CS1703197,4 - Low,Closed,Northampton General Hospital NHS Trust,Symphony,Running a patient/staff audit,11/12/2025 12:06:44,19/12/2025 13:17:13,"8 days, 1 hr, 10 mins","11 hrs, 51 mins","1 day, 3 hrs, 51 mins",695429.0,42703.0,100303.0,Completed,11/12/2025 12:06:44,,19/12/2025 13:33:24,Acute Care Symphony Support Level 1,Gareth Evans,19/12/2025 13:33:27,system,18,,"Since NGH decomissioned Symphony and reduced access to read only for a small number of accounts, can you advise how we audit historic events without access?","Hello Kevin,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1703197.
+ 
+Please raise a separate case if there's a specific audit you'd like us to provide.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1705976,4 - Low,Closed,Luton And Dunstable Hospital NHS Foundation Trust,Symphony,Acuity Score audit report,17/12/2025 12:28:00,14/01/2026 01:14:28,"27 days, 12 hrs, 46 mins","1 hr, 8 mins","1 hr, 8 mins",2378788.0,4121.0,4121.0,Completed,17/12/2025 12:28:00,,28/01/2026 01:15:27,Acute Care Symphony Support Level 1,Gareth Evans,28/01/2026 01:15:28,system,20,,"Hi Support
+
+Thankyou for your support
+
+On Luton Test we have a DEP called Acuity Score
+This has information of each patient that has been admitted score
+I created a e-audit report call 'Acuity Score report'
+Information from the report does not contain a score of 1-5
+Please kindly let us know how this can be made available
+Many thanks
+Zak
+IT Team","Hi,
+
+I'm getting in touch regarding your case CS1705976 which you raised on 17/12/2025 12:28:00 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+Audit,CS1707674,4 - Low,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Patient 4063779327,22/12/2025 08:43:12,23/12/2025 12:26:57,"1 day, 3 hrs, 43 mins","11 hrs, 5 mins","1 day, 3 hrs, 22 mins",99825.0,39943.0,98551.0,Completed,22/12/2025 08:43:12,,23/12/2025 12:34:22,Acute Care Symphony Support Level 1,Konrad Siddons,23/12/2025 12:34:25,system,21,,"Hello
+Would it be possible to provide an audit on who has accessed / amended the patient record and attendances for patient 4063779327? Attendance numbers: JCUH-15-069071, JCUH-15-205146, RC-23-005908 and FHN-24-025268.
+
+Thanks
+
+Paul","Hello Paul,
+
+I'm pleased to let you know that we've found a resolution for your case CS1707674.
+
+To resolve this:
+
+Apologies Paul - spreadsheet WAS attached, but was set to be viewed internally only.
+
+We have interrogated the Symphony audit tables using the following criteria:.
+
+Users who have accessed the eView data for the Patient. - 29 entries found
+Users who viewed Patient Demographic data - 7 entries found
+Users who have searched for the Patient using their District - No entries found
+Users who have searched for the Patient using their NHS Number - 1No entry found
+Users who have searched for the Patient using their forename and Surname - 3 entries found - 20/12/2025 has different DOB in search.
+
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients) - 64 entries found.
+
+We also searched for users having searched for the Patient using the 4 episodes specified in the case details.
+No such searches were found.
+
+Please find the attached spreadsheet showing details.
+
+I hope this helps
+
+Many thanks, [INSERT DETAILS OF THE RESOLUTION]
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+Audit,CS1709157,4 - Low,Closed,Health Service Executive,Symphony,NAAS - Audit Request,24/12/2025 17:48:25,24/12/2025 17:52:31,4 mins,0 mins,4 mins,246.0,0.0,246.0,Completed,24/12/2025 17:48:25,,07/01/2026 17:53:26,Acute Care Symphony Support Level 1,Shazad Ishaque,07/01/2026 17:53:26,system,8,,"Baforday reporting he wants an audit running to find admissions that have a laboratory (pathology results) from last 3 months.
+
+This is for the Laboratory (DEP) in Symphony.
+
+Michelle Atkinson is aware of this audit request.
+
+Baforday Jatta contact details:
+baforday.jatta@hse.ie (Lab IT)
+
+
+
+","Hello Michelle,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1709157.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1711713,4 - Low,Closed,Luton And Dunstable Hospital NHS Foundation Trust,Symphony,Allergy to Penicillin to Patient Details audit,05/01/2026 11:38:17,06/01/2026 15:04:59,"1 day, 3 hrs, 26 mins","15 hrs, 26 mins","1 day, 3 hrs, 26 mins",98802.0,55602.0,98802.0,Completed,05/01/2026 11:38:17,,20/01/2026 15:05:26,Acute Care Symphony Support Level 1,Konrad Siddons,20/01/2026 15:05:26,system,7,,"Hi Support
+We have a patient M019582 on Bedford Symphony who has an Allery to Penicillin added to their Symphony - see attached
+
+Patient was registered as being allergic to penicillin. 
+  
+Please would you check and let me know when this was first put on the Symphony 
+
+Many thanks
+Zak
+IT Team","Hello Zakar,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1711713.
+ 
+To resolve this:
+
+We have interrogated the Live Bedford Database for Patient M019582 allergy data.
+
+The Penicillin allergy was added to the Patient_Indicators table for this patient on 11/11/2019 @ 12:39:25 by 'BEDFORD DATA IMPORT'.
+This data has never been amended.
+
+Many thanks
+
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1712776,4 - Low,Closed,Children's Health Ireland,Symphony,Staff audit,06/01/2026 15:39:44,10/02/2026 11:33:31,"34 days, 19 hrs, 53 mins","2 days, 1 hr, 28 mins","10 days, 17 hrs, 28 mins",3009227.0,178106.0,926906.0,Completed,06/01/2026 15:39:44,,11/02/2026 12:42:44,Acute Care Symphony Support Level 1,Sheree Chadwick,11/02/2026 12:42:46,system,54,,"Hi, 
+Could we get the following information regarding the following users.
+The staff member names are: David Nangle, DNANGLE.  Sarann Collins - collins, Denise Cross - DCROSS, Lisa McGuinness - LMcGuinness
+The time period is 21.00hrs on Friday 26th September up to 09.00hrs on Monday 29th September
+Information requested:
+Dates and times each logged into Symphony during the above date range
+Patient records accessed by each (list of hospital numbers and times if possible)
+Record of any scanning activity undertaken by each during the above date range (patient hospital number and time of document scanning)
+
+This is a priority for a HR issue if you could prioritise.","Hello Adrian,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1712776.
+ 
+To resolve thisAudits provided as requested
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1718603,4 - Low,Closed,NHS Ayrshire and Arran,Symphony,New Symphony filter query,16/01/2026 09:55:06,16/01/2026 11:46:33,"1 hr, 51 mins",35 mins,35 mins,6687.0,2119.0,2119.0,Completed,16/01/2026 09:55:06,,16/01/2026 11:49:24,Acute Care Symphony Support Level 1,Konrad Siddons,16/01/2026 11:49:25,system,12,,We are looking for a new filter to be applied in Symphony to select patients with registration time in department to post triage time and the nurse triaging them?  Thanks,"Hello Ewen,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1718603.
+ 
+To resolve this:
+a
+his case has been set to resolved, as instructed, following our advice that eView general selection criteria cannot be updated.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1719236,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,IG Audit,19/01/2026 08:55:36,22/01/2026 13:20:14,"3 days, 4 hrs, 24 mins","2 hrs, 11 mins","2 hrs, 11 mins",275078.0,7865.0,7865.0,Completed,19/01/2026 08:55:36,,05/02/2026 13:21:26,Acute Care Symphony Support Level 1,Gareth Evans,05/02/2026 13:21:27,system,12,,"Patient: J B
+
+412 482 5986 
+
+Dates to audit: 25/10/2025 - 10/12/2025 
+
+Please could I ask for a list of staff who have accessed these records during the dates to range.","Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1719236.
+ 
+To resolve this, I ascertained that there was no access to the patient in the requested date range
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1719242,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,IG audit request,19/01/2026 08:58:46,22/01/2026 13:21:05,"3 days, 4 hrs, 22 mins","7 hrs, 35 mins","7 hrs, 35 mins",274939.0,27336.0,27336.0,Completed,19/01/2026 08:58:46,,05/02/2026 13:21:27,Acute Care Symphony Support Level 1,Gareth Evans,05/02/2026 13:21:28,system,20,,"Patient: D C
+
+ 486 195 8083
+
+Dates to audit: 06/10/2025 - 20/12/2025
+
+Please could I ask for a list of staff who have accessed these records during the dates range above","Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1719242.
+ 
+To resolve this, I provided the requested audit
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1721176,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Subject access request,21/01/2026 11:42:32,22/01/2026 10:15:52,"22 hrs, 33 mins","6 hrs, 33 mins","22 hrs, 33 mins",81200.0,23600.0,81200.0,Completed,21/01/2026 11:42:32,,22/01/2026 10:50:40,Acute Care Symphony Support Level 1,Shazad Ishaque,22/01/2026 10:50:40,paul.saunders2@nhs.net,12,,"Hello
+The Trust have received a Subject Access Request for an audit on details of access to the patient record and any attendances. Patient = D987796, timeframe - from 01/01/2012 to the date the audit is performed.
+Please could this data be provided?
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1721176.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1721179,4 - Low,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Subject Access Request,21/01/2026 11:44:33,21/01/2026 13:18:33,"1 hr, 34 mins","1 hr, 34 mins","1 hr, 34 mins",5640.0,5640.0,5640.0,Completed,21/01/2026 11:44:33,,21/01/2026 13:48:44,Acute Care Symphony Support Level 1,Konrad Siddons,21/01/2026 13:48:45,system,19,,"Hello
+The Trust have received a Subject Access Request for an audit on details of access to the patient record and any attendances. Patient = J102091, timeframe - from 01/06/2019 to the date the audit is performed.
+Please could this data be provided?
+Thanks
+Paul","Hello Paul,
+
+I am pleased to update we have found/come to a resolution for your case CS1721179.
+
+To resolve this:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with District Number J102091, since 01/06/2019.
+The spreadsheet contains tabs for:
+
+Users who have accessed the eView data for the Patient.
+Users who have access Patient demographic Details for the Patient.
+Users who have searched for the Patient using their District Number
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients).
+
+We also checked for Users who have searched for the Patient using their NHS Number or Name  - no such searches were found.
+
+I hope this helps.
+
+Many thanks
+
+We are confident that this will resolve your issue, but if you find that this is not the case, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+
+Kind regards
+
+Konrad.
+"
+Audit,CS1723601,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: Audit of patient record,26/01/2026 13:38:17,28/01/2026 12:24:56,"1 day, 22 hrs, 46 mins","14 hrs, 46 mins","1 day, 22 hrs, 46 mins",168399.0,53199.0,168399.0,Completed,26/01/2026 13:38:17,,11/02/2026 12:25:26,Acute Care Symphony Support Level 1,Shazad Ishaque,11/02/2026 12:25:27,system,17,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit for the below on Symphony please?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 19 January 2026 08:47
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>
+Subject: Audit of patient record
+
+Dear all,
+
+
+Can you please provide an audit of the staff members who have accessed the patient record 0442525 from the 14th January 2026 to 18 January 2026
+
+
+
+
+
+Regards
+
+[MYDS_Logo]
+Martin Moorhouse
+Information Governance
+Manager
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+Book time with MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ismsaljsauthenabled&ep=pcard__;!!IJLR5QJm7ttc!m2H5MnUzt_QlZ0w5zYGuZAcadaoKET4IopGxxTthxHSprBZLJs4nOGyoqJOXrTgy76G4N6Mp0SwysVrcggUN$>
+
+
+
+
+
+
+
+From: HOWELL, Stacey (MID YORKSHIRE TEACHING NHS TRUST) <stacey.howell1@nhs.net<mailto:stacey.howell1@nhs.net>>
+Sent: 19 January 2026 08:28
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Subject: Re: RE:
+
+Hi Martin
+
+The evening of the 15th January.
+
+Many thanks
+Stacey
+
+________________________________
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Sent: 19 January 2026 08:10
+To: HOWELL, Stacey (MID YORKSHIRE TEACHING NHS TRUST) <stacey.howell1@nhs.net<mailto:stacey.howell1@nhs.net>>
+Subject: RE:
+
+
+Hi Stacey,
+
+
+
+Do you know the date of the incident? And we will audit from the day before to today
+
+
+
+Martin
+
+
+
+From: HOWELL, Stacey (MID YORKSHIRE TEACHING NHS TRUST) <stacey.howell1@nhs.net<mailto:stacey.howell1@nhs.net>>
+Sent: 16 January 2026 16:11
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>
+Subject:
+Importance: High
+
+
+
+Hi Martin
+
+
+
+Following our conversation this morning, I have gained consent from Liam to share his NHS number.
+
+
+
+4089390354
+
+
+
+Kind regards,
+
+[https://attachments.office.net/owa/stacey.howell1@nhs.net/service.svc/s/GetAttachmentThumbnail?id=AAkALgAAAAAAHYQDEapmEc2byACqAC%2FEWg0AcwJOf3qS10GpknyeXav8fgAFDkXiEgAAARIAEABzqlwJL%2BKbTL2HN9b5EU2E&thumbnailType=2&owa=outlook.office.com&X-OWA-CANARY=X-OWA-CANARY_cookie_is_null_or_empty&token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InVnWlFaL01Dc3VtYTJsdGFlOTlLRUlPWHlYaz0iLCJ4NXQiOiJ1Z1pRWi9NQ3N1bWEybHRhZTk5S0VJT1h5WGs9Iiwibm9uY2UiOiItT1BzQlREMUNWLWw0c1JlU1g3S2hLT1B1NFBjUGNwY1VSQV90R0swRWNVeksyeS03Vm10alZkOUQ0ZTJXcU91MjNad19JaE55bWVWYVVtTWVjSFFlOU5CcTZBY0ZuU3ZKTGZ0NlV6cWxWdU10QkZpOGEzNDUyaE16Z1l6Q1NVM1p2STZIQTJyT2ZJMmNpMGlwR2gxUlZUUjVWX1Z2VmljTWpJbnBKZEpMNFEiLCJpc3Nsb2MiOiJMTzJQMjY1TUIxNDM3Iiwic3JzbiI6NjM5MDQ0MDMyMTA0NDc3MzkyfQ.eyJzYXAtdmVyc2lvbiI6IjMzIiwiYXBwaWQiOiJhZjNlYmJiYS1jMjNmLTQ5MmEtYWE5My04MzQyMTY5NmVjNGIiLCJpc3NyaW5nIjoiV1ciLCJhcHBpZGFjciI6IjIiLCJhcHBfZGlzcGxheW5hbWUiOiIiLCJ1dGkiOiI1ZjViMzU3Ny1jZjE0LTQwYTgtOTI3Zi04M2EwZTI2MGZhZGQiLCJpYXQiOjE3Njg4MTExNzgsInZlciI6IlNUSS5Vc2VyLkNhbGxiYWNrVG9rZW4uVjEiLCJ0aWQiOiIzN2MzNTRiMjg1YjA0N2Y1YjIyMjA3YjQ4ZDc3NGVlMyIsInRydXN0ZWRmb3JkZWxlZ2F0aW9uIjoiZmFsc2UiLCJ0b3BvbG9neSI6IntcIlR5cGVcIjpcIk1hY2hpbmVcIixcIlZhbHVlXCI6XCJMTzJQMjY1TUIxNDM3LkdCUlAyNjUuUFJPRC5PVVRMT09LLkNPTVwifSIsInJlcXVlc3Rvcl9hcHBpZCI6IjE1N2NkZmJmLTczOTgtNGE1Ni05NmMzLWU5M2U5YWIzMDliNSIsInJlcXVlc3Rvcl9hcHBfZGlzcGxheW5hbWUiOiJPZmZpY2UgMzY1IEV4Y2hhbmdlIE1pY3Jvc2VydmljZSIsInNjcCI6Ik93YUF0dGFjaG1lbnRzLlJlYWQiLCJvaWQiOiIyNjgwZmY4MC0yZDMwLTQxOTAtODdjNS1kZTdkYTQzNTA4MzIiLCJwdWlkIjoiMTAwMzIwMDA3RjU4MzFERSIsInNtdHAiOiJzdGFjZXkuaG93ZWxsMUBuaHMubmV0IiwidXBuIjoic3RhY2V5Lmhvd2VsbDFAbmhzLm5ldCIsInVzZXJjYWxsYmFja3VzZXJjb250ZXh0aWQiOiI3MTE0ZWRhNzU0MWE0MjBiYTlkNTM4ODNjMGVhMTU5ZiIsInNpZ25pbl9zdGF0ZSI6Imttc2kiLCJlbWJlZGRlZHVzZXJ0b2tlbnR5cGUiOiJBQUQiLCJ1c2VyYWNjZXNzdG9rZW4iOiJleUowZVhBaU9pSktWMVFpTENKdWIyNWpaU0k2SW5SUlgyOTVTbTVsWlZWdFptcGxPSGhYV0RKVGREVnNaUzF5VTJSaVpWcFFhREpNYmtzMmRVOUdiMEVpTENKaGJHY2lPaUpTVXpJMU5pSXNJbmcxZENJNklsQmpXRGs0UjFnME1qQlVNVmcyYzBKRWEzcG9VVzF4WjNkTlZTSXNJbXRwWkNJNklsQmpXRGs0UjFnME1qQlVNVmcyYzBKRWEzcG9VVzF4WjNkTlZTSjkuZXlKaGRXUWlPaU]
+
+Stacey Howell
+
+Matron
+
+Emergency Department & UTC
+
+
+
+[Smart Phone with solid fill] Mobile - 07714271946
+
+     Ext 56270
+
+
+
+Mid Yorkshire Teaching  NHS  Trust
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!m2H5MnUzt_QlZ0w5zYGuZAcadaoKET4IopGxxTthxHSprBZLJs4nOGyoqJOXrTgy76G4N6Mp0SwysfOe7oBu$>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1723601.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1726859,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: Our ref: PE107366   FW: Possible Unauthorised Records Access 438 359 0039,30/01/2026 14:56:58,02/02/2026 15:38:37,"3 days, 41 mins","8 hrs, 41 mins","3 days, 41 mins",261699.0,31299.0,261699.0,Completed,30/01/2026 14:56:58,,06/02/2026 12:31:52,Acute Care Symphony Support Level 1,Shazad Ishaque,06/02/2026 12:31:52,aamir.maqsud@nhs.net,12,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit on Symphony for below?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 29 January 2026 11:05
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; CINNAMON, Gareth (MID YORKSHIRE TEACHING NHS TRUST) <gareth.cinnamon@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>
+Subject: Fw: Our ref: PE107366 FW: Possible Unauthorised Records Access 438 359 0039
+
+Good morning all,
+
+
+Can you run and audit of your systems to see if the staff member Isla Shackleton has accessed patient unit no: 1498190
+
+
+
+
+
+
+
+Regards
+
+
+
+[MYDS_Logo]
+
+Martin Moorhouse
+
+Information Governance
+Manager
+
+
+
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+
+Dewsbury & District Hospital
+
+Halifax Road, Dewsbury,
+
+West Yorkshire, WF13 4HS
+
+
+
+Book time with MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ismsaljsauthenabled&ep=pcard__;!!IJLR5QJm7ttc!kBUa4pKcjtQmA6JBlfhlR0PM1efRA0WLJaRbcZO1ce3zmK5Xjcf_fgkt1-qiKqxyCcbY44kVSzsXCzNGSQ8G$>
+
+
+
+
+
+
+________________________________
+From: PALSMIDYORKS (MID YORKSHIRE TEACHING NHS TRUST) <myh-tr.palsmidyorks@nhs.net<mailto:myh-tr.palsmidyorks@nhs.net>>
+Sent: 29 January 2026 10:59 AM
+To: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>>; IGMIDYORKS (MID YORKSHIRE TEACHING NHS TRUST) <midyorks.ig@nhs.net<mailto:midyorks.ig@nhs.net>>
+Subject: Our ref: PE107366 FW: Possible Unauthorised Records Access 438 359 0039
+
+
+Hi Martin
+
+
+
+Please could you see the below - are you able to look into this and do I need to obtain the patient's consent (first) as the concern has come in from the son?
+
+Patient unit no: 1498190
+
+
+
+Many thanks
+
+
+
+Amanda
+
+
+
+Amanda Prout | Deputy PALS & Complaints Manager
+
+The Mid Yorkshire Teaching NHS Trust | Pinderfields Hospital | Aberford Road | Wakefield | WF1 4DG | 01924 542972
+
+Extension 57480
+
+Available via Teams
+
+
+
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kBUa4pKcjtQmA6JBlfhlR0PM1efRA0WLJaRbcZO1ce3zmK5Xjcf_fgkt1-qiKqxyCcbY44kVSzsXCyacxgzl$>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1726859.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1728435,4 - Low,Closed,Northampton General Hospital NHS Trust,Symphony,Audit on Symphony,03/02/2026 12:27:57,17/02/2026 01:24:29,"13 days, 12 hrs, 56 mins","3 hrs, 50 mins","3 hrs, 50 mins",1169792.0,13829.0,13829.0,Completed,03/02/2026 12:27:57,,03/03/2026 01:25:27,Acute Care Symphony Support Level 1,Gareth Evans,03/03/2026 11:17:41,system,18,,"Request is for the patients on the attachment and we need the following information:
+•	Copy of the attendance including the information below:
+•	Who inputted the patient onto the system
+•	Who completed registration
+•	Who created episode
+•	A copy of the 'note' - and who created it","Hi,
+
+I'm getting in touch regarding your case CS1728435 which you raised on 03/02/2026 12:27:57 regarding Symphony.
+
+We have tried to contact you but unfortunately, we have been unable to speak with you. I'd really like to help you resolve this issue but I am unable to investigate your case without receiving further information.
+
+If this issue is still occurring, please use the red 'Reject Solution' button so we are able to further investigate this issue for you.
+
+I look forward to hearing from you.
+
+Kind regards,
+Optum"
+Audit,CS1728440,4 - Low,Closed,Northampton General Hospital NHS Trust,Symphony,Audit on Symphony,03/02/2026 12:31:40,05/02/2026 16:17:51,"2 days, 3 hrs, 46 mins","3 hrs, 13 mins","3 hrs, 13 mins",186371.0,11587.0,11587.0,Completed,03/02/2026 12:31:40,,16/02/2026 08:19:07,Acute Care Symphony Support Level 1,Gareth Evans,16/02/2026 08:19:11,system,14,,"Can we ask Optum for the following information for a confidential potential fraud investigation:
+•	Who registered the patient
+•	Who created the episode (UTC-25-004948-1)
+•	Who inputted on that patient 
+Patient: 3207130","Hello Emily,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1728440.
+ 
+To resolve this, I provided the requested audit
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1729202,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,NHS 111 Integration - Schedules within Symphony,04/02/2026 11:29:14,17/02/2026 09:15:07,"12 days, 21 hrs, 45 mins","3 days, 23 hrs, 18 mins","7 days, 23 hrs, 18 mins",1115153.0,343085.0,688685.0,Completed,04/02/2026 11:29:14,,17/02/2026 09:15:07,Acute Care Symphony Support Level 1,Shazad Ishaque,17/02/2026 09:15:09,system,22,,"We attempted to complete some testing with the new schedule this morning in our ED department for our UTC. We ran into some issues but we believe we have uncovered a wider issue with the schedules.
+
+Andrew Walford from NWAS was unable to book any patients in and received an error on screen which I have attached. 
+
+He also had issues booking into one of our live schedules too. After further investigation, we have found that the numbers of 111 bookings has dropped dramatically. I ran a quick e-audit search on how many times the ‘View CDA’ DEP had been recorded to try and spot a trend in 111 attendances and it did highlight that the numbers have dropped since September 25. Though we are still getting a small number through, which suggests the process isn’t completely broken. With that in mind, I am not 100% sure where the issue lies. 
+
+NWAS have given us some log files, please can you investigate and try to help us understand the issues we are having?",Closed by customer.
+Audit,CS1730111,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Audit Request - Account Changes ,05/02/2026 13:03:13,11/02/2026 10:12:11,"5 days, 21 hrs, 8 mins","1 day, 2 hrs, 40 mins","5 days, 2 hrs, 40 mins",508138.0,96033.0,441633.0,Completed,05/02/2026 13:03:13,,25/02/2026 10:13:28,Acute Care Symphony Support Level 1,Gareth Evans,25/02/2026 10:13:30,system,14,,"Hi, Are you able to tell me when user wendy.smith1 was added into the Generic View Only permission groups and by who please? And if this was changed from another group?
+Thanks, Laura","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1730111.
+ 
+To resolve this, I provided the requested audit information.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1731703,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-02,09/02/2026 11:51:16,09/02/2026 13:53:34,"2 hrs, 2 mins","1 hr, 6 mins","1 hr, 6 mins",7338.0,3977.0,3977.0,Completed,09/02/2026 11:51:16,,12/02/2026 11:48:24,Acute Care Symphony Support Level 1,Gareth Evans,12/02/2026 11:48:25,system,15,,Please can an audit be completed using the parameters in the attached word document,"Hello Donna,
+ 
+Thanks for confirming that we've found a resolution for your case CS1731703.
+ 
+To resolve this, I provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1735135,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: List of patients with Penicillamine as allergy,13/02/2026 12:50:47,18/02/2026 10:56:54,"4 days, 22 hrs, 6 mins","6 hrs, 44 mins","2 days, 22 hrs, 44 mins",425167.0,24278.0,254678.0,Completed,13/02/2026 12:50:47,,04/03/2026 10:57:26,Acute Care Symphony Support Level 1,Gareth Evans,04/03/2026 11:16:12,system,18,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+
+Please can audit be extracted for below:
+
+
+
+I have used the eAudit functionality but found 0 results. Can you do a deeper dive in the backend and query the Allergies in Indicators to see if Penicillamine has been added to a pt please?
+
+
+
+I searched by the below criteria in eAudit but this didn't bring up any results.
+
+
+
+  *   Patient details - Indicators - Allergies - Other
+  *   Patient details - Indicators - Specify Allergies - Contains - (added a few different variations for penicillamine)
+
+
+
+Thanks.
+
+Aamir Maqsud
+
+Digital Systems Manager
+
+The Mid Yorkshire Teaching NHS Trust
+
+Dewsbury & District Hospital
+
+Halifax Road, Dewsbury,
+
+West Yorkshire, WF13 4HS
+
+
+
+From: MCNALLY, Daniel (MID YORKSHIRE TEACHING NHS TRUST) <daniel.mcnally@nhs.net<mailto:daniel.mcnally@nhs.net>>
+Sent: 09 February 2026 14:25
+To: MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net<mailto:aamir.maqsud@nhs.net>>; BAXTER, Rebecca (MID YORKSHIRE TEACHING NHS TRUST) <rebecca.baxter5@nhs.net<mailto:rebecca.baxter5@nhs.net>>
+Subject: List of patients with Penicillamine as allergy
+
+
+
+Will you be able to run me a report of patients in symphony with the allergy
+
+
+
+""penicillamine""
+
+
+
+recorded
+
+
+
+Patient safety alert about it
+
+
+
+National patient safety alert - harm from incorrect recording of a penicillin allergy as a penicillamine allergy<https://urldefense.com/v3/__https://www.england.nhs.uk/wp-content/uploads/2025/11/national-patient-safety-alert-penicillamine-allergy-recording.pdf__;!!IJLR5QJm7ttc!kSfAFSIUzTlU3KQHkq2Bux3A1GspmpeLAY5kwMOuwtQOjasMd9KG9EzK812jfYplYiZG8ZoKuNCfTKsNw5YP$>
+
+
+
+ideally need unit number, names, list of allergies recorded, date allergy recorded, if way of excluding deceased patients as well would be helpful
+
+
+
+Cheers
+
+
+
+Dr Daniel McNally
+
+
+
+Consultant in Acute Medicine
+
+Associate Chief Clinical Information Officer for the Acute Care Division
+
+Deputy Head of Clinical Service for Acute Medicine
+
+
+
+Mobile via 01924 541000
+
+Secretary: 01924 542267 (52267)
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!kSfAFSIUzTlU3KQHkq2Bux3A1GspmpeLAY5kwMOuwtQOjasMd9KG9EzK812jfYplYiZG8ZoKuNCfTJ_pN21C$>","Hello Aamir,
+ 
+Thanks for confirming that we've found a resolution for your case CS1735135.
+ 
+To resolve this, I provided the requested audit.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1737589,3 - Medium,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Audit request,18/02/2026 08:58:39,18/02/2026 15:59:22,7 hrs,35 mins,36 mins,25243.0,2124.0,2205.0,Completed,18/02/2026 08:58:39,,19/02/2026 11:37:25,Acute Care Symphony Support Level 1,Gareth Evans,19/02/2026 11:37:26,system,12,,"Hello
+Would it be possible to provide details of all staff that have accessed the patient record and or attendances for patient D081807?
+Thanks
+Paul","Hello Paul,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1737589.
+ 
+To resolve this, I provided the requested audit
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1738714,4 - Low,Closed,Northern Health and Social Care Trust,Symphony,DAD Messages Status,19/02/2026 14:17:37,26/02/2026 10:03:50,"6 days, 19 hrs, 46 mins","1 day, 2 hrs, 9 mins","4 days, 2 hrs, 9 mins",589573.0,94155.0,353355.0,Completed,19/02/2026 14:17:37,,26/02/2026 11:03:11,Acute Care Symphony Support Level 1,Gareth Evans,26/02/2026 11:03:14,system,15,,"Hello,
+
+Could you please check if there have been any messages flowing through the DAD queue for the northern trust within the last 4 weeks. We're hoping there aren't any or very rare occurrences.
+
+If there are can an audit be created of the messages that have gone through.
+
+Many Thanks,
+Daniel Earley","Hello Daniel,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1738714.
+ 
+To resolve this, I confirmed that no messages had passed in the previous four weeks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1742484,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Audit Request - access to patient record,26/02/2026 12:44:23,27/02/2026 09:16:01,"20 hrs, 31 mins","2 hrs, 11 mins","2 hrs, 11 mins",73898.0,7906.0,7906.0,Completed,26/02/2026 12:44:23,,09/03/2026 10:42:24,Acute Care Symphony Support Level 1,Gareth Evans,09/03/2026 10:42:26,system,17,,"Hi, can I please have an audit of anyone who has accessed the patient record for D2265694 since 04/11/2025? Many Thanks, Laura","Hello Paul,
+ 
+Thanks for confirming that we've found a resolution for your case CS1681867.
+ 
+To resolve this, I provided the requested audit
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1742729,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony,Patient audit,26/02/2026 16:09:37,27/02/2026 10:25:50,"18 hrs, 16 mins","1 hr, 46 mins","17 hrs, 46 mins",65773.0,6372.0,63972.0,Completed,26/02/2026 16:09:37,,02/03/2026 13:40:47,Acute Care Symphony Support Level 1,Gareth Evans,02/03/2026 13:40:48,system,17,,"Hi. Please could you run an audit on patient IW453248. I need to see whether user burgessm located this patient from the period of 01/01/25 - 31/01/25. 
+I can see her admissions but I can't work out how to pull this audit.
+Thanks
+Sarah","Hello Sarah,
+ 
+Thanks for confirming that we've found a resolution for your case CS1742729.
+ 
+To resolve this, I provided the requested audit
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Gareth"
+Audit,CS1744893,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Message Definition Issue,03/03/2026 14:19:57,19/03/2026 13:40:20,"15 days, 23 hrs, 20 mins","1 day, 23 hrs, 28 mins","3 days, 23 hrs, 28 mins",1380023.0,170908.0,343708.0,Completed,03/03/2026 14:19:57,,23/03/2026 08:55:08,Acute Care Symphony Support Level 1,Konrad Siddons,23/03/2026 08:55:10,system,55,,"We have a DAD interface configured within our Symphony system that launches a link to a regional Cerner HIE shared record called GNCR.
+
+We have been informed by the system provider that we user names from the launching system (Symphony) are not appearing as expected within the NHS E audits and this is breaching pre-existing system agreements.
+
+Our suspicion, based on the user name information provided via the audit is that currently the Staff User ID is being passed to GNCR when it should be passing through the user forename. So user info is appearing in the audit as McGrath, 2363 or Lorimer, 2762 rather than surname, forename.
+
+Can you please review and correct the current DAD configuration for the GNCR HIE Viewer within our Live Symphony system so that the mapping is passing through user forename and not user id.
+
+Thanks.","Hello Andrew,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1744893.
+ 
+To resolve this:
+
+Thank you for your feedback.
+I am pleased the message format change has rectified the reported issue in Live Symphony.
+
+I have now set this case to Resolved.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1745113,3 - Medium,In Progress,Western Sussex Hospitals NHS Trust,Symphony,Advanced filters,04/03/2026 08:03:18,,Unresolved,N/A,N/A,,,,,,,,Acute Care Symphony Support Level 2,Lee Booth,03/08/2026 13:56:00,admin,28,PRB0052368,"Morning, 
+
+ST Richards ED, I have an advanced filter 'UTC' which keeps disappearing; the same filter is active in Worthing ED with no issues.  
+
+Please, can I have an audit to find out who keeps removing the filter, as this is causing issues in monitoring the patients.
+Thank you
+
+Russell",
+Audit,CS1746976,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Special Case alert audit ,06/03/2026 12:23:32,09/03/2026 15:20:04,"3 days, 2 hrs, 56 mins","6 hrs, 24 mins","2 days, 22 hrs, 24 mins",269792.0,23093.0,253493.0,Completed,06/03/2026 12:23:32,,23/03/2026 15:21:26,Acute Care Symphony Support Level 1,Konrad Siddons,23/03/2026 15:21:27,system,20,,"Hi, can we audit who added an alert to patient D0016685 please? The alert was 'high risk to violence to all, not to be seen alone'. Can we see who added it and when, and then when and who removed it?
+Thanks, Laura","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1746976.
+ 
+To resolve this:
+
+We have interrogated the Live Symphony database and found the following:
+
+It appears the specified Alert (Patient Indicator) 'High Risk Violence to all, not to be seen alone' was added to the specified Patient D0016685  on 17/07/2025 @ 13:13:23 by User ID stewart.downing.
+This indicator was seemingly removed on 28/02/2026 @ 13:10:10 by User ID Alice.Brockwell, who went on to add Indicator 'High Risk Victim of Domestic Abuse' to the Patient on 28/02/2026 @ 13:12:26.
+
+I hope this helps.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1747576,3 - Medium,Closed,Western Health and Social Care Trust,Symphony - Additional Departments,e-audit request,09/03/2026 11:45:27,12/03/2026 15:16:08,"3 days, 3 hrs, 30 mins",N/A,N/A,271841.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,19/03/2026 10:38:04,system,10,,"Hello, is it possible to run a report on e-audit for patients presenting with self-harm but also what time they were seen by a clinician? We need this data for an urgent FOI if someone is able to respond todat please. Thanks","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1747576.
+ 
+To resolve this:
+
+Provided there is an appropriate DEP within which Self Harm data has been recorded against the Patient / Attendance, or this data is included in the general details recorded against the Attendance, it should be possible to include this data in the eAudit selection criteria, to specifically report on those patients with this data recorded.
+However, since the output format of eAudit is fixed, you would not be able to add the Clinician Seen Time to the output details generated by the report.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1750415,4 - Low,Closed,Health Service Executive,Symphony - Manchester Triage v3,Query,13/03/2026 11:42:09,17/03/2026 15:11:35,"4 days, 3 hrs, 29 mins",N/A,N/A,358166.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,31/03/2026 15:13:28,system,10,,"Can a pain ruler be applied after every discriminator on the Manchester triage system, ED Nurse noted on last audit that pain ruler only appears for pain discriminators and otherwise defaults to a 0/10 for pain for everything else. This is part of our audit criteria for Manchester triage.","Hello Michelle,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1750415.
+ 
+To resolve this:
+
+My colleague Jackie Milner having responded to your query and advised alternative configuration to implement, this case has now been set to resolved.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1751856,4 - Low,Closed,Betsi Cadwaladr University Healthboard,Symphony,error message when building e-audit,17/03/2026 10:21:39,25/03/2026 12:11:26,"8 days, 1 hr, 49 mins","20 hrs, 52 mins","2 days, 4 hrs, 52 mins",697787.0,75164.0,190364.0,Completed,17/03/2026 10:21:39,,25/03/2026 13:34:53,Acute Care Symphony Support Level 1,Konrad Siddons,25/03/2026 13:34:55,system,19,,"error message when building e-audit- opening table look-up field for the item on the dep (screenshot)  after build audit fails to launch...
+
+DATETIME: 17-Mar-2026 09:58:28|| DESCRIPTION: Element not found|| SOURCE: Nodes|| COMPONENT: FWCommonControls|| ERRORNO: 35601|| PROCEDURE: LoadLookUpValues method|| CODEBLOCK:  Error at PopulateMVDefTreeView 4|| USFMESSAGE:  || APPLICATION: Symphony Version 2|| ATTENDANCENO: || PATIENTID: || PCNAME: 7A1A1SRDSED0002|| SERVERNAME: BCUED\BCUED_DB|| LOGGEDUSER: Ja104953|| SITE: BCU Live|| BUILDNO: 2.39.1.20|| OS:  Version 6.2 Build 9200 || DBTYPE: || DBVERSION: 2.39.1|| MDACVERSION: 10.0||","Hello Jay,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1751856.
+ 
+To resolve this:
+
+As promised, I have consulted with our Deployment and Development Teams.
+Their response is pretty much in line with our conclusion when we spoke - the eAudit query you are attempting to build goes beyond what eAudit was designed to support. Selection parameters of such complexity and length were not envisaged.
+
+Their advice is to look at SSRS Reporting as the alternative method for extracting the required data.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1755879,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony,Audit on test patient,23/03/2026 11:13:49,23/03/2026 14:00:14,"2 hrs, 46 mins","2 hrs, 46 mins","2 hrs, 46 mins",9985.0,9985.0,9985.0,Completed,23/03/2026 11:13:49,,23/03/2026 14:00:14,Acute Care Symphony Support Level 1,Shazad Ishaque,23/03/2026 14:00:16,system,12,,"Hello.
+I need an audit run on patient id IW464208. An attendance has been deleted and we need to know who added the information on as discharge information has been sent to a live GP.
+Thanks",Closed by customer.
+Audit,CS1756598,4 - Low,Closed,Gibraltar Health Authority (GHA),Symphony,Audit report on patient access not showing all access data,24/03/2026 09:12:34,09/04/2026 11:50:56,"16 days, 2 hrs, 38 mins","14 hrs, 14 mins","1 day, 6 hrs, 14 mins",1391902.0,51258.0,108858.0,Completed,24/03/2026 09:12:34,,23/04/2026 11:51:26,Acute Care Symphony Support Level 1,Shazad Ishaque,23/04/2026 11:51:27,system,27,,"the current audit report we have on patient access only shows user's that view patient details and not view any patient data such as selecting them on the tracking grid or opening e-view.
+we require for internal auditing practices on patient access for GDPR purposes to see any data accessed within a patients clinical record and by whom.  Can this be looked into and improved?","Hello Annette,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1756598.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1761620,3 - Medium,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: PALS Enquiry PE108578 | ,01/04/2026 13:57:22,01/04/2026 18:04:43,"4 hrs, 7 mins","3 hrs, 2 mins","4 hrs, 7 mins",14841.0,10958.0,14841.0,Completed,01/04/2026 13:57:22,,07/04/2026 13:10:58,Acute Care Symphony Support Level 1,Shazad Ishaque,07/04/2026 13:10:58,aamir.maqsud@nhs.net,9,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit of below?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <martin.moorhouse1@nhs.net>
+Sent: 23 March 2026 07:27
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; CINNAMON, Gareth (MID YORKSHIRE TEACHING NHS TRUST) <gareth.cinnamon@nhs.net>
+Subject: FW: PALS Enquiry PE108578 |
+Importance: High
+
+
+Morning all,
+
+
+
+Hospital number: 7693864
+
+Can you check if staff member Victoria Foulds-Duncan has accessed their records since September 2022.
+
+
+
+Regards
+
+[MYDS_Logo]
+Martin Moorhouse
+Information Governance
+Manager
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+
+
+Extension:  36210
+External Tel:  01924 319210
+Email: martin.moorhouse1@nhs.net<mailto:martin.moorhouse1@nhs.net>
+[cid:image002.jpg@01DCBA96.6FEB8900]
+[cid:image003.png@01DCBA96.6FEB8900]
+
+Please don't print this e-mail unless you really need to.
+Disclaimer:
+This is an e-mail from The Mid Yorkshire Teaching NHS Trust (the Trust). This message and any files transmitted with it are confidential. If you are not the intended recipient any reading, printing, storage, disclosure, copying or any other action taken in respect of the e-mail is prohibited and may be unlawful.
+If you have received this message in error, please notify the sender immediately by using the reply function and then delete what you have received. The Trust accepts no responsibility for any changes made to this message after it has been sent by the original author. The views or opinions contained herein do not necessarily represent the views of the Trust. This e-mail or any of its attachments may contain data that falls within the scope of the Data Protection Acts. You must ensure that any handling or processing of such data by you is fully compliant with the terms and provisions of the Data Protection Act 2018
+
+
+[https://res.public.onecdn.static.microsoft/assets/bookwithme/misc/CalendarPerson20px.png]<https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ep=bwmEmailSignature__;!!IJLR5QJm7ttc!g2RUhcnothrqti1UcgimA6PsqfM09i40XA9Xv11wGH2n5GC6aRg4DpX0XIe-E1ceIajQM88TJ61WIbHdC9vy3L2S$>
+Book time to meet with me<https://urldefense.com/v3/__https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ep=bwmEmailSignature__;!!IJLR5QJm7ttc!g2RUhcnothrqti1UcgimA6PsqfM09i40XA9Xv11wGH2n5GC6aRg4DpX0XIe-E1ceIajQM88TJ61WIbHdC9vy3L2S$>
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://urldefense.com/v3/__https://support.nhs.net/article-categories/joining-nhsmail/__;!!IJLR5QJm7ttc!g2RUhcnothrqti1UcgimA6PsqfM09i40XA9Xv11wGH2n5GC6aRg4DpX0XIe-E1ceIajQM88TJ61WIbHdC65z6KxJ$>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1761620.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1765328,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Patient Record Audit,10/04/2026 14:10:42,10/04/2026 16:53:57,"2 hrs, 43 mins",N/A,N/A,9795.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,13/04/2026 08:34:44,system,8,,"Require audit of all activity on following patient's record between 01 January 2020 - 31 March 2026.
+NHS Number 4008308512
+
+Of you require any further information please let me know.
+Many Thanks","Hello Angela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1765328.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1765749,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Patient Record Audit,13/04/2026 09:08:39,13/04/2026 15:29:24,"6 hrs, 20 mins",N/A,N/A,22845.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,13/04/2026 15:40:23,Angela.Cooke@ncic.nhs.uk,7,,"Require audit of all activity on following patient's record between 23 March - 10 April 2026.
+NHS Number 6128176313
+
+If you require any further information please let me know.
+Many Thanks","Hello Angela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1765749.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1768476,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Staff Audit Request ,15/04/2026 16:02:51,16/04/2026 17:00:38,"1 day, 57 mins","8 hrs, 57 mins","1 day, 57 mins",89867.0,32229.0,89867.0,Completed,15/04/2026 16:02:51,,30/04/2026 17:01:26,Acute Care Symphony Support Level 1,Konrad Siddons,30/04/2026 17:01:26,system,8,,Please can we have an audit on user rebecca.thirlwell from 01/10/2025-14/04/2026.,"Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1768476.
+ 
+To resolve this:
+
+As per our earlier telephone conversation, I have been unable to find any evidence of activity within Symphony for Rebecca Thirlwell since 28/03/2024.
+This is confirmed by the LastSuccessLogonDTime recorded within her Staff table entry which shows the last time she logged into Live Symphony was on 28/03/2024 @ 16:01.
+
+I hope this helps
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1774860,4 - Low,Closed,Health Service Executive,Symphony - PAS Interface Inbound,Issue with patients appearing as RIP on symphony,28/04/2026 15:22:07,07/05/2026 16:16:48,"9 days, 54 mins",N/A,N/A,780881.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,21/05/2026 16:17:27,system,9,,"We recently had a patient that attended ED and when they searched for patient on symphony it had the black banner and marked patient RIP. This patient is alive and had no date of death entered on PAS. Konrad at the time looked at this for margaret in ED and said must have been an update done on PAS. I made contact with IMS maxims and they ran a report on this patient and confirmed no RIP updates were ever done on this patient. 
+
+Please see report below. Can we get it investigated why this happened on symphony as it is confirmed there was no RIP data sent across the interface to symphony. NGH-26-012274
+
+I have checked the interfacing logs for this patient for April 22nd.
+Patient Updates were sent to Symphony for the patient, but no RIP data was sent. We populate the Date of Death in the PID segment of a Patient Update A31 HL7 message. It is the second last field in the PID segment.
+There are 3 patient updates in the log file for yesterday (7.31am, 10.25am, 2.49pm) and none of them show anything in the second last field in the PID segment (last part of segment below - as you can see - nothing in the second last field):
+|Y|S|01||||||||||||
+I have also run an audit for this patient and it does not show any update to the Date of Death for this patient on PAS.
+PAS did not send RIP data for this patient to EMIS yesterday.","Hello Michelle,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1774860.
+ 
+To resolve this:
+
+We have interrogated the DAD_Logs and the Patient Audit tables and found the following.
+
+2 A31 PMI Inbound Service messages were received into Symphony on 26/01/26.
+The first at 15:44:37 and the second at 18:45:27.
+Both contained a Date of Death for the Patient  021577 of 31/10/2025 within the PID:29 message field .
+We have confirmed this date as having been added to the Patient_Details record for the Patient at that time and it would appear the RIP flag was also added to the Patient table entry.
+
+This would appear therefore, to confirm our earlier response that the data was showing the RIP marker having been set via the DAD Interface.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1775698,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Audit for BDGH-25-046633-1,29/04/2026 17:03:45,13/05/2026 17:47:20,"14 days, 43 mins","14 hrs, 38 mins","1 day, 7 hrs, 22 mins",1212215.0,52708.0,112923.0,Completed,29/04/2026 17:03:45,,27/05/2026 17:47:26,Acute Care Symphony Support Level 1,Shazad Ishaque,27/05/2026 17:47:28,system,18,,"Can we please have an audit for patient D0827339 attendance BDGH-25-046633-1? To include if possible: access to the record in Symphony, and any modifications to the attendance after the attendance dates.","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1775698.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1775945,4 - Low,Closed,Isle Of Wight NHS Trust,Symphony,Access to diagnosis audit code spreadsheet,30/04/2026 11:07:56,30/04/2026 12:59:57,"1 hr, 52 mins","1 hr, 19 mins","1 hr, 19 mins",6721.0,4749.0,4749.0,Completed,30/04/2026 11:07:56,,30/04/2026 13:32:27,Acute Care Symphony Support Level 1,Konrad Siddons,30/04/2026 13:32:29,system,15,,Please can you give me access to the Diagnosis audit code spreadsheet? I am trying to do the audits but I am getting an error message saying 'we couldn't authenticate with the credentials provided. Our Analytics Team have tried giving me access but they can't do it so advised me to raise a call with you.,"Hello Kara,
+ 
+I'm reaching out to provide you with an update on your case CS1775945.
+ 
+Thank you for your response to by earlier update.
+
+If you require access setting for a particular Symphony SQL database we are able to assist, provided we have approval from your local Symphony Administrator.
+If the access is for a particular type of data or functionality within the Symphony Application, your local System Administrator should be able to assist, as I mentioned previously. Application access/security is outside our jurisdiction.
+
+As this appears to be for a Windows/Server/Directory/File location you need to have access to, this would need to be granted by your local IT/Server Team.
+
+We at OPTUM have no access to or jurisdiction over Windows Security settings for your Servers.
+
+A local IT Service Service Desk Request would appear to be the most appropriate way ahead for you, as you yourself suggested.
+
+I hope this helps.
+
+I have therefore set this request to Resolved.
+
+Many thanks.
+ 
+If you have any questions or need further clarification, please don't hesitate to reply to this email.
+ 
+Kind regards,
+Konrad"
+Audit,CS1778808,4 - Low,Closed,Northampton General Hospital NHS Trust,Symphony,Audit data request for specified patients between time period provided,07/05/2026 11:02:40,07/05/2026 15:58:12,"4 hrs, 55 mins","2 hrs, 36 mins","2 hrs, 36 mins",17732.0,9378.0,9378.0,Completed,07/05/2026 11:02:40,,07/05/2026 16:04:33,Acute Care Symphony Support Level 1,Gareth Evans,07/05/2026 16:04:35,system,23,,"Please could you provide me with an extract containing details of who accessed and/or edited (with dates, times and action) the following records in Symphony between 01/01/2013 and 31/12/2015.
+
+Hosp No: 2182136
+Hosp No: 2165095
+Hosp No: 2152388
+Hosp No: 2214133
+Hosp No: 2236753
+
+Thank you","Hello Michelle,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1778808.
+ 
+To resolve this, I provided the requested audit.
+
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1780833,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-03,11/05/2026 15:45:02,15/05/2026 08:38:58,"3 days, 16 hrs, 53 mins","14 hrs, 7 mins","2 days, 13 hrs, 46 mins",320036.0,50868.0,222406.0,Completed,11/05/2026 15:45:02,,29/05/2026 08:39:26,Acute Care Symphony Support Level 1,Gareth Evans,29/05/2026 08:39:27,system,27,,Please can an audit report be provided using the parameters in the attached Word doc,"Hello Donna,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1780833.
+ 
+To resolve this, I provided the requested audit
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1781276,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Patient Record Audit,12/05/2026 11:08:35,18/05/2026 15:58:32,"6 days, 4 hrs, 49 mins",N/A,N/A,535797.0,,,,,,,Acute Care Symphony Support Level 1,Shazad Ishaque,18/05/2026 15:58:34,system,21,,"Patient was triaged at 17.42 to ED CIC on 29/04/26 - Hospital #114 8422
+3 people have seen the notes in Symphony where ""NOT FOR SURGERY"" was documented in the plan but that has now disappeared and looks like someone has deleted this prior to 07/05/2026.
+Can you please provide audit of when this was removed.
+Many thanks.",Closed by customer.
+Audit,CS1781289,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Patient Record Audit,12/05/2026 11:16:39,13/05/2026 16:49:35,"1 day, 5 hrs, 32 mins",N/A,N/A,106376.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,14/05/2026 10:41:39,system,10,,"Can you please provide an audit of any changes to the following patient's address in Symphony, since 01/01/2018 and a log of who made those changes.  Many thanks.
+NHS No. 714 128 6144","Hello Angela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1781289.
+ 
+To resolve this:
+
+We have interrogated the Patient Address and Audit table in Live Symphony and found the following:
+
+Permanent Address
+The Patient's Permanent Address was created as Postcode CA7 9SD, WIGTON on 01/11/2015 @ 18:03 by User ITDev.
+This was changed to Postcode CA14 4HB, CHILDREN'S SERVICES, CCC on 07/09/2018 @ 14:20 by User SymphonyAdmin
+The Permanent Address has not been changed since.
+
+Correspondence Address
+The Patient's Correspondence Address was created as Postcode CA7 9SD, WIGTON on 01/11/2015 @ 18:03 by User ITDev.
+This was changed to Postcode CA14 4HB, CHILDREN'S SERVICES WEST CUMBRIA on 07/05/2026 @ 13:16 by User KTurnbull. 
+
+NOK Address
+The Patient's NOK Address was created as Postcode CA2 4UH, DURDAR on 11/06/2022 @ 11:45 by User BSHannan.
+This was changed to Postcode CA2 4RR, CARLISLE on 21/02/2023 @ 10:08 by User BSHannan.
+This was changed to Postcode CA2 4UH, DURDAR on 11/05/2025 @ 11:25 by User BSHannan.
+
+I hope this helps
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1781743,4 - Low,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,Urgent - Audit on staff member for an investigation,12/05/2026 17:35:43,18/05/2026 10:07:42,"5 days, 16 hrs, 31 mins","22 hrs, 31 mins","5 days, 12 hrs, 42 mins",491519.0,81072.0,477723.0,Completed,12/05/2026 17:35:43,,19/05/2026 13:14:33,Acute Care Symphony Support Level 1,Konrad Siddons,19/05/2026 13:14:35,system,24,,Please can you pull an audit on all patients accessed by Hollie.McDermott in the last month? Can you also audit any CP-is special case indicators she has removed from patients?,"Hello Aamir,
+ 
+I'm reaching out to provide you with an update on your case CS1781743.
+ 
+We have interrogated the Symphony database and searched for Patients accessed by the specified user in the last month and any evidence of them having deleted CP-IS Patient Special Indicator(s) flag data during that time.
+Please find the attached spreadsheet which documents our findings.
+
+Please Note - we could find no evidence of CP-IS data having been deleted in the specified period, but for clarification, we have included details of all such occurrences for this user found on the database.
+
+I hope this helps.
+
+Many thanks.
+ 
+If you have any questions or need further clarification, please don't hesitate to reply to this email.
+ 
+Kind regards,
+Konrad"
+Audit,CS1782464,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,Domestic abuse audit,14/05/2026 06:47:14,14/05/2026 10:16:04,"3 hrs, 28 mins","1 hr, 57 mins","3 hrs, 10 mins",12530.0,7066.0,11432.0,Completed,14/05/2026 06:47:14,,28/05/2026 10:17:26,Acute Care Symphony Support Level 1,Sheree Chadwick,28/05/2026 10:17:27,system,32,,I request this audit back last year CS153929. Can you please provide a list of both adults and children that have been flagged for high risk of domestic abuse. The report need to include the PAS number and NHS number. I know this is a big asked but is needed for a meeting today at 10am.,"Hello Julie,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1782464.
+ 
+To resolve this, Audit has been provided as requested,
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1787355,3 - Medium,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,Deceased Account,26/05/2026 09:55:24,01/06/2026 11:33:28,"6 days, 1 hr, 38 mins","22 hrs, 29 mins","1 day, 22 hrs, 29 mins",524284.0,80978.0,167378.0,Completed,26/05/2026 09:55:24,,15/06/2026 11:35:26,Acute Care Symphony Support Level 1,Gareth Evans,15/06/2026 11:35:27,system,20,,Can you provide an audit of any staff that have accessed or made any changes on  466 135 3730  between 13/05/2026 and 15/05/2026. Can you also check if any transfers of episode of care were done that are connected to the above please.,"Hello Julie,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1787355.
+ 
+To resolve this, I provided the requested audit.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+
+Gareth"
+Audit,CS1790814,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,User audit for LW108,01/06/2026 11:17:32,15/06/2026 13:35:20,"14 days, 2 hrs, 17 mins","23 hrs, 21 mins","4 days, 8 hrs, 14 mins",1217868.0,84088.0,375290.0,Completed,01/06/2026 11:17:32,,15/06/2026 13:35:20,Acute Care Symphony Support Level 1,Shazad Ishaque,15/06/2026 13:35:21,system,20,,"The IG team have been asked for an ED Symphony user audit to support an internal investigation. Could you please urgently request the system provider to provide us with an audit report of:
+
+User: LW108
+Time period: 01/03/2026 to 19/04/2026",Closed by customer.
+Audit,CS1791131,3 - Medium,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-05,01/06/2026 14:54:39,03/06/2026 11:25:44,"1 day, 20 hrs, 31 mins","2 hrs, 5 mins","17 hrs, 46 mins",160265.0,7521.0,63967.0,Completed,01/06/2026 14:54:39,,09/06/2026 15:41:51,Acute Care Symphony Support Level 1,Gareth Evans,09/06/2026 15:41:53,system,18,,Please can an audit be created for each patient listed in the Word doc using the criteria supplied in the Word doc.,"Hello Donna,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1791131.
+ 
+To resolve this, I provided the requested audit.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1791277,4 - Low,Closed,Betsi Cadwaladr University Healthboard,Symphony,FOI request ,01/06/2026 17:10:20,02/06/2026 12:42:08,"19 hrs, 31 mins","2 hrs, 59 mins","18 hrs, 48 mins",70308.0,10746.0,67726.0,Completed,01/06/2026 17:10:20,,02/06/2026 12:42:08,Acute Care Symphony Support Level 1,Gareth Evans,02/06/2026 12:42:10,system,24,,"have received and FOI request for 4 attendances (need reported by 05/06/2026 under FOI act)
+gced-23-007079-1
+gced-23-034004-1
+gced-24-025036-1
+gced-25-011536-1 
+
+patient wants to know all staff users (as User ID) that have accessed and./or viewed 'his records since they were created.
+
+
+in ssrs there's no sensitive reports 'trawling for viewing users audit' that would reveal such data... any ideas? can one be built? enter att number and reveal all users interactions?
+
+:|
+
+J",Closed by customer.
+Audit,CS1794134,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-06 - Hosp No: DIS0720087 ,05/06/2026 15:39:59,10/06/2026 14:52:35,"4 days, 23 hrs, 12 mins","23 hrs, 12 mins","4 days, 23 hrs, 12 mins",429156.0,83556.0,429156.0,Completed,05/06/2026 15:39:59,,11/06/2026 10:36:09,Acute Care Symphony Support Level 1,Shazad Ishaque,11/06/2026 10:36:11,system,17,,Please can an audit be created for the patients on the Word doc using the parameters outlined in the document.,"Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1794134.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1794194,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-06 - Hosp No: DIS2420066,05/06/2026 16:33:18,10/06/2026 15:48:36,"4 days, 23 hrs, 15 mins","23 hrs, 15 mins","4 days, 23 hrs, 15 mins",429318.0,83718.0,429318.0,Completed,05/06/2026 16:33:18,,11/06/2026 10:33:13,Acute Care Symphony Support Level 1,Shazad Ishaque,11/06/2026 10:33:14,system,16,,"Audit request:
+
+Please provide an audit showing all users that have accessed patient record
+DIS2420066 in Symphony between 01/04/2026 and 31/05/2026","Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1794194.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1794197,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-06 - Hosp No: DIS3159398 ,05/06/2026 16:37:51,08/06/2026 13:12:29,"2 days, 20 hrs, 34 mins","4 hrs, 34 mins","2 days, 20 hrs, 34 mins",246878.0,16478.0,246878.0,Completed,05/06/2026 16:37:51,,09/06/2026 15:50:34,Acute Care Symphony Support Level 1,Konrad Siddons,09/06/2026 15:50:37,system,13,,"Audit request:
+
+Please provide an audit showing all users that have accessed patient record
+DIS3159398 in Symphony between 01/04/2026 and 31/05/2026","Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1794197.
+ 
+To resolve this:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with District Number DIS3159398  in Symphony between 01/04/2026 and 31/05/2026.
+The spreadsheet contains tabs for:
+
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients).
+
+We also checked during the above period for Users who have accessed Patient Demographic Details for the Patient, accessed the eView data for the Patient or searched for the Patient using their District Number, NHS Number or Name - no such searches were found.
+
+I hope this helps.
+
+Many thanks
+
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad
+ 
+"
+Audit,CS1794199,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-06 - Hosp No: DIS2198101 ,05/06/2026 16:39:42,08/06/2026 13:15:59,"2 days, 20 hrs, 36 mins","4 hrs, 36 mins","2 days, 20 hrs, 36 mins",246977.0,16577.0,246977.0,Completed,05/06/2026 16:39:42,,09/06/2026 15:48:43,Acute Care Symphony Support Level 1,Konrad Siddons,09/06/2026 15:48:45,system,14,,"Audit request:
+
+Please provide an audit showing all users that have accessed patient record
+DIS2198101 in Symphony between 01/04/2026 and 31/05/2026","Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1794199.
+ 
+To resolve this:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with District Number DIS2198101 in Symphony between 01/04/2026 and 31/05/2026.
+The spreadsheet contains tabs for:
+
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients).
+
+We also checked during the above period for Users who have accessed Patient Demographic Details for the Patient, accessed the eView data for the Patient or searched for the Patient using their District Number, NHS Number or Name - no such searches were found.
+
+I hope this helps.
+
+Many thanks
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1794202,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-06 - Hosp No: DIS0794256  ,05/06/2026 16:41:50,10/06/2026 14:15:57,"4 days, 21 hrs, 34 mins","16 hrs, 18 mins","4 days, 51 mins",423247.0,58690.0,348715.0,Completed,05/06/2026 16:41:50,,11/06/2026 10:39:50,Acute Care Symphony Support Level 1,Gareth Evans,11/06/2026 10:39:52,system,15,,"Audit request:
+
+Please provide an audit showing all users that have accessed patient record
+DIS0794256 in Symphony between 01/04/2026 and 31/05/2026","Hello Donna,
+
+I’m pleased to let you know that we’ve found a resolution for your case CS1794202.
+
+To resolve this, I provided the requested audit.
+
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+
+Kind regards,
+Gareth
+
+"
+Audit,CS1794203,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-06 - Hosp No: DIS2377960 ,05/06/2026 16:46:39,10/06/2026 14:14:17,"4 days, 21 hrs, 27 mins","16 hrs, 13 mins","4 days, 51 mins",422858.0,58401.0,348684.0,Completed,05/06/2026 16:46:39,,11/06/2026 10:45:59,Acute Care Symphony Support Level 1,Gareth Evans,11/06/2026 10:46:01,system,14,,"Audit request:
+
+Please provide an audit showing all users that have accessed patient record
+DIS2377960 in Symphony between 01/04/2026 and 31/05/2026 
+","Hello Donna,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1794203.
+ 
+To resolve this, I provided the requested audit.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1795612,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Patient Audit Request ,09/06/2026 15:35:07,10/06/2026 11:23:32,"19 hrs, 48 mins","3 hrs, 48 mins","19 hrs, 48 mins",71305.0,13705.0,71305.0,Completed,09/06/2026 15:35:07,,15/06/2026 11:08:37,Acute Care Symphony Support Level 1,Konrad Siddons,15/06/2026 11:08:39,system,12,,"Can we please have a full audit on access to the below patient between the below dates:
+D1215682
+01/06/2022 - 04/06/2026","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1795612.
+ 
+To resolve this:
+
+We have interrogated the Symphony audit tables looking for details of users who have accessed data relating to the Patient with District Number D1215682 in Symphony between 01/06/2022  and 04/06/2026 ..
+We have created a document showing the results for Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients).
+
+This has been placed on the Symphony share at location:
+
+\\DH-SY02MFSCSLS\SymphonyDBH$\Support\CS1795612_Audit_D1215682.txt
+
+We also checked during the above period for Users who have accessed Patient Demographic Details for the Patient, accessed the eView data for the Patient or searched for the Patient using their District Number, NHS Number or Name - no such searches were found.
+
+I hope this helps.
+
+Many thanks
+
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+Audit,CS1796468,4 - Low,Closed,Leeds Teaching Hospitals NHS Trust,Symphony,EEMAC Reporting,11/06/2026 09:44:31,11/06/2026 11:38:09,"1 hr, 53 mins","1 hr, 53 mins","1 hr, 53 mins",6818.0,6818.0,6818.0,Completed,11/06/2026 09:44:31,,25/06/2026 11:39:26,Acute Care Symphony Support Level 1,Konrad Siddons,25/06/2026 11:39:26,system,7,,"Hi team, 
+
+Following recent guidance from NHSE, EEMAC is a new NHS England model of care allowing Emergency Medicine teams to manage selected patients beyond the traditional 4 hour standard within an ambulatory setting, while remaining under Emergency Medicine clinical responsibility.
+
+National guidance is explicit that EEMAC is not an admission and remains part of the ED pathway, but that the 4 hour Emergency Care Standard (ECS) clock should stop at the point of transfer into EEMAC, while overall time under Emergency Medicine oversight must still be tracked to ensure patients do not remain in EEMAC in excess of 8 hours. For now the attendance type will remain the same, but in the future it is likely that EEMAC will be type 5 activity recording.
+
+https://www.england.nhs.uk/long-read/extended-emergency-medicine-ambulatory-care-eemac-operating-principles/
+
+At present we have no current workflow in Symphony that supports EEMAC reporting
+
+We have two options proposed which will support the Trust in capturing this data and a third option that we are hoping you could provide knowledge and insight on. 
+
+Option 1 – is it possible within the existing SJUH/LGI department builds within symphony, to create an EEMAC care group, which would stop the 4hr ECS clock, i.e. if the patient was moved at 2hrs, the patient would show as being seen, treated and discharged within 4hrs, and therefore not a breach, but the overall time in dept. clock would continue to count so that we can ensure the patient doesn’t spend longer than 12hrs on EEMAC.
+
+Option 2 – build a new department for EEMAC, for LGI and SJUH, with type 5 activity reporting and ECDS reporting
+
+Option 3 – Optum / EMIS guidance - Have you created EEMAC requirements for any other sites following this guidance. If so, how was this achieved it? Are you able to share what has worked well in other Trusts?
+
+Functional Requirement 
+
+• Ability to record transfer from ED to EEMAC as a discrete, time stamped event.
+• Automatic stop of the 4 hour ECS clock at the point of EEMAC transfer.
+• Continued tracking of total Emergency Medicine time, including:
+o Time in ED
+o Time in EEMAC
+• Automated alerts/escalation when:
+o Time in EEMAC approaches 8 hours
+• Maintenance of continuous ECDS data capture, including:
+o Tests, investigations, procedures
+o Diagnoses and outcomes
+• Recording of EEMAC location / care area for reporting and audit.
+Data & Reporting Requirements
+• Differentiation between:
+o Standard ED attendances
+o ED ? EEMAC pathway patients
+• Ability to report:
+o Volume of EEMAC activity
+o Time spent in EEMAC
+o Outcomes (discharge, admission, transfer back to ED)
+• Alignment with ECDS, without breaking current SUS submissions.
+
+Any guidance on workstreams undertaken by other Trusts would be incredibly useful.
+
+It may be beneficial to set up a meeting to discuss this in further detail. 
+
+Many thanks 
+
+Megan Gregory","Hello Megan,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1796468.
+ 
+To resolve this:
+
+I'm afraid your enquiry go some way beyond what we in Support are able to provide.
+I would suggest your bets option would be to send details of what you need to your Optum / Emis Account Director, Linsey Scholefield, who should be able to provide or facilitate a suitable response.
+
+Linsey.Scholefield@emishealth.com
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1796637,3 - Medium,Closed,Northern Care Alliance NHS Foundation Trust,Symphony,"SCR message, automatic email alert",11/06/2026 11:23:02,12/06/2026 16:23:25,"1 day, 5 hrs","3 hrs, 10 mins","3 hrs, 10 mins",104423.0,11450.0,11450.0,Completed,11/06/2026 11:23:02,,26/06/2026 16:23:27,Acute Care Symphony Support Level 1,Shazad Ishaque,26/06/2026 16:23:27,system,18,,"The trust is getting automatic error messages by email, warning of message timeouts. The text of the error is:
+
+The NCA SCR Message Engine has recorded [20] message timeouts since [2026-06-11 08:10:00.380].
+NCA Recipients: Please log a call with EMIS Symphony Support and ask them to check the PEL Message Audit on N-SYM-LVW-INT01.
+EMIS Recipients: Please verify a call has been logged and investigate the issues on N-SYM-LVW-INT01.
+
+Email is attached.","Hello,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1796637.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1797375,6,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: Re. Subject access request,12/06/2026 11:57:29,15/06/2026 16:30:05,"3 days, 4 hrs, 32 mins",N/A,N/A,275556.0,,,,,,,Acute Care Symphony Support Level 1,Konrad Siddons,17/06/2026 14:46:24,aamir.maqsud@nhs.net,7,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you run an audit on Symphony for below please?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: DPO (MID YORKSHIRE TEACHING NHS TRUST) <midyorks.dpo@nhs.net>
+Sent: 08 June 2026 13:38
+To: HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>
+Subject: Fw: Re. Subject access request
+Importance: High
+
+Dear all,
+Can you run audit reports on staff member Dr Vivek Patel accessing the following patients record
+
+3564204
+
+Regards Martin Moorhouse
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://support.nhs.net/article-categories/joining-nhsmail/>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1797375.
+ 
+To resolve this:
+
+We have interrogated the Symphony audit tables for access to the specified patient's data by Dr Vivek Patel as follows:
+.
+Viewing the Demographic Data for the specified patient.
+Viewing the eView data.
+Searching for the patient using their Hospital Number, NHS Number, Name or Date of Birth.
+
+None of the above searches returned any results.
+
+I hope this helps
+
+Many thanks. 
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1797384,4 - Low,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: Audit report for access - Morgan,12/06/2026 12:03:12,15/06/2026 16:29:33,"3 days, 4 hrs, 26 mins","12 hrs, 26 mins","3 days, 4 hrs, 26 mins",275181.0,44781.0,275181.0,Completed,12/06/2026 12:03:12,,29/06/2026 16:31:28,Acute Care Symphony Support Level 1,Konrad Siddons,29/06/2026 16:31:28,system,19,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can you provide an audit on Symphony for below?
+
+Thanks.
+
+Aamir Maqsud
+Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: DPO (MID YORKSHIRE TEACHING NHS TRUST) <midyorks.dpo@nhs.net>
+Sent: 11 June 2026 11:26
+To: WALSH, Jackie (MID YORKSHIRE TEACHING NHS TRUST) <jackie.walsh2@nhs.net>; CINNAMON, Gareth (MID YORKSHIRE TEACHING NHS TRUST) <gareth.cinnamon@nhs.net>; PISSANTCHEVA, Danielle (MID YORKSHIRE TEACHING NHS TRUST) <d.pissantcheva@nhs.net>; HORLER, Jason (MID YORKSHIRE TEACHING NHS TRUST) <jason.horler@nhs.net>; PLYTAITYTE, Sandra (MID YORKSHIRE TEACHING NHS TRUST) <sandra.plytaityte@nhs.net>; MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>
+Subject: Audit report for access - Morgan
+Importance: High
+
+Dear all,
+
+Can you please provide a full audit  of access to the following patients records from all your systems as soon as possible please
+
+This is all access, no time / date limitations
+
+Patient 1 (Mother): Hospital No: 141 5279.
+
+Patient 2 (Child): Hospital No: 755 0854.
+
+Patient 3 (Child): Hospital No: 745 8626.
+
+
+
+
+
+
+Regards
+
+
+
+[MYDS_Logo]
+
+Martin Moorhouse
+
+Information Governance
+Manager
+
+
+
+
+
+Office of Data Protection &
+Information Governance
+Mid Yorkshire Teaching NHS Trust
+
+Dewsbury & District Hospital
+
+Halifax Road, Dewsbury,
+
+West Yorkshire, WF13 4HS
+
+
+
+Book time with MOORHOUSE, Martin (MID YORKSHIRE TEACHING NHS TRUST) <https://outlook.office.com/bookwithme/user/c42051ec71a54007afa6cf684c40acea@nhs.net?anonymous&ismsaljsauthenabled&ep=pcard>
+
+
+
+
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://support.nhs.net/article-categories/joining-nhsmail/>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1797384.
+ 
+To resolve this,
+
+We have interrogated the Symphony audit tables.
+
+Patient with Hospital Number 1415279 
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with Hospital Number 1415279 in Symphony on any date.
+The spreadsheet contains tabs for:
+
+Users who have viewed the Demographic Data for the specified patient, viewed the eView data, searched for the patient using their Hospital Number and users who have carried out a Patient Search using the Date of Birth of the patient in question (though these searches may be for other patients).
+
+We also checked for Users who have searched for the patient using their NHS Number or Name - no such searches were found.
+
+
+Patient with Hospital Number 7550854 
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with Hospital Number 7550854 in Symphony on any date.
+The spreadsheet contains tabs for:
+
+Users who have carried out a Patient Search using the Date of Birth of the patient in question (though these searches may be for other patients).
+
+We also checked for Users who have viewed the Demographic Data for the specified patient, viewed the eView data, searched for the patient using their Hospital Number, NHS Number or Name - no such searches were found.
+
+
+Patient with Hospital Number 7458626 
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with Hospital Number 7458626 in Symphony on any date.
+The spreadsheet contains tabs for:
+
+Users who have viewed the Demographic Data for the specified patient, viewed the eView data, searched for the patient using their Hospital Number and users who have carried out a Patient Search using the Date of Birth of the patient in question (though these searches may be for other patients).
+
+We also checked for Users who have searched for the patient using their NHS Number or Name - no such searches were found.
+
+
+
+I hope this helps.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1797991,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Audit Request - access of patient record ,15/06/2026 11:07:13,16/06/2026 13:37:23,"1 day, 2 hrs, 30 mins","10 hrs, 30 mins","1 day, 2 hrs, 30 mins",95410.0,37810.0,95410.0,Completed,15/06/2026 11:07:13,,30/06/2026 13:37:28,Acute Care Symphony Support Level 1,Konrad Siddons,30/06/2026 13:37:29,system,12,,"Hi, 
+Can we please have an audit for who has accessed the following patient record between the given dates:
+D1018585 from January 2023 to present date. 
+
+Many Thanks, 
+Laura","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1797991.
+ 
+To resolve this:
+
+We have interrogated the Symphony audit tables looking for details of users who have accessed data relating to the Patient with District Number D1018585 in Symphony since 01/01/2023..
+We have created documents showing the results for Users who have carried accessed Patient Demographic Details for the Patient, accessed the eView data for the Patient or searched for the Patient using their District Number, Name or Date of Birth (though these DOB searches may be for other patients).
+
+These have been placed on the Symphony share at location:
+
+\\DH-SY02MFSCSLS\SymphonyDBH$\Support\CS1797991_Audits\
+
+We also checked during the above period for Users who have searched for the Patient using their NHS Number - no such searches were found.
+
+I hope this helps.
+
+Many thanks.We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1798076,4 - Low,Closed,Health Service Executive,Symphony,Require audit report run,15/06/2026 11:55:16,18/06/2026 10:46:53,"2 days, 22 hrs, 51 mins","7 hrs, 13 mins","23 hrs, 13 mins",255097.0,25989.0,83589.0,Completed,15/06/2026 11:55:16,,02/07/2026 10:47:26,Acute Care Symphony Support Level 1,Gareth Evans,02/07/2026 10:47:27,system,19,,Require audit report run please for a patient requesting same as part of GDPR request. Date range is 09.11.2021 - 09.11.2021 what actions on symphony carried out (can see patient registered and discharged as did not wait) and who accessed this record - can you run audit from this 09.11.2021 to now to see who has viewed?. NGH-21-019011,"Hello Michelle,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1798076.
+ 
+To resolve this, I provided as much audit information as was available.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1800288,4 - Low,Closed,Health Service Executive,Symphony,"Adding ""address"" to output",18/06/2026 12:35:39,18/06/2026 16:43:52,"4 hrs, 8 mins","4 hrs, 8 mins","4 hrs, 8 mins",14893.0,14893.0,14893.0,Completed,18/06/2026 12:35:39,,18/06/2026 16:47:19,Acute Care Symphony Support Level 1,Konrad Siddons,18/06/2026 16:47:19,andrew.cox@hse.ie,7,,"Hi there, hopefully a very quick question here. I'm wondering if it is possible to add Patient Address (all lines) to the output of an e-AUDIT search (which is then exported to Excel)? As an extension to this, is it possible to add arbitrary data elements to this export? Thanks so much!","Hello Andrew,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800288.
+ 
+To resolve this:
+
+Although users are able to define their own eAudit selection paraments based on existing DEP data and settings recorded, unfortunately, there is no mechanism for users (or Support) to tailor the resultant report output.
+This is pre-determined and fixed.
+The only way for this to be changed would be if a User Story was raised via your Account Director (Justin Murr - justin.murr@emishealth.com )and subject to acceptance by Product, incorporated into a future release or patch.
+
+Many thanks. 
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1800403,3 - Medium,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,Audit,18/06/2026 14:09:33,18/06/2026 14:11:27,1 min,1 min,1 min,114.0,114.0,114.0,Completed,18/06/2026 14:09:33,,02/07/2026 14:11:29,Acute Care Symphony Support Level 1,Sheree Chadwick,02/07/2026 14:11:29,system,8,,"
+Please could you do an audit trail of access by a Noah Hendricks for me please, if possible today? I have run the audit report but it shows no more data after 25th March and I'm not sure why? Any information you could provide would be great.
+
+","Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1800403.
+ 
+To resolve this, AUDITS PROVUDED
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1802553,4 - Low,Closed,Northampton General Hospital NHS Trust,Symphony,Audit data request for specified patients between time period provided,23/06/2026 16:59:50,25/06/2026 18:04:20,"2 days, 1 hr, 4 mins",16 hrs,"2 days, 1 hr, 4 mins",176670.0,57610.0,176670.0,Completed,23/06/2026 16:59:50,,29/06/2026 08:26:33,Acute Care Symphony Support Level 1,Shazad Ishaque,29/06/2026 08:26:33,m.creighton@nhs.net,14,,"Please could you provide me with an extract containing details of who accessed and/or edited (with dates, times and action) the following records in Symphony between 01/01/2016 - 20/05/2016 .
+
+Hosp No: 2182136
+Hosp No: 2165095
+Hosp No: 2152388
+Hosp No: 2214133
+Hosp No: 2236753
+
+Thank you","Hello Michelle,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1802553.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1803522,4 - Low,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,Staff Auidtt,25/06/2026 10:44:05,25/06/2026 11:39:05,55 mins,55 mins,55 mins,3300.0,3300.0,3300.0,Completed,25/06/2026 10:44:05,,09/07/2026 11:39:27,Acute Care Symphony Support Level 1,Sheree Chadwick,09/07/2026 11:39:27,system,9,,"I hope this email finds you well.   Can I please ask for your assistance?
+
+ 
+
+We need an audit undertaken on Symphony system, each audit needs to provide information on what in the file has been viewed, whether anything has been added to or amended, or deleted or downloaded from the file.  This has been authorised by Heidi.
+
+ 
+
+The audit is to be undertaken on a bank worker called Noah Hendricks, so that we can see what he has reviewed.
+
+ 
+
+This audit has been authorised by Heidi Doubtfire-Lynn, who is cc'd into this email for clarity and confirmation.","Hello Alison,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1803522.
+ 
+To resolve this, I have emailed the results to Alison
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1805515,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-08,29/06/2026 13:21:16,30/06/2026 13:31:46,"1 day, 10 mins","3 hrs, 38 mins","3 hrs, 52 mins",87030.0,13124.0,13933.0,Completed,29/06/2026 13:21:16,,30/06/2026 13:38:59,Acute Care Symphony Support Level 1,Gareth Evans,30/06/2026 13:39:01,system,13,,Please can you complete an audit using the parameters provided in the Word doc attached,"Hello Donna,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1805515.
+ 
+To resolve this, I provided the requested audit.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1805790,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-09 P1,29/06/2026 16:07:47,30/06/2026 13:02:22,"20 hrs, 54 mins",53 mins,"1 hr, 26 mins",75275.0,3209.0,5192.0,Completed,29/06/2026 16:07:47,,30/06/2026 13:15:38,Acute Care Symphony Support Level 1,Gareth Evans,30/06/2026 13:15:39,system,18,,"Good afternoon,
+
+Please can an audit be completed using the parameters in the Word doc.
+
+Many thanks","Hello Donna,
+ 
+Thanks for confirming that we’ve found a resolution for your case CS1805790.
+ 
+To resolve this, I provided the requested audit.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1806178,5,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,FW: majxa pt's,30/06/2026 10:48:10,01/07/2026 10:24:08,"23 hrs, 35 mins",N/A,N/A,84958.0,,,,,,,Acute Care Symphony Support Level 1,Sheree Chadwick,15/07/2026 10:25:28,system,22,,"STOP! Unless you are EXPECTING THIS EMAIL do NOT click on any links, or open any attachments. This may be a phishing email that could compromise our security.
+
+Please can the below patient be added to the Majax incident please as it doesn't give us the option to edit the event on 28/6. We need this patient adding for audit purposes and reporting.
+
+Thanks.
+
+Aamir Maqsud
+Senior Digital Systems Manager
+The Mid Yorkshire Teaching NHS Trust
+Dewsbury & District Hospital
+Halifax Road, Dewsbury,
+West Yorkshire, WF13 4HS
+
+From: FLYNN, Paula (MID YORKSHIRE TEACHING NHS TRUST) <paula.flynn1@nhs.net>
+Sent: 29 June 2026 13:56
+To: MAQSUD, Aamir (MID YORKSHIRE TEACHING NHS TRUST) <aamir.maqsud@nhs.net>
+Subject: FW: majxa pt's
+Importance: High
+
+Hi Aamir
+
+Not sure if you can help the below patient wasn't book in via reception, not sure who booked them in, but they haven't booked in as a majax patient, they had put accident, Sam has changed it but as the majax now isn't live, the patient doesn't show up on the audit as it wasn't clicked onto whilst it was taking place.
+
+QS 7457366
+
+Thanks
+
+
+Paula Flynn
+Assistant Patient Service Manager for Emergency Medicine
+Acute Care Division - Mid Yorkshire Hospitals NHS Trust
+
+* 01924 541237 (ext:51237)
+Mobile - 07874883358
+* paula.flynn1@nhs.net<mailto:paula.flynn1@nhs.net>
+
+[cid:image001.png@01DD07CE.03D63410]
+
+
+
+
+From: RAYNER, Samantha (MID YORKSHIRE TEACHING NHS TRUST) <samantha.rayner@nhs.net<mailto:samantha.rayner@nhs.net>>
+Sent: 28 June 2026 16:49
+To: SMITH, Hannah (MID YORKSHIRE TEACHING NHS TRUST) <h.smith82@nhs.net<mailto:h.smith82@nhs.net>>; FLYNN, Paula (MID YORKSHIRE TEACHING NHS TRUST) <paula.flynn1@nhs.net<mailto:paula.flynn1@nhs.net>>; BAXTER, Rebecca (MID YORKSHIRE TEACHING NHS TRUST) <rebecca.baxter5@nhs.net<mailto:rebecca.baxter5@nhs.net>>
+Subject: majxa pt's
+Importance: High
+
+Hi
+
+These are the list of patients brought in yesterday (sunday 28/6/2026)
+
+AS 7528592
+JN 7449477
+PF 7452283
+DS 0577053
+QS 7457366
+
+
+
+
+Sam
+Samantha Rayner
+ED Receptionist
+01924 541740
+Email:  samantha<mailto:samantha.rayner@nhs.net>.rayner@nhs.net<mailto:samantha.rayner@nhs.net>
+
+
+************************************************************************************** ******************************
+
+This message may contain confidential information. If you are not the intended recipient please:
+i) inform the sender that you have received the message in error before deleting it; and
+ii) do not disclose, copy or distribute information in this e-mail or take any action in relation to its content (to do so is strictly prohibited and may be unlawful).
+Thank you for your co-operation.
+
+NHS.net Connect is the secure email, collaboration and directory service available for all NHS staff in England. NHS.net Connect is approved for exchanging patient data and other sensitive information with NHS.net Connect and other accredited email services.
+
+For more information and to find out how you can switch visit Joining NHS.net Connect - NHS.net Connect Support<https://support.nhs.net/article-categories/joining-nhsmail/>","Hello Aamir,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1806178.
+ 
+To resolve this,Ran sql script to put the patient on the majax
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Sheree"
+Audit,CS1807531,3 - Medium,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,Full Audit of access to this patients records,01/07/2026 18:19:34,06/07/2026 14:54:56,"4 days, 20 hrs, 35 mins","21 hrs, 54 mins","4 days, 20 hrs, 35 mins",419722.0,78896.0,419722.0,Completed,01/07/2026 18:19:34,,20/07/2026 14:55:27,Acute Care Symphony Support Level 1,Shazad Ishaque,20/07/2026 14:55:28,system,15,,"URGENT - GDPR potential breach - Please provide a detailed audit log, including all access to the Patient 2286610 Loralei Atkin and their care over the past year. This should include any view access made, and any screens that might have shown care episodes for this patient.
+
+The audit must include the staff login ID, full name, role, date and time of access, what data was accessed (or if not possible the screen access and what details might be on that screen).
+
+This request was originally made through the account manager Thomas Jennings who was arranging a support person to assist in May","Hello Mark,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1807531.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shazad"
+Audit,CS1807879,4 - Low,Closed,Bedford Hospital NHS Trust,Symphony,Audit request,02/07/2026 11:40:27,02/07/2026 15:13:01,"3 hrs, 32 mins","2 hrs, 19 mins","2 hrs, 19 mins",12754.0,8396.0,8396.0,Completed,02/07/2026 11:40:27,,03/07/2026 11:09:21,Acute Care Symphony Support Level 1,Gareth Evans,03/07/2026 12:16:50,system,22,,"Hi,
+
+Could you kindly produce an audit report for all user activity on patient V019939 from 22/06/2026 to present please?
+
+Thank you.
+
+Kind regards,
+Kahlil","Hello Kahlil,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1807879.
+ 
+To resolve this, I provided the requested audit; and in response to your follow-up I provided Tom's email address.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1808325,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,"Audit of access to patient record, plus any & all changes made to the record",02/07/2026 17:38:11,06/07/2026 16:57:04,"3 days, 23 hrs, 18 mins","15 hrs, 57 mins","3 days, 23 hrs, 18 mins",343133.0,57424.0,343133.0,Completed,02/07/2026 17:38:11,,20/07/2026 16:57:27,Acute Care Symphony Support Level 1,Shazad Ishaque,20/07/2026 16:57:28,system,15,,"a Parent has made a GDPR Subject access request for audit logs of all access (edit/view, change, delete etc) of their daughters records in Symphony between 14/01/2026 to 25/01/2026. Patient hospital number is 1793922
+They have also asked for details of any changes and additions, removals of information and any markers that have been set - showing the details (words) of the changes including but not limited to;
+Safeguarding markers
+mentions of ""Domestic Violence""
+and/or ""No contact for family / Father""
+Any Reed coding
+Metadata footprint.","Hello Mark,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1808325.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1809663,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-10 P1,06/07/2026 15:53:51,07/07/2026 18:07:02,"1 day, 2 hrs, 13 mins","9 hrs, 6 mins","1 day, 2 hrs, 13 mins",94391.0,32769.0,94391.0,Completed,06/07/2026 15:53:51,,09/07/2026 12:41:14,Acute Care Symphony Support Level 1,Shazad Ishaque,09/07/2026 12:41:14,donna.bobbit@nhs.net,15,,Please can you complete an audit using the parameters in the Word doc,"Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1809663.
+  
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1809667,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-10 P2,06/07/2026 15:54:56,07/07/2026 17:02:15,"1 day, 1 hr, 7 mins","9 hrs, 5 mins","1 day, 1 hr, 7 mins",90439.0,32704.0,90439.0,Completed,06/07/2026 15:54:56,,09/07/2026 12:38:32,Acute Care Symphony Support Level 1,Shazad Ishaque,09/07/2026 12:38:32,donna.bobbit@nhs.net,8,,Please can you complete an audit using the parameters in the Word doc,"Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1809667.
+ 
+I went through our standard audit scripts and there are no data/records for that patient for the date range ( between 01/12/2025 and 28/02/2026)  you specified. We did not find any attendances and no eView was accessed during this period.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1809668,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-10 P3,06/07/2026 15:56:02,07/07/2026 09:02:20,"17 hrs, 6 mins","1 hr, 6 mins","17 hrs, 6 mins",61578.0,3978.0,61578.0,Completed,06/07/2026 15:56:02,,09/07/2026 12:38:49,Acute Care Symphony Support Level 1,Gareth Evans,09/07/2026 12:38:50,system,12,,Please can you complete an audit using the parameters in the Word doc,"Hello Donna,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1809668.
+ 
+I've run our standard audits and there are no records for that patient. There are no attendances (and therefore no DEPs), and no e-View accesses. Every search for the patient's surname has a different first name, and vice versa.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1809681,4 - Low,Closed,North West Anglia NHS Foundation Trust,Symphony,Audit 26-11,06/07/2026 16:04:54,07/07/2026 09:21:11,"17 hrs, 16 mins","1 hr, 16 mins","17 hrs, 16 mins",62177.0,4577.0,62177.0,Completed,06/07/2026 16:04:54,,09/07/2026 14:14:46,Acute Care Symphony Support Level 1,Gareth Evans,09/07/2026 14:14:48,system,13,,Please complete an audit for the patient - use the Word doc attached for parameters,"Hello Donna,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1809681.
+ 
+I've attached an Excel doc with your audit. The first tab shows E-View accesses, the second shows DEPs and the third shows searches. In the searches, I've redacted the patient's name and DOB when they were correct, but I've left in the incorrect ones so that you can decide whether they're relevant.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1810327,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,Audit of access to a patient record,07/07/2026 14:40:24,09/07/2026 16:10:21,"2 days, 1 hr, 29 mins","17 hrs, 29 mins","2 days, 1 hr, 29 mins",178197.0,62997.0,178197.0,Completed,07/07/2026 14:40:24,,23/07/2026 16:11:27,Acute Care Symphony Support Level 1,Shazad Ishaque,23/07/2026 16:11:27,system,17,,Provide a full audit trail of every staff member who accessed record on Symphony.  (HN 1793922)  hospital stay on CAU on 15th-16th January 2026:,"Hello Victoria,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1810327.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1811946,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,internal investigation. Audit ,09/07/2026 18:47:18,27/07/2026 12:16:47,"17 days, 17 hrs, 29 mins","1 day, 10 hrs, 27 mins","6 days, 16 hrs, 40 mins",1531769.0,124057.0,578419.0,Completed,09/07/2026 18:47:18,,27/07/2026 12:16:47,Acute Care Symphony Support Level 1,Shazad Ishaque,27/07/2026 12:16:52,system,27,,"Dear Victoria,
+
+Could you kindly request an audit of access to Symphony to support an internal investigation. Audit details as follows:
+
+•	User LW108 for the period 19/04/2026 to 29/06/2026
+
+Kind Regards
+ 
+Helen 
+ 
+Information Governance Assurance Officer",Closed by customer.
+Audit,CS1811956,3 - Medium,Closed,Brighton And Sussex University Hospitals NHS Trust,Symphony,Audit trail of demographic changes,10/07/2026 08:10:37,10/07/2026 15:32:44,"7 hrs, 22 mins","6 hrs, 32 mins","7 hrs, 22 mins",26527.0,23564.0,26527.0,Completed,10/07/2026 08:10:37,,24/07/2026 15:33:27,Acute Care Symphony Support Level 1,Gareth Evans,24/07/2026 15:33:28,system,14,,"Please can I have an audit trail of all demographic changes, for patient 5220321 (NS), including what changes were made and by whom, since January 2026.","Hello Alison,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1811956.
+ 
+To resolve this, please find attached a spreadsheet with the requested audit. Because it's got PSI in it, we've password protected it, and Sheree has emailed you the password separately.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1812015,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,patient audit,10/07/2026 09:01:30,10/07/2026 16:55:32,"7 hrs, 54 mins","7 hrs, 54 mins","7 hrs, 54 mins",28442.0,28442.0,28442.0,Completed,10/07/2026 09:01:30,,13/07/2026 10:34:08,Acute Care Symphony Support Level 1,Shazad Ishaque,13/07/2026 10:34:11,system,15,,"Dear team, please could I request details of who has accessed this patients recent attendance 1124493","Hello Victoria,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1812015.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1812194,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Access audit request ,10/07/2026 11:04:53,14/07/2026 14:02:37,"4 days, 2 hrs, 57 mins","18 hrs, 38 mins","4 days, 2 hrs, 38 mins",356264.0,67089.0,355089.0,Completed,10/07/2026 11:04:53,,28/07/2026 10:32:51,Acute Care Symphony Support Level 1,Shazad Ishaque,28/07/2026 10:32:52,system,16,,"Can we please have an audit on who has accessed the following 2 patient records between September 2023 and May 2024:
+D0112989 MW
+D1026612 NA
+
+Many Thanks
+Laura","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1812194.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1812980,4 - Low,Closed,Mid Yorkshire Teaching NHS Trust,Symphony,Audit request,13/07/2026 12:26:00,15/07/2026 09:04:19,"1 day, 20 hrs, 38 mins","9 hrs, 29 mins","1 day, 1 hr, 29 mins",160699.0,34141.0,91741.0,Completed,13/07/2026 12:26:00,,29/07/2026 09:05:26,Acute Care Symphony Support Level 1,Konrad Siddons,29/07/2026 09:05:27,system,17,,"Hi
+
+Can you please provide audit of user access for unit number 3582130 for the last 3 months
+
+Thanks
+
+Farzana","Hello Farzana,
+
+I'm pleased to let you know that we've found a resolution for your case CS1812980.
+
+To resolve this.
+
+We have interrogated the Symphony audit tables.
+
+Patient with Hospital Number 3582130
+Please find the attached spreadsheet which is now marked for external viewing, showing details of users who have accessed data relating to the Patient with Hospital Number 3582130 in Symphony in the last 3 months.
+
+The spreadsheet contains tabs for:
+
+Users who have viewed the Demographic Data for the specified patient, viewed the eView data and users who have carried out a Patient Search using the Date of Birth of the patient in question (though these searches may be for other patients).
+
+We also checked for Users who have searched for the patient using their Hospital Number, NHS Number or Name - no such searches were found.
+
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+Audit,CS1815612,4 - Low,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,Audit data,17/07/2026 09:34:48,22/07/2026 09:25:45,"4 days, 23 hrs, 50 mins","3 hrs, 40 mins","19 hrs, 40 mins",431457.0,13209.0,70809.0,Completed,17/07/2026 09:34:48,,22/07/2026 13:51:11,Acute Care Symphony Support Level 1,Konrad Siddons,22/07/2026 13:51:13,system,20,,"Hello
+Please can I request a full Symphony Audit for all access, deletions etc into the following patients Symphony records from the 7th April 2026 to present day.
+Thanks
+Paul","Hello Paul,
+
+I'm pleased to let you know that we've found a resolution for your case CS1686145.
+
+To resolve this, please follow these steps:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with District Number J762565, since 07/04/2026.
+The spreadsheet contains tabs for:
+
+Users who have accessed the Demographic data for the Patient. (6 entries found)
+Users who have accessed the eView data for the Patient. (50 entries found)
+Users who have searched for the Patient using their District Number (4 entries found)
+Users who have searched for the Patient using their NHS Number (1 entry found)
+Users who have carried out a Patient Search using the Date of Birth of the Patient in question (though these searches may be for other patients). (6 entries found)
+
+We also looked for users who had searched for the Patient using their NHS Number - no such searches were identified.
+
+I hope this helps.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"
+Audit,CS1815613,4 - Low,Closed,North Cumbria Integrated Care NHS Foundation Trust,Symphony,Patient Audit,17/07/2026 09:35:09,17/07/2026 15:01:45,"5 hrs, 26 mins",N/A,N/A,19596.0,,,,,,,Acute Care Symphony Support Level 1,Sheree Chadwick,17/07/2026 15:01:47,system,15,,"Can you please provide an audit of all activity on the following patient's record between the following dates:
+NHS No. 4004049490
+Timescales: 27/02/2026 - 07/04/2026
+If you require any further information please let me know.
+Many Thanks 
+Angela",Closed by customer.
+Audit,CS1817246,4 - Low,Resolved,Mid Yorkshire Teaching NHS Trust,Symphony,Audit Request,21/07/2026 12:47:32,21/07/2026 18:00:31,"5 hrs, 12 mins","4 hrs, 12 mins","5 hrs, 12 mins",18779.0,15148.0,18779.0,Paused,21/07/2026 12:47:32,21/07/2026 18:00:31,,Acute Care Symphony Support Level 1,Shazad Ishaque,22/07/2026 00:16:05,system,9,,"Hi 
+
+Can I please request an audit of who has access the record in the last 2 years for the patient below:
+
+UNIT: 7663671
+NHS: 653 431 3634
+
+Thanks
+
+Farzana","Hello Farzana,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1817246.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1817247,4 - Low,Resolved,Mid Yorkshire Teaching NHS Trust,Symphony,Audit Request,21/07/2026 12:49:08,22/07/2026 15:25:22,"1 day, 2 hrs, 36 mins","10 hrs, 36 mins","1 day, 2 hrs, 36 mins",95774.0,38174.0,95774.0,Paused,21/07/2026 12:49:08,22/07/2026 15:25:22,,Acute Care Symphony Support Level 1,Shazad Ishaque,22/07/2026 15:25:22,Shazad.Ishaque@emishealth.com,11,,"Hi
+
+Can I please request an audit of who has access the record from 1st April 2026 - today for the patients below:
+
+DB 3391294
+AM 7721293
+
+
+Thanks
+
+Farzana","Hello Farzana,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1817247.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1817260,4 - Low,Resolved,Mid Yorkshire Teaching NHS Trust,Symphony,Audit Request,21/07/2026 13:00:57,21/07/2026 18:03:34,"5 hrs, 2 mins","3 hrs, 59 mins","5 hrs, 2 mins",18157.0,14343.0,18157.0,Paused,21/07/2026 13:00:57,21/07/2026 18:03:34,,Acute Care Symphony Support Level 1,Shazad Ishaque,22/07/2026 00:15:56,system,9,,"Hi 
+
+Can you please provide information to let me know if a Symphony record has been altered and what the alterations were and by role/whom on the 12th March 2026. 
+
+
+NHS number is 637 777 7248 
+
+Thanks
+
+Farzana","Hello Farzana,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1817260.
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1820102,4 - Low,Closed,Norfolk and Norwich University Hospitals NHS Foundation Trust,Symphony,access log for a Coroner’s Inquest.,27/07/2026 12:53:31,28/07/2026 09:04:45,"20 hrs, 11 mins",34 mins,34 mins,72674.0,2064.0,2064.0,Completed,27/07/2026 12:53:31,,31/07/2026 10:32:15,Acute Care Symphony Support Level 1,Gareth Evans,31/07/2026 10:32:17,system,14,,"MH 2295780 
+
+ I require some audit information but have been informed that I need to request this from yourselves.
+ 
+The information I require is access logs for reviewing patient MH 2295780 from 18 June to 20 July 2026.
+ 
+If you need authority to provide this information, Mark Northcott is aware of the situation.
+ 
+I look forward to hearing from you.
+
+Kind regards
+ 
+Sue
+ 
+Sue Dack
+Legal Secretary
+Norfolk & Norwich University Hospital","Hello Victoria,
+ 
+I’m pleased to let you know that we’ve found a resolution for your case CS1820102.
+ 
+To resolve this, I provided the requested audit.
+ 
+We’re confident this will fully address the issue. However, if you find that the problem persists, simply click the red ‘Reject Solution’ button and we’ll be happy to investigate further.
+ 
+Kind regards,
+Gareth
+"
+Audit,CS1820586,4 - Low,Closed,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Special Case Alert Audit,28/07/2026 10:11:31,30/07/2026 10:01:08,"1 day, 23 hrs, 49 mins","15 hrs, 49 mins","1 day, 23 hrs, 49 mins",172177.0,56977.0,172177.0,Completed,28/07/2026 10:11:31,,31/07/2026 13:30:04,Acute Care Symphony Support Level 1,Shazad Ishaque,31/07/2026 13:30:04,laura.setterington2@nhs.net,11,,"Hi
+Can you please tell me when patient D0197269 CP had the following alerts added to their Symphony record:
+- Impaired Mental Status
+-Patient requires a Chaperone at all times 
+-Known violent/abusive","Hello Laura,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1820586.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Shaz"
+Audit,CS1821264,4 - Low,In Progress,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Symphony,Audit Request ,29/07/2026 09:47:33,,Unresolved,N/A,N/A,,,,,,,,Acute Care Symphony Support Level 1,Gareth Evans,29/07/2026 15:26:47,Gareth.Evans@emishealth.com,12,,"Hi, 
+A couple of weeks ago you provided an audit for the following patients: D0112989 and D10226612.
+Can we please have an audit for these patients between May 2023 and November 2023 - for e-view and search as before :) 
+Many Thanks
+Laura",
+Audit,CS1821905,4 - Low,Resolved,North West Anglia NHS Foundation Trust,Symphony,Audit 26-12,30/07/2026 10:21:05,03/08/2026 14:41:33,"4 days, 4 hrs, 20 mins","20 hrs, 12 mins","4 days, 4 hrs, 12 mins",361228.0,72766.0,360766.0,Paused,30/07/2026 10:21:05,03/08/2026 14:41:33,,Acute Care Symphony Support Level 1,Konrad Siddons,03/08/2026 14:41:33,konrad.siddons@emishealth.com,15,,Please can an audit be completed using the parameters in the word document attached,"Hello Donna,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1821905.
+ 
+To resolve this:
+
+I have run the Audit scripts to provide the information specified in your attachment.
+I was able to obtain the script used previously to provide DEP use data.
+
+Please find the attached Excel Spreadsheet showing the results.
+There were no entries found on the Audit for searched carried out using  the Patient's name.
+
+Many thanks.
+ 
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+ 
+Kind regards,
+Konrad"
+Audit,CS1822174,4 - Low,Closed,South Tees Hospitals NHS Foundation Trust,Symphony,patient audit required for IG,30/07/2026 13:56:14,30/07/2026 15:05:43,"1 hr, 9 mins","1 hr, 9 mins","1 hr, 9 mins",4169.0,4169.0,4169.0,Completed,30/07/2026 13:56:14,,30/07/2026 16:02:14,Acute Care Symphony Support Level 1,Konrad Siddons,31/07/2026 00:17:02,system,18,,"Our IG department have asked for the following audit of all staff that have accessed the following patient on Symphony for the past week – 23rd July 2026 – 30th July 2026
+
+
+NHS No:  4062552094 (PG)","Hello Angela,
+ 
+I'm pleased to let you know that we've found a resolution for your case CS1686145.
+
+To resolve this, please follow these steps:
+
+We have interrogated the Symphony audit tables.
+Please find the attached spreadsheet showing details of users who have accessed data relating to the Patient with NHS Number 4062552094 between 23rd July 2026 – 30th July 2026 inclusive.
+.
+The spreadsheet contains tabs for:
+
+Users who have accessed the eView data for the Patient. (30 entries found)
+Users who have searched for the Patient using their NHS Number (1 entry found)
+
+We also looked for users who had accessed the Demographic Data for the Patient or searched for the Patient using their District Number, Name or Date of Birth - no such searches were identified.
+
+I hope this helps.
+
+Many thanks
+
+We're confident this will fully address the issue. However, if you find that the problem persists, simply click the red 'Reject Solution' button and we'll be happy to investigate further.
+
+Kind regards,
+Konrad"

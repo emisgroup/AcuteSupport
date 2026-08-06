@@ -6,6 +6,13 @@ from shutil import copyfile
 import numpy as np
 from datetime import datetime
 
+import sys
+from pathlib import Path
+_base_dir = Path(__file__).resolve().parent.parent.parent
+if str(_base_dir) not in sys.path:
+    sys.path.insert(0, str(_base_dir))
+from shared.utils.date_formatting import format_duration, format_duration_dhms
+
 
 # Paths
 # Base directories (dynamic)
@@ -31,26 +38,6 @@ current_time = datetime.now()
 
 
 # helper
-def format_duration(seconds):
-    if seconds is None or (isinstance(seconds, float) and np.isnan(seconds)):
-        return ''
-    s = int(float(seconds))
-    if s<=0:
-        return ''
-    mins = s//60
-    days = mins // (24*60)
-    mins_rem = mins - days*24*60
-    hours = mins_rem // 60
-    minutes = mins_rem - hours*60
-    parts = []
-    if days>0:
-        parts.append(f"{days} days")
-    if hours>0:
-        parts.append(f"{hours} hrs")
-    if minutes>0:
-        parts.append(f"{minutes} mins")
-    return ', '.join(parts)
-
 # load data
 if not os.path.exists(merged_csv):
     raise SystemExit('Merged CSV not found')

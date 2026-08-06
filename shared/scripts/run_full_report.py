@@ -19,6 +19,12 @@ import sys
 import pandas as pd
 from datetime import datetime
 
+from pathlib import Path
+_base_dir = Path(__file__).resolve().parent.parent.parent
+if str(_base_dir) not in sys.path:
+    sys.path.insert(0, str(_base_dir))
+from shared.utils.date_formatting import format_duration, format_duration_dhms
+
 BASE_DIR = os.getcwd()
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
 PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
@@ -38,27 +44,6 @@ os.makedirs(OUT_REPORTS, exist_ok=True)
 MERGED = os.path.join(PROCESSED_DIR, 'Merged_Cases_With_SLA_Formatted.csv')
 
 PY = sys.executable
-
-def format_duration_from_seconds(s):
-    try:
-        s = int(float(s))
-    except Exception:
-        return ''
-    if s<=0:
-        return ''
-    mins = s//60
-    days = mins // (24*60)
-    mins_rem = mins - days*24*60
-    hours = mins_rem // 60
-    minutes = mins_rem - hours*60
-    parts = []
-    if days>0:
-        parts.append(f"{days} days")
-    if hours>0:
-        parts.append(f"{hours} hrs")
-    if minutes>0:
-        parts.append(f"{minutes} mins")
-    return ', '.join(parts)
 
 
 def merge_and_format():
@@ -188,8 +173,8 @@ def merge_and_format():
             new['SLA_Business_Time_seconds'] = ''
             new['SLA_Duration_seconds'] = ''
 
-        new['SLA_Business_Time'] = format_duration_from_seconds(new['SLA_Business_Time_seconds'])
-        new['SLA_Duration'] = format_duration_from_seconds(new['SLA_Duration_seconds'])
+        new['SLA_Business_Time'] = format_duration(new['SLA_Business_Time_seconds'])
+        new['SLA_Duration'] = format_duration(new['SLA_Duration_seconds'])
         merged_rows.append(new)
 
     merged_df = pd.DataFrame(merged_rows)

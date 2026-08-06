@@ -5,82 +5,17 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from pathlib import Path
 import logging
+import sys
+from pathlib import Path
+_base_dir = Path(__file__).resolve().parent.parent.parent
+if str(_base_dir) not in sys.path:
+    sys.path.insert(0, str(_base_dir))
+from shared.utils.date_formatting import parse_uk_datetime, format_duration_dhms, format_duration
+from shared.utils.excel_styling import style_worksheet
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-def parse_uk_datetime(series):
-    """Parse UK format datetimes DD/MM/YYYY HH:MM:SS."""
-    return pd.to_datetime(series, format='%d/%m/%Y %H:%M:%S', errors='coerce')
 
-def format_duration_dhms(seconds):
-    """Format duration in seconds into '[X days, ][Y hrs, ][Z mins]' format."""
-    if pd.isna(seconds) or seconds is None:
-        return 'N/A'
-    try:
-        s = int(round(float(seconds)))
-    except (ValueError, TypeError):
-        return 'N/A'
-    if s < 0:
-        return 'N/A'
-    
-    days, rem = divmod(s, 86400)
-    hours, rem = divmod(rem, 3600)
-    minutes, _ = divmod(rem, 60)
-    
-    parts = []
-    if days > 0:
-        parts.append(f"{days} day" if days == 1 else f"{days} days")
-    if hours > 0:
-        parts.append(f"{hours} hr" if hours == 1 else f"{hours} hrs")
-    if minutes > 0 or not parts:
-        parts.append(f"{minutes} min" if minutes == 1 else f"{minutes} mins")
-    return ", ".join(parts)
-
-def style_worksheet(ws, df):
-    """Apply executive formatting to openpyxl worksheet."""
-    header_fill = PatternFill(start_color="1F4E79", end_color="1F4E79", fill_type="solid")
-    header_font = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
-    data_font = Font(name="Calibri", size=10)
-    thin_border = Border(
-        left=Side(style='thin', color='D9D9D9'),
-        right=Side(style='thin', color='D9D9D9'),
-        top=Side(style='thin', color='D9D9D9'),
-        bottom=Side(style='thin', color='D9D9D9')
-    )
-    
-    # Enable autofilter
-    ws.auto_filter.ref = ws.dimensions
-    
-    # Freeze header row
-    ws.freeze_panes = "A2"
-    
-    # Header styling
-    for col_num in range(1, len(df.columns) + 1):
-        cell = ws.cell(row=1, column=col_num)
-        cell.fill = header_fill
-        cell.font = header_font
-        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-        ws.row_dimensions[1].height = 28
-
-    # Data row styling & column width calculation
-    for row in ws.iter_rows(min_row=2, max_row=len(df) + 1, min_col=1, max_col=len(df.columns)):
-        for cell in row:
-            cell.font = data_font
-            cell.border = thin_border
-            if isinstance(cell.value, (int, float)):
-                cell.alignment = Alignment(horizontal="right", vertical="center")
-            else:
-                cell.alignment = Alignment(horizontal="left", vertical="center")
-
-    # Column auto-fit width with safety bounds
-    for col in ws.columns:
-        col_name = str(col[0].value) if col[0].value is not None else ""
-        max_len = len(col_name)
-        for cell in col[1:100]:
-            if cell.value is not None:
-                max_len = max(max_len, len(str(cell.value)))
-        col_letter = get_column_letter(col[0].column)
-        ws.column_dimensions[col_letter].width = min(max(max_len + 3, 12), 50)
 
 def main():
     base_dir = Path(__file__).resolve().parent.parent

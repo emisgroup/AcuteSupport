@@ -5,6 +5,13 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import os
 from datetime import datetime
+import sys
+from pathlib import Path
+_base_dir = Path(__file__).resolve().parent.parent.parent
+if str(_base_dir) not in sys.path:
+    sys.path.insert(0, str(_base_dir))
+from shared.utils.date_formatting import format_duration
+from shared.utils.classification import apply_trend_classification
 
 # Paths
 # Base directories (dynamic)
@@ -98,67 +105,18 @@ else:
     product_dist = pd.DataFrame(columns=['product','count'])
 
 # Trend classification using Trends.txt
-trends = []
-if os.path.exists(trends_path):
-    with open(trends_path, 'r', encoding='utf-8') as f:
-        for line in f:
-            t = line.strip()
-            if t:
-                trends.append(t)
-
-# Build simple keyword list from trend lines
-trend_keywords = []
-
-import re
+df, trends, trend_keywords = apply_trend_classification(df, trends_path)
 if trends:
-    trend_keywords = []
-    for t in trends:
-        # create list of tokens
-        tokens = re.split('[/,]', t)
-        tokens = [tt.strip() for tt in tokens if tt.strip()]
-        trend_keywords.append((t, tokens))
-
-    def classify_trend(row):
-        text = ' '.join([str(row.get('short_description','') or ''), str(row.get('description','') or '')]).lower()
-        for trend_name, tokens in trend_keywords:
-            for tok in tokens:
-                tok = tok.lower()
-                if tok and tok in text:
-                    return trend_name
-        return 'Other'
-
-    df['trend'] = df.apply(classify_trend, axis=1)
     trend_dist = df['trend'].value_counts().reset_index()
     trend_dist.columns = ['trend','count']
-
     # Trend movement by month
     trend_movement = df.groupby(['created_month','trend']).size().reset_index(name='count')
     pivot_trend_movement = trend_movement.pivot(index='created_month', columns='trend', values='count').fillna(0)
 else:
-    df['trend'] = 'Not classified'
     trend_dist = pd.DataFrame(columns=['trend','count'])
     pivot_trend_movement = pd.DataFrame()
 
-# Helper to format seconds -> string
-def format_duration(seconds):
-    if pd.isna(seconds):
-        return ''
-    s = int(seconds)
-    if s<=0:
-        return ''
-    minutes = s//60
-    days = minutes // (24*60)
-    minutes_rem = minutes - days*24*60
-    hours = minutes_rem // 60
-    mins = minutes_rem - hours*60
-    parts = []
-    if days>0:
-        parts.append(f"{days} days")
-    if hours>0:
-        parts.append(f"{hours} hrs")
-    if mins>0:
-        parts.append(f"{mins} mins")
-    return ', '.join(parts)
+
 
 # Save KPI overview
 kpi = {

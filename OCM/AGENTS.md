@@ -5,6 +5,7 @@
 Provide a repeatable, auditable agent specification that produces a fully populated, executive-quality DOCX management report from ServiceNow case exports.
 
 This file documents:
+
 - required inputs and exact filenames
 - data processing steps and scripts to run
 - placeholder-to-field/table/chart mapping for the DOCX template
@@ -12,19 +13,21 @@ This file documents:
 - QA and delivery checks
 
 Primary inputs (expected paths relative to repository root):
+
 - data\raw\OCM_Cases_Last_12-Months.csv  (case export)
 - data\raw\OCM_SLA_Last_12-Months.csv    (SLA durations)
 - templates\Cases_Management_Report_Template.docx
 - templates\Trends.txt
 
 Primary generated artefacts (locations relative to repository root):
-- data\raw\Merged_Cases_With_SLA_Formatted.csv
-- data\raw\report_outputs\kpi_overview.csv
-- data\raw\report_outputs\*.png (charts)
-- data\raw\report_outputs\*.csv (tables)
-- data\raw\report_outputs\Cases_Management_Report_Completed_tables_filled_final.docx
 
-Note: A copy of earlier outputs may remain at raw\report_outputs if a previous run could not be moved; the canonical location for all generated outputs is data\raw\report_outputs.
+- data/processed/Merged_Cases_With_SLA_Formatted.csv
+- outputs/tables/kpi_overview.csv
+- outputs/charts/*.png (charts)
+- outputs/tables/*.csv (tables)
+- outputs/reports/Cases_Management_Report_Completed_tables_filled_final.docx
+
+Note: Historical backups are archived under data/archive/. Canonical outputs are stored under outputs/.
 
 ---
 
@@ -47,9 +50,32 @@ A single wrapper command can be added (e.g., python scripts\run_full_report.py) 
 
 ---
 
+# Start New Command
+
+When the user gives the command `"Start New"`, the agent must execute the output archiving routine:
+
+- Move all generated files from `outputs/charts/`, `outputs/reports/`, and `outputs/tables/` into their respective target subdirectories under `outputs/Archived/`:
+  - `outputs/charts/*` -> `outputs/Archived/charts/`
+  - `outputs/reports/*` -> `outputs/Archived/reports/`
+  - `outputs/tables/*` -> `outputs/Archived/tables/`
+- Move all processed data files from `data/processed/` into `data/archive/`:
+  - `data/processed/*` -> `data/archive/`
+- **Collision / Conflict Handling**: If a file with the same name already exists in the target archive folder, rename the incoming file by appending a timestamp (`_<YYYYMMDD_HHMMSS>`) before moving it to prevent overwriting existing archived artefacts.
+- **Execution**: Run `python scripts/start_new.py`.
+
+---
+
+# Raw File Ingestion & Ignore Rules
+
+- **Ignored Folders**: Ignore any raw files located inside `IgnoredFiles`, `IgnoreFile`, or any subdirectories under `data/raw/` when processing reports.
+- Only ingest active top-level `.csv` files located directly in `data/raw/`.
+
+---
+
 # CSV field mapping and normalization rules
 
 The agent must map CSV columns to canonical names before calculation. Use these canonical names in scripts:
+
 - number (case number) — source: Number, Number/number, case_number
 - sys_created_on (created date) — parse with day-first format
 - resolved_at (resolved date)
@@ -63,6 +89,7 @@ The agent must map CSV columns to canonical names before calculation. Use these 
 - SLA_Duration_seconds (from SLA duration)
 
 Normalization:
+
 - Trim whitespace, uppercase case keys if necessary.
 - Remove stray quotes and unescape newline characters inside CSV fields.
 - Preserve leading 'CS' prefixes when present.
@@ -74,6 +101,7 @@ If automatic mapping fails or multiple candidate columns exist, prompt user to c
 # Trend classification and updates
 
 Primary source: templates\Trends.txt. Classification process:
+
 1. Read Trends.txt lines as canonical trend names.
 2. Tokenise each trend on "/" and "," into keyword tokens.
 3. Classify each case by checking if any token appears (case-insensitive) in Short Description + Description.
@@ -89,12 +117,14 @@ Never silently create or rename trends without explicit authorisation.
 # Placeholder mapping rules (DOCX)
 
 The template must use brace placeholders. Use these conventions and the script will replace them:
+
 - KPI placeholders — {Total Cases}, {Open/UnResolved}, {TTR}, {Top Trend}, {Executive summary}
 - Chart placeholders — {Chart:monthly_case_trend}, {Chart:priority_profile}, {Chart:product_distribution}, {Chart:trend_distribution}, {Chart:trend_movement}, {Chart:median_vs_p90}, {Chart:sla_performance}
 - Table placeholders — {Table:monthly_case_trend}, {Table:priority_profile}, {Table:product_distribution}, {Table:trend_distribution}, {Table:trend_movement}
 - Source data — {Source Data}
 
 Table population rules (use header row to decide):
+
 - Metric tables: first column = metric name; second column = value; third column = notes. Compute values as per KPI rules below and populate notes with short explanations.
 - Trend table: first row (header) may contain trend names — if so, interpret subsequent columns (Matching cases, Recent signal from June onwards, Management implication) and fill using trend_distribution.csv and trend_movement.csv. If the template instead lists trends in first column, fill remaining columns per header labels.
 - Product/Account/State tables: populate top N (default 10) with counts and open counts where requested.
@@ -107,6 +137,7 @@ Never leave table placeholders or header rows empty. If table column names do no
 
 Time to Resolution (TTR): resolved_at - sys_created_on (seconds). Calculate and store in TTR_seconds.
 Required KPIs (computed from merged CSV):
+
 - total_cases: count(df)
 - closed_cases: count where state contains 'Closed'
 - open_cases: total - closed_cases
@@ -125,6 +156,7 @@ P4 deep-dive: filter priority == 4, compute volume, median and P90, list shortes
 # Recommended management action derivation
 
 Populate recommended actions automatically by scanning high-volume trends and known automation opportunities:
+
 - For top trends (volume > 10%): recommend KB + automation (P1)
 - For medium trends (3–10%): recommend triage rules, KB (P2)
 - For low-volume recurring items: monitor and add KB if repeatable (P3)
@@ -136,6 +168,7 @@ Scripts populate Recommendation table with columns: Priority, Recommendation, Ra
 # Quality assurance and checks
 
 Before finalising report, verify:
+
 - All placeholders replaced (scan for '{' in DOCX).
 - All tables populated (no header-only tables remaining).
 - Trend distribution counts sum to total_cases (or explain differences).
@@ -149,6 +182,7 @@ Scripts write backups before overwriting files (see data\raw\ for backups). Keep
 # Automation notes
 
 - Scripts included:
+  
   - generate_report_charts.py (computes KPIs, charts, tables)
   - classify_other_trends.py (inspect 'Other' items and propose candidates)
   - apply_new_trends_and_regenerate.py (apply authorised new trends and rerun)
@@ -178,11 +212,11 @@ Scripts write backups before overwriting files (see data\raw\ for backups). Keep
 # Final Deliverable
 
 When followed, the agent will produce:
+
 - A fully completed DOCX report (data\raw\report_outputs\Cases_Management_Report_Completed_tables_filled_final.docx)
 - Supporting CSVs and chart images for audit and reuse
 
 No placeholders. No draft sections. No assumptions unauthorised by the user.
-
 
 # P4 Analysis Rules
 
@@ -537,6 +571,7 @@ Then use the specialist instructions from:
 The specialist instructions override general classification behaviour for this task.
 
 The agent must:
+
 - Use the predefined taxonomy.
 - Classify every case individually.
 - Assign one Trend Category and one Sub-Category.

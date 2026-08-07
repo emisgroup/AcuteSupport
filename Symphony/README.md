@@ -1,48 +1,42 @@
-Symphony Management Report Pipeline
+# Symphony — Management Report Pipeline
 
-Overview
+## Purpose
+Automated pipeline to generate executive DOCX management reports from Symphony ServiceNow case and SLA exports. The pipeline merges case and SLA exports, classifies ticket trends using keyword taxonomies, computes KPIs and SLAs, generates visual charts, and populates executive DOCX report templates.
 
-This repo generates executive DOCX reports from Symphony (ServiceNow) case exports. The pipeline merges raw case and SLA exports, classifies trends, computes KPIs, produces charts/tables, and fills a DOCX template.
+## Directory Structure
+- `data/raw/` — Input source CSVs (`Symphony_Casea_Last_12-Months.csv`, `Symphony_SLA_Last_12-Months.csv`)
+- `data/processed/` — Merged and formatted dataset (`Merged_Cases_With_SLA_Formatted.csv`)
+- `data/archive/` — Timestamped CSV backups
+- `templates/` — `Cases_Management_Report_Template.docx` and `Trends.txt`
+- `scripts/` — Active pipeline scripts
+  - `scripts/archive/` — Deprecated single-file script iterations
+- `outputs/` — Deliverables folder
+  - `outputs/charts/` — Generated PNG charts
+  - `outputs/tables/` — Metric CSVs and reclassification previews
+  - `outputs/reports/` — Final management DOCX reports
 
-Repository layout (canonical)
-- data/raw/                <- input CSVs and generated outputs (canonical)
-  - Symphony_Casea_Last_12-Months.csv
-  - Symphony_SLA_Last_12-Months.csv
-  - Merged_Cases_With_SLA_Formatted.csv
-  - report_outputs/        <- KPIs, charts, CSV tables, final DOCX
-- templates/               <- DOCX template and Trends.txt
-  - Cases_Management_Report_Template.docx
-  - Trends.txt
-- scripts/                 <- pipeline scripts (run from repo root)
-  - run_full_report.py     <- orchestrates full pipeline
-  - generate_report_charts.py
-  - classify_other_trends.py
-  - apply_new_trends_and_regenerate.py
-  - export_charts_to_docx.py
-  - fill_remaining_docx_placeholders.py
-  - fill_tables_advanced.py
-  - fill_metrics_and_finalize_report.py
-- docs/                    <- archived reports and notes
-- AGENTS.md                <- agent specification and run instructions
-
-Prerequisites
+## Prerequisites
 - Python 3.8+
-- Packages: pandas, matplotlib, python-docx, Pillow
-  - Install: python -m pip install pandas matplotlib python-docx Pillow
+- Packages: `pandas`, `matplotlib`, `python-docx`, `Pillow`
+  ```bash
+  python3 -m pip install pandas matplotlib python-docx Pillow
+  ```
 
-Quick start
-1. Place source CSVs into data\raw\ with exact filenames listed above.
-2. From repository root run:
-   python scripts\run_full_report.py
-3. Outputs are written to data\raw\report_outputs\
-   - Final report: Cases_Management_Report_Completed_tables_filled_final.docx
-   - KPIs and supporting CSVs: *.csv
-   - Charts: *.png
+## Execution
+Run the full automated pipeline from the `Symphony/` root directory:
+```bash
+python3 scripts/run_full_report.py
+```
 
-Notes
-- AGENTS.md contains exact placeholder rules and QA checklist; read it before changing templates.
-- Scripts create backups before overwriting merged CSVs or DOCX files.
-- If a file appears missing, confirm you are running the scripts from the repository root.
+The pipeline executes the following sequence:
+1. Merges case and SLA CSV exports into `data/processed/Merged_Cases_With_SLA_Formatted.csv`.
+2. Computes KPIs and generates chart PNGs in `outputs/charts/` and metric tables in `outputs/tables/`.
+3. Inspects unclassified "Other" cases and applies approved trend expansions.
+4. Populates charts, metric tables, executive summary, and appendices into the DOCX template.
+5. Saves final completed management report to `outputs/reports/Cases_Management_Report_Completed_tables_filled_final.docx`.
 
-Contact
-- Project owner: Lee Booth
+## Governance & Guidance
+- Refer to [`AGENTS.md`](file:///home/lee/Documents/1%20Projects/AcuteSupport/Symphony/AGENTS.md) for precise taxonomy rules, field mappings, and QA checks before making template changes.
+- Merged data backups are automatically created under `data/archive/`.
+
+**Contact**: Lee Booth (lee.booth@emishealth.com)

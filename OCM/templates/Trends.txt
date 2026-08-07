@@ -1,18 +1,37 @@
-Audit / IG / access investigation
-DAD / HL7 / interface messaging
-Performance / outage / errors
-Clinical workflow / DEP / clinic / BRM
-Data / SQL / configuration
-Location / department / lookup changes
-Login / access / permissions
-Printing / documents / output
-Reporting / SSRS / dashboards
-Appointments / scheduling
-Environment / Deployment / Test
-Master File / Import
-ODS / TRUD updates
-Attachments / file upload issues
-Soft delete / deleted records
-SCR / TIE issues
-Site-specific / Bedford Symphony
-Account / Active users
+Access & Security / User Access
+Access & Security / Authentication
+Access & Security / Audit & Compliance
+Access & Security / Security Concern
+Performance & Availability / Performance
+Performance & Availability / Availability
+Performance & Availability / Stability
+Defects & Errors / Application Defect
+Defects & Errors / Error Messages
+Defects & Errors / Defect Fix Validation
+Data Management / Data Correction
+Data Management / Data Recovery
+Data Management / Data Quality
+Configuration & Administration / Configuration Change
+Configuration & Administration / System Administration
+Configuration & Administration / Master Data
+Workflow & Process / Workflow Issue
+Workflow & Process / Approval Management
+Workflow & Process / Assignment
+Reporting & Analytics / Reporting
+Reporting & Analytics / Dashboard
+Reporting & Analytics / Analytics
+Integration & Interfaces / Integration Failure
+Integration & Interfaces / Data Exchange
+Integration & Interfaces / Third-Party Systems
+Notifications & Communications / Email
+Notifications & Communications / Alerts
+Notifications & Communications / Subscription
+Service Requests / New Request
+Service Requests / Change Request
+Service Requests / Information Request
+User Guidance & Training / How-To Request
+User Guidance & Training / Training
+User Guidance & Training / Knowledge Articles
+Case Administration / Duplicate Cases
+Case Administration / Closure Management
+Case Administration / Misrouted Cases

@@ -1,14 +1,42 @@
-Management_Reports
+# AcuteSupport — Management Reports Repository
 
-Purpose: store export, processing scripts and management reports per product.
+## Purpose
+Store ServiceNow exports, analysis pipelines, and generated executive management reports across AcuteSupport product lines (`Symphony`, `Meds`, `OCM`).
 
-Layout (per product):
-  - raw/       -> original exports (do not edit)
-  - processed/ -> cleaned or merged CSVs used for analysis
-  - reports/   -> generated DOCX/PDF and JSON summaries
-  - scripts/   -> analysis scripts (Python)
-  - templates/ -> DOCX templates
+## Standard Repository Layout (per product)
+- `data/raw/` — Immutable source CSV exports (do not modify manually)
+- `data/processed/` — Cleaned, merged, and classified CSVs (`Merged_Cases_With_SLA_Formatted.csv`)
+- `data/archive/` — Historical run backups and timestamped CSVs
+- `templates/` — DOCX report templates and `Trends.txt` keyword taxonomies
+- `scripts/` — Active data engineering, trend classification, and DOCX generation scripts
+- `outputs/` — Clean execution deliverables
+  - `outputs/charts/` — Generated PNG visualisations
+  - `outputs/tables/` — Metric CSV tables and classification summaries
+  - `outputs/reports/` — Final management DOCX reports
 
-Naming conventions:
-  - Use product in filename and YYYYMMDD prefix for generated files, e.g. Symphony_report_20250729.docx
-  - Preserve original files in raw/; processed files may be overwritten.
+## Quick Start
+1. Install Python 3.8+ and dependencies:
+   ```bash
+   python3 -m pip install pandas matplotlib python-docx Pillow
+   ```
+2. Place source CSV exports in `<product>/data/raw/` using canonical filenames (e.g., `Symphony_Casea_Last_12-Months.csv`, `Symphony_SLA_Last_12-Months.csv`).
+3. Run the product-specific report pipeline:
+   ```bash
+   # Symphony
+   cd Symphony && python3 scripts/run_full_report.py
+
+   # Meds
+   cd Meds && python3 scripts/build_full_meds_docx_report.py
+
+   # OCM
+   cd OCM && python3 scripts/build_full_ocm_docx_report.py
+   ```
+
+## Key Governance & Rules
+- Source exports in `data/raw/` are preserved for auditability.
+- Automated script backups are stored under `data/archive/`.
+- Generated deliverables in `outputs/` **are** committed to version control. The repository has
+  no `.gitignore` by design — nothing is ignored, and reports are tracked as auditable artefacts.
+- Refer to each project's `AGENTS.md` for specific taxonomy rules and QA checklists.
+
+**Contact**: Lee Booth (lee.booth@emishealth.com)

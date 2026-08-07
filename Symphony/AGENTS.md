@@ -18,13 +18,13 @@ Primary inputs (expected paths relative to repository root):
 - templates\Trends.txt
 
 Primary generated artefacts (locations relative to repository root):
-- data\raw\Merged_Cases_With_SLA_Formatted.csv
-- data\raw\report_outputs\kpi_overview.csv
-- data\raw\report_outputs\*.png (charts)
-- data\raw\report_outputs\*.csv (tables)
-- data\raw\report_outputs\Cases_Management_Report_Completed_tables_filled_final.docx
+- data/processed/Merged_Cases_With_SLA_Formatted.csv
+- outputs/tables/kpi_overview.csv
+- outputs/charts/*.png (charts)
+- outputs/tables/*.csv (tables)
+- outputs/reports/Cases_Management_Report_Completed_tables_filled_final.docx
 
-Note: A copy of earlier outputs may remain at raw\report_outputs if a previous run could not be moved; the canonical location for all generated outputs is data\raw\report_outputs.
+Note: Historical backups are archived under data/archive/. Canonical outputs are stored under outputs/.
 
 ---
 
@@ -46,6 +46,30 @@ Note: A copy of earlier outputs may remain at raw\report_outputs if a previous r
 A single wrapper command can be added (e.g., python scripts\run_full_report.py) to execute steps 3→6 in order.
 
 ---
+
+# Start New Command
+
+When the user gives the command `"Start New"`, the agent must execute the output archiving routine:
+- Move all generated files from `outputs/charts/`, `outputs/reports/`, and `outputs/tables/` into their respective target subdirectories under `outputs/Archived/`:
+  - `outputs/charts/*` -> `outputs/Archived/charts/`
+  - `outputs/reports/*` -> `outputs/Archived/reports/`
+  - `outputs/tables/*` -> `outputs/Archived/tables/`
+- Move all processed data files from `data/processed/` into `data/archive/`:
+  - `data/processed/*` -> `data/archive/`
+- **Collision / Conflict Handling**: If a file with the same name already exists in the target archive folder, rename the incoming file by appending a timestamp (`_<YYYYMMDD_HHMMSS>`) before moving it to prevent overwriting existing archived artefacts.
+- **Execution**: Run `python scripts/start_new.py`.
+
+---
+
+# Raw File Ingestion & Ignore Rules
+
+- **Ignored Folders**: Ignore any raw files located inside `IgnoredFiles`, `IgnoreFile`, or any subdirectories under `data/raw/` when processing reports.
+- Only ingest active top-level `.csv` files located directly in `data/raw/`.
+
+---
+
+
+
 
 # CSV field mapping and normalization rules
 

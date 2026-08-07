@@ -40,6 +40,3 @@ Store ServiceNow exports, analysis pipelines, and generated executive management
 - Refer to each project's `AGENTS.md` for specific taxonomy rules and QA checklists.
 
 **Contact**: Lee Booth (lee.booth@emishealth.com)
-
-
-## EOF
